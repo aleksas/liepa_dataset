@@ -3,6 +3,7 @@ from utils.download_google_drive_file import download_file_from_google_drive
 from utils.untar import extract_subfolders, extract_all
 from argparse import ArgumentParser
 
+# Manual download link: https://drive.google.com/open?id=1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7
 liepa_dataset_google_drive_archive_id = '1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7'
 
 all_voices = [
