@@ -33,3 +33,20 @@ To download and unpack locally LIEPA dataset run following command:
       * m – Age group
       * 039 - sentence group
       * 01 - recording numerber within group
+
+### Age groups
+* **c** - 12
+* **d** - 13
+* **e** - 14
+* **f** - 15
+* **g** - 16
+* **h** - 17
+* **i** - 18
+* **j** - 19
+* **k** - 20
+* **l** - 21 to 25
+* **m** - 26 to 30
+* **n** - 31 to  40
+* **o** - 41 to 50
+* **p** - 51 to 60
+* **r** - Above 61
