@@ -1,9 +1,9 @@
 from os.path import exists
 from utils.download_google_drive_file import download_file_from_google_drive
 from utils.untar import extract_subfolders, extract_all
+from argparse import ArgumentParser
 
-liepa_dataset_google_drive_archive_id = '14CB8YgsaoZo5FQhQLSQrr3rZLrfMx-_K'
-liepa_dataset_archive_filename = 'Garsynas.tar.bz2'
+liepa_dataset_google_drive_archive_id = '1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7'
 
 all_voices = [
     'D02', 'D03', 'D04', 'D05', 'D06', 'D07', 'D08', 'D09',
@@ -53,8 +53,7 @@ all_voices = [
     'D606', 'D607', 'D608', 'D609', 'D610', 'D611', 'D907']
 
 # Very slow, better extract all
-def extract_specific_voices():
-    voices = ['D589', 'D590', 'D593']
+def extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, voices):
 
     # Verify voice names
     for voice in voices:
@@ -62,17 +61,28 @@ def extract_specific_voices():
             raise Exception('"%s" is not a valid name.')
 
     # Extract specific voices, very slow
-    subfolders = ['Garsynas/%s/' % voice for voice in voices]
+    subfolders = ['%s/' % voice for voice in voices]
     extract_subfolders(local_liepa_dataset_archive_path, subfolders, local_liepa_dataset_directory)
 
 if __name__ == '__main__':
-    local_liepa_dataset_archive_path = './%s' % liepa_dataset_archive_filename
-    local_liepa_dataset_directory = './Garsynas'
+
+    default_archive_path = './MII_LIEPA_v1.tar.bz2'
+    default_dir = './MII_LIEPA_V1'
+
+    parser = ArgumentParser()
+    parser.add_argument('-p','--archive-path', help='Path to download LIEPA dataset archive to. (Default: "%s")' % default_archive_path, default=default_archive_path)
+    parser.add_argument('-d','--liepa-dir', help='Directory for LIEPA dataset to unpack to. (default: "%s")' % default_dir, default=default_dir)
+    parser.add_argument('-v','--voices', nargs='+', help='List of voices to unpack (e.g. -s D256 D512). VERY SLOW!!!')
+    args = parser.parse_args()
+
+    local_liepa_dataset_archive_path = args.archive_path
+    local_liepa_dataset_directory = args.liepa_dir
 
     # Download original LIEPA dataset
     if not exists(local_liepa_dataset_archive_path):
         download_file_from_google_drive(liepa_dataset_google_drive_archive_id, local_liepa_dataset_archive_path)
 
-    # extract_specific_voices()
-    # Extract all voices
-    extract_all(local_liepa_dataset_archive_path, './')
+    if args.voices:
+        extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, args.voices)
+    else:
+        extract_all(local_liepa_dataset_archive_path, local_liepa_dataset_directory)

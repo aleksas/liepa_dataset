@@ -1,6 +1,7 @@
 from os import walk
 from os.path import join, splitext, split, normpath
 from re import compile
+from argparse import ArgumentParser
 import wave
 import contextlib
 
@@ -171,10 +172,12 @@ def collect_problems(dataset_path='./'):
             full_path = join(root, filename)
 
             if _extension in wav_extensions:
-                sampling_problems += collect_audio_sampling_problems(full_path)
+                #sampling_problems += collect_audio_sampling_problems(full_path)
+                pass
 
             if _extension in txt_extensions:
-                encoding_problems += collect_encoding_problems(full_path)
+                #encoding_problems += collect_encoding_problems(full_path)
+                pass
 
             match = pattern.match(filename)
             if not match:
@@ -221,7 +224,14 @@ def collect_problems(dataset_path='./'):
     return cleanup_encoding_problems(encoding_problems), cleanup_sampling_problems(sampling_problems), cleanup_naming_problems(naming_problems)
 
 if __name__ == '__main__':
-    encoding_problems, sampling_problems, naming_problems = collect_problems('./Garsynas')
+
+    default_dir = './MII_LIEPA_V1'
+
+    parser = ArgumentParser()
+    parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
+    args = parser.parse_args()
+
+    encoding_problems, sampling_problems, naming_problems = collect_problems(args.liepa_dir)
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING
     for path, comment in encoding_problems:
