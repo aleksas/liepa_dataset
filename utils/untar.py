@@ -1,3 +1,5 @@
+# REFERENCE: https://stackoverflow.com/a/29416112/1433554
+
 from tarfile import open
 
 def extract_all(tar_bz2_path, dst_dir='./'):
