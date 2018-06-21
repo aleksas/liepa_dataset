@@ -170,7 +170,7 @@ def collect_problems(dataset_path='./'):
             name, _extension = splitext(filename)
             full_path = join(root, filename)
 
-            if _extension in wav_extensions and False:
+            if _extension in wav_extensions:
                 sampling_problems += collect_audio_sampling_problems(full_path)
 
             if _extension in txt_extensions:
