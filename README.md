@@ -5,3 +5,31 @@ LIEPA dataset stats and tools for cleanup.
 
 To download and unpack locally LIEPA dataset run following command:
 > python liepa.py
+
+## File structure decoding
+* **D10** voice id 10 (LT **D**iktorius)
+  * **S001** sentence group 001
+    * S010Mi_001_01.wav
+      * S - sentece (LT **S**akinys)
+      * 010 - voice id
+      * M - female (LT **M**oteris)
+      * i – Age group
+      * 001 - sentence group
+      * 01 - recording numerber within group
+  * **Z010** word or command group 010
+    * Z010Mi_001_00.wav
+      * Z - word or command (LT **Ž**odis)
+      * 010 - voice id
+      * M - female
+      * i – Age group
+      * 001 - word or command group
+      * 00 - recording numerber within group
+* **D150** voice id 150
+  * **S039** sentence group 039
+    * S150Vm_039_01.wav
+      * S - sentece
+      * 150 - voice id
+      * V - male (LT **V**yras)
+      * m – Age group
+      * 039 - sentence group
+      * 01 - recording numerber within group
