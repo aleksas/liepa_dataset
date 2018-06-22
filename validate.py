@@ -4,6 +4,8 @@ from re import compile
 from argparse import ArgumentParser
 import wave
 import contextlib
+import codecs
+import chardet
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -28,8 +30,11 @@ age_groups = {
     'r', (61, -1)  # over 61
     }
 
-valid_utf8_symbols = u'AĄBCČDEĘĖFGHIĮJKLMNOPQRSŠTUŲŪVWXYZŽaąbcčdeęėfghiįjklmnopqrsštuųūvwxyzž!\'(),-.:;? _'
-valid_utf8_symbol_set = set(valid_utf8_symbols)
+valid_symbols = u'AĄBCČDEĘĖFGHIĮJKLMNOPQRSŠTUŲŪVWXYZŽaąbcčdeęėfghiįjklmnopqrsštuųūvwxyzž!\'(),-.:;? _'
+valid_utf8_symbol_set = set(valid_symbols.encode('utf-8'))
+valid_utf16_symbol_set = set(valid_symbols.encode('utf-16'))
+valid_utf8_sig_symbol_set = set(valid_symbols.encode('UTF-8-SIG'))
+valid_windows_1257_symbols_set = set(valid_symbols.encode('windows-1257') + b'\x9a')
 
 pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
 
@@ -65,17 +70,49 @@ def collect_audio_sampling_problems(file_path):
 def collect_encoding_problems(file_path):
     text = None
     try:
-        with open(file_path) as fin:
-            text = fin.read()
+        with open(file_path, 'rb') as f:
+            raw_text = f.read()
 
-        text_char_set = set(text)
-        diff_set = text_char_set - valid_utf8_symbol_set
+        raw_text_symbol_set = set(raw_text) - set('\x1f')
+
+        diff_win_1257 = raw_text_symbol_set - valid_windows_1257_symbols_set
+        diff_utf_16 = raw_text_symbol_set - valid_utf16_symbol_set
+        diff_utf_8_sig = raw_text_symbol_set - valid_utf8_sig_symbol_set
+        diff_utf_8 = raw_text_symbol_set - valid_utf8_symbol_set
+
+        if len(diff_win_1257) == 0:
+            charenc = 'windows-1257'
+        elif len(diff_utf_16) == 0:
+            charenc = 'utf-16'
+        elif len(diff_utf_8) == 0:
+            charenc = 'utf-8'
+        elif len(diff_utf_8_sig) == 0:
+            charenc = 'UTF-8-SIG'
+        else:
+            result = chardet.detect(raw_text)
+            charenc = result['encoding']
+
+            if charenc in [
+                'Windows-1254', 'windows-1251',
+                'Windows-1252', 'ISO-8859-1',
+                'ISO-8859-9']:
+                charenc = 'windows-1257'
+
+        if charenc == 'windows-1257':
+            text = raw_text.replace(b'\x9a', b'\xfe').decode(charenc).replace('\t', ' ')
+        else:
+            text = raw_text.decode(charenc).replace('\t', ' ')
+
+        diff_set = set(text) - set(valid_symbols)
 
         if len(diff_set) > 0:
-            problem = '"%s" contains invalid symbols.' % file_path
-            return [(file_path, problem)]
+            raise Exception()
+
+        if charenc != 'utf-8':
+            problem = '"%s" has %s encoding but utf-8 is required.' % (file_path, charenc)
+            return [(file_path, charenc, 'utf-8', problem)]
     except Exception as e:
-        return [(file_path, str(e))]
+        return [(file_path, 'undefined', 'utf-8', str(e))]
     return []
 
 def cleanup_naming_problems(naming_problems):
@@ -112,13 +149,13 @@ def cleanup_sampling_problems(sampling_problems):
 def cleanup_encoding_problems(encoding_problems):
     clean_encoding_problems = []
 
-    for path, comment in encoding_problems:
+    for path, src_enc, dst_enc, comment in encoding_problems:
         duplicate = False
-        for path_, _ in clean_encoding_problems:
-            if path == path_:
+        for path_, src_enc_, dst_enc_, _ in clean_encoding_problems:
+            if path == path_ and src_enc == src_enc_ and dst_enc == dst_enc_:
                 duplicate = True
         if not duplicate:
-            clean_encoding_problems.append((path, comment))
+            clean_encoding_problems.append((path, src_enc, dst_enc, comment))
 
     return clean_encoding_problems
 
@@ -258,8 +295,8 @@ if __name__ == '__main__':
     encoding_problems, sampling_problems, layering_problems, naming_problems = result
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
-    for path, comment in encoding_problems:
-        print ('Correct encoding for "%s". %s' % (path, comment))
+    for path, src_enc, dst_enc, comment in encoding_problems:
+        print ('Change encoding from %s to %s encoding for "%s". %s' % (src_enc, dst_enc, path, comment))
 
     # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
     for path, src_framerate, dst_framerate, comment in sampling_problems:
