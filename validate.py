@@ -31,7 +31,7 @@ age_groups = {
 valid_utf8_symbols = u'AĄBCČDEĘĖFGHIĮJKLMNOPQRSŠTUŲŪVWXYZŽaąbcčdeęėfghiįjklmnopqrsštuųūvwxyzž!\'(),-.:;? _'
 valid_utf8_symbol_set = set(valid_utf8_symbols)
 
-pattern = compile(r'(ZS?|SS?)?(\d+)(M|V)([a-r])_(\d+[abc]?)(_(\d+[abc]?))?(_[TP])?(\.(wav|txt))')
+pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
 
 # Some files have incorrect utterance type indicator, parent directories indicate correctly.
 known_utterance_type_naming_exceptions = [
@@ -123,15 +123,18 @@ def cleanup_encoding_problems(encoding_problems):
     return clean_encoding_problems
 
 def validate_static_value(static_name, voice, static, test):
-    if not static:
-        return test
-    elif static != test:
-        raise Exception('%s "%s" for speaker "%s" does not match prvious "%s".' % (static_name, test, voice, gender))
+    if not test:
+        raise Exception('%s can not be %s for speaker "%s".' % (static_name, test, voice))
+    elif static and static != test:
+        raise Exception('%s "%s" for speaker "%s" does not match prvious "%s".' % (static_name, test, voice, static))
 
-def collect_problems(dataset_path='./'):
+    return test
+
+def collect_problems(dataset_path, skip_encoding_test, skip_framerate_test):
     encoding_problems = []
     sampling_problems = []
     naming_problems = []
+    layering_problems = []
 
     for root, subdirs, files in walk(dataset_path):
         age_group = None
@@ -142,16 +145,17 @@ def collect_problems(dataset_path='./'):
         if path == '':
             continue
 
+        dir_group = None
         if leaf[0] in ['D', '.']:
-            continue
+            path = root
+        else:
+            dir_group = leaf
+            utternace_group_type = dir_group[0]
 
-        group = leaf
+            if utternace_group_type not in ['Z', 'S']:
+                raise Exception('Utternace type "%s" does not match valid pattern.' % utternace_group_type)
 
         db_root, voice = split(path)
-        utternace_group_type = group[0]
-
-        if utternace_group_type not in ['Z', 'S']:
-            raise Exception('Utternace type "%s" does not match valid pattern.' % utternace_group_type)
 
         if voice[0] != 'D':
             raise Exception('Voice name "%s" does not start with "D".' % voice[0])
@@ -167,61 +171,78 @@ def collect_problems(dataset_path='./'):
                 naming_problems.append((path, correct_voice_path, problem))
 
         for filename in files:
-            file_path = join(root, filename)
-            name, _extension = splitext(filename)
-            full_path = join(root, filename)
-
-            if _extension in wav_extensions:
-                #sampling_problems += collect_audio_sampling_problems(full_path)
-                pass
-
-            if _extension in txt_extensions:
-                #encoding_problems += collect_encoding_problems(full_path)
-                pass
-
             match = pattern.match(filename)
             if not match:
                 raise Exception('Filename "%s" does not match valid pattern.' % filename)
             else:
-                tag = match.group(8) # _T or _P
+                name, _extension = splitext(filename)
+
+                if dir_group:
+                    group = dir_group
+                    file_path = join(path, group, filename)
+                else:
+                    group = match.group('type') + match.group('ut_id_d')
+
+                    file_path = join(path, filename)
+                    fixed_dir = join(path, group)
+                    fixed_file_path = join(fixed_dir, filename)
+                    utternace_group_type = match.group('type')
+
+                    problem = 'File "%s" is missing group "%s" folder.' % (file_path, group)
+                    layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
+                print (file_path)
+
+                if _extension in wav_extensions and not skip_framerate_test:
+                    sampling_problems += collect_audio_sampling_problems(file_path)
+                    pass
+
+                if _extension in txt_extensions and not skip_encoding_test:
+                    encoding_problems += collect_encoding_problems(file_path)
+                    pass
+
+                tag = match.group('tag') # _T or _P
                 if not tag:
                     tag = ''
 
-                utterance_sub_id = match.group(6)
+                utterance_sub_id = match.group('ut_subid')
                 if not utterance_sub_id:
                     utterance_sub_id = ''
 
-                gender = validate_static_value('Gender', voice, gender, match.group(3))
-                age_group = validate_static_value('Age group', voice, age_group, match.group(4))
+                gender = validate_static_value('Gender', voice, gender, match.group('sex'))
+                age_group = validate_static_value('Age group', voice, age_group, match.group('age'))
 
-                utternace_id = match.group(5)
+                utternace_id = match.group('ut_id')
 
-                correct_filename = '%s%s%s%s_%s%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group(4), utternace_id, utterance_sub_id, tag, match.group(9))
-                correct_full_path = join(root, correct_filename)
+                correct_filename = '%s%s%s%s_%s_%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group('age'), utternace_id, utterance_sub_id, tag, match.group('ext'))
+                correct_file_path = join(path, group, correct_filename)
 
-                if voice_id != match.group(2):
-                    problem = 'Voice id "%s" does not match with id "%s" from filename "%s".' % (voice_id, match.group(2), full_path)
+                if voice_id != match.group('voice'):
+                    problem = 'Voice id "%s" does not match with id "%s" from filename "%s".' % (voice_id, match.group('voice'), file_path)
                     can_continue = False
                     for exc in  known_voice_naming_exceptions:
                         if voice == exc[0] and group == exc[1]:
                             can_continue = True
-                            naming_problems.append((full_path, correct_full_path, problem))
+                            naming_problems.append((file_path, correct_file_path, problem))
 
                     if not can_continue and int(voice_id) not in known_voice_directory_file_naming_exceptions:
                         raise Exception(problem)
 
-                if match.group(1) != utternace_group_type:
+                if match.group('type') != utternace_group_type:
                     problem = 'Utterance group "%s" for "%s" voice is of type "%s", but utterance "%s" is of type "%s". Path: "%s".' % (group, voice, utternace_group_type, filename, match.group(1), root)
                     can_continue = False
                     for exc in known_utterance_type_naming_exceptions:
                         if voice == exc[0] and group == exc[1]:
                             can_continue = True
-                            naming_problems.append((full_path, correct_full_path, problem))
+                            naming_problems.append((file_path, correct_file_path, problem))
 
                     if not can_continue:
                         raise Exception(problem)
 
-    return cleanup_encoding_problems(encoding_problems), cleanup_sampling_problems(sampling_problems), cleanup_naming_problems(naming_problems)
+    return (
+        cleanup_encoding_problems(encoding_problems),
+        cleanup_sampling_problems(sampling_problems),
+        layering_problems,
+        cleanup_naming_problems(naming_problems))
 
 if __name__ == '__main__':
 
@@ -229,17 +250,25 @@ if __name__ == '__main__':
 
     parser = ArgumentParser()
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
+    parser.add_argument('-e','--skip-encoding-test', help='Skip LIEPA dataset transcript encoding testing.', action='store_true')
+    parser.add_argument('-f','--skip-framerate-test', help='Skip LIEPA dataset audio framerate testing.', action='store_true')
     args = parser.parse_args()
 
-    encoding_problems, sampling_problems, naming_problems = collect_problems(args.liepa_dir)
+    result = collect_problems(args.liepa_dir, args.skip_encoding_test, args.skip_framerate_test)
 
-    # DO ENCODING CORRECTIONS BEFORE FILE RENAMING
+    encoding_problems, sampling_problems, layering_problems, naming_problems = result
+
+    # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, comment in encoding_problems:
         print ('Correct encoding for "%s". %s' % (path, comment))
 
-    # DO RESAMPLING BEFORE FILE RENAMING
+    # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
     for path, src_framerate, dst_framerate, comment in sampling_problems:
         print ('Resample "%s" from %d to %d fps. %s' % (path, src_framerate, dst_framerate, comment))
+
+    # Layering files and directories
+    for src, dst_dir, dst, comment in layering_problems:
+        print ('MKDIR "%s" and MOVE "%s" to "%s". %s' % (dst_dir, src, dst, comment))
 
     # Rename files
     for src, dst, comment in naming_problems:
