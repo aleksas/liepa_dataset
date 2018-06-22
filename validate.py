@@ -190,7 +190,6 @@ def collect_problems(dataset_path, skip_encoding_test, skip_framerate_test):
 
                     problem = 'File "%s" is missing group "%s" folder.' % (file_path, group)
                     layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
-                print (file_path)
 
                 if _extension in wav_extensions and not skip_framerate_test:
                     sampling_problems += collect_audio_sampling_problems(file_path)
