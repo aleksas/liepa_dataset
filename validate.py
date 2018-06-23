@@ -1,12 +1,13 @@
 from os import walk, makedirs, rename
 from os.path import join, splitext, split, normpath, exists
-from re import compile
+from re import compile, sub
 from argparse import ArgumentParser
 import codecs
 import chardet
 
 from liepa import default_dir, default_wav_samplerate, default_wav_subtype
 from utils.audio import resample, wav_duration
+from mistypes import mistypes
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -40,19 +41,6 @@ valid_windows_1257_symbols_set = set(valid_symbols.encode('windows-1257') + b'\x
 
 pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
 
-mistypes = [
-    ('septyni_ty', 'septyni'),  ('aštuoni_tuo', 'aštuoni'), ('devyni_vy','devyni'),
-    ('pirma_pir', 'pirma'), ('antra_an', 'antra'), ('trečia_tre', 'trečia'),
-    ('ketvirta_vir', 'ketvirta'), ('penkta_pen', 'penkta'), ('šešta_šeš', 'šešta'),
-    ('septinta_tin', 'septinta'), ('aštunta_tun', 'aštunta'), ('devinta_vin', 'devinta'),
-    ('dešimta_ši', 'dešimta'), (' deš ', ' dešimt '), ('procentų_cen', 'procentų'), ('vadinamaa_maa','vadinama'),
-    ('aplankų_ap', 'aplankų'), ('veiklų_veik', 'veiklų'), ('_įtrūkimu', 'įtrūkimu'),
-    ('sugriauta_ta', 'sugriauta'), ('laikomi_mi', 'laikomi'), ('siauros_siau', 'siauros'),
-    ('_padpadėtis', 'padpadėtis'), ('_klėstinčiu', 'klėstinčiu'), ('langus_gus', 'langus'),
-    ('eštuoni_tuo', 'aštuoni'), ('architektūra_tū', 'architektūra'), ('rezultatus_ta', 'rezultatus'),
-    ('ketvyrta_vyr', 'ketvirta'), ('_koplystulpiai', 'koplystulpiai'), ('auštant_auš', 'auštant'),
-    (' plaukioe ', ' plaukioja '), ('_išsilydžiusios', 'išsilydžiusios')
-    ]
 # Some files have incorrect utterance type indicator, parent directories indicate correctly.
 known_utterance_type_naming_exceptions = [
     ('D57', 'S007'), ('D57', 'S008'),
@@ -70,6 +58,8 @@ known_utterance_type_naming_exceptions += [
 known_voice_directory_file_naming_exceptions = range(2, 100)
 
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
+
+word_count = {}
 
 def collect_samplerate_problems(file_path, forse_resample=False):
     duration, samples, samplerate = wav_duration(file_path)
@@ -100,7 +90,7 @@ def fix_mistypes(file_path):
 
     for mistype in mistypes:
         if mistype[0] in text:
-            text = text.replace(mistype[0], mistype[1])
+            text = sub(mistype[0], mistype[1], text)
 
     with open(file_path, 'w') as f:
         f.write(text)
@@ -166,6 +156,12 @@ def collect_text_problems(file_path):
             raw_text = raw_text.replace('˛'.encode(charenc), 'ž'.encode(charenc))
 
         text = raw_text.decode(charenc)
+
+        words = text.lower().split()
+        for w in words:
+            if w not in word_count:
+                word_count[w] = 0
+            word_count[w] += 1
 
         diff_set = set(text) - set(valid_symbols)
 
@@ -353,6 +349,12 @@ if __name__ == '__main__':
 
     result = collect_problems(args.liepa_dir, args)
     encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
+
+    word_count = list(word_count.items())
+    word_count = sorted(word_count, key=lambda tup: tup[1])
+
+    for w,c in word_count:
+        print (w,c)
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:
