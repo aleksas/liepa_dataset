@@ -5,14 +5,11 @@ from argparse import ArgumentParser
 import codecs
 import chardet
 
-from liepa import default_dir
+from liepa import default_dir, default_wav_samplerate, default_wav_subtype
 from utils.audio import resample, wav_duration
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
-
-default_wav_samplerate = 22050
-default_wav_subtype = 'PCM_16'
 
 age_groups = {
     'c', (12, 12),

@@ -3,6 +3,8 @@ from utils.download_google_drive_file import download_file_from_google_drive
 from utils.untar import extract_subfolders, extract_all
 from argparse import ArgumentParser
 
+default_wav_samplerate = 22050
+default_wav_subtype = 'PCM_16'
 default_archive_path = './MII_LIEPA_v1.tar.bz2'
 default_dir = './MII_LIEPA_V1'
 
