@@ -1,3 +1,3 @@
-soundfile
-matplotlib>=1.3.1
-resampy
+soundfile=0.10.2
+matplotlib=1.3.1
+resampy=0.2.0
