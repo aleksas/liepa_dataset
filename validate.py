@@ -7,10 +7,14 @@ import contextlib
 import codecs
 import chardet
 
+import numpy as np
+import soundfile as sf
+import resampy
+
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
 
-default_wav_framerate = 22050
+default_wav_samplerate = 22050
 
 age_groups = {
     'c', (12, 12),
@@ -78,16 +82,51 @@ def wav_duration(path):
         rate = f.getframerate()
         return (frames / float(rate)), frames, rate
 
-def collect_framerate_problems(file_path):
-    duration, frames, framerate = wav_duration(file_path)
+def collect_samplerate_problems(file_path):
+    duration, samples, samplerate = wav_duration(file_path)
 
     _, filename = split(file_path)
 
-    if default_wav_framerate != framerate:
-        problem = '"%s" has %d framerate, default is %d.' % (filename, framerate, default_wav_framerate)
-        return [(file_path, framerate, default_wav_framerate, problem)]
+    if default_wav_samplerate != samplerate:
+        problem = '"%s" has %d samplerate, default is %d.' % (filename, samplerate, default_wav_samplerate)
+        return [(file_path, samplerate, default_wav_samplerate, problem)]
 
     return []
+
+
+def fix_length(data, size, axis=-1, **kwargs):
+    kwargs.setdefault('mode', 'constant')
+
+    n = data.shape[axis]
+
+    if n > size:
+        slices = [slice(None)] * data.ndim
+        slices[axis] = slice(0, size)
+        return data[slices]
+
+    elif n < size:
+        lengths = [(0, 0)] * data.ndim
+        lengths[axis] = (0, size - n)
+        return np.pad(data, lengths, **kwargs)
+
+    return data
+
+def resample(y, orig_sr, target_sr, **kwargs):
+    if orig_sr == target_sr:
+        return y
+
+    ratio = float(target_sr) / orig_sr
+    n_samples = int(np.ceil(y.shape[-1] * ratio))
+
+    y_hat = resampy.resample(y, orig_sr, target_sr, filter='kaiser_best', axis=-1)
+    y_hat = fix_length(y_hat, n_samples, **kwargs)
+
+    return np.ascontiguousarray(y_hat, dtype=y.dtype)
+
+def fix_sample_rate_problem(path, src_sr, dst_sr):
+    y, sr = sf.read(path)
+    y_r = resample(y, src_sr, dst_sr)
+    sf.write(path, y_r, dst_sr, subtype='PCM_32')
 
 def fix_naming_problem(src, dst):
     rename(src, dst)
@@ -217,7 +256,7 @@ def validate_static_value(static_name, voice, static, test):
 def collect_problems(dataset_path, args):
     encoding_problems = []
     mistype_problems = []
-    framerate_problems = []
+    samplerate_problems = []
     directory_naming_problems = []
     file_naming_problems = []
     layering_problems = []
@@ -249,7 +288,7 @@ def collect_problems(dataset_path, args):
         voice_id = voice[1:]
         correct_voice_id  = '%03d' % int(voice_id)
         correct_path = join(db_root, 'D'+ correct_voice_id)
-        if voice_id != correct_voice_id and args.naming_test:
+        if voice_id != correct_voice_id and args.run_naming_test:
             problem = 'Voice id is "%s" but should be "%s".' % (voice_id, correct_voice_id)
             if int(voice_id) not in known_voice_directory_file_naming_exceptions:
                 raise Exception(problem)
@@ -275,19 +314,19 @@ def collect_problems(dataset_path, args):
                     fixed_file_path = join(fixed_dir, filename)
                     utternace_group_type = match.group('type')
 
-                    if args.file_structure_test:
+                    if args.run_structure_test:
                         problem = 'File "%s" is missing group "%s" folder.' % (file_path, group)
                         layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
 
-                if _extension in wav_extensions and args.framerate_test:
-                    framerate_problems += collect_framerate_problems(file_path)
+                if _extension in wav_extensions and args.run_samplerate_test:
+                    samplerate_problems += collect_samplerate_problems(file_path)
 
-                if _extension in txt_extensions and args.transcript_test:
+                if _extension in txt_extensions and args.run_transcript_test:
                     encoding_problem, mistype_problem = collect_text_problems(file_path)
                     encoding_problems += encoding_problem
                     mistype_problems  += mistype_problem
 
-                if args.naming_test:
+                if args.run_naming_test:
                     tag = match.group('tag') # _T or _P
 
                     if not tag:
@@ -330,7 +369,7 @@ def collect_problems(dataset_path, args):
     return (
         encoding_problems,
         mistype_problems,
-        framerate_problems,
+        samplerate_problems,
         layering_problems,
         cleanup_naming_problems(file_naming_problems),
         cleanup_naming_problems(directory_naming_problems))
@@ -341,16 +380,23 @@ if __name__ == '__main__':
 
     parser = ArgumentParser()
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
-    parser.add_argument('-t','--transcript-test', help='LIEPA dataset transcript encoding and mistype testing.', action='store_true')
-    parser.add_argument('-f','--framerate-test', help='LIEPA dataset audio framerate testing.', action='store_true')
-    parser.add_argument('-n','--naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
-    parser.add_argument('-s','--file-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
+    parser.add_argument('-t','--run-transcript-test', help='LIEPA dataset transcript encoding and mistype testing.', action='store_true')
+    parser.add_argument('-f','--run-samplerate-test', help='LIEPA dataset audio samplerate testing.', action='store_true')
+    parser.add_argument('-n','--run-naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
+    parser.add_argument('-s','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
+    parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
     args = parser.parse_args()
 
+    if args.run_all_tests:
+        args.run_transcript_test = True
+        args.run_samplerate_test = True
+        args.run_naming_test = True
+        args.run_structure_test = True
+
     result = collect_problems(args.liepa_dir, args)
-    encoding_problems, mistype_problems, framerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
+    encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:
@@ -367,8 +413,11 @@ if __name__ == '__main__':
             print ('Fix mistypes in "%s".' % path)
 
     # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
-    for path, src_framerate, dst_framerate, comment in framerate_problems:
-        print ('Resample "%s" from %d to %d fps. %s' % (path, src_framerate, dst_framerate, comment))
+    for path, src_samplerate, dst_samplerate, comment in samplerate_problems:
+        if args.fix_problems:
+            fix_sample_rate_problem(path, src_samplerate, dst_samplerate)
+        else:
+            print ('Resample "%s" from %d to %d fps. %s' % (path, src_samplerate, dst_samplerate, comment))
 
     # Layering files and directories
     for src, dst_dir, dst, comment in layering_problems:
