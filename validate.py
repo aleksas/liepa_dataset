@@ -12,6 +12,7 @@ txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
 
 default_wav_samplerate = 22050
+default_wav_subtype = 'PCM_16'
 
 age_groups = {
     'c', (12, 12),
@@ -73,19 +74,19 @@ known_voice_directory_file_naming_exceptions = range(2, 100)
 
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
 
-def collect_samplerate_problems(file_path):
+def collect_samplerate_problems(file_path, forse_resample=False):
     duration, samples, samplerate = wav_duration(file_path)
 
     _, filename = split(file_path)
 
-    if default_wav_samplerate != samplerate:
+    if default_wav_samplerate != samplerate or forse_resample:
         problem = '"%s" has %d samplerate, default is %d.' % (filename, samplerate, default_wav_samplerate)
         return [(file_path, samplerate, default_wav_samplerate, problem)]
 
     return []
 
-def fix_sample_rate_problem(path, src_sr, dst_sr):
-    resample(path, src_sr, dst_sr)
+def fix_sample_rate_problem(path, src_sr, dst_sr, subtype):
+    resample(path, src_sr, dst_sr, subtype)
 
 def fix_naming_problem(src, dst):
     rename(src, dst)
@@ -278,7 +279,7 @@ def collect_problems(dataset_path, args):
                         layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
 
                 if _extension in wav_extensions and args.run_samplerate_test:
-                    samplerate_problems += collect_samplerate_problems(file_path)
+                    samplerate_problems += collect_samplerate_problems(file_path, args.audio_subtype != default_wav_subtype)
 
                 if _extension in txt_extensions and args.run_transcript_test:
                     encoding_problem, mistype_problem = collect_text_problems(file_path)
@@ -342,6 +343,7 @@ if __name__ == '__main__':
     parser.add_argument('-n','--run-naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
     parser.add_argument('-s','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
     parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
+    parser.add_argument('-r','--audio_subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype (Default: %s).' % default_wav_subtype, default=default_wav_subtype)
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
     args = parser.parse_args()
@@ -372,7 +374,7 @@ if __name__ == '__main__':
     # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
     for path, src_samplerate, dst_samplerate, comment in samplerate_problems:
         if args.fix_problems:
-            fix_sample_rate_problem(path, src_samplerate, dst_samplerate)
+            fix_sample_rate_problem(path, src_samplerate, dst_samplerate, args.audio_subtype)
         else:
             print ('Resample "%s" from %d to %d fps. %s' % (path, src_samplerate, dst_samplerate, comment))
 

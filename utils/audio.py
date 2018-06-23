@@ -35,11 +35,12 @@ def resample_data(y, orig_sr, target_sr, **kwargs):
 
     return np.ascontiguousarray(y_hat, dtype=y.dtype)
 
-def resample(path, src_sr, dst_sr):
+def resample(path, src_sr, dst_sr, subtype):
     y, sr = sf.read(path)
     assert src_sr == sr
     y_r = resample_data(y, src_sr, dst_sr)
-    sf.write(path, y_r, dst_sr, subtype='PCM_32')
+    print (subtype)
+    sf.write(path, y_r, dst_sr, subtype=subtype)
 
 def wav_duration(path):
     with contextlib.closing(wave.open(path,'r')) as f:
