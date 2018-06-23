@@ -1,5 +1,5 @@
-from os import walk
-from os.path import join, splitext, split, normpath
+from os import walk, makedirs, rename
+from os.path import join, splitext, split, normpath, exists
 from re import compile
 from argparse import ArgumentParser
 import wave
@@ -30,7 +30,10 @@ age_groups = {
     'r', (61, -1)  # over 61
     }
 
-valid_symbols = u'AĄBCČDEĘĖFGHIĮJKLMNOPQRSŠTUŲŪVWXYZŽaąbcčdeęėfghiįjklmnopqrsštuųūvwxyzž!\'(),-.:;? _'
+valid_lt_symbols = u'ĄČĘĖĮŠŲŪŽąčęėįšųūž'
+valid_ascii_symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? _\r\n\t'
+valid_symbols = valid_lt_symbols + valid_ascii_symbols
+valid_ascii_symbols = set(valid_ascii_symbols.encode('ascii'))
 valid_utf8_symbol_set = set(valid_symbols.encode('utf-8'))
 valid_utf16_symbol_set = set(valid_symbols.encode('utf-16'))
 valid_utf8_sig_symbol_set = set(valid_symbols.encode('UTF-8-SIG'))
@@ -43,12 +46,13 @@ mistypes = [
     ('pirma_pir', 'pirma'), ('antra_an', 'antra'), ('trečia_tre', 'trečia'),
     ('ketvirta_vir', 'ketvirta'), ('penkta_pen', 'penkta'), ('šešta_šeš', 'šešta'),
     ('septinta_tin', 'septinta'), ('aštunta_tun', 'aštunta'), ('devinta_vin', 'devinta'),
-    ('dešimta_ši', 'dešimta'), ('procentų_cen', 'procentų'), ('vadinamaa_maa','vadinama'),
+    ('dešimta_ši', 'dešimta'), (' deš ', ' dešimt '), ('procentų_cen', 'procentų'), ('vadinamaa_maa','vadinama'),
     ('aplankų_ap', 'aplankų'), ('veiklų_veik', 'veiklų'), ('_įtrūkimu', 'įtrūkimu'),
     ('sugriauta_ta', 'sugriauta'), ('laikomi_mi', 'laikomi'), ('siauros_siau', 'siauros'),
     ('_padpadėtis', 'padpadėtis'), ('_klėstinčiu', 'klėstinčiu'), ('langus_gus', 'langus'),
     ('eštuoni_tuo', 'aštuoni'), ('architektūra_tū', 'architektūra'), ('rezultatus_ta', 'rezultatus'),
-    ('ketvyrta_vyr', 'ketvirta'), ('_koplystulpiai', 'koplystulpiai'), ('auštant_auš', 'auštant')
+    ('ketvyrta_vyr', 'ketvirta'), ('_koplystulpiai', 'koplystulpiai'), ('auštant_auš', 'auštant'),
+    (' plaukioe ', ' plaukioja '), ('_išsilydžiusios', 'išsilydžiusios')
     ]
 # Some files have incorrect utterance type indicator, parent directories indicate correctly.
 known_utterance_type_naming_exceptions = [
@@ -57,6 +61,12 @@ known_utterance_type_naming_exceptions = [
     ('D556', 'Z000'), ('D556', 'Z001'),
     ('D556', 'Z020'), ('D556', 'Z060')
     ]
+
+"""
+known_utterance_type_naming_exceptions += [
+    ('D057', 'S007'), ('D057', 'S008')
+    ]
+"""
 
 known_voice_directory_file_naming_exceptions = range(2, 100)
 
@@ -79,6 +89,41 @@ def collect_framerate_problems(file_path):
 
     return []
 
+def fix_naming_problem(src, dst):
+    rename(src, dst)
+
+def fix_layering_problem(dst_dir, src, dst):
+    if not exists(dst_dir):
+        makedirs(dst_dir)
+
+    rename(src, dst)
+
+def fix_mistypes(file_path):
+    with open(file_path, 'r') as f:
+        text = f.read()
+
+    for mistype in mistypes:
+        if mistype[0] in text:
+            text = text.replace(mistype[0], mistype[1])
+
+    with open(file_path, 'w') as f:
+        f.write(text)
+
+def fix_encoding_problem(file_path, src_enc, dst_enc):
+    with open(file_path, 'rb') as f:
+        raw_text = f.read()
+
+    if src_enc == 'windows-1257':
+        raw_text = raw_text.replace(b'\x9a', b'\xfe')
+
+    if file_path.endswith('S566Mh_026_29.txt'):
+        raw_text = raw_text.replace('˛'.encode(src_enc), 'ž'.encode(src_enc))
+
+    text = raw_text.decode(src_enc)
+
+    with codecs.open(file_path,'w', encoding='utf8') as f:
+        f.write(text)
+
 def collect_text_problems(file_path):
     encoding_problem = []
     mistype_problem = []
@@ -90,17 +135,20 @@ def collect_text_problems(file_path):
 
         raw_text_symbol_set = set(raw_text) - set('\x1f')
 
+        diff_ascii = raw_text_symbol_set - valid_ascii_symbols
         diff_win_1257 = raw_text_symbol_set - valid_windows_1257_symbols_set
         diff_utf_16 = raw_text_symbol_set - valid_utf16_symbol_set
         diff_utf_8_sig = raw_text_symbol_set - valid_utf8_sig_symbol_set
         diff_utf_8 = raw_text_symbol_set - valid_utf8_symbol_set
 
-        if len(diff_win_1257) == 0:
+        # lets consider ascii text to be utf-8 since utf8 and ascii ar compatible
+        # it just means that text does not have any special chars
+        if len(diff_ascii) == 0 or len(diff_utf_8) == 0:
+            charenc = 'utf-8'
+        elif len(diff_win_1257) == 0:
             charenc = 'windows-1257'
         elif len(diff_utf_16) == 0:
             charenc = 'utf-16'
-        elif len(diff_utf_8) == 0:
-            charenc = 'utf-8'
         elif len(diff_utf_8_sig) == 0:
             charenc = 'UTF-8-SIG'
         else:
@@ -114,21 +162,26 @@ def collect_text_problems(file_path):
                 charenc = 'windows-1257'
 
         if charenc == 'windows-1257':
-            text = raw_text.replace(b'\x9a', b'\xfe').decode(charenc).replace('\t', ' ')
-        else:
-            text = raw_text.decode(charenc).replace('\t', ' ')
+            raw_text = raw_text.replace(b'\x9a', b'\xfe')
+
+        raw_text = raw_text.replace(b'\x1f', b'')
+
+        if file_path.endswith('S566Mh_026_29.txt'):
+            raw_text = raw_text.replace('˛'.encode(charenc), 'ž'.encode(charenc))
+
+        text = raw_text.decode(charenc)
 
         diff_set = set(text) - set(valid_symbols)
 
         if len(diff_set) > 0:
-            raise Exception()
+            raise Exception(','.join(diff_set))
 
         if charenc != 'utf-8':
             problem = '"%s" has %s encoding but utf-8 is required.' % (file_path, charenc)
             encoding_problem = [(file_path, charenc, 'utf-8', problem)]
     except Exception as e:
-        encoding_problem = [(file_path, 'undefined', 'utf-8', str(e))]
-        return encoding_problem, mistype_problem
+        encoding_problem = [(file_path, 'utf-8', str(e))]
+        raise Exception(encoding_problem)
 
     for mistype in mistypes:
         if mistype[0] in text:
@@ -165,7 +218,8 @@ def collect_problems(dataset_path, args):
     encoding_problems = []
     mistype_problems = []
     framerate_problems = []
-    naming_problems = []
+    directory_naming_problems = []
+    file_naming_problems = []
     layering_problems = []
 
     for root, subdirs, files in walk(dataset_path):
@@ -194,13 +248,14 @@ def collect_problems(dataset_path, args):
 
         voice_id = voice[1:]
         correct_voice_id  = '%03d' % int(voice_id)
-        if voice_id != correct_voice_id and not args.skip_nameing_test:
+        correct_path = join(db_root, 'D'+ correct_voice_id)
+        if voice_id != correct_voice_id and args.naming_test:
             problem = 'Voice id is "%s" but should be "%s".' % (voice_id, correct_voice_id)
             if int(voice_id) not in known_voice_directory_file_naming_exceptions:
                 raise Exception(problem)
             else:
                 correct_voice_path = join(db_root, 'D' + correct_voice_id)
-                naming_problems.append((path, correct_voice_path, problem))
+                directory_naming_problems.append((path, correct_voice_path, problem))
 
         for filename in files:
             match = pattern.match(filename)
@@ -220,19 +275,19 @@ def collect_problems(dataset_path, args):
                     fixed_file_path = join(fixed_dir, filename)
                     utternace_group_type = match.group('type')
 
-                    if not args.skip_file_structure_test:
+                    if args.file_structure_test:
                         problem = 'File "%s" is missing group "%s" folder.' % (file_path, group)
                         layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
 
-                if _extension in wav_extensions and not args.skip_framerate_test:
+                if _extension in wav_extensions and args.framerate_test:
                     framerate_problems += collect_framerate_problems(file_path)
 
-                if _extension in txt_extensions and not args.skip_transcript_test:
+                if _extension in txt_extensions and args.transcript_test:
                     encoding_problem, mistype_problem = collect_text_problems(file_path)
                     encoding_problems += encoding_problem
                     mistype_problems  += mistype_problem
 
-                if not args.skip_nameing_test:
+                if args.naming_test:
                     tag = match.group('tag') # _T or _P
 
                     if not tag:
@@ -248,7 +303,7 @@ def collect_problems(dataset_path, args):
                     utternace_id = match.group('ut_id')
 
                     correct_filename = '%s%s%s%s_%s_%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group('age'), utternace_id, utterance_sub_id, tag, match.group('ext'))
-                    correct_file_path = join(path, group, correct_filename)
+                    correct_file_path = join(correct_path, group, correct_filename)
 
                     if voice_id != match.group('voice'):
                         problem = 'Voice id "%s" does not match with id "%s" from filename "%s".' % (voice_id, match.group('voice'), file_path)
@@ -256,7 +311,7 @@ def collect_problems(dataset_path, args):
                         for exc in  known_voice_naming_exceptions:
                             if voice == exc[0] and group == exc[1]:
                                 can_continue = True
-                                naming_problems.append((file_path, correct_file_path, problem))
+                                file_naming_problems.append((file_path, correct_file_path, problem))
 
                         if not can_continue and int(voice_id) not in known_voice_directory_file_naming_exceptions:
                             raise Exception(problem)
@@ -267,7 +322,7 @@ def collect_problems(dataset_path, args):
                         for exc in known_utterance_type_naming_exceptions:
                             if voice == exc[0] and group == exc[1]:
                                 can_continue = True
-                                naming_problems.append((file_path, correct_file_path, problem))
+                                file_naming_problems.append((file_path, correct_file_path, problem))
 
                         if not can_continue:
                             raise Exception(problem)
@@ -277,7 +332,8 @@ def collect_problems(dataset_path, args):
         mistype_problems,
         framerate_problems,
         layering_problems,
-        cleanup_naming_problems(naming_problems))
+        cleanup_naming_problems(file_naming_problems),
+        cleanup_naming_problems(directory_naming_problems))
 
 if __name__ == '__main__':
 
@@ -285,23 +341,30 @@ if __name__ == '__main__':
 
     parser = ArgumentParser()
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
-    parser.add_argument('-t','--skip-transcript-test', help='Skip LIEPA dataset transcript encoding and mistype testing.', action='store_true')
-    parser.add_argument('-f','--skip-framerate-test', help='Skip LIEPA dataset audio framerate testing.', action='store_true')
-    parser.add_argument('-n','--skip-nameing-test', help='Skip LIEPA dataset file and directory naming testing.', action='store_true')
-    parser.add_argument('-s','--skip-file-structure-test', help='Skip LIEPA dataset file and directory structure testing.', action='store_true')
+    parser.add_argument('-t','--transcript-test', help='LIEPA dataset transcript encoding and mistype testing.', action='store_true')
+    parser.add_argument('-f','--framerate-test', help='LIEPA dataset audio framerate testing.', action='store_true')
+    parser.add_argument('-n','--naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
+    parser.add_argument('-s','--file-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
+    parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
     args = parser.parse_args()
 
     result = collect_problems(args.liepa_dir, args)
-    encoding_problems, mistype_problems, framerate_problems, layering_problems, naming_problems = result
+    encoding_problems, mistype_problems, framerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:
-        print ('Change encoding from %s to %s encoding for "%s". %s' % (src_enc, dst_enc, path, comment))
+        if args.fix_problems:
+            fix_encoding_problem(path, src_enc, dst_enc)
+        else:
+            print ('Change encoding from %s to %s encoding for "%s". %s' % (src_enc, dst_enc, path, comment))
 
     # DO MISTYPE CORRECTIONS BEFORE FILE RENAMING OR MOVING
-    for path, _a in mistype_problems:
-        print ('Fix mistypes in "%s".' % path)
+    for path, comment in mistype_problems:
+        if args.fix_problems:
+            fix_mistypes(path)
+        else:
+            print ('Fix mistypes in "%s".' % path)
 
     # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
     for path, src_framerate, dst_framerate, comment in framerate_problems:
@@ -309,8 +372,21 @@ if __name__ == '__main__':
 
     # Layering files and directories
     for src, dst_dir, dst, comment in layering_problems:
-        print ('MKDIR "%s" and MOVE "%s" to "%s". %s' % (dst_dir, src, dst, comment))
+        if args.fix_problems:
+            fix_layering_problem(dst_dir, src, dst)
+        else:
+            print ('MKDIR "%s" and MOVE "%s" to "%s". %s' % (dst_dir, src, dst, comment))
 
     # Rename files
-    for src, dst, comment in naming_problems:
-        print ('Rename "%s" to "%s". %s' % (src, dst, comment))
+    for src, dst, comment in file_naming_problems:
+        if args.fix_problems:
+            fix_naming_problem(src, dst)
+        else:
+            print ('Rename file "%s" to "%s". %s' % (src, dst, comment))
+
+    # Rename directories
+    for src, dst, comment in directory_naming_problems:
+        if args.fix_problems:
+            fix_naming_problem(src, dst)
+        else:
+            print ('Rename directory "%s" to "%s". %s' % (src, dst, comment))
