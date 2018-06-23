@@ -2,14 +2,10 @@ from os import walk, makedirs, rename
 from os.path import join, splitext, split, normpath, exists
 from re import compile
 from argparse import ArgumentParser
-import wave
-import contextlib
 import codecs
 import chardet
 
-import numpy as np
-import soundfile as sf
-import resampy
+from utils import resample, wav_duration
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -76,12 +72,6 @@ known_voice_directory_file_naming_exceptions = range(2, 100)
 
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
 
-def wav_duration(path):
-    with contextlib.closing(wave.open(path,'r')) as f:
-        frames = f.getnframes()
-        rate = f.getframerate()
-        return (frames / float(rate)), frames, rate
-
 def collect_samplerate_problems(file_path):
     duration, samples, samplerate = wav_duration(file_path)
 
@@ -93,40 +83,8 @@ def collect_samplerate_problems(file_path):
 
     return []
 
-
-def fix_length(data, size, axis=-1, **kwargs):
-    kwargs.setdefault('mode', 'constant')
-
-    n = data.shape[axis]
-
-    if n > size:
-        slices = [slice(None)] * data.ndim
-        slices[axis] = slice(0, size)
-        return data[slices]
-
-    elif n < size:
-        lengths = [(0, 0)] * data.ndim
-        lengths[axis] = (0, size - n)
-        return np.pad(data, lengths, **kwargs)
-
-    return data
-
-def resample(y, orig_sr, target_sr, **kwargs):
-    if orig_sr == target_sr:
-        return y
-
-    ratio = float(target_sr) / orig_sr
-    n_samples = int(np.ceil(y.shape[-1] * ratio))
-
-    y_hat = resampy.resample(y, orig_sr, target_sr, filter='kaiser_best', axis=-1)
-    y_hat = fix_length(y_hat, n_samples, **kwargs)
-
-    return np.ascontiguousarray(y_hat, dtype=y.dtype)
-
 def fix_sample_rate_problem(path, src_sr, dst_sr):
-    y, sr = sf.read(path)
-    y_r = resample(y, src_sr, dst_sr)
-    sf.write(path, y_r, dst_sr, subtype='PCM_32')
+    resample(path, src_sr, dst_sr)
 
 def fix_naming_problem(src, dst):
     rename(src, dst)
