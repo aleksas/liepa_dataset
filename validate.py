@@ -5,7 +5,8 @@ from argparse import ArgumentParser
 import codecs
 import chardet
 
-from utils import resample, wav_duration
+from liepa import default_dir
+from utils.audio import resample, wav_duration
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -333,8 +334,6 @@ def collect_problems(dataset_path, args):
         cleanup_naming_problems(directory_naming_problems))
 
 if __name__ == '__main__':
-
-    default_dir = './MII_LIEPA_V1'
 
     parser = ArgumentParser()
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
