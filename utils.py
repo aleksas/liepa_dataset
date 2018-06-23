@@ -4,6 +4,7 @@ import numpy as np
 import resampy
 import wave
 
+# SOURCE: https://github.com/librosa/librosa/blob/b579d34c313d4826f85b027bbd2b42e548a8c7d3/librosa/util/utils.py#L309-L367
 def fix_length(data, size, axis=-1, **kwargs):
     kwargs.setdefault('mode', 'constant')
 
@@ -21,6 +22,7 @@ def fix_length(data, size, axis=-1, **kwargs):
 
     return data
 
+# SOURCE: https://github.com/librosa/librosa/blob/b579d34c313d4826f85b027bbd2b42e548a8c7d3/librosa/core/audio.py#L210-L294
 def resample_data(y, orig_sr, target_sr, **kwargs):
     if orig_sr == target_sr:
         return y
@@ -38,7 +40,6 @@ def resample(path, src_sr, dst_sr):
     assert src_sr == sr
     y_r = resample_data(y, src_sr, dst_sr)
     sf.write(path, y_r, dst_sr, subtype='PCM_32')
-
 
 def wav_duration(path):
     with contextlib.closing(wave.open(path,'r')) as f:
