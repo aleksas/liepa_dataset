@@ -37,269 +37,269 @@ PATTERN: (([^_\n]+)_([^_\n]+)) (\d+)
 REPLACEMENT: ('$1', '$2'), # $4
 """
 mistypes_1 = [
-    ('dulkes_kes', 'dulkes'), # 1
-    ('surengę_su', 'surengę'), # 1
-    ('kalnu_nu', 'kalnu'), # 1
-    ('sudėti_dė', 'sudėti'), # 1
-    ('kokios_kios', 'kokios'), # 1
-    ('aukštus_tus', 'aukštus'), # 1
-    ('natūralios_lios', 'natūralios'), # 1
-    ('ketvyrta_vyr', 'ketvyrta'), # 1
-    ('rezultatus_ta', 'rezultatus'), # 1
-    ('gausuma_ma', 'gausuma'), # 1
-    ('taigoje_je', 'taigoje'), # 1
-    ('gyvenamuose_se', 'gyvenamuose'), # 1
-    ('ritme_rit', 'ritme'), # 1
-    ('rajų_jų', 'rajų'), # 1
-    ('lizdeika_dei', 'lizdeika'), # 1
-    ('įvesta_į', 'įvesta'), # 1
-    ('kovos_vos', 'kovos'), # 1
-    ('lūšių_lū', 'lūšių'), # 1
-    ('biržais_žais', 'biržais'), # 1
+    ('keturiasdešimties_ke', 'keturiasdešimties'), # 1
+    ('konkistadoriai_ta', 'konkistadoriai'), # 2
     ('aprašomaisiais_ra', 'aprašomaisiais'), # 1
-    ('jauniklius_ni', 'jauniklius'), # 1
-    ('viena_vie', 'viena'), # 1
-    ('atkasamos_ka', 'atkasamos'), # 1
-    ('sukurtu_su', 'sukurtu'), # 1
-    ('keterų_te', 'keterų'), # 1
+    ('ilgaamžiškumu_ku', 'ilgaamžiškumu'), # 1
+    ('kolekcijomis_mis', 'kolekcijomis'), # 1
+    ('sugniuždami_gniuž', 'sugniuždami'), # 1
+    ('architektūra_tū', 'architektūra'), # 2
+    ('žemdirbyste_bys', 'žemdirbyste'), # 1
+    ('gyvenamuose_muo', 'gyvenamuose'), # 1
     ('atskyriantį_sky', 'atskyriantį'), # 1
-    ('sieną_na', 'sieną'), # 1
-    ('kilpas_pas', 'kilpas'), # 1
-    ('aišku_ku', 'aišku'), # 1
-    ('mėsas_mė', 'mėsas'), # 1
-    ('nulėmė_lė', 'nulėmė'), # 1
-    ('laiptinė_ti', 'laiptinė'), # 1
-    ('nugara_ra', 'nugara'), # 1
-    ('skęstu_tu', 'skęstu'), # 1
-    ('įrengia_į', 'įrengia'), # 1
-    ('aštuonis_nis', 'aštuonis'), # 1
-    ('sakalinių_sa', 'sakalinių'), # 1
-    ('junesko_ju', 'junesko'), # 1
-    ('diena_na', 'diena'), # 1
-    ('ssalių_lių', 'ssalių'), # 1
-    ('mieste_mies', 'mieste'), # 1
-    ('baltai_bal', 'baltai'), # 1
-    ('kankinė_ki', 'kankinė'), # 1
-    ('adresai_ad', 'adresai'), # 1
-    ('grybų_bų', 'grybų'), # 1
-    ('kalba_ba', 'kalba'), # 1
-    ('eštuoni_tuo', 'eštuoni'), # 1
-    ('aukštas_tas', 'aukštas'), # 1
+    ('pralaužimui_lau', 'pralaužimui'), # 2
+    ('patiekalais_tie', 'patiekalais'), # 1
+    ('prancūzijos_cū', 'prancūzijos'), # 1
+    ('gyvenamuose_se', 'gyvenamuose'), # 1
+    ('temperatūra_tū', 'temperatūra'), # 2
+    ('natūralios_lios', 'natūralios'), # 1
+    ('gubernijoje_ni', 'gubernijoje'), # 1
+    ('paveldimos_vel', 'paveldimos'), # 4
+    ('dokumentus_men', 'dokumentus'), # 2
+    ('griaunama_griau', 'griaunama'), # 3
     ('paviršinio_vir', 'paviršinio'), # 1
-    ('įteka_te', 'įteka'), # 1
-    ('išverda_iš', 'išverda'), # 1
-    ('laikomi_mi', 'laikomi'), # 1
     ('tokiooos_kiooos', 'tokiooos'), # 1
-    ('rasta_ta', 'rasta'), # 1
-    ('gyvulių_gy', 'gyvulių'), # 1
-    ('kriokliu_kliu', 'kriokliu'), # 1
-    ('debesys_sys', 'debesys'), # 1
-    ('šalta_ta', 'šalta'), # 1
-    ('šernus_nus', 'šernus'), # 1
+    ('ankstyvųju_ty', 'ankstyvųju'), # 1
+    ('rezultatus_ta', 'rezultatus'), # 1
+    ('patiekiant_pa', 'patiekiant'), # 1
+    ('jauniklius_ni', 'jauniklius'), # 1
+    ('tarpeklius_pe', 'tarpeklius'), # 1
+    ('augmenijos_me', 'augmenijos'), # 1
+    ('lytiniuose_ti', 'lytiniuose'), # 1
+    ('sutartines_ti', 'sutartines'), # 2
+    ('plyšiuose_ply', 'plyšiuose'), # 3
+    ('kilometru_tru', 'kilometru'), # 1
+    ('kiekviena_vie', 'kiekviena'), # 1
+    ('vadinamaa_maa', 'vadinamaa'), # 1
+    ('pastolius_pas', 'pastolius'), # 1
+    ('pradžioje_pra', 'pradžioje'), # 2
+    ('slenksčių_čių', 'slenksčių'), # 2
+    ('nutiestos_tos', 'nutiestos'), # 1
     ('stalininė_li', 'stalininė'), # 1
     ('didžiąją_džią', 'didžiąją'), # 1
-    ('gubernijoje_ni', 'gubernijoje'), # 1
-    ('stebima_ste', 'stebima'), # 1
-    ('augmenijos_me', 'augmenijos'), # 1
+    ('sakalinių_sa', 'sakalinių'), # 1
+    ('kriokliu_kliu', 'kriokliu'), # 1
+    ('druskingu_gu', 'druskingu'), # 1
     ('aukštumo_aukš', 'aukštumo'), # 1
-    ('gyvenamuose_muo', 'gyvenamuose'), # 1
+    ('sustojimu_ji', 'sustojimu'), # 2
+    ('aptinkama_ma', 'aptinkama'), # 1
+    ('didesnius_di', 'didesnius'), # 1
+    ('uždrausta_už', 'uždrausta'), # 4
+    ('užlipdomi_mi', 'užlipdomi'), # 1
+    ('pelėnais_nais', 'pelėnais'), # 1
+    ('įvairios_rios', 'įvairios'), # 2
+    ('sugriauta_ta', 'sugriauta'), # 4
+    ('dramblis_dram', 'dramblis'), # 1
+    ('nukreipta_ta', 'nukreipta'), # 4
+    ('atkasamos_ka', 'atkasamos'), # 1
+    ('aštuonis_nis', 'aštuonis'), # 1
+    ('lizdeika_dei', 'lizdeika'), # 1
+    ('kankinės_kan', 'kankinės'), # 1
+    ('dešimtis_tis', 'dešimtis'), # 3
     ('dvejines_dve', 'dvejines'), # 1
     ('trejinės_tre', 'trejinės'), # 1
-    ('mantrai_trai', 'mantrai'), # 1
-    ('trejinę_tre', 'trejinę'), # 1
-    ('poros_po', 'poros'), # 1
-    ('tarmių_tar', 'tarmių'), # 1
-    ('imti_im', 'imti'), # 1
-    ('auštan_auš', 'auštan'), # 1
-    ('dideles_les', 'dideles'), # 1
-    ('pelėnais_nais', 'pelėnais'), # 1
-    ('prancūzijos_cū', 'prancūzijos'), # 1
-    ('šoklinių_nių', 'šoklinių'), # 1
-    ('tamsiai_siai', 'tamsiai'), # 1
-    ('sukurtas_su', 'sukurtas'), # 1
-    ('ištysus_sus', 'ištysus'), # 1
-    ('dydelės_dy', 'dydelės'), # 1
-    ('druskingu_gu', 'druskingu'), # 1
-    ('terminio_mi', 'terminio'), # 1
-    ('sausuma_sau', 'sausuma'), # 1
-    ('visos_sos', 'visos'), # 1
-    ('fregata_ga', 'fregata'), # 1
-    ('augalija_li', 'augalija'), # 1
-    ('krosnis_nis', 'krosnis'), # 1
-    ('mėsos_mė', 'mėsos'), # 1
-    ('dešros_ros', 'dešros'), # 1
-    ('dramblis_dram', 'dramblis'), # 1
-    ('mišrus_rus', 'mišrus'), # 1
-    ('urvu_ur', 'urvu'), # 1
-    ('nutiestos_tos', 'nutiestos'), # 1
-    ('sausros_sau', 'sausros'), # 1
-    ('šamanų_nų', 'šamanų'), # 1
-    ('daline_da', 'daline'), # 1
-    ('minima_mi', 'minima'), # 1
-    ('fundavo_fun', 'fundavo'), # 1
-    ('upes_up', 'upes'), # 1
-    ('aukštus_us', 'aukštus'), # 1
-    ('baltymų_ty', 'baltymų'), # 1
-    ('ritualus_tua', 'ritualus'), # 1
-    ('vienu_vie', 'vienu'), # 1
-    ('keturiasdešimties_ke', 'keturiasdešimties'), # 1
-    ('tarpeklius_pe', 'tarpeklius'), # 1
+    ('ketvyrta_vyr', 'ketvyrta'), # 1
     ('procentų_cen', 'procentų'), # 1
-    ('vilhelmo_hel', 'vilhelmo'), # 1
-    ('tyrimo_ty', 'tyrimo'), # 1
-    ('užpiltas_už', 'užpiltas'), # 1
-    ('au_au', 'au'), # 1
-    ('aptinkama_ma', 'aptinkama'), # 1
-    ('darbus_bus', 'darbus'), # 1
-    ('pastolius_pas', 'pastolius'), # 1
-    ('klanai_kla', 'klanai'), # 1
-    ('užlipdomi_mi', 'užlipdomi'), # 1
-    ('skystos_sky', 'skystos'), # 1
-    ('karštos_kar', 'karštos'), # 1
-    ('šaltos_šal', 'šaltos'), # 1
-    ('sriubos_sriu', 'sriubos'), # 1
-    ('didesnius_di', 'didesnius'), # 1
-    ('taksi_tak', 'taksi'), # 1
-    ('kaba_ba', 'kaba'), # 1
-    ('sija_si', 'sija'), # 1
-    ('žemdirbyste_bys', 'žemdirbyste'), # 1
-    ('privačia_va', 'privačia'), # 1
-    ('pagrindų_dų', 'pagrindų'), # 1
-    ('sanai_nai', 'sanai'), # 1
-    ('senams_nams', 'senams'), # 1
-    ('galva_gal', 'galva'), # 1
-    ('didumą_du', 'didumą'), # 1
-    ('kankinės_kan', 'kankinės'), # 1
-    ('sekama_ma', 'sekama'), # 1
-    ('lytiniuose_ti', 'lytiniuose'), # 1
-    ('nušautas_nu', 'nušautas'), # 1
-    ('metų_tų', 'metų'), # 1
-    ('sūnūs_sū', 'sūnūs'), # 1
-    ('uoloz_uo', 'uoloz'), # 1
-    ('vienos_nos', 'vienos'), # 1
-    ('olos_los', 'olos'), # 1
-    ('kilometru_tru', 'kilometru'), # 1
-    ('patogus_to', 'patogus'), # 1
-    ('patiekalais_tie', 'patiekalais'), # 1
-    ('sugniuždami_gniuž', 'sugniuždami'), # 1
-    ('medžius_me', 'medžius'), # 1
-    ('ilgaamžiškumu_ku', 'ilgaamžiškumu'), # 1
-    ('kilmės_kil', 'kilmės'), # 1
-    ('griežlė_griež', 'griežlė'), # 1
-    ('sriuba_sriu', 'sriuba'), # 1
-    ('patiekiant_pa', 'patiekiant'), # 1
-    ('valgį_val', 'valgį'), # 1
+    ('septinta_tin', 'septinta'), # 7
+    ('ritualus_tua', 'ritualus'), # 1
+    ('membrana_bra', 'membrana'), # 1
+    ('didesnės_nės', 'didesnės'), # 4
     ('gamtinės_gam', 'gamtinės'), # 1
+    ('dzūkijos_dzū', 'dzūkijos'), # 2
+    ('griežlė_griež', 'griežlė'), # 1
+    ('šoklinių_nių', 'šoklinių'), # 1
+    ('vilhelmo_hel', 'vilhelmo'), # 1
+    ('ketvirta_vir', 'ketvirta'), # 6
+    ('statinių_sta', 'statinių'), # 1
+    ('dvejinės_dve', 'dvejinės'), # 2
+    ('privačia_va', 'privačia'), # 1
+    ('išpjauta_ta', 'išpjauta'), # 1
+    ('driežai_drie', 'driežai'), # 1
+    ('augalija_li', 'augalija'), # 1
+    ('dešimčiu_de', 'dešimčiu'), # 1
+    ('laiptinė_ti', 'laiptinė'), # 1
+    ('sukurtas_su', 'sukurtas'), # 1
+    ('tamsiai_siai', 'tamsiai'), # 1
+    ('tirštas_tirš', 'tirštas'), # 1
+    ('objektai_ob', 'objektai'), # 3
+    ('virtuves_tu', 'virtuves'), # 2
+    ('terminio_mi', 'terminio'), # 1
+    ('biržais_žais', 'biržais'), # 1
+    ('užpiltas_už', 'užpiltas'), # 1
+    ('mantrai_trai', 'mantrai'), # 1
+    ('nušautas_nu', 'nušautas'), # 1
+    ('sausros_saus', 'sausros'), # 2
+    ('pagrindu_du', 'pagrindu'), # 2
+    ('pagrindų_dų', 'pagrindų'), # 1
+    ('siauros_siau', 'siauros'), # 2
+    ('sriubos_sriu', 'sriubos'), # 1
+    ('aukštus_tus', 'aukštus'), # 1
+    ('karštos_kar', 'karštos'), # 1
+    ('skystos_sky', 'skystos'), # 1
+    ('dešimta_šim', 'dešimta'), # 7
+    ('sausuma_sau', 'sausuma'), # 1
+    ('aštuoni_tuo', 'aštuoni'), # 8
+    ('žiūrima_žiū', 'žiūrima'), # 3
+    ('stebima_ste', 'stebima'), # 1
+    ('devinta_vin', 'devinta'), # 7
+    ('septyni_ty', 'septyni'), # 10
+    ('trejinę_tre', 'trejinę'), # 1
+    ('aukštas_tas', 'aukštas'), # 1
+    ('aukštos_tos', 'aukštos'), # 3
+    ('eštuoni_tuo', 'eštuoni'), # 1
+    ('dauguma_dau', 'dauguma'), # 2
+    ('debesys_sys', 'debesys'), # 1
+    ('fundavo_fun', 'fundavo'), # 1
+    ('aštunta_tun', 'aštunta'), # 7
+    ('sausros_sau', 'sausros'), # 1
+    ('katinių_nių', 'katinių'), # 2
+    ('klūpojo_klū', 'klūpojo'), # 1
+    ('gausumą_gau', 'gausumą'), # 2
+    ('auštant_auš', 'auštant'), # 2
+    ('dideles_les', 'dideles'), # 1
+    ('ištysus_sus', 'ištysus'), # 1
+    ('krosnis_nis', 'krosnis'), # 1
+    ('surengė_ren', 'surengė'), # 1
+    ('vandens_van', 'vandens'), # 4
+    ('aukštai_tai', 'aukštai'), # 1
+    ('adresai_ad', 'adresai'), # 1
+    ('penkta_penk', 'penkta'), # 2
+    ('kasimui_ka', 'kasimui'), # 2
+    ('kastinį_ti', 'kastinį'), # 3
+    ('pradėti_dė', 'pradėti'), # 5
+    ('patogus_to', 'patogus'), # 1
+    ('plauko_plau', 'plauko'), # 6
+    ('auštant_au', 'auštant'), # 5
+    ('medžius_me', 'medžius'), # 1
+    ('taigoje_je', 'taigoje'), # 1
+    ('gausuma_ma', 'gausuma'), # 1
+    ('kankinė_ki', 'kankinė'), # 1
+    ('sriuba_sriu', 'sriuba'), # 1
+    ('gyvulių_gy', 'gyvulių'), # 1
+    ('fregata_ga', 'fregata'), # 1
+    ('mieste_mies', 'mieste'), # 1
     ('dykumos_dy', 'dykumos'), # 1
     ('apsauga_ga', 'apsauga'), # 1
-    ('lūšis_lū', 'lūšis'), # 1
-    ('laviną_la', 'laviną'), # 1
-    ('nėra_nė', 'nėra'), # 1
-    ('membrana_bra', 'membrana'), # 1
-    ('rasti_ras', 'rasti'), # 1
-    ('ankstyvųju_ty', 'ankstyvųju'), # 1
+    ('aplankų_ap', 'aplankų'), # 3
+    ('veiklų_veik', 'veiklų'), # 4
+    ('sukurtu_su', 'sukurtu'), # 1
+    ('didelės_di', 'didelės'), # 6
+    ('junesko_ju', 'junesko'), # 1
     ('sanams_nams', 'sanams'), # 1
-    ('klūpojo_klū', 'klūpojo'), # 1
+    ('uodegos_uo', 'uodegos'), # 2
     ('aptikta_ta', 'aptikta'), # 1
-    ('duona_na', 'duona'), # 1
-    ('plote_te', 'plote'), # 1
-    ('kovos_ko', 'kovos'), # 1
-    ('statinių_sta', 'statinių'), # 1
-    ('dešimčiu_de', 'dešimčiu'), # 1
-    ('surengė_ren', 'surengė'), # 1
-    ('kolekcijomis_mis', 'kolekcijomis'), # 1
-    ('driežai_drie', 'driežai'), # 1
-    ('aukštai_tai', 'aukštai'), # 1
+    ('dydelės_dy', 'dydelės'), # 1
+    ('senams_nams', 'senams'), # 1
+    ('laikomi_mi', 'laikomi'), # 1
+    ('aukštus_us', 'aukštus'), # 1
+    ('išverda_iš', 'išverda'), # 1
+    ('baltymų_ty', 'baltymų'), # 1
+    ('kokios_kios', 'kokios'), # 1
+    ('sukurta_su', 'sukurta'), # 2
+    ('sukurta_ta', 'sukurta'), # 4
     ('mūrinio_mū', 'mūrinio'), # 1
-    ('kiekviena_vie', 'kiekviena'), # 1
+    ('surengę_su', 'surengę'), # 1
+    ('valdoma_ma', 'valdoma'), # 1
+    ('penkta_pen', 'penkta'), # 5
+    ('trečia_tre', 'trečia'), # 7
+    ('įrengia_į', 'įrengia'), # 1
+    ('kilpas_pas', 'kilpas'), # 1
+    ('žiemos_mos', 'žiemos'), # 1
+    ('ssalių_lių', 'ssalių'), # 1
+    ('auštant_u', 'auštant'), # 3
+    ('baltai_bal', 'baltai'), # 1
+    ('kilmės_kil', 'kilmės'), # 1
+    ('vienos_nos', 'vienos'), # 1
+    ('rastos_ras', 'rastos'), # 3
+    ('veiklų_vei', 'veiklų'), # 5
+    ('dulkes_kes', 'dulkes'), # 1
+    ('daugumą_a', 'daugumą'), # 1
+    ('langus_gus', 'langus'), # 3
+    ('šaltos_šal', 'šaltos'), # 1
+    ('kmynai_nai', 'kmynai'), # 2
+    ('šernus_nus', 'šernus'), # 1
+    ('klanai_kla', 'klanai'), # 1
+    ('tokios_to', 'tokios'), # 12
+    ('įkurtas_į', 'įkurtas'), # 2
+    ('darbus_bus', 'darbus'), # 1
+    ('tarmių_tar', 'tarmių'), # 1
+    ('auštan_auš', 'auštan'), # 1
+    ('mišrus_rus', 'mišrus'), # 1
+    ('dešros_ros', 'dešros'), # 1
+    ('uodega_ga', 'uodega'), # 15
+    ('šamanų_nų', 'šamanų'), # 1
+    ('daline_da', 'daline'), # 1
+    ('sekama_ma', 'sekama'), # 1
     ('rėminį_mi', 'rėminį'), # 1
     ('pelėda_da', 'pelėda'), # 1
-    ('valdoma_ma', 'valdoma'), # 1
-    ('išpjauta_ta', 'išpjauta'), # 1
-    ('daugumą_a', 'daugumą'), # 1
-    ('tirštas_tirš', 'tirštas'), # 1
-    ('vadinamaa_maa', 'vadinamaa'), # 1
-    ('žiemos_mos', 'žiemos'), # 1
-    ('urvus_ur', 'urvus'), # 2
-    ('sutartines_ti', 'sutartines'), # 2
-    ('katinių_nių', 'katinių'), # 2
-    ('dokumentus_men', 'dokumentus'), # 2
-    ('virtuves_tu', 'virtuves'), # 2
-    ('vilku_vil', 'vilku'), # 2
-    ('sustojimu_ji', 'sustojimu'), # 2
-    ('slenksčių_čių', 'slenksčių'), # 2
-    ('šilta_ta', 'šilta'), # 2
-    ('įvairios_rios', 'įvairios'), # 2
-    ('siauros_siau', 'siauros'), # 2
-    ('penkta_penk', 'penkta'), # 2
-    ('žinia_nia', 'žinia'), # 2
-    ('dzūkijos_dzū', 'dzūkijos'), # 2
-    ('pagrindu_du', 'pagrindu'), # 2
-    ('konkistadoriai_ta', 'konkistadoriai'), # 2
-    ('įkurtas_į', 'įkurtas'), # 2
-    ('dvejinės_dve', 'dvejinės'), # 2
-    ('sukurta_su', 'sukurta'), # 2
-    ('dauguma_dau', 'dauguma'), # 2
-    ('uodegos_uo', 'uodegos'), # 2
-    ('pradžioje_pra', 'pradžioje'), # 2
-    ('architektūra_tū', 'architektūra'), # 2
-    ('kmynai_nai', 'kmynai'), # 2
-    ('sėjos_sė', 'sėjos'), # 2
-    ('klanų_kla', 'klanų'), # 2
-    ('sausros_saus', 'sausros'), # 2
-    ('kasimui_ka', 'kasimui'), # 2
+    ('tyrimo_ty', 'tyrimo'), # 1
+    ('minima_mi', 'minima'), # 1
+    ('skęstu_tu', 'skęstu'), # 1
+    ('sudėti_dė', 'sudėti'), # 1
+    ('keterų_te', 'keterų'), # 1
+    ('didumą_du', 'didumą'), # 1
     ('lokiai_lo', 'lokiai'), # 2
-    ('pralaužimui_lau', 'pralaužimui'), # 2
-    ('auštant_auš', 'auštant'), # 2
-    ('gausumą_gau', 'gausumą'), # 2
-    ('mišku_miš', 'mišku'), # 2
-    ('temperatūra_tū', 'temperatūra'), # 2
-    ('auštant_u', 'auštant'), # 3
-    ('aplankų_ap', 'aplankų'), # 3
-    ('objektai_ob', 'objektai'), # 3
-    ('metus_me', 'metus'), # 3
-    ('rasta_ras', 'rasta'), # 3
-    ('kastinį_ti', 'kastinį'), # 3
-    ('aukštos_tos', 'aukštos'), # 3
-    ('plyšiuose_ply', 'plyšiuose'), # 3
-    ('rastos_ras', 'rastos'), # 3
-    ('dešimtis_tis', 'dešimtis'), # 3
-    ('žiūrima_žiū', 'žiūrima'), # 3
-    ('griaunama_griau', 'griaunama'), # 3
-    ('žymi_žy', 'žymi'), # 3
-    ('langus_gus', 'langus'), # 3
-    ('paveldimos_vel', 'paveldimos'), # 4
-    ('veiklų_veik', 'veiklų'), # 4
-    ('kelių_lių', 'kelių'), # 4
-    ('puse_pu', 'puse'), # 4
-    ('sukurta_ta', 'sukurta'), # 4
-    ('didesnės_nės', 'didesnės'), # 4
-    ('sugriauta_ta', 'sugriauta'), # 4
-    ('yra_y', 'yra'), # 4
-    ('nukreipta_ta', 'nukreipta'), # 4
-    ('vandens_van', 'vandens'), # 4
-    ('uždrausta_už', 'uždrausta'), # 4
-    ('pradėti_dė', 'pradėti'), # 5
-    ('auštant_au', 'auštant'), # 5
-    ('penkta_pen', 'penkta'), # 5
-    ('veiklų_vei', 'veiklų'), # 5
+    ('nulėmė_lė', 'nulėmė'), # 1
     ('uodega_uo', 'uodega'), # 5
-    ('plauko_plau', 'plauko'), # 6
-    ('didelės_di', 'didelės'), # 6
-    ('ketvirta_vir', 'ketvirta'), # 6
-    ('pirma_pir', 'pirma'), # 7
-    ('antra_an', 'antra'), # 7
-    ('trečia_tre', 'trečia'), # 7
-    ('šešta_šeš', 'šešta'), # 7
-    ('septinta_tin', 'septinta'), # 7
-    ('aštunta_tun', 'aštunta'), # 7
-    ('devinta_vin', 'devinta'), # 7
-    ('dešimta_šim', 'dešimta'), # 7
-    ('aštuoni_tuo', 'aštuoni'), # 8
     ('devyni_vy', 'devyni'), # 8
-    ('septyni_ty', 'septyni'), # 10
-    ('tokios_to', 'tokios'), # 12
-    ('uodega_ga', 'uodega'), # 15
+    ('laviną_la', 'laviną'), # 1
+    ('nugara_ra', 'nugara'), # 1
+    ('žinia_nia', 'žinia'), # 2
+    ('įvesta_į', 'įvesta'), # 1
+    ('kovos_vos', 'kovos'), # 1
+    ('vilku_vil', 'vilku'), # 2
+    ('viena_vie', 'viena'), # 1
+    ('šešta_šeš', 'šešta'), # 7
+    ('pirma_pir', 'pirma'), # 7
+    ('visos_sos', 'visos'), # 1
+    ('mišku_miš', 'mišku'), # 2
+    ('rasti_ras', 'rasti'), # 1
+    ('ritme_rit', 'ritme'), # 1
+    ('valgį_val', 'valgį'), # 1
+    ('vienu_vie', 'vienu'), # 1
+    ('rasta_ras', 'rasta'), # 3
+    ('klanų_kla', 'klanų'), # 2
+    ('kelių_lių', 'kelių'), # 4
+    ('taksi_tak', 'taksi'), # 1
+    ('galva_gal', 'galva'), # 1
+    ('sanai_nai', 'sanai'), # 1
+    ('kalba_ba', 'kalba'), # 1
+    ('sūnūs_sū', 'sūnūs'), # 1
+    ('uoloz_uo', 'uoloz'), # 1
+    ('šilta_ta', 'šilta'), # 2
+    ('metus_me', 'metus'), # 3
+    ('lūšis_lū', 'lūšis'), # 1
+    ('mėsos_mė', 'mėsos'), # 1
+    ('duona_na', 'duona'), # 1
+    ('poros_po', 'poros'), # 1
+    ('šalta_ta', 'šalta'), # 1
+    ('rasta_ta', 'rasta'), # 1
+    ('įteka_te', 'įteka'), # 1
+    ('kalnu_nu', 'kalnu'), # 1
+    ('grybų_bų', 'grybų'), # 1
+    ('diena_na', 'diena'), # 1
+    ('mėsas_mė', 'mėsas'), # 1
+    ('plote_te', 'plote'), # 1
+    ('antra_an', 'antra'), # 7
+    ('aišku_ku', 'aišku'), # 1
+    ('kovos_ko', 'kovos'), # 1
+    ('sieną_na', 'sieną'), # 1
+    ('urvus_ur', 'urvus'), # 2
+    ('lūšių_lū', 'lūšių'), # 1
+    ('sėjos_sė', 'sėjos'), # 2
+    ('olos_los', 'olos'), # 1
+    ('imti_im', 'imti'), # 1
+    ('puse_pu', 'puse'), # 4
+    ('sija_si', 'sija'), # 1
+    ('žymi_žy', 'žymi'), # 3
+    ('upes_up', 'upes'), # 1
+    ('urvu_ur', 'urvu'), # 1
+    ('kaba_ba', 'kaba'), # 1
+    ('metų_tų', 'metų'), # 1
+    ('nėra_nė', 'nėra'), # 1
+    ('rajų_jų', 'rajų'), # 1
+    ('yra_y', 'yra'), # 4
+    ('au_au', 'au'), # 1
 ]
 
 """
@@ -462,15 +462,51 @@ mistypes_2 = [
     ('_sija', 'sija'), # 1
     ('_gua', 'gua'), # 1
     ('_eh', 'eh'), # 1
-    ('_is', 'is'), # 2
     ('_o', 'o'), # 1
+
+    #('_is', 'is'),
+    ('_is kvepimas', '_iskvepimas'),
 
     # Noise indicator mistype fix
     ('_dutys', '_durys'), # 3
     ('_puslpais', '_puslapis'), # 3
+]
 
-    # _is > is messes up noise indicator
-    ('iskvepimas', '_iskvepimas'), # 2
+
+"""
+List of mistypes produced by running with regex over word count output after first cleanup.
+After having only words containing - in the middle.
+
+PATTERN: (([^-\n]+)-([^-\n]+)(-([^-\n]+))?) (\d+)
+REPLACEMENT: ('$1', '$2$3$5'), # $6
+"""
+mistypes_3 = [
+    ('gran-dioziškumas', 'grandioziškumas'), # 1
+    ('de-ko-ratyvinių', 'dekoratyvinių'), # 1
+    ('mi-kroklimatas', 'mikroklimatas'), # 1
+    ('per-tinkavimas', 'pertinkavimas'), # 1
+    ('kuni-gaikštis', 'kunigaikštis'), # 1
+    ('kryž-dirbystę', 'kryždirbystę'), # 1
+    ('nematere-laus', 'nematerelaus'), # 1
+    ('ver-čiama-ssi', 'verčiamassi'), # 1
+    ('puo-šiančios', 'puošiančios'), # 1
+    ('na-tūralios', 'natūralios'), # 1
+    ('švent-yklų', 'šventyklų'), # 1
+    ('portu-galų', 'portugalų'), # 1
+    ('por-tugalų', 'portugalų'), # 1
+    ('unika-lių', 'unikalių'), # 1
+    ('laip-tais', 'laiptais'), # 1
+    ('šiau-rėje', 'šiaurėje'), # 1
+    ('por-talus', 'portalus'), # 1
+    ('sa-helio', 'sahelio'), # 1
+    ('ča-ižant', 'čaižant'), # 1
+    ('did-elė', 'didelė'), # 1
+    ('tur-gus', 'turgus'), # 1
+    ('šil-ko', 'šilko'), # 1
+    ('u-pes', 'upes'), # 1
+
+    # Exception
+    # ('simono-petro', 'simonopetro'), # 2
 ]
 
 regex_replacements = [
@@ -479,4 +515,4 @@ regex_replacements = [
     ('^\s+', ''),
 ]
 
-mistypes = [] + mistypes_1 + mistypes_2
+mistypes = [] + mistypes_1 + mistypes_2 + mistypes_3
