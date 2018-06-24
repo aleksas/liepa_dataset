@@ -7,7 +7,7 @@ import chardet
 
 from liepa import default_dir, default_wav_samplerate, default_wav_subtype
 from utils.audio import resample, wav_duration
-from mistypes import mistypes
+from utils.text import mistypes
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
