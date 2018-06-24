@@ -88,7 +88,7 @@ def fix_layering_problem(dst_dir, src, dst):
 
 def fix_mistypes(file_path):
     with open(file_path, 'r') as f:
-        text = f.read()
+        text = f.read().lower()
 
     for mistype in mistypes:
         if mistype[0] in text:
@@ -157,9 +157,9 @@ def collect_text_problems(file_path):
         if file_path.endswith('S566Mh_026_29.txt'):
             raw_text = raw_text.replace('˛'.encode(charenc), 'ž'.encode(charenc))
 
-        text = raw_text.decode(charenc)
+        text = raw_text.decode(charenc).lower()
 
-        words = text.lower().split()
+        words = text.split()
         for w in words:
             if w not in word_count:
                 word_count[w] = 0
