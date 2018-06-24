@@ -12,24 +12,6 @@ from utils.text import mistypes, regex_replacements
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
 
-age_groups = {
-    'c', (12, 12),
-    'd', (13, 13),
-    'e', (14, 14),
-    'f', (15, 15),
-    'g', (16, 16),
-    'h', (17, 17),
-    'i', (18, 18),
-    'j', (19, 19),
-    'k', (20, 20),
-    'l', (21, 25),
-    'm', (26, 30),
-    'n', (31, 40),
-    'o', (41, 50),
-    'p', (51, 60),
-    'r', (61, -1)  # over 61
-    }
-
 valid_lt_symbols = u'ĄČĘĖĮŠŲŪŽąčęėįšųūž'
 valid_ascii_symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? _\r\n\t'
 valid_symbols = valid_lt_symbols + valid_ascii_symbols

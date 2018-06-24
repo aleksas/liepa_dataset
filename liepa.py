@@ -58,6 +58,24 @@ all_voices = [
     'D598', 'D599', 'D600', 'D601', 'D602', 'D603', 'D604', 'D605',
     'D606', 'D607', 'D608', 'D609', 'D610', 'D611', 'D907']
 
+age_groups = {
+    'c', (12, 12),
+    'd', (13, 13),
+    'e', (14, 14),
+    'f', (15, 15),
+    'g', (16, 16),
+    'h', (17, 17),
+    'i', (18, 18),
+    'j', (19, 19),
+    'k', (20, 20),
+    'l', (21, 25),
+    'm', (26, 30),
+    'n', (31, 40),
+    'o', (41, 50),
+    'p', (51, 60),
+    'r', (61, -1)  # 61 and over
+    }
+
 # Very slow, better extract all
 def extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, voices):
 
