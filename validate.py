@@ -4,10 +4,11 @@ from re import compile, sub, search
 from argparse import ArgumentParser
 import codecs
 import chardet
+import operator
 
 from liepa import default_dir, default_wav_samplerate, default_wav_subtype
 from utils.audio import resample, wav_duration
-from utils.text import mistypes, regex_replacements
+from utils.text import mistypes, regex_replacements, silence_indicators, noise_indicators
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -42,7 +43,8 @@ known_voice_directory_file_naming_exceptions = range(2, 100)
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
 
 stats = {
-    'word_count': {}
+    'word_count': {},
+    'sentence_word_positions': {}
 }
 
 def collect_samplerate_problems(file_path, subtype):
@@ -98,7 +100,7 @@ def fix_encoding_problem(file_path, src_enc, dst_enc):
     with codecs.open(file_path,'w', encoding='utf8') as f:
         f.write(text)
 
-def collect_text_problems(file_path):
+def collect_text_problems(file_path, group, utterance_id, utterance_sub_id):
     encoding_problem = []
     mistype_problem = []
 
@@ -145,13 +147,6 @@ def collect_text_problems(file_path):
 
         text = raw_text.decode(charenc).lower()
 
-        if args.print_wordcount:
-            words = text.split()
-            for w in words:
-                if w not in stats['word_count']:
-                    stats['word_count'][w] = 0
-                stats['word_count'][w] += 1
-
         diff_set = set(text) - set(valid_symbols)
 
         if len(diff_set) > 0:
@@ -176,6 +171,32 @@ def collect_text_problems(file_path):
             problem = '"%s" contains replacements.' % (file_path)
             mistype_problem = [(file_path, problem)]
             break
+
+    if args.print_wordcount:
+        words = text.split()
+        for w in words:
+            if w not in stats['word_count']:
+                stats['word_count'][w] = 0
+            stats['word_count'][w] += 1
+            
+    if args.sentence_inconsistencies:
+        id = (group, utterance_id, utterance_sub_id)
+        clean_text = text
+        for indicator in silence_indicators + noise_indicators:
+            clean_text = clean_text.replace(indicator, ' ')
+
+        if id not in stats['sentence_word_positions']:
+            stats['sentence_word_positions'][id] = {}
+
+        words = clean_text.split()
+        for i in range(len(words)):
+            if i not in stats['sentence_word_positions'][id]:
+                stats['sentence_word_positions'][id][i] = {}
+
+            if words[i] not in stats['sentence_word_positions'][id][i]:
+                stats['sentence_word_positions'][id][i][words[i]] = 0
+
+            stats['sentence_word_positions'][id][i][words[i]] += 1
 
     return encoding_problem, mistype_problem
 
@@ -270,29 +291,29 @@ def collect_problems(dataset_path, args):
                 if _extension in wav_extensions and args.run_samplerate_test:
                     samplerate_problems += collect_samplerate_problems(file_path, args.audio_subtype)
 
+                tag = match.group('tag') # _T or _P
+
+                if not tag:
+                    tag = ''
+
+                utterance_sub_id = match.group('ut_subid')
+                if not utterance_sub_id:
+                    utterance_sub_id = ''
+
+                gender = validate_static_value('Gender', voice, gender, match.group('sex'))
+                age_group = validate_static_value('Age group', voice, age_group, match.group('age'))
+
+                utterance_id = match.group('ut_id')
+
+                correct_filename = '%s%s%s%s_%s_%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group('age'), utterance_id, utterance_sub_id, tag, match.group('ext'))
+                correct_file_path = join(path, group, correct_filename)
+
                 if _extension in txt_extensions and args.run_transcript_test:
-                    encoding_problem, mistype_problem = collect_text_problems(file_path)
+                    encoding_problem, mistype_problem = collect_text_problems(file_path, group, utterance_id, utterance_sub_id)
                     encoding_problems += encoding_problem
                     mistype_problems  += mistype_problem
 
                 if args.run_naming_test:
-                    tag = match.group('tag') # _T or _P
-
-                    if not tag:
-                        tag = ''
-
-                    utterance_sub_id = match.group('ut_subid')
-                    if not utterance_sub_id:
-                        utterance_sub_id = ''
-
-                    gender = validate_static_value('Gender', voice, gender, match.group('sex'))
-                    age_group = validate_static_value('Age group', voice, age_group, match.group('age'))
-
-                    utternace_id = match.group('ut_id')
-
-                    correct_filename = '%s%s%s%s_%s_%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group('age'), utternace_id, utterance_sub_id, tag, match.group('ext'))
-                    correct_file_path = join(path, group, correct_filename)
-
                     if voice_id != match.group('voice'):
                         problem = 'Voice id "%s" does not match with id "%s" from filename "%s".' % (voice_id, match.group('voice'), file_path)
                         can_continue = False
@@ -333,6 +354,7 @@ if __name__ == '__main__':
     parser.add_argument('-u','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
     parser.add_argument('-s','--audio-subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype. Requires -r flag.')
     parser.add_argument('-w','--print-wordcount', help='Prints word count. Requires -t flag.', action='store_true')
+    parser.add_argument('-i','--sentence-inconsistencies', help='Prints sentence inconsistensies. Requires -t flag.', action='store_true')
     parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
@@ -354,6 +376,18 @@ if __name__ == '__main__':
 
         for w,c in stats['word_count']:
             print (w,c)
+
+    if args.sentence_inconsistencies:
+        print ()
+        for id, id_dict in stats['sentence_word_positions'].items():
+            for position, word_dict in id_dict.items():
+                if len(word_dict.keys()) > 1:
+                    sorted_items = sorted(word_dict.items(), key=operator.itemgetter(1), reverse=True)
+                    print (id, position)
+                    for item in sorted_items:
+                        print ('\t' + str(item))
+                    print ()
+
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:
