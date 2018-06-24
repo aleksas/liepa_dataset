@@ -14,8 +14,10 @@ txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
 
 valid_lt_symbols = u'ĄČĘĖĮŠŲŪŽąčęėįšųūž'
+valid_lt2ascii_symbols = 'ACEEISUUZaceeisuuz'
 valid_ascii_symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? _\r\n\t'
 valid_symbols = valid_lt_symbols + valid_ascii_symbols
+valid_mapped_symbols = valid_lt2ascii_symbols + valid_ascii_symbols
 valid_ascii_symbols = set(valid_ascii_symbols.encode('ascii'))
 valid_utf8_symbol_set = set(valid_symbols.encode('utf-8'))
 valid_utf16_symbol_set = set(valid_symbols.encode('utf-16'))
@@ -178,7 +180,7 @@ def collect_text_problems(file_path, group, utterance_id, utterance_sub_id):
             if w not in stats['word_count']:
                 stats['word_count'][w] = 0
             stats['word_count'][w] += 1
-            
+
     if args.sentence_inconsistencies:
         id = (group, utterance_id, utterance_sub_id)
         clean_text = text
@@ -378,15 +380,34 @@ if __name__ == '__main__':
             print (w,c)
 
     if args.sentence_inconsistencies:
-        print ()
         for id, id_dict in stats['sentence_word_positions'].items():
             for position, word_dict in id_dict.items():
                 if len(word_dict.keys()) > 1:
                     sorted_items = sorted(word_dict.items(), key=operator.itemgetter(1), reverse=True)
-                    print (id, position)
-                    for item in sorted_items:
-                        print ('\t' + str(item))
-                    print ()
+                    base = sorted_items[0][0]
+                    base_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in base])
+                    info = [sorted_items[0]]
+                    for i in range(1, len(sorted_items)):
+                        item_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in sorted_items[i][0]])
+                        a_part_of_b = item_mapped in base_mapped
+                        b_part_of_a = base_mapped in item_mapped
+                        a_ratio_to_b = len(set(base_mapped) - set(item_mapped)) / len(set(base_mapped))
+                        b_ratio_to_a = len(set(item_mapped) - set(base_mapped)) / len(set(item_mapped))
+                        a_to_b_len_ratio = len(base_mapped) / len(item_mapped)
+                        b_to_a_len_ratio = len(item_mapped) / len(base_mapped)
+
+                        t_factor = 2
+                        if len(set(base_mapped)) <= 3:
+                            t_factor =  1
+                        threshold = 1/len(set(base_mapped)) * t_factor # two letters
+                        good_ratio_a = a_ratio_to_b <= threshold and a_to_b_len_ratio > 0.75
+                        good_ratio_b = b_ratio_to_a <= threshold and b_to_a_len_ratio > 0.75
+                        good = good_ratio_a or good_ratio_b
+                        if good:
+                            info.append(sorted_items[i])
+
+                    if len(info) > 1:
+                        print(id, position, info)
 
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
