@@ -59,7 +59,9 @@ known_voice_directory_file_naming_exceptions = range(2, 100)
 
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
 
-word_count = {}
+stats = {
+    'word_count': {}
+}
 
 def collect_samplerate_problems(file_path, subtype):
     duration, samples, samplerate = wav_duration(file_path)
@@ -161,9 +163,9 @@ def collect_text_problems(file_path):
 
         words = text.split()
         for w in words:
-            if w not in word_count:
-                word_count[w] = 0
-            word_count[w] += 1
+            if w not in stats['word_count']:
+                stats['word_count'][w] = 0
+            stats['word_count'][w] += 1
 
         diff_set = set(text) - set(valid_symbols)
 
@@ -355,10 +357,10 @@ if __name__ == '__main__':
     encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
 
     if args.print_wordcount:
-        word_count = list(word_count.items())
-        word_count = sorted(word_count, key=lambda tup: tup[1])
+        stats['word_count'] = list(stats['word_count'].items())
+        stats['word_count'] = sorted(stats['word_count'], key=lambda tup: tup[1])
 
-        for w,c in word_count:
+        for w,c in stats['word_count']:
             print (w,c)
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
