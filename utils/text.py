@@ -9,8 +9,6 @@ REPLACEMENT: ('$1', '$2'), # $3
 """
 noise_indicators = [
     '_cepsejimas', # 14
-    '_dutys', # 1
-    '_puslpais', # 1
     '_durys', # 8
     '_pilvas', # 21
     '_kede', # 43
@@ -458,6 +456,10 @@ mistypes_2 = [
     ('_mineretas', 'mineretas'), # 2
     ('_koplystulpiai', 'koplystulpiai'), # 2
     ('_iškobtos', 'iškobtos'), # 3
+
+    # Noise indicator mistype fix
+    ('_dutys', '_durys'), # 3
+    ('_puslpais', '_puslapis'), # 3
 ]
 
 mistypes = [] + mistypes_1 + mistypes_2
