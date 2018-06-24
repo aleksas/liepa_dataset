@@ -386,7 +386,7 @@ if __name__ == '__main__':
                     sorted_items = sorted(word_dict.items(), key=operator.itemgetter(1), reverse=True)
                     base = sorted_items[0][0]
                     base_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in base])
-                    info = []
+                    info = [sorted_items[0]]
                     for i in range(1, len(sorted_items)):
                         item_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in sorted_items[i][0]])
                         a_part_of_b = item_mapped in base_mapped
@@ -404,10 +404,10 @@ if __name__ == '__main__':
                         good_ratio_b = b_ratio_to_a <= threshold and b_to_a_len_ratio > 0.75
                         good = good_ratio_a or good_ratio_b
                         if good:
-                            info.append(sorted_items[i][0])
+                            info.append(sorted_items[i])
 
-                    if len(info) > 0:
-                        print((id, position, sorted_items[0][0], info))
+                    if len(info) > 1:
+                        print(id, position, info)
 
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
