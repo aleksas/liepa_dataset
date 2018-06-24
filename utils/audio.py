@@ -39,7 +39,6 @@ def resample(path, src_sr, dst_sr, subtype):
     y, sr = sf.read(path)
     assert src_sr == sr
     y_r = resample_data(y, src_sr, dst_sr)
-    print (subtype)
     sf.write(path, y_r, dst_sr, subtype=subtype)
 
 def wav_duration(path):

@@ -295,7 +295,7 @@ def collect_problems(dataset_path, args):
                     utternace_id = match.group('ut_id')
 
                     correct_filename = '%s%s%s%s_%s_%s%s%s' % (utternace_group_type, correct_voice_id, gender, match.group('age'), utternace_id, utterance_sub_id, tag, match.group('ext'))
-                    correct_file_path = join(correct_path, group, correct_filename)
+                    correct_file_path = join(path, group, correct_filename)
 
                     if voice_id != match.group('voice'):
                         problem = 'Voice id "%s" does not match with id "%s" from filename "%s".' % (voice_id, match.group('voice'), file_path)
@@ -332,11 +332,12 @@ if __name__ == '__main__':
     parser = ArgumentParser()
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
     parser.add_argument('-t','--run-transcript-test', help='LIEPA dataset transcript encoding and mistype testing.', action='store_true')
-    parser.add_argument('-f','--run-samplerate-test', help='LIEPA dataset audio samplerate testing.', action='store_true')
+    parser.add_argument('-r','--run-samplerate-test', help='LIEPA dataset audio samplerate testing.', action='store_true')
     parser.add_argument('-n','--run-naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
-    parser.add_argument('-s','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
+    parser.add_argument('-u','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
     parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
-    parser.add_argument('-r','--audio_subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype (Default: %s).' % default_wav_subtype, default=default_wav_subtype)
+    parser.add_argument('-s','--audio-subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype (Default: %s).' % default_wav_subtype, default=default_wav_subtype)
+    parser.add_argument('-w','--print-wordcount', help='Prints word count. Requires -t flag.', action='store_true')
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
     args = parser.parse_args()
@@ -350,11 +351,12 @@ if __name__ == '__main__':
     result = collect_problems(args.liepa_dir, args)
     encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
 
-    word_count = list(word_count.items())
-    word_count = sorted(word_count, key=lambda tup: tup[1])
+    if args.print_wordcount:
+        word_count = list(word_count.items())
+        word_count = sorted(word_count, key=lambda tup: tup[1])
 
-    for w,c in word_count:
-        print (w,c)
+        for w,c in word_count:
+            print (w,c)
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:

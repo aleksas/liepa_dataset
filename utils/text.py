@@ -435,3 +435,5 @@ mistypes = [
     ('tokios_to', 'tokios'),
     ('uodega_ga', 'uodega'),
 ]
+
+mistypes = []
