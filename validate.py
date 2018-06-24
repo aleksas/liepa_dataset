@@ -349,6 +349,7 @@ if __name__ == '__main__':
         args.run_samplerate_test = True
         args.run_naming_test = True
         args.run_structure_test = True
+        args.audio_subtype = 'PCM_16'
 
     result = collect_problems(args.liepa_dir, args)
     encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result

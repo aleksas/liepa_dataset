@@ -27,7 +27,14 @@ It should output file/directory naming issues, audio file framerate isssues and 
 
 To fix known issues in dataset run following command:
 
+> python validate.py -u -x
+
+Will fix file structure.
+The next command will fix all other issues including forsing wav PCM_16 encoding.
+
 > python validate.py -a -x
+
+You can also call `> python validate.py -h` to see help.
 
 # Dataset structure
 [Decode LIEPA dataset structure](STRUCTURE.md)
