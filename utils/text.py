@@ -1,4 +1,14 @@
-silence_indicators = ['_pauze', '_tyla']
+silence_indicators = [
+    '_tyla', # 6319
+    '_pauze', # 59481
+]
+
+"""
+Following words in the begining of a sentence may indicate question.
+"""
+question_words = [
+    'ar', 'kur', 'kada', 'kodėl', 'kaip', 'kas', 'kiek'
+]
 
 """
 List of noise indicators produced by running with regex over initial word count output.
@@ -15,10 +25,8 @@ noise_indicators = [
     '_nurijimas', # 61
     '_garsas', # 117
     '_puslapis', # 179
-    '_tyla', # 6319
     '_iskvepimas', # 6716
     '_ikvepimas', # 19932
-    '_pauze', # 59481
 ]
 
 """
