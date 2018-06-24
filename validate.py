@@ -145,11 +145,12 @@ def collect_text_problems(file_path):
 
         text = raw_text.decode(charenc).lower()
 
-        words = text.split()
-        for w in words:
-            if w not in stats['word_count']:
-                stats['word_count'][w] = 0
-            stats['word_count'][w] += 1
+        if args.print_wordcount:
+            words = text.split()
+            for w in words:
+                if w not in stats['word_count']:
+                    stats['word_count'][w] = 0
+                stats['word_count'][w] += 1
 
         diff_set = set(text) - set(valid_symbols)
 
