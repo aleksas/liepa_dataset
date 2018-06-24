@@ -470,4 +470,10 @@ mistypes_2 = [
     ('_puslpais', '_puslapis'), # 3
 ]
 
+regex_replacements = [
+    ('\t|\r|\n|\s{2,}', ' '),
+    ('\s+$', ''),
+    ('^\s+', ''),
+]
+
 mistypes = [] + mistypes_1 + mistypes_2

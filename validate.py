@@ -1,13 +1,13 @@
 from os import walk, makedirs, rename
 from os.path import join, splitext, split, normpath, exists
-from re import compile, sub
+from re import compile, sub, search
 from argparse import ArgumentParser
 import codecs
 import chardet
 
 from liepa import default_dir, default_wav_samplerate, default_wav_subtype
 from utils.audio import resample, wav_duration
-from utils.text import mistypes
+from utils.text import mistypes, regex_replacements
 
 txt_extensions = ['.txt', '.TXT']
 wav_extensions = ['.wav', '.WAV']
@@ -93,8 +93,10 @@ def fix_mistypes(file_path):
         text = f.read().lower()
 
     for mistype in mistypes:
-        if mistype[0] in text:
-            text = sub(mistype[0], mistype[1], text)
+        text = text.replace(mistype[0], mistype[1])
+
+    for replacement in regex_replacements:
+        text = sub(replacement[0], replacement[1], text)
 
     with open(file_path, 'w') as f:
         f.write(text)
@@ -182,6 +184,13 @@ def collect_text_problems(file_path):
     for mistype in mistypes:
         if mistype[0] in text:
             problem = '"%s" contains mistypes.' % (file_path)
+            mistype_problem = [(file_path, problem)]
+            break
+
+    for regex_replacement in regex_replacements:
+        m = search(regex_replacement[0], text)
+        if m:
+            problem = '"%s" contains replacements.' % (file_path)
             mistype_problem = [(file_path, problem)]
             break
 
