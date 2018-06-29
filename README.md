@@ -36,5 +36,9 @@ The next command will fix all other issues including forsing wav PCM_16 encoding
 
 You can also call `> python validate.py -h` to see help.
 
+## Problems after fixing
+
+- [See PROBLEMS](PROBLEMS.md)
+
 # Dataset structure
 [Decode LIEPA dataset structure](STRUCTURE.md)
