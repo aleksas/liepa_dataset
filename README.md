@@ -1,4 +1,4 @@
-# liepa_dataset
+# LIEPA dataset
 LIEPA dataset stats and tools for cleanup.
 
 ## Install requirements
