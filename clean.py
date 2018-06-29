@@ -1,30 +1,22 @@
 from os import walk, makedirs, rename
 from os.path import join, splitext, split, normpath, exists
-from re import compile, sub, search
+from re import sub, search
 from argparse import ArgumentParser
 import codecs
 import chardet
 import operator
 
-from liepa import default_dir, default_wav_samplerate, default_wav_subtype
+from liepa import default_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
+from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
+from liepa import txt_extensions, wav_extensions
 from utils.audio import resample, wav_duration
 from utils.text import mistypes, regex_replacements, silence_indicators, noise_indicators
 
-txt_extensions = ['.txt', '.TXT']
-wav_extensions = ['.wav', '.WAV']
-
-valid_lt_symbols = u'ĄČĘĖĮŠŲŪŽąčęėįšųūž'
-valid_lt2ascii_symbols = 'ACEEISUUZaceeisuuz'
-valid_ascii_symbols = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!\'(),-.:;? _\r\n\t'
-valid_symbols = valid_lt_symbols + valid_ascii_symbols
-valid_mapped_symbols = valid_lt2ascii_symbols + valid_ascii_symbols
 valid_ascii_symbols = set(valid_ascii_symbols.encode('ascii'))
 valid_utf8_symbol_set = set(valid_symbols.encode('utf-8'))
 valid_utf16_symbol_set = set(valid_symbols.encode('utf-16'))
 valid_utf8_sig_symbol_set = set(valid_symbols.encode('UTF-8-SIG'))
 valid_windows_1257_symbols_set = set(valid_symbols.encode('windows-1257') + b'\x9a')
-
-pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
 
 # Some files have incorrect utterance type indicator, parent directories indicate correctly.
 known_utterance_type_naming_exceptions = [
@@ -34,20 +26,9 @@ known_utterance_type_naming_exceptions = [
     ('D556', 'Z020'), ('D556', 'Z060')
     ]
 
-"""
-known_utterance_type_naming_exceptions += [
-    ('D057', 'S007'), ('D057', 'S008')
-    ]
-"""
-
 known_voice_directory_file_naming_exceptions = range(2, 100)
 
 known_voice_naming_exceptions = [('D251', 'Z026'), ('D515', 'S012'), ('D515', 'Z000'), ('D516', 'S012')]
-
-stats = {
-    'word_count': {},
-    'sentence_word_positions': {}
-}
 
 def collect_samplerate_problems(file_path, subtype):
     duration, samples, samplerate = wav_duration(file_path)
@@ -174,32 +155,6 @@ def collect_text_problems(file_path, group, utterance_id, utterance_sub_id):
             mistype_problem = [(file_path, problem)]
             break
 
-    if args.print_wordcount:
-        words = text.split()
-        for w in words:
-            if w not in stats['word_count']:
-                stats['word_count'][w] = 0
-            stats['word_count'][w] += 1
-
-    if args.sentence_inconsistencies:
-        id = (group, utterance_id, utterance_sub_id)
-        clean_text = text
-        for indicator in silence_indicators + noise_indicators:
-            clean_text = clean_text.replace(indicator, ' ')
-
-        if id not in stats['sentence_word_positions']:
-            stats['sentence_word_positions'][id] = {}
-
-        words = clean_text.split()
-        for i in range(len(words)):
-            if i not in stats['sentence_word_positions'][id]:
-                stats['sentence_word_positions'][id][i] = {}
-
-            if words[i] not in stats['sentence_word_positions'][id][i]:
-                stats['sentence_word_positions'][id][i][words[i]] = 0
-
-            stats['sentence_word_positions'][id][i][words[i]] += 1
-
     return encoding_problem, mistype_problem
 
 def cleanup_naming_problems(naming_problems):
@@ -269,7 +224,7 @@ def collect_problems(dataset_path, args):
                 directory_naming_problems.append((path, correct_voice_path, problem))
 
         for filename in files:
-            match = pattern.match(filename)
+            match = filname_pattern.match(filename)
             if not match:
                 raise Exception('Filename "%s" does not match valid pattern.' % filename)
             else:
@@ -355,8 +310,6 @@ if __name__ == '__main__':
     parser.add_argument('-n','--run-naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')
     parser.add_argument('-u','--run-structure-test', help='LIEPA dataset file and directory structure testing.', action='store_true')
     parser.add_argument('-s','--audio-subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype. Requires -r flag.')
-    parser.add_argument('-w','--print-wordcount', help='Prints word count. Requires -t flag.', action='store_true')
-    parser.add_argument('-i','--sentence-inconsistencies', help='Prints sentence inconsistensies. Requires -t flag.', action='store_true')
     parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
 
@@ -371,44 +324,6 @@ if __name__ == '__main__':
 
     result = collect_problems(args.liepa_dir, args)
     encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
-
-    if args.print_wordcount:
-        stats['word_count'] = list(stats['word_count'].items())
-        stats['word_count'] = sorted(stats['word_count'], key=lambda tup: tup[1])
-
-        for w,c in stats['word_count']:
-            print (w,c)
-
-    if args.sentence_inconsistencies:
-        for id, id_dict in stats['sentence_word_positions'].items():
-            for position, word_dict in id_dict.items():
-                if len(word_dict.keys()) > 1:
-                    sorted_items = sorted(word_dict.items(), key=operator.itemgetter(1), reverse=True)
-                    base = sorted_items[0][0]
-                    base_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in base])
-                    info = [sorted_items[0]]
-                    for i in range(1, len(sorted_items)):
-                        item_mapped = ''.join([valid_mapped_symbols[valid_symbols.index(l)] for l in sorted_items[i][0]])
-                        a_part_of_b = item_mapped in base_mapped
-                        b_part_of_a = base_mapped in item_mapped
-                        a_ratio_to_b = len(set(base_mapped) - set(item_mapped)) / len(set(base_mapped))
-                        b_ratio_to_a = len(set(item_mapped) - set(base_mapped)) / len(set(item_mapped))
-                        a_to_b_len_ratio = len(base_mapped) / len(item_mapped)
-                        b_to_a_len_ratio = len(item_mapped) / len(base_mapped)
-
-                        t_factor = 2
-                        if len(set(base_mapped)) <= 3:
-                            t_factor =  1
-                        threshold = 1/len(set(base_mapped)) * t_factor # two letters
-                        good_ratio_a = a_ratio_to_b <= threshold and a_to_b_len_ratio > 0.75
-                        good_ratio_b = b_ratio_to_a <= threshold and b_to_a_len_ratio > 0.75
-                        good = good_ratio_a or good_ratio_b
-                        if good:
-                            info.append(sorted_items[i])
-
-                    if len(info) > 1:
-                        print(id, position, info)
-
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:

@@ -13,13 +13,13 @@ To install run:
 
 To download and unpack locally LIEPA dataset run following command:
 
-> python liepa.py
+> python get_liepa.py
 
-## Validate dataset
+## Clean dataset
 
-To validate data integrity run following command:
+To clean data integrity run following command:
 
-> python validate.py -a
+> python clean.py -a
 
 It should output file/directory naming issues, audio file framerate isssues and transcription encoding.
 
@@ -27,14 +27,20 @@ It should output file/directory naming issues, audio file framerate isssues and 
 
 To fix known issues in dataset run following command:
 
-> python validate.py -u -x
+> python clean.py -u -x
 
 Will fix file structure.
 The next command will fix all other issues including forsing wav PCM_16 encoding.
 
-> python validate.py -a -x
+> python clean.py -a -x
 
-You can also call `> python validate.py -h` to see help.
+You can also call `> python clean.py -h` to see help.
+
+## Get dataset stats
+
+To get wordcount run following command:
+
+> python stats.py -w
 
 ## Problems after fixing
 
