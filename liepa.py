@@ -1,6 +1,4 @@
-from os.path import exists
-from argparse import ArgumentParser
-from re import compile, sub, search
+from re import compile
 
 valid_lt_symbols = u'ĄČĘĖĮŠŲŪŽąčęėįšųūž'
 valid_lt2ascii_symbols = 'ACEEISUUZaceeisuuz'
