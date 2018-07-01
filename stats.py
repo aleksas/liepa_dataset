@@ -12,24 +12,53 @@ from utils.audio import wav_duration
 
 stats = {
     'word_count': {},
-    'sentence_word_positions': {}
+    'sentence_word_positions': {},
+    'utterance_wordcount': {}
 }
 
-def collect_text_stats(file_path, group, utterance_id, utterance_sub_id):
-    encoding_problem = []
-    mistype_problem = []
-
+def collect_text_stats(file_path, voice, group, utterance_id, utterance_sub_id, gender, age_group):
     text = None
 
     with open(file_path, 'r') as f:
         text = f.read()
 
+    words = text.lower().split()
+
     if args.print_wordcount:
-        words = text.split()
         for w in words:
             if w not in stats['word_count']:
                 stats['word_count'][w] = 0
             stats['word_count'][w] += 1
+
+    if args.utterance_stats:
+        if 'voice' not in stats['utterance_wordcount']:
+            stats['utterance_wordcount']['voice'] = {}
+            stats['utterance_wordcount']['group'] = {}
+            stats['utterance_wordcount']['utterance'] = {}
+
+        if voice not in stats['utterance_wordcount']['voice']:
+            stats['utterance_wordcount']['voice'][voice] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+
+        if group not in stats['utterance_wordcount']['group']:
+            stats['utterance_wordcount']['group'][group] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+
+        ut_id = '%s_%s_%s' % (group, utterance_id, utterance_sub_id)
+        if ut_id not in stats['utterance_wordcount']['utterance']:
+            stats['utterance_wordcount']['utterance'][ut_id] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+
+        for w in words:
+            if w in silence_indicators:
+                stats['utterance_wordcount']['voice'][voice]['silence_indicators'] += 1
+                stats['utterance_wordcount']['group'][group]['silence_indicators'] += 1
+                stats['utterance_wordcount']['utterance'][ut_id]['silence_indicators'] += 1
+            elif w in noise_indicators:
+                stats['utterance_wordcount']['voice'][voice]['noise_indicators'] += 1
+                stats['utterance_wordcount']['group'][group]['noise_indicators'] += 1
+                stats['utterance_wordcount']['utterance'][ut_id]['noise_indicators'] += 1
+            else:
+                stats['utterance_wordcount']['voice'][voice]['words'] += 1
+                stats['utterance_wordcount']['group'][group]['words'] += 1
+                stats['utterance_wordcount']['utterance'][ut_id]['words'] += 1
 
     if args.sentence_inconsistencies:
         id = (group, utterance_id, utterance_sub_id)
@@ -98,7 +127,7 @@ def collect_stats(dataset_path, args):
                 utterance_id = match.group('ut_id')
 
                 if _extension in txt_extensions:
-                    collect_text_stats(file_path, group, utterance_id, utterance_sub_id)
+                    collect_text_stats(file_path, voice, group, utterance_id, utterance_sub_id, gender, age_group)
 
 if __name__ == '__main__':
     parser = ArgumentParser()
@@ -106,6 +135,7 @@ if __name__ == '__main__':
     parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
     parser.add_argument('-w','--print-wordcount', help='Prints word count. Requires -t flag.', action='store_true')
     parser.add_argument('-i','--sentence-inconsistencies', help='Prints sentence inconsistensies. Requires -t flag.', action='store_true')
+    parser.add_argument('-u','--utterance-stats', help='Word stats per voice, group.', action='store_true')
     parser.add_argument('-a','--run-all-stats', help='Run all stats on LIEPA dataset.', action='store_true')
 
     args = parser.parse_args()
@@ -113,6 +143,7 @@ if __name__ == '__main__':
     if args.run_all_stats:
         args.print_wordcount = True
         args.sentence_inconsistencies = True
+        args.utterance_stats = True
 
     collect_stats(args.liepa_dir, args)
 
@@ -122,6 +153,15 @@ if __name__ == '__main__':
 
         for w,c in stats['word_count']:
             print (w,c)
+
+    if args.utterance_stats:
+        stats_utterance_wordcount_voice = list(stats['utterance_wordcount']['voice'].items())
+        stats_utterance_wordcount_voice = sorted(stats_utterance_wordcount_voice, key=lambda tup: tup[1]['words'] / (tup[1]['words'] + tup[1]['silence_indicators'] + tup[1]['silence_indicators']), reverse=True)
+
+        for voice, entry in stats_utterance_wordcount_voice:
+            score = entry['words'] / (entry['words'] + entry['silence_indicators'] + entry['silence_indicators'])
+            if entry['words'] > 1000:
+                print (voice, score, entry['words'])
 
     if args.sentence_inconsistencies:
         for id, id_dict in stats['sentence_word_positions'].items():
