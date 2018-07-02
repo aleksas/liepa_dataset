@@ -20,7 +20,9 @@ def collect_text_stats(file_path, voice, group, utterance_id, utterance_sub_id, 
     text = None
 
     with open(file_path, 'r') as f:
-        text = f.read()
+        text = f.read().strip()
+
+    text_length = len(text)
 
     words = text.lower().split()
 
@@ -37,28 +39,67 @@ def collect_text_stats(file_path, voice, group, utterance_id, utterance_sub_id, 
             stats['utterance_wordcount']['utterance'] = {}
 
         if voice not in stats['utterance_wordcount']['voice']:
-            stats['utterance_wordcount']['voice'][voice] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+            stats['utterance_wordcount']['voice'][voice] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0, 'age_group':age_group, 'gender':gender}
 
         if group not in stats['utterance_wordcount']['group']:
-            stats['utterance_wordcount']['group'][group] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+            stats['utterance_wordcount']['group'][group] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0}
 
         ut_id = '%s_%s_%s' % (group, utterance_id, utterance_sub_id)
         if ut_id not in stats['utterance_wordcount']['utterance']:
-            stats['utterance_wordcount']['utterance'][ut_id] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0}
+            stats['utterance_wordcount']['utterance'][ut_id] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0}
 
+        stats['utterance_wordcount']['voice'][voice]['count'] +=1
+        stats['utterance_wordcount']['group'][group]['count'] +=1
+        stats['utterance_wordcount']['utterance'][ut_id]['count'] +=1
+
+        stats['utterance_wordcount']['voice'][voice]['total_len'] +=text_length
+        stats['utterance_wordcount']['group'][group]['total_len'] +=text_length
+        stats['utterance_wordcount']['utterance'][ut_id]['total_len'] +=text_length
+
+        stats['utterance_wordcount']['voice'][voice]['max_len'] = max(stats['utterance_wordcount']['voice'][voice]['max_len'], text_length)
+        stats['utterance_wordcount']['group'][group]['max_len'] = max(stats['utterance_wordcount']['group'][group]['max_len'], text_length)
+        stats['utterance_wordcount']['utterance'][ut_id]['max_len'] = max(stats['utterance_wordcount']['utterance'][ut_id]['max_len'], text_length)
+
+        stats['utterance_wordcount']['voice'][voice]['min_len'] = min(stats['utterance_wordcount']['voice'][voice]['min_len'], text_length)
+        stats['utterance_wordcount']['group'][group]['min_len'] = min(stats['utterance_wordcount']['group'][group]['min_len'], text_length)
+        stats['utterance_wordcount']['utterance'][ut_id]['min_len'] = min(stats['utterance_wordcount']['utterance'][ut_id]['min_len'], text_length)
+
+        has_indicator = False
         for w in words:
             if w in silence_indicators:
                 stats['utterance_wordcount']['voice'][voice]['silence_indicators'] += 1
                 stats['utterance_wordcount']['group'][group]['silence_indicators'] += 1
                 stats['utterance_wordcount']['utterance'][ut_id]['silence_indicators'] += 1
+                has_indicator = True
             elif w in noise_indicators:
                 stats['utterance_wordcount']['voice'][voice]['noise_indicators'] += 1
                 stats['utterance_wordcount']['group'][group]['noise_indicators'] += 1
                 stats['utterance_wordcount']['utterance'][ut_id]['noise_indicators'] += 1
+                has_indicator = True
             else:
                 stats['utterance_wordcount']['voice'][voice]['words'] += 1
                 stats['utterance_wordcount']['group'][group]['words'] += 1
                 stats['utterance_wordcount']['utterance'][ut_id]['words'] += 1
+
+        if not has_indicator:
+            stats['utterance_wordcount']['voice'][voice]['words_clean'] += len(words)
+
+            stats['utterance_wordcount']['voice'][voice]['count_clean'] +=1
+            stats['utterance_wordcount']['group'][group]['count_clean'] +=1
+            stats['utterance_wordcount']['utterance'][ut_id]['count_clean'] +=1
+
+            stats['utterance_wordcount']['voice'][voice]['total_len_clean'] +=text_length
+            stats['utterance_wordcount']['group'][group]['total_len_clean'] +=text_length
+            stats['utterance_wordcount']['utterance'][ut_id]['total_len_clean'] +=text_length
+
+            stats['utterance_wordcount']['voice'][voice]['max_len_clean'] = max(stats['utterance_wordcount']['voice'][voice]['max_len_clean'], text_length)
+            stats['utterance_wordcount']['group'][group]['max_len_clean'] = max(stats['utterance_wordcount']['group'][group]['max_len_clean'], text_length)
+            stats['utterance_wordcount']['utterance'][ut_id]['max_len_clean'] = max(stats['utterance_wordcount']['utterance'][ut_id]['max_len_clean'], text_length)
+
+            stats['utterance_wordcount']['voice'][voice]['min_len_clean'] = min(stats['utterance_wordcount']['voice'][voice]['min_len_clean'], text_length)
+            stats['utterance_wordcount']['group'][group]['min_len_clean'] = min(stats['utterance_wordcount']['group'][group]['min_len_clean'], text_length)
+            stats['utterance_wordcount']['utterance'][ut_id]['min_len_clean'] = min(stats['utterance_wordcount']['utterance'][ut_id]['min_len_clean'], text_length)
+
 
     if args.sentence_inconsistencies:
         id = (group, utterance_id, utterance_sub_id)
@@ -155,13 +196,32 @@ if __name__ == '__main__':
             print (w,c)
 
     if args.utterance_stats:
-        stats_utterance_wordcount_voice = list(stats['utterance_wordcount']['voice'].items())
-        stats_utterance_wordcount_voice = sorted(stats_utterance_wordcount_voice, key=lambda tup: tup[1]['words'] / (tup[1]['words'] + tup[1]['silence_indicators'] + tup[1]['silence_indicators']), reverse=True)
 
-        for voice, entry in stats_utterance_wordcount_voice:
-            score = entry['words'] / (entry['words'] + entry['silence_indicators'] + entry['silence_indicators'])
-            if entry['words'] > 1000:
-                print (voice, score, entry['words'])
+        def calc_score(voice_stats):
+            return voice_stats['words'] / (voice_stats['words'] + voice_stats['silence_indicators'] + voice_stats['noise_indicators'])
+
+        stats_utterance_wordcount_voice = list(stats['utterance_wordcount']['voice'].items())
+        stats_utterance_wordcount_voice = sorted(stats_utterance_wordcount_voice, key=lambda voice: calc_score(voice[1]), reverse=True)
+
+        for voice, voice_stats in stats_utterance_wordcount_voice:
+            score = calc_score(voice_stats)
+
+            age_group, gender = voice_stats['age_group'], voice_stats['gender']
+            words, silence_indicators, noise_indicators =  voice_stats['words'], voice_stats['silence_indicators'], voice_stats['noise_indicators']
+
+            max_len, min_len = voice_stats['max_len'], voice_stats['min_len']
+            count = voice_stats['count']
+            avg_len = voice_stats['total_len'] / count
+
+            max_len_clean, min_len_clean = voice_stats['max_len_clean'], voice_stats['min_len_clean']
+            count_clean = voice_stats['count_clean']
+            if count_clean > 0:
+                avg_len_clean = voice_stats['total_len_clean'] / count_clean
+            else:
+                avg_len_clean = 0
+
+            if voice_stats['words'] > 1000 and gender == 'M':
+                print (voice, age_group, gender, score, words, silence_indicators, noise_indicators, count, max_len, min_len, avg_len, count_clean, max_len_clean, min_len_clean, avg_len_clean)
 
     if args.sentence_inconsistencies:
         for id, id_dict in stats['sentence_word_positions'].items():

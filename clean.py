@@ -10,7 +10,7 @@ from liepa import default_dir, default_wav_samplerate, default_wav_subtype, filn
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
 from liepa import txt_extensions, wav_extensions
 from utils.audio import resample, wav_duration
-from utils.text import mistypes, regex_replacements, silence_indicators, noise_indicators
+from utils.text import mistypes, regex_replacements, silence_indicators, noise_indicators, silence_replacements
 
 valid_ascii_symbols = set(valid_ascii_symbols.encode('ascii'))
 valid_utf8_symbol_set = set(valid_symbols.encode('utf-8'))
@@ -61,6 +61,9 @@ def fix_mistypes(file_path):
 
     for mistype in mistypes:
         text = text.replace(mistype[0], mistype[1])
+
+    for replacement in silence_replacements:
+        text = text.replace(replacement[0], replacement[1])
 
     for replacement in regex_replacements:
         text = sub(replacement[0], replacement[1], text)
@@ -147,6 +150,13 @@ def collect_text_problems(file_path, group, utterance_id, utterance_sub_id):
             problem = '"%s" contains mistypes.' % (file_path)
             mistype_problem = [(file_path, problem)]
             break
+
+    if group[0] == 'S':
+        for replacement in silence_replacements:
+            if replacement[0] in text:
+                problem = '"%s" contains replaceable silence indicator "%s".' % (file_path, replacement[0])
+                mistype_problem = [(file_path, problem)]
+                break
 
     for regex_replacement in regex_replacements:
         m = search(regex_replacement[0], text)
@@ -337,7 +347,7 @@ if __name__ == '__main__':
         if args.fix_problems:
             fix_mistypes(path)
         else:
-            print ('Fix mistypes in "%s".' % path)
+            print ('Fix mistypes in "%s". %s' % (path, comment))
 
     # DO RESAMPLING BEFORE FILE RENAMING OR MOVING
     for path, src_samplerate, dst_samplerate, subtype, comment in samplerate_problems:
