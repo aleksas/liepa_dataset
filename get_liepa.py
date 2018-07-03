@@ -37,8 +37,8 @@ if __name__ == '__main__':
     # Download original LIEPA dataset
     if not exists(local_liepa_dataset_archive_path) or args.force:
         local_liepa_dataset_archive_tmp_path = local_liepa_dataset_archive_path + ".downloading"
-        download_file_from_google_drive(liepa_voice_recognition_dataset_file_id, local_liepa_dataset_archive_tmp_path)
-        rename(local_liepa_dataset_archive_tmp_path, local_liepa_dataset_archive_tmp_path)
+        download_file_from_google_drive(liepa_dataset_google_drive_archive_id, local_liepa_dataset_archive_tmp_path)
+        rename(local_liepa_dataset_archive_tmp_path, local_liepa_dataset_archive_path)
 
     if args.get_annotations:
         if not exists(default_annotation_archive_path) or args.force:

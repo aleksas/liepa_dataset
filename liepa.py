@@ -12,6 +12,7 @@ wav_extensions = ['.wav', '.WAV']
 default_wav_samplerate = 22050
 default_wav_subtype = 'PCM_16'
 default_archive_path = './MII_LIEPA_v1.tar.bz2'
+default_annotation_archive_path = './annotations.tar.bz2'
 default_dir = './MII_LIEPA_V1'
 
 filname_pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
