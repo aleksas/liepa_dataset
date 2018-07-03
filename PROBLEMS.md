@@ -14,3 +14,12 @@ Additionally some words may be transcribed according to the actual record (hypot
 If that's the case (no proof or indication of such is known) then there have to be two versions of transcripts,
 intended transcription and realistic (with misprononcements transcribed).
   - ????
+  
+
+# Target
+- Identify Voices with least amount of problems (background noise, noise indicators, silence indicators)
+  - Silence indicators raise prolems if present in Z### utternace group as thei indicate split between separate words/commands
+- Identify Voices with clear/pleasant pronounciation/recording, without audio signal being too loud (usually when recorded too close to mic).
+- Identify Voices with longest total audio record.
+- Identify Voices with "good" variation in transcribtion length (max - 150, avg ~13, min ~ 1).
+- Identify similar Voices as a potential to be combined into single voice (to mitigate lack of training data issue).
