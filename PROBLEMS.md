@@ -19,7 +19,7 @@ intended transcription and realistic (with misprononcements transcribed).
 
 # Target
 - Identify Voices with least amount of problems (background noise, noise indicators, silence indicators)
-  - Silence indicators raise prolems if present in Z### utternace group as thei indicate split between separate words/commands
+  - Silence indicators raise prolems if present in Z### utternace group as they indicate split between separate words/commands, which in turn requires audio processing to split accordingly
 - Identify Voices with clear/pleasant pronounciation/recording, without audio signal being too loud (usually when recorded too close to mic).
 - Identify Voices with longest total audio record.
 - Identify Voices with "good" variation in transcribtion length (max - 150, avg ~13, min ~ 1). **SUBJECTIVE**
