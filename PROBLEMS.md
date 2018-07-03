@@ -14,6 +14,7 @@ Additionally some words may be transcribed according to the actual record (hypot
 If that's the case (no proof or indication of such is known) then there have to be two versions of transcripts,
 intended transcription and realistic (with misprononcements transcribed).
   - ????
+- Puctuation is missing from original transcribtion. (Usually has _tyla, _pause indicator instead)
   
 
 # Target
@@ -21,5 +22,17 @@ intended transcription and realistic (with misprononcements transcribed).
   - Silence indicators raise prolems if present in Z### utternace group as thei indicate split between separate words/commands
 - Identify Voices with clear/pleasant pronounciation/recording, without audio signal being too loud (usually when recorded too close to mic).
 - Identify Voices with longest total audio record.
-- Identify Voices with "good" variation in transcribtion length (max - 150, avg ~13, min ~ 1).
+- Identify Voices with "good" variation in transcribtion length (max - 150, avg ~13, min ~ 1). **SUBJECTIVE**
 - Identify similar Voices as a potential to be combined into single voice (to mitigate lack of training data issue).
+- Create separate "voice" for nominal transcripton:
+  - Strip all transcriptions of:
+    - puntuation
+    - silence/noise indicators
+    - make lowercase
+    - remove leading/trailinkg spaces (python: text.strip())
+  - compare same id utterance stripped transcriptions between themselves and identify most popular versions
+  - save those stripped transcriptions as nominal transcriptions.
+  - keep the list of speaker + utterance transcribtion id that haev same stripped transcribtions.
+  - fix puntuation, letter capitalization in nominal transcribtions.
+  - replace transribtions for listed voices
+  - keep in mind that utterance/transcribtion id may have _P/_T tag in filename.
