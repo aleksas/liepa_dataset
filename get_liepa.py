@@ -35,7 +35,7 @@ if __name__ == '__main__':
     if not exists(local_liepa_dataset_archive_path):
         local_liepa_dataset_archive_tmp_path = local_liepa_dataset_archive_path + ".downloading"
         download_file_from_google_drive(liepa_dataset_google_drive_archive_id, local_liepa_dataset_archive_tmp_path)
-        rename(local_liepa_dataset_archive_tmp_path, local_liepa_dataset_archive_tmp_path)
+        rename(local_liepa_dataset_archive_tmp_path, local_liepa_dataset_archive_path)
 
     if args.voices:
         extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, args.voices)
