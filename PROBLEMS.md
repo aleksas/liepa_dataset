@@ -1,5 +1,15 @@
 # Problems
-LIEPA dataset in it's original form has multiple issues:
+
+## LIEPA synthesis dataset
+
+LIEPA synthesis dataset contains utterances for 4 speakers.
+Original transcriptions are only in phonemes.
+Some heuristics have to be applied to get Lithuanian language transcriptions from those.
+
+
+## LIEPA recognition dataset
+
+LIEPA recognition dataset in it's original form has multiple issues:
 
 - Some word groups (Z###) have audio recordings of multiple words/commands squeezed into one record.
 The problem here is splitting such audio records into separe command/word records. Example: **D605/Z020**
@@ -15,7 +25,7 @@ If that's the case (no proof or indication of such is known) then there have to 
 intended transcription and realistic (with misprononcements transcribed).
   - ????
 - Puctuation is missing from original transcribtion. (Usually has _tyla, _pause indicator instead)
-  
+
 
 # Target
 - Identify Voices with least amount of problems (background noise, noise indicators, silence indicators)

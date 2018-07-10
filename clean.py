@@ -6,7 +6,7 @@ import codecs
 import chardet
 import operator
 
-from liepa import default_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
+from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
 from liepa import txt_extensions, wav_extensions
 from utils.audio import resample, wav_duration
@@ -304,7 +304,7 @@ def collect_problems(dataset_path, args):
 if __name__ == '__main__':
 
     parser = ArgumentParser()
-    parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
+    parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_rec_dir, default=default_rec_dir)
     parser.add_argument('-t','--run-transcript-test', help='LIEPA dataset transcript encoding and mistype testing.', action='store_true')
     parser.add_argument('-r','--run-samplerate-test', help='LIEPA dataset audio samplerate testing.', action='store_true')
     parser.add_argument('-n','--run-naming-test', help='LIEPA dataset file and directory naming testing.', action='store_true')

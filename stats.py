@@ -4,7 +4,7 @@ from re import sub, search
 from argparse import ArgumentParser
 import operator
 
-from liepa import default_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
+from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
 from liepa import txt_extensions, wav_extensions
 from utils.text import silence_indicators, noise_indicators
@@ -145,7 +145,7 @@ def collect_stats(dataset_path, args):
 if __name__ == '__main__':
     parser = ArgumentParser()
 
-    parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_dir, default=default_dir)
+    parser.add_argument('-d','--liepa-dir', help='LIEPA dataset directory (Default: "%s").' % default_rec_dir, default=default_rec_dir)
     parser.add_argument('-w','--print-wordcount', help='Prints word count. Requires -t flag.', action='store_true')
     parser.add_argument('-i','--sentence-inconsistencies', help='Prints sentence inconsistensies. Requires -t flag.', action='store_true')
     parser.add_argument('-u','--utterance-stats', help='Word stats per voice, group.', action='store_true')
