@@ -41,64 +41,36 @@ def collect_text_stats(file_path, voice, group, utterance_id, utterance_sub_id, 
         if voice not in stats['utterance_wordcount']['voice']:
             stats['utterance_wordcount']['voice'][voice] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0, 'age_group':age_group, 'gender':gender}
 
-        if group not in stats['utterance_wordcount']['group']:
-            stats['utterance_wordcount']['group'][group] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0}
-
-        ut_id = '%s_%s_%s' % (group, utterance_id, utterance_sub_id)
-        if ut_id not in stats['utterance_wordcount']['utterance']:
-            stats['utterance_wordcount']['utterance'][ut_id] = {'words': 0, 'silence_indicators': 0, 'noise_indicators':0, 'max_len':0, 'min_len':99999, 'total_len':0, 'count':0, 'words_clean': 0, 'max_len_clean':0, 'min_len_clean':99999, 'total_len_clean':0, 'count_clean':0}
-
         stats['utterance_wordcount']['voice'][voice]['count'] +=1
-        stats['utterance_wordcount']['group'][group]['count'] +=1
-        stats['utterance_wordcount']['utterance'][ut_id]['count'] +=1
-
         stats['utterance_wordcount']['voice'][voice]['total_len'] +=text_length
-        stats['utterance_wordcount']['group'][group]['total_len'] +=text_length
-        stats['utterance_wordcount']['utterance'][ut_id]['total_len'] +=text_length
-
         stats['utterance_wordcount']['voice'][voice]['max_len'] = max(stats['utterance_wordcount']['voice'][voice]['max_len'], text_length)
-        stats['utterance_wordcount']['group'][group]['max_len'] = max(stats['utterance_wordcount']['group'][group]['max_len'], text_length)
-        stats['utterance_wordcount']['utterance'][ut_id]['max_len'] = max(stats['utterance_wordcount']['utterance'][ut_id]['max_len'], text_length)
-
         stats['utterance_wordcount']['voice'][voice]['min_len'] = min(stats['utterance_wordcount']['voice'][voice]['min_len'], text_length)
-        stats['utterance_wordcount']['group'][group]['min_len'] = min(stats['utterance_wordcount']['group'][group]['min_len'], text_length)
-        stats['utterance_wordcount']['utterance'][ut_id]['min_len'] = min(stats['utterance_wordcount']['utterance'][ut_id]['min_len'], text_length)
 
-        has_indicator = False
+        has_silence_indicator = False
+        has_noise_indicator = False
+        word_count = 0
         for w in words:
             if w in silence_indicators:
                 stats['utterance_wordcount']['voice'][voice]['silence_indicators'] += 1
-                stats['utterance_wordcount']['group'][group]['silence_indicators'] += 1
-                stats['utterance_wordcount']['utterance'][ut_id]['silence_indicators'] += 1
-                has_indicator = True
+                has_silence_indicator = True
             elif w in noise_indicators:
                 stats['utterance_wordcount']['voice'][voice]['noise_indicators'] += 1
-                stats['utterance_wordcount']['group'][group]['noise_indicators'] += 1
-                stats['utterance_wordcount']['utterance'][ut_id]['noise_indicators'] += 1
-                has_indicator = True
+                has_noise_indicator = True
             else:
-                stats['utterance_wordcount']['voice'][voice]['words'] += 1
-                stats['utterance_wordcount']['group'][group]['words'] += 1
-                stats['utterance_wordcount']['utterance'][ut_id]['words'] += 1
+                word_count += 1
+        stats['utterance_wordcount']['voice'][voice]['words'] += word_count
 
-        if not has_indicator:
-            stats['utterance_wordcount']['voice'][voice]['words_clean'] += len(words)
+        has_indicator = has_silence_indicator or has_noise_indicator
+        if not has_silence_indicator or group[0] != 'Z':
+            stats['utterance_wordcount']['voice'][voice]['words_clean'] += word_count
 
             stats['utterance_wordcount']['voice'][voice]['count_clean'] +=1
-            stats['utterance_wordcount']['group'][group]['count_clean'] +=1
-            stats['utterance_wordcount']['utterance'][ut_id]['count_clean'] +=1
 
             stats['utterance_wordcount']['voice'][voice]['total_len_clean'] +=text_length
-            stats['utterance_wordcount']['group'][group]['total_len_clean'] +=text_length
-            stats['utterance_wordcount']['utterance'][ut_id]['total_len_clean'] +=text_length
 
             stats['utterance_wordcount']['voice'][voice]['max_len_clean'] = max(stats['utterance_wordcount']['voice'][voice]['max_len_clean'], text_length)
-            stats['utterance_wordcount']['group'][group]['max_len_clean'] = max(stats['utterance_wordcount']['group'][group]['max_len_clean'], text_length)
-            stats['utterance_wordcount']['utterance'][ut_id]['max_len_clean'] = max(stats['utterance_wordcount']['utterance'][ut_id]['max_len_clean'], text_length)
 
             stats['utterance_wordcount']['voice'][voice]['min_len_clean'] = min(stats['utterance_wordcount']['voice'][voice]['min_len_clean'], text_length)
-            stats['utterance_wordcount']['group'][group]['min_len_clean'] = min(stats['utterance_wordcount']['group'][group]['min_len_clean'], text_length)
-            stats['utterance_wordcount']['utterance'][ut_id]['min_len_clean'] = min(stats['utterance_wordcount']['utterance'][ut_id]['min_len_clean'], text_length)
 
 
     if args.sentence_inconsistencies:
@@ -214,14 +186,15 @@ if __name__ == '__main__':
             avg_len = voice_stats['total_len'] / count
 
             max_len_clean, min_len_clean = voice_stats['max_len_clean'], voice_stats['min_len_clean']
+            words_clean = voice_stats['words_clean']
             count_clean = voice_stats['count_clean']
             if count_clean > 0:
                 avg_len_clean = voice_stats['total_len_clean'] / count_clean
             else:
                 avg_len_clean = 0
 
-            if voice_stats['words'] > 1000 and gender == 'M':
-                print (voice, age_group, gender, score, words, silence_indicators, noise_indicators, count, max_len, min_len, avg_len, count_clean, max_len_clean, min_len_clean, avg_len_clean)
+            if voice_stats['words'] > 1000 and gender == 'M' and age_group in 'klm':
+                print (voice, age_group, gender, score, words, silence_indicators, noise_indicators, count, max_len, min_len, avg_len, words_clean, count_clean, max_len_clean, min_len_clean, avg_len_clean)
 
     if args.sentence_inconsistencies:
         for id, id_dict in stats['sentence_word_positions'].items():
