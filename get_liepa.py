@@ -10,10 +10,10 @@ from liepa import all_voices, default_archive_path, default_annotation_archive_p
 liepa_voice_recognition_dataset_file_id = '1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7'
 liepa_voice_recognition_dataset_annotation_file_id = '1mrureTyZOlkq0gepwNUcEXQgcKIs9fYS'
 
-liepa_voice_synth_dataset_aiste_file_id = '1-jLn-uhd8EEDbk7slU7FRr5OO4DVWrzT'
-liepa_voice_synth_dataset_regina_file_id = '1mm_h7ixkEgzWuZLjQCBmmmi8LM1mI3-x'
-liepa_voice_synth_dataset_edvardas_file_id = '16FbJBL5qz0ySph5YuIC7wviEAnwDjOuG'
-liepa_voice_synth_dataset_vladas_file_id = '1FdcKSJm5RkxBDwXVUPXYz_IIqlawPa-7'
+liepa_voice_synth_dataset_aiste_file_id = '1nZzvih_op9lYZvVtA8hMhyZE4M7jUv_T'
+liepa_voice_synth_dataset_regina_file_id = '1fsjg6iNUlzaVbDG7j3n6hv-7Pk2hMfwK'
+liepa_voice_synth_dataset_edvardas_file_id = '19BXuFqfF8z2fK4FUG9lZhljDNit1tUBi'
+liepa_voice_synth_dataset_vladas_file_id = '1dwhApCOUX1FZfQj8yp82LKdx-PAcSMGT'
 
 # Very slow, better extract all
 def extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, voices):
@@ -39,7 +39,7 @@ if __name__ == '__main__':
 
     local_liepa_dataset_archive_path = args.archive_path
     local_liepa_dataset_directory = args.liepa_dir
-    
+
     def dounload_file(local_archive_path, google_drive_file_id):
         if not exists(local_archive_path) or args.force:
             local_archive_tmp_path = local_archive_path + ".downloading"
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
     # Download original LIEPA dataset
     dounload_file(local_liepa_dataset_archive_path, liepa_voice_recognition_dataset_file_id)
-	
+
     if not exists(local_liepa_dataset_directory) or args.force:
         if args.voices:
             extract_specific_voices(local_liepa_dataset_archive_path, local_liepa_dataset_directory, args.voices)
