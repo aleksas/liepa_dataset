@@ -1,5 +1,17 @@
 
 ## Directory / file structure decoding
+
+### Synthesis dataset
+MII_LIEPA_SYN_V*
+
+* **Aiste** voice id Aiste
+  * data
+    * 0.wav
+      * 0 - utterance id
+
+### Recognition dataset
+MII_LIEPA_REC_V*
+
 * **D10** voice id 10 (LT **D**iktorius)
   * **S001** sentence group 001
     * S010Mi_001_01.wav
