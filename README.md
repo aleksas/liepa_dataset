@@ -23,7 +23,7 @@ To download and unpack locally dataset run following command:
 
 To clean data integrity run following command:
 
-> python clean_rec.py -a
+> python clean_syn.py -a
 
 ### Fix dataset
 
