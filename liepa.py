@@ -15,9 +15,14 @@ default_rec_dir = './MII_LIEPA_REC_V1'
 default_ann_dir = './MII_LIEPA_REC_ANN_V1'
 default_syn_dir = './MII_LIEPA_SYN_V1'
 
-filname_pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
+rec_filname_pattern = compile(r'(?P<type>ZS?|SS?)?(?P<voice>\d+)(?P<sex>M|V)(?P<age>[a-r])_(?P<ut_id>(?P<ut_id_d>\d+)[abc]?)(_(?P<ut_subid>\d+[abc]?))?(?P<tag>_[TP])?(?P<ext>\.(wav|txt))')
+syn_filname_pattern = compile(r'(?P<ut_id>\d+)(?P<ext>\.(wav|txt))')
 
-all_voices = [
+syn_dataset_voices = [
+    'Aiste', 'Regina', 'Vladas', 'Edvardas'
+]
+
+rec_dataset_voices = [
     'D02', 'D03', 'D04', 'D05', 'D06', 'D07', 'D08', 'D09',
     'D10', 'D11', 'D12', 'D13', 'D14', 'D16', 'D17', 'D18',
     'D21', 'D23', 'D25', 'D26', 'D27', 'D28', 'D29', 'D30',

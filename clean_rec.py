@@ -6,7 +6,7 @@ import codecs
 import chardet
 import operator
 
-from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
+from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, rec_filname_pattern
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
 from liepa import txt_extensions, wav_extensions
 from utils.audio import resample, wav_duration
@@ -224,7 +224,7 @@ def collect_problems(dataset_path, args):
                 directory_naming_problems.append((path, correct_voice_path, problem))
 
         for filename in files:
-            match = filname_pattern.match(filename)
+            match = rec_filname_pattern.match(filename)
             if not match:
                 raise Exception('Filename "%s" does not match valid pattern.' % filename)
             else:

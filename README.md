@@ -18,6 +18,19 @@ To download and unpack locally dataset run following command:
 
 > python get_liepa.py
 
+
+### Clean dataset
+
+To clean data integrity run following command:
+
+> python clean_rec.py -a
+
+### Fix dataset
+
+To fix known issues in dataset run following command:
+
+> python clean_syn.py -ax
+
 ## LIEPA recognition dataset
 Dataset contains audio utterances and transcriptions for over 300 speakers.
 
@@ -35,7 +48,7 @@ To download and unpack locally dataset additional annotations run following comm
 
 To clean data integrity run following command:
 
-> python clean.py -a
+> python clean_rec.py -a
 
 It should output file/directory naming issues, audio file framerate isssues and transcription encoding.
 

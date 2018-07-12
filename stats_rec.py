@@ -4,7 +4,7 @@ from re import sub, search
 from argparse import ArgumentParser
 import operator
 
-from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, filname_pattern
+from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, rec_filname_pattern
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
 from liepa import txt_extensions, wav_extensions
 from utils.text import silence_indicators, noise_indicators
@@ -112,24 +112,20 @@ def collect_stats(dataset_path, args):
             if utternace_group_type not in ['Z', 'S']:
                 raise Exception('Utternace type "%s" does not match valid pattern.' % utternace_group_type)
 
-        db_root, voice = split(path)
+        _, voice = split(path)
 
         if voice[0] != 'D':
             raise Exception('Voice name "%s" does not start with "D".' % voice[0])
 
-        voice_id = voice[1:]
-
         for filename in files:
-            match = filname_pattern.match(filename)
+            match = rec_filname_pattern.match(filename)
             if not match:
                 raise Exception('Filename "%s" does not match valid pattern.' % filename)
             else:
-                name, _extension = splitext(filename)
+                _, _extension = splitext(filename)
 
                 group = dir_group
                 file_path = join(path, group, filename)
-
-                tag = match.group('tag') # _T or _P
 
                 utterance_sub_id = match.group('ut_subid')
                 if not utterance_sub_id:
