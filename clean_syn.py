@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 from os import walk, makedirs, rename
 from os.path import join, splitext, split, normpath, abspath, exists
 from re import sub, search
