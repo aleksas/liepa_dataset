@@ -39,7 +39,7 @@ def fix_multiline(file_path):
     with open(file_path, 'r') as f:
         text = f.read()
     
-    text = ' '.join(text.split())
+    text = ''.join(text.replace('_','').replace("'",'').split())
 
     with open(file_path, 'w') as f:
         f.write(text)
@@ -116,7 +116,7 @@ def collect_text_problems(file_path, utterance_id):
         encoding_problem = [(file_path, 'utf-8', str(e))]
         raise Exception(encoding_problem)
 
-    if text_set & set('\r\n'):
+    if text_set & set('\r\n') or '_' in text_set or "'" in text_set:
         problem = '"%s" has special line chars.' % file_path
         multiline_problem = [(file_path, problem)]
 
