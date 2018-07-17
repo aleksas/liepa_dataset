@@ -4,7 +4,7 @@ from utils.untar import extract_subfolders, extract_all
 from argparse import ArgumentParser
 from os import rename
 
-from liepa import all_voices, default_rec_dir, default_syn_dir, default_ann_dir
+from liepa import rec_dataset_voices, default_rec_dir, default_syn_dir, default_ann_dir
 
 # For manual download us link: https://drive.google.com/open?id=[ID]
 liepa_voice_recognition_dataset_file_id = '1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7'
@@ -21,6 +21,26 @@ default_aiste_archive_path = './MII_LIEPA_SYN_Aiste_v1.tar.bz2'
 default_regina_archive_path = './MII_LIEPA_SYN_Regina_v1.tar.bz2'
 default_edvardas_archive_path = './MII_LIEPA_SYN_Edvardas_v1.tar.bz2'
 default_vladas_archive_path = './MII_LIEPA_SYN_Vladas_v1.tar.bz2'
+
+liepa_voice_synth_aiste_wav_file_id = '1myOg7BKRrisbMXiS1u_LniElVSLThKc2'
+liepa_voice_synth_edvardas_wav_file_id = '1_Pw2DroFKmRWq8q59DfknCzikAFVEJfq'
+liepa_voice_synth_regina_wav_file_id = '16KviJdnB6vmIPxcMhun5u0puECzEEcfP'
+liepa_voice_synth_vladas_wav_file_id = '1AaWtUlx0cL0e2KeonN1zhKBsPmMOptuC'
+
+aiste_wav_path = './Aiste.wav'
+regina_wav_path = './Regina.wav'
+edvardas_wav_path = './Edvardas.wav'
+vladas_wav_path = './Vladas.wav'
+
+liepa_voice_synth_aiste_mp3_file_id = '1OAHpTQqA6fRyq9EJeVrHF5Syxr1RO7_b'
+liepa_voice_synth_edvardas_mp3_file_id = '12bVW8n9JgT9OMdmWrqs4o7a9C32rPmdA'
+liepa_voice_synth_regina_mp3_file_id = '1o2pmQwSHJpR1ZA7VIfBGwJfHqN4SBEBv'
+liepa_voice_synth_vladas_mp3_file_id = '1VAyhUUgvOq-UXoOIowCUdu0AhRV-FnPy'
+
+aiste_mp3_path = './Aiste.mp3'
+regina_mp3_path = './Regina.mp3'
+edvardas_mp3_path = './Edvardas.mp3'
+vladas_mp3_path = './Vladas.mp3'
 
 # Very slow, better extract all
 def extract_specific_voices(archive_path, dst_dataset_directory, voices):
@@ -72,6 +92,16 @@ if __name__ == '__main__':
         dounload_file(default_regina_archive_path, liepa_voice_synth_dataset_regina_file_id)
         dounload_file(default_edvardas_archive_path, liepa_voice_synth_dataset_edvardas_file_id)
         dounload_file(default_vladas_archive_path, liepa_voice_synth_dataset_vladas_file_id)
+        
+        dounload_file(aiste_wav_path, liepa_voice_synth_aiste_wav_file_id)
+        dounload_file(regina_wav_path, liepa_voice_synth_regina_wav_file_id)
+        dounload_file(edvardas_wav_path, liepa_voice_synth_edvardas_wav_file_id)
+        dounload_file(vladas_wav_path, liepa_voice_synth_vladas_wav_file_id)
+        
+        dounload_file(aiste_mp3_path, liepa_voice_synth_aiste_mp3_file_id)
+        dounload_file(regina_mp3_path, liepa_voice_synth_regina_mp3_file_id)
+        dounload_file(edvardas_mp3_path, liepa_voice_synth_edvardas_mp3_file_id)
+        dounload_file(vladas_mp3_path, liepa_voice_synth_vladas_mp3_file_id)
 
         if args.extract:
             if not exists(default_syn_dir) or args.force:
