@@ -71,39 +71,39 @@ if __name__ == '__main__':
         args.get_syn_voices = True
         args.extract = True
 
-    def dounload_file(local_archive_path, google_drive_file_id):
+    def download_file(local_archive_path, google_drive_file_id):
         if not exists(local_archive_path) or args.force:
             local_archive_tmp_path = local_archive_path + ".downloading"
             download_file_from_google_drive(google_drive_file_id, local_archive_tmp_path)
             rename(local_archive_tmp_path, local_archive_path)
 
     if args.get_annotations:
-        dounload_file(default_annotation_archive_path, liepa_voice_recognition_dataset_annotation_file_id)
+        download_file(default_annotation_archive_path, liepa_voice_recognition_dataset_annotation_file_id)
 
         if args.extract:
             if not exists(default_ann_dir) or args.force:
                 extract_all(default_annotation_archive_path, default_ann_dir)
 
     if args.get_syn_voices:
-        dounload_file(default_aiste_archive_path, liepa_voice_synth_dataset_aiste_file_id)
-        dounload_file(default_regina_archive_path, liepa_voice_synth_dataset_regina_file_id)
-        dounload_file(default_edvardas_archive_path, liepa_voice_synth_dataset_edvardas_file_id)
-        dounload_file(default_vladas_archive_path, liepa_voice_synth_dataset_vladas_file_id)
+        download_file(default_aiste_archive_path, liepa_voice_synth_dataset_aiste_file_id)
+        download_file(default_regina_archive_path, liepa_voice_synth_dataset_regina_file_id)
+        download_file(default_edvardas_archive_path, liepa_voice_synth_dataset_edvardas_file_id)
+        download_file(default_vladas_archive_path, liepa_voice_synth_dataset_vladas_file_id)
         
-        dounload_file(aiste_wav_path, liepa_voice_synth_aiste_wav_file_id)
-        dounload_file(regina_wav_path, liepa_voice_synth_regina_wav_file_id)
-        dounload_file(edvardas_wav_path, liepa_voice_synth_edvardas_wav_file_id)
-        dounload_file(vladas_wav_path, liepa_voice_synth_vladas_wav_file_id)
+        download_file(aiste_wav_path, liepa_voice_synth_aiste_wav_file_id)
+        download_file(regina_wav_path, liepa_voice_synth_regina_wav_file_id)
+        download_file(edvardas_wav_path, liepa_voice_synth_edvardas_wav_file_id)
+        download_file(vladas_wav_path, liepa_voice_synth_vladas_wav_file_id)
         
-        dounload_file(aiste_mp3_path, liepa_voice_synth_aiste_mp3_file_id)
-        dounload_file(regina_mp3_path, liepa_voice_synth_regina_mp3_file_id)
-        dounload_file(edvardas_mp3_path, liepa_voice_synth_edvardas_mp3_file_id)
-        dounload_file(vladas_mp3_path, liepa_voice_synth_vladas_mp3_file_id)
+        download_file(aiste_mp3_path, liepa_voice_synth_aiste_mp3_file_id)
+        download_file(regina_mp3_path, liepa_voice_synth_regina_mp3_file_id)
+        download_file(edvardas_mp3_path, liepa_voice_synth_edvardas_mp3_file_id)
+        download_file(vladas_mp3_path, liepa_voice_synth_vladas_mp3_file_id)
         
-        dounload_file(aiste_m4a_path, liepa_voice_synth_aiste_m4a_file_id)
-        dounload_file(regina_m4a_path, liepa_voice_synth_regina_m4a_file_id)
-        dounload_file(edvardas_m4a_path, liepa_voice_synth_edvardas_m4a_file_id)
-        dounload_file(vladas_m4a_path, liepa_voice_synth_vladas_m4a_file_id)
+        download_file(aiste_m4a_path, liepa_voice_synth_aiste_m4a_file_id)
+        download_file(regina_m4a_path, liepa_voice_synth_regina_m4a_file_id)
+        download_file(edvardas_m4a_path, liepa_voice_synth_edvardas_m4a_file_id)
+        download_file(vladas_m4a_path, liepa_voice_synth_vladas_m4a_file_id)
 
         if args.extract:
             if not exists(default_syn_dir) or args.force:
@@ -113,7 +113,7 @@ if __name__ == '__main__':
                 extract_all(default_vladas_archive_path, default_syn_dir)
 
     if args.get_rec_voices:
-        dounload_file(default_rec_archive_path, liepa_voice_recognition_dataset_file_id)
+        download_file(default_rec_archive_path, liepa_voice_recognition_dataset_file_id)
 
         if args.extract:
             if not exists(local_liepa_rec_dataset_directory) or args.force:
