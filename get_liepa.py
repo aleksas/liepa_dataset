@@ -10,10 +10,10 @@ from liepa import default_rec_dir, default_syn_dir, default_ann_dir
 liepa_voice_recognition_dataset_file_id = '1GSzu9n7I-mUMfaD7jkq_CvwZlZXbz9c7'
 liepa_voice_recognition_dataset_annotation_file_id = '1mrureTyZOlkq0gepwNUcEXQgcKIs9fYS'
 
-liepa_voice_synth_dataset_aiste_file_id = '1nZzvih_op9lYZvVtA8hMhyZE4M7jUv_T'
-liepa_voice_synth_dataset_regina_file_id = '1fsjg6iNUlzaVbDG7j3n6hv-7Pk2hMfwK'
-liepa_voice_synth_dataset_edvardas_file_id = '19BXuFqfF8z2fK4FUG9lZhljDNit1tUBi'
-liepa_voice_synth_dataset_vladas_file_id = '1dwhApCOUX1FZfQj8yp82LKdx-PAcSMGT'
+liepa_voice_synth_dataset_aiste_file_id = '1nxyQAfl-vbnoSLT6cltjUD-PLBgAT3EJ'
+liepa_voice_synth_dataset_regina_file_id = '1iG1I7z4yRw2wkycstSQIjz0kNQ9pRdVn'
+liepa_voice_synth_dataset_edvardas_file_id = '1Vf9MZMH958RPt9vCgxG0b_USNSDAhMzN'
+liepa_voice_synth_dataset_vladas_file_id = '1s9U1S8NSqg4_wT3UP9qGGzJ9Ki7ie_Yq'
 
 default_rec_archive_path = './MII_LIEPA_REC_v1.tar.bz2'
 default_annotation_archive_path = './Annotations.tar.bz2'

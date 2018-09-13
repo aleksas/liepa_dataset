@@ -5112,7 +5112,7 @@ spausdinti ekraną
 slinkti
 pradžia
 pabaiga
-paužė
+pauzė
 aknstesnis puslapis
 kitas puslapis
 tarpas
