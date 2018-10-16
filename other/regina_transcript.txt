@@ -4920,26 +4920,26 @@ dvidešimt du keturiasdešimt trys
 dvidešimt trys penkiasdešim keturi
 šeašiasdešim penki
 septyniasdešimt seši
-aštuoniasdešimt aštuoni dev'yniasdešim
-šimtas du šimtai trys šimtai
-keturi šimtai penki šimtai šeši šimtai
-tūkstantis du tūkstančiai keli tūkstančiai
+aštuoniasdešimt aštuoni devyniasdešim
+šimtas, du šimtai, trys šimtai
+keturi šimtai, penki šimtai, šeši šimtai
+tūkstantis, du tūkstančiai, keli tūkstančiai
 milijonas trilijonas milijardas
 kvadrilijonas sikstilijonas
 tūkstantis du šimtai keturiasdešim aštuoni
-mano gimtadienis yra pavasarį, vasarą, rudenį, žiemą
+mano gimtadienis yra pavasarį vasarą rudenį žiemą
 dabar, šiandien, rytoj
 kita savaite, po dviejų savaičių
 vieną dieną, dvi dienas, kelias dienas
 keletą dienų, savaitę
-prašau parduoti du bilietus
-prašom parduoti tris bilietus
-prašyčiau parduoti keturis bilietus
-norėčiau išsikeisti valiutos
+Prašau parduoti du bilietus.
+Prašom parduoti tris bilietus.
+Prašyčiau parduoti keturis bilietus.
+Norėčiau išsikeisti valiutos.
 noriu nusipirkti eurų ir svarų
 Ar turite dolerių rublių ir latų?
-aš noriu nusipirkti kronų
-prašau man pasverti tris šimtus gramų
+Aš noriu nusipirkti kronų.
+Prašau man pasverti tris šimtus gramų.
 miligramas ir gramas
 kilogramas ir keli šimtai gramų
 trys šimtai dvidešim tonų
@@ -4956,7 +4956,7 @@ Kiek tai kainuoja?
 penkiolika indėnų šeimų
 tą pirmadienio priešpietį
 atgimimo apyaušris
-kiek dabar valandų
+Kiek dabar valandų?
 šešios valandos vakaro
 pusė septynių ryto
 dabar lygiai puseaudienis
@@ -4997,7 +4997,7 @@ skliaustai atsidaro
 skliaustai užsidaro
 ilgas brūkšnys
 brūkšnys
-minusą
+minus
 pabraukimas
 lygu
 plius
