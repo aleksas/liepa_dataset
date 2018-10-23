@@ -1,9 +1,16 @@
 from io import open
 from re import compile
-from os import system
+from os import system, makedirs
+from string import ascii_uppercase
+from os.path import join, exists
+from shutil import copyfile
 
-in_file = 'regina_transcript.txt'
-out_file = 'E:\\liepa_dataset\\gen\\test_transcript.txt'
+in_file_0 = '../other/regina_transcript.txt'
+in_file_1 = '../other/regina_transcript_stressed.txt'
+in_dir = '../MII_LIEPA_SYN_V1/Regina/data'
+out_dir = '../gen'
+out_file = join(out_dir, 'transcript.txt')
+
 threshold = -50 #db
 silence = 0.2 # silence seconds between two concatenated files
 
@@ -11,7 +18,10 @@ sentences = []
 questions = []
 exclamations = []
 
-caps = 'QWERTYUIOPASDFGHJKLZXCVBNMĄČĘĖĮŠŲŪŽ'
+if not exists(out_dir):
+    makedirs(out_dir)
+
+caps = ascii_uppercase + 'ĄĘĖČĮŲŪŠŽ'
 
 cmd_format = """ffmpeg -loglevel panic -y \
 -i %s -i %s -filter_complex \
@@ -25,21 +35,38 @@ aevalsrc=exprs=0:d=%.1f [silence],\
 
 start_index = 0
 
-with open(in_file, 'r', encoding='utf8') as f:
-    lines = f.readlines()
+lines_0, lines_1 = [], []
 
-    new_lines = []
-    for i in range(len(lines)):
-        line = lines[i].strip()
-        
-        if line[0] in caps:
-            if line[-1] == '.':
-                sentences.append((i, line))
-            elif line[-1] == '?':
-                questions.append((i, line))
-            elif line[-1] == '!':
-                exclamations.append((i, line))
-    start_index = len(lines)
+with open(in_file_0, 'r', encoding='utf8') as f:
+    lines_0 = f.readlines()
+
+with open(in_file_1, 'r', encoding='utf8') as f:
+    lines_1 = f.readlines()
+
+line_count = len(lines_0)
+
+if line_count != len(lines_1):
+    raise Exception("Input files have different number of lines.")
+
+new_lines = []
+
+for i in range(line_count):
+    line_0 = lines_0[i].strip()
+
+    new_lines.append((i, line_0, [i]))
+    
+    if line_0[0] in caps:
+        if line_0[-1] == '.':
+            sentences.append((i, line_0))
+        elif line_0[-1] == '?':
+            questions.append((i, line_0))
+        elif line_0[-1] == '!':
+            exclamations.append((i, line_0))
+
+    src = join(in_dir, '%d.wav' % i)
+    dst = join(out_dir, '%d.wav' % i)
+
+    copyfile(src, dst)
 
 sorter = lambda x:len(x[1])
 sentences.sort(key=sorter, reverse=False)   # ascending
@@ -56,22 +83,47 @@ all_sentences.sort(key=sorter, reverse=True)    # descending
 
 pairs = list(zip(all_sentences, sentences[:len(all_sentences)]))
 
-with open(out_file, 'w', encoding='utf8') as f:
-    in_dir = 'J:\\liepa_dataset\\MII_LIEPA_SYN_V1\\Regina\\data\\'
-    out_dir = 'E:\\liepa_dataset\\gen\\'
+start_index = len(new_lines)
 
-    for i in range(len(pairs)):
-        a, b = pairs[i]
-        
-        in_a_0 = '%s%d.wav' % (in_dir, a[0])
-        in_a_1 = '%s%d.wav' % (in_dir, b[0])
-        
-        index = start_index + i
-        
-        out_a = '%s%d_%d-%d.wav' % (out_dir, index, a[0], b[0])
-        
-        cmd = cmd_format % (in_a_0, in_a_1, threshold, threshold, silence, out_a)
-        system(cmd)
-        
-        f.write('%d|%d|%d|%s %s\n' % (index, a[0], b[0], a[1], b[1]))
-        
+for i in range(len(pairs)):
+    a, b = pairs[i]
+
+    index = start_index + i
+    
+    in_a_0 = join(in_dir, '%d.wav' % a[0])
+    in_a_1 = join(in_dir, '%d.wav' % b[0])
+    
+    out_a = join(out_dir, '%d.wav' % index)
+    
+    cmd = cmd_format % (in_a_0, in_a_1, threshold, threshold, silence, out_a)
+    system(cmd)
+
+    line = '%s %s' % (a[1], b[1])
+
+    new_lines.append((index, line, [a[0], b[0]]))
+
+new_lines_2 = []
+start_index = len(new_lines)
+
+for i, line, indeces in new_lines:
+
+    line = ''
+    if len(indeces) == 1:
+        line = lines_1[indeces[0]].strip()
+    elif len(indeces) == 2:
+        line = ' '.join([lines_1[i].strip() for i in indeces])
+    else:
+        raise Exception()
+
+    index = start_index + i
+
+    new_lines_2.append((index, line, [i]))
+
+    src = join(out_dir, '%d.wav' % i)
+    dst = join(out_dir, '%d.wav' % index)
+
+    copyfile(src, dst)
+
+with open(out_file, 'w', encoding='utf8') as f:
+    for i, line, _ in new_lines + new_lines_2:
+        f.write('%s\n' % line)
