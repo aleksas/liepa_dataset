@@ -24,12 +24,12 @@ Jéi kàs šveñtą gi̇́esmę nór giedóti,
 Manè põ akimi̇̀s sàvo tur̃ turė́ti.
 Diẽną ir̃ nãktį priẽg savę̃s manè laikýkit
 Ir̃ niekadà manę̃s nuõg jū́sų neatmèskit.
-............
-Martynas Mažvydas. Pirmoji lietuviška knyga. Vilnius, Vaga, 1974.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-12
-JONAS AISTIS (1904–1973)
-PEIZAŽAS
+
+
+
+
+
+
 LAŨKAS, kẽlias, pi̇́eva, krỹžius,
 Ši̇̀lo júosta mėlynà,
 Debesė̃lių tánkus i̇̀žas
@@ -46,7 +46,7 @@ Ti̇̀k sukrỹkš lýg gérvė svi̇̀rtis,
 Sušlamė̃s dainà klevuõs...
 Gẽra čià gyvént ir̃ mir̃ti!
 Gẽra var̃gt čià, Lietuvõj!..
-* * *
+
 Vİ́ENAS kraũjo lãšas bū́t tavè nuplóvęs,
 Õ vargè jõ vi̇́eno tù pasigedai̇̃,
 Nórs stiprýbę sė́mėm i̇̀š didžiõs senóvės –
@@ -55,9 +55,9 @@ Vienų̃ vi̇́enas žõdis bū́t tavè apgýnęs,
 Bèt vargè jõ vi̇́eno tù pasigedai̇̃,
 Nórs visi̇̀ žadė́jom mir̃ti ùž tėvỹnę –
 Li̇̀ko netesė́ti mū́sų pažadai̇̃...
-Poezija
-13
-POETUI
+
+
+
 IŠSIŽADĖ̃S tėvai̇̃, tautà išspjaũs,
 Draugai̇̃ ir̃ mylimà aplei̇̃s – pravi̇̀rksi vi̇́enas,
 Ir̃ niẽkas nesupràs, ir̃ niẽkas neužjaũs,
@@ -72,9 +72,9 @@ Jiẽ táu atpir̃ks bangų̃ ir̃ sūkurių̃
 Į̃ šiùpulius sutrùpintą svajõnių váltį...
 Prabi̇̀ltum – ãkmenys táu, ródos, aimanúotų,
 Bèt ti̇̀k jauti̇̀ bežãdę vi̇́enumą ir̃ šal̃tį...
-Jonas Aistis. Katarsis. Vilnius, Vaga, 1988.
-ANTANAS BARANAUSKAS (1835–1902)
-ANYKŠČIŲ ŠILELIS (ištrauka)
+
+
+
 Miškañ, bū́davo, eini̇̀ – tai̇̃ nèt ãkį vẽria;
 Vàt tei̇̃p li̇̀nksmina dū̃šią, ažù širdiẽs tvẽria,
 Kàd nèt, ši̇̀rdžiai apsãlus, nè kar̃tą dūmójai:
@@ -88,8 +88,8 @@ Gálvą iñ savè tráukia ir̃ liùla užliesti̇̀.
 Uogienójai kai̇̃p rū̃tos kelmai̇̃s kelmai̇̃s žẽlia,
 Júodas, raudónas úogas išsir̃pusias kẽlia.
 Añt žãlio, raũsvo, bal̃kšvo dùgno taškai̇̃ grỹbų 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-14
+
+
 Ter̃p mẽdžių marguliúoja i̇̀š savų̃ sodýbų.
 Voverùškų leikẽlės kur̃ nè kur̃ prõ plỹšį
 Ìš põ sãmanų márškos sarmatlyvai̇̃ kỹši.
@@ -115,21 +115,21 @@ Platùs, stóras, paspū̃tęs, lýg tar̃tum užklótas
 Añt ki̇́eto, drū́to kóto bliū̃das palivótas.
 Grei̇̃t áuga, ilgai̇̃ ẽsti giminių̃ visókių:
 Paąžuõlių, raudoni̇̀kių ir̃ kitų̃ kitókių.
-Antanas Baranauskas. Anykščių šilelis. Vilnius, Vaga, 1977.
-KAZYS BINKIS (1893–1942)
-UTOS
-ŽIBUOKLĖS
+
+
+
+
 Žibuõklių kvãpas orè plaũko,
 Nórs pi̇́evoj jų̃ ir̃ nematýti.
 Nakti̇̀s nusvi̇̀ro jaũ añt laũko.
 Žibuõklių kvãpas orè plaũko...
 Nakti̇̀s tylióji ži̇̀no daũg kõ,
-Poezija
-15
+
+
 Bèt kõ, – negãli pasakýti...
 Žibuõklių kvãpas orè plaũko,
 Nórs pi̇́evoj jų̃ ir̃ nematýti...
-RŪTA
+
 Šypsódamos ski̇̀na ji̇̀ rū̃tą,
 Šypsódamos pi̇̀na kasàs, –
 Šią̃ nãktį bernẽlio ỹr bū́ta.
@@ -138,7 +138,7 @@ Tyliaũ... Sužinõs – tai̇̃ pražū́ta...
 Bèt kai̇̃p sužinõs, tai̇̃ ir̃ kàs?
 Šypsódamos ski̇̀na ji̇̀ rū̃tą,
 Šypsódamos pi̇̀na kasàs...
-AGUONĖLĖS
+
 Ugniaspal̃vės aguonė̃lės
 Põ rugiùs visur̃ liepsnójas,
 Lýg išklýdę rõjaus vė̃lės,
@@ -147,17 +147,17 @@ Vi̇̀sas krãštas – vi̇́enos gė̃lės!
 Ar̃ čià žẽmė, ar̃ čià rõjus? –
 Ugniaspal̃vės aguonė̃lės
 Ti̇̀k liepsnójas, ti̇̀k liepsnójas...
-Kazys Binkis. Raštai. T. 1. Vilnius, Pradai, 1999.
-VYTAUTAS BLOŽĖ (g. 1930)
-NEMUNO KLONIAI
+
+
+
 Žẽme pavãsarių saulė́tų,
 žẽme rugiãgėlių žydrų̃,
 žẽme saulė́lydžių žvaigždė́tų,
 gė̃le saulė́tekių tyrų̃!
 Nẽmuno klóniai,
 klóniai žali̇̀.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-16
+
+
 Plãtūs krantai̇̃ smėlė́ti.
 Ùpe svajõnių,
 ùpe gili̇̀ –
@@ -172,7 +172,7 @@ Plãtūs krantai̇̃ smėlė́ti.
 Ùpe svajõnių,
 ùpe gili̇̀ –
 plaũkti, atràst, mylė́ti!
-KADA KVEPIA ŽIEDAI
+
 Mylė́k,
 kadà kvẽpia žiedai̇̃.
 Mylė́k,
@@ -191,8 +191,8 @@ tikė́k:
 tai̇̃ ti̇̀k skaũsmo aidai̇̃.
 Mylė́k!
 Ši̇̀rdį lýg taũrę
-Poezija
-17
+
+
 nèšk giliõj padángėj –
 dẽgančią taũrę
 kančiõs ir̃ liepsnõs.
@@ -224,11 +224,11 @@ Aũštant
 báltos ùpės plaũkia.
 Žmónės tebeláukia
 méilės manõs.
-Vytautas Bložė. Dainos. Rinktinė. Vilnius, Vaga, 1976.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-18
-KAZYS BRADŪNAS (1917–2009)
-MANE PAŠAUKĖ ŽEMĖJE GIMTI
+
+
+
+
+
 Manè pàšaukė žẽmėje gi̇̀mti
 Màno prótėvių kraũjo jėgà,
 Manè sáulė žadė́jo augi̇̀nti,
@@ -253,18 +253,18 @@ Ir̃ mán kraũjas nustója sruvénti –
 Ji̇̀s, kai̇̃p šė̃lstanti ùpės vagà,
 Manè nẽša per̃ méilę, per̃ mir̃tį
 Įsiūbúota, putóta bangà.
-PĖDOS ARIMUOS
+
 Àš, praver̃tęs dobili̇́enos plùtą,
 Tū́kstančius pėdų̃ põ jà randù,
 Kiekvienõj vagõj senõlių bū́ta,
 Neišplóvė jų̃ nei̇̃ lai̇̃kas, nei̇̃ vanduõ.
-Poezija
-19
+
+
 Ir̃ tėvai̇̃ jõm eidami̇̀ neklýdo,
 Nepaklýdo tárpe džiaũgsmo ir̃ kančių̃.
 Õ dabar̃ ir̃ àš savą́sias pė́das –
 Ai̇̃nių kélrodį – velė́na užverčiù.
-BE TĖVYNĖS
+
 Svẽtimojo ži̇̀dinio ugnẽlė
 Vi̇̀są vãkarą šaltà ir̃ nelinksmà.
 Jõs lazdė́jime mán gai̇̃sro dū́mai kẽlias,
@@ -277,9 +277,9 @@ Bè tėvỹnės negaliù suši̇̀lti
 Svẽtimojo ži̇̀dinio liepsnà,
 Bè tėvỹnės ir̃ gyvént, ir̃ mir̃ti
 Visõj žẽmėj viẽtos neganà!
-Kazys Bradūnas. Prie vieno stalo. Vilnius, Vaga, 1990.
-BERNARDAS BRAZDŽIONIS (1907–2002)
-TU NEŽIŪRĖK, MAMA, PRO LANGĄ
+
+
+
 Tù nežiūrė́k, mãma, prõ lángą
 Ùž horizònto tai̇̃p liūdnai̇̃ –
 Teñ nè táu liūliúoja ir̃ nè táu teñ õšia
@@ -288,13 +288,13 @@ Tù nežiūrė́k, mãma, prõ lángą
 Į̃ gi̇̀lų dañgų, mė́lynas dausàs –
 Nè ruduõ šiõs žẽmės táu kasàs supýnė,
 Nè ruduõ šiõs žẽmės ir̃ išpiñs kasàs.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-20
+
+
 Tù nežiūrė́k, mãma, prõ lángą:
 Viẽškeliu nè tàvo ei̇̃na ilgesỹs,
 Ir̃ tàs sẽnas krỹžius nè tavè vadi̇̀na,
 Ir̃ baltų̃jų paũkščių júodas debesi̇̀s.
-NEREGIO ELEGIJA
+
 Àš pasáulio šviesiõs karali̇̀jos
 Nemačiaũ niekadà, niekadà –
 Júodos rõžės ir̃ júodos leli̇̀jos,
@@ -321,15 +321,15 @@ Ar̃ ir̃ jū̃s neregė́jot žydrỹnės,
 Kàd suklùpot priẽš žẽmės stabùs? ..
 Priẽš vaivórykštės šveñtę nepúolat,
 Nesimel̃džiate ži̇́edui baltám – 
-Poezija
-21
+
+
 Priẽš stabùs, nepažį̇́stami bróliai,
 Pasiklýdot pasáuly šviesiam̃ ...
 Mán pasáulio šviesiõs karali̇̀jos
 Neregė́t niekadà, niekadà, –
 Nè stabám: žvaigždė́m, rõžėm, leli̇̀jom
 Tegù skam̃ba ši̇̀ màno maldà.
-ŠAUKIU AŠ TAUTĄ
+
 Šaukiù àš taũtą, GPU užgùitą
 Ir̃ blãškomą i̇̀t rùdenio lapùs,
 Į̃ naũją viẽškelį, į̇̃ naũją bui̇̃tį,
@@ -354,8 +354,8 @@ Ganà tulžiẽs, ganà mirtiẽs, ganà!..
 Įsùpt naujám darbýmečiui varpùs...
 Į̃ naũjo džiaũgsmo klė́tis, naũjo der̃liaus klúonus,
 Nè kãlinio namùs, nè liū́nus, nè kapùs.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-22
+
+
 Šaukiù vardù àš jū́sų var̃go žẽmės,
 Balsù piliãkalnių ir̃ pi̇́evų, ir̃ miškų̃:
 Neker̃šykit, kàd kárštos kraũjo dė̃mės
@@ -368,7 +368,7 @@ Išdẽgino liepsnà veidmai̇̃niškos ugniẽs.
 Ir̃ jū́sų kri̇̀kšto ãtgaila šviesià:
 – Stovė́kit ámžiais čià tvirti̇̀, kai̇̃p sáulė stóvi! –
 Šaukiù àš jū́sų prótėvių dvasià.
-TĖVIŠKĖS SODAI
+
 Màno tė́viškės tolimõs li̇́epos,
 Màno tė́viškės sõdai balti̇̀,
 Pasakýkit, kadà jū̃s mán bùvot
@@ -385,9 +385,9 @@ Màno tė́viškės tolimõs li̇́epos,
 Màno tė́viškės sõdai balti̇̀,
 Pasakýkit, kadà jū̃s mán bùvot
 Priẽ širdiẽs tai̇̃p arti̇̀!..
-Poezija
-23
-YPATINGAI
+
+
+
 Kažkur̃ sáulė, kažkur̃ ū̃kas, kažkur̃ žãlios gi̇̀rios gaũdžia,
 Kažkur̃ žýdinčios pakrántės, kažkur̃ žẽmė kruvinà –
 Ypati̇̀ngai, ypati̇̀ngai, ýpač màno ši̇̀rdį spáudžia
@@ -400,9 +400,9 @@ Ypati̇̀ngai, ypati̇̀ngai, ýpač vienų̃ vi̇́eno trókštu –
 Kàd pavar̃gus nepriglaũstų mū́sų svetimi̇̀ kapai̇̃,
 Kàd išvýsčiau sáulę tẽkant añt baltų̃ Pažáislio bókštų
 Ir̃ kai̇̃p gaũdžia aleliùja Kaũno Kãtedros varpai̇̃.
-Bernardas Brazdžionis. Poezijos pilnatis. Vilnius, Sietynas, 1989.
-VLADAS BRAZIŪNAS (g. 1952)
-AKMENIO PAUKŠČIAI
+
+
+
 tir̃psta súodinas sniẽgas bejė̃gis nuõ pýlimo kreñta
 võs atsi̇̀spiria miẽgui pajuõdęs kapų̃ orkestrántas
 priẽ pažliùgusio kẽlio liepsnója pirmi̇́eji kiki̇̀liai
@@ -413,9 +413,9 @@ nebepàmenu sãpno õ klū́pau tõ sãpno pakójy
 ar̃ aukójimo slãpto aukóju? manè tù aukóji?
 ši̇̀tą súodiną sniẽgą tą̃ sãpną, kur̃ kreñtam ir̃ kreñtam
 ši̇̀tą vi̇́enišą jė̃gą bejė̃gę, beprãsmę, bekrañtę?
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-24
-VORATINKLIO LAIKAS
+
+
+
 kõl tą̃ žõdį rašiaũ, sudūlė́jo vorãtinklio siū́las
 supeli̇̀jo vaiduõklis, nuti̇̀lo jõ fortepijõnas
 nusiléido drugỹs rašalúotais sparnẽliais añt siaũro
@@ -432,11 +432,11 @@ kai̇̃p, atvė́sus oráms, įsimiñga plevė́sos ežiai̇̃
 šmirinė́ję šali̇̀gatviais, strãzdą ir̃ drùgį apsniñga
 vi̇̀skas bùvo nè tai̇̃p, vi̇̀skas bùvo gražiai̇̃
 añt auksi̇̀nio vorãtinklio sùpos, nutrū́ko ir̃ diñgo
-Vladas Braziūnas. Vakar yra rytoj.
-Vilnius, Lietuvių literatūros ir tautosakos institutas, 2007.
-Poezija
-25
-LIUTAURAS DEGĖSYS (g. 1953)
+
+
+
+
+
 SIELA /GIMIMO DIENA/
 Si̇́ela,
 ar̃ táu neliñksma,
@@ -462,14 +462,14 @@ Kõl išaũš
 ypati̇̀nga –
 Tàvo
 gimi̇̀mo dienà.
-Liutauras Degėsys. Miego gėlės. Vilnius, Kronta, 2008.
-DAINELĖ APIE UŽTRAUKTUKĄ
+
+
 Pabùdęs nuõ lémpos šviesõs,
 Linksmai̇̃ išsižiõs užtrauktùkas
 Ir̃ mei̇̃liai nusišypsõs
 Mažai̇̃s geleži̇̀niais dantùkais.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-26
+
+
 Kai̇̃ sniẽgas ùž lángo gilė̃s,
 Táu paũkščiai mojuõs pirštùkais.
 Kai̇̃ niẽkas Tavę̃s nemylė̃s,
@@ -486,9 +486,9 @@ Tylõj laikrodė̃lis tiksė̃s,
 Galvõj jám sùksis ratùkai,
 Õ tàvo stálčiuj krebždė̃s
 Nauji̇̀ maži̇̀ užtrauktùkai.
-Liutauras Degėsys. Žvėrynas. Žolynas. Vilnius, Kronta, 2007.
-JANINA DEGUTYTĖ (1928–1990)
-DŽIAUGSMAS
+
+
+
 Tù atėjai̇̃ – ir̃ tū́kstančiu laiškẽlių
 Kai̇̃p žẽmė àš iškar̃t sužaliavaũ.
 Tù atėjai̇̃ – ir̃ àš upẽlėm,
@@ -501,10 +501,10 @@ Kaskãdom sáulės tù manè užtvi̇̀ndei.
 Dabar̃ – apsvai̇̃gusią – kur̃ nóri, vèsk ar̃ nèšk.
 Kažkàs visàs gėlès išdrai̇̃kė ir̃ sumi̇̀ndė.
 Pasáulyje ti̇̀k sáulė, tù ir̃ àš.
-Poezija
-27
-LIETUVAI
-1. MAŽUTĖ
+
+
+
+
 Tù – mažùtė, tù telpi̇̀ visà
 Į̃ Čiurliónio karãlių délnus...
 Tù – riekẽlė dúonos kasdieni̇̀nės
@@ -521,7 +521,7 @@ Tiktai̇̃ mū́sų méilėj – tù didžiùlė.
 Mū́sų delnuosè – tù nesudẽginama.
 Mū́sų ilgesỹ – brangiáusia pãsaka.
 Mū́sų akysè tù – sáulės krãštas.
-2. KELIO PRADŽIA
+
 Čià kẽlio pradžià, kur̃ klevai̇̃
 Skam̃ba sàvo šakõm ir̃ lãpais. Kur̃ žýdi
 Ramýbe ir̃ jaukumù kvãpios bùlvės melsvai̇̃...
@@ -534,13 +534,13 @@ Kienõ čià šešė́liai klajója?..
 Galùlaukėj šū́kauja bri̇́edžiai...
 Mėnùlis óbuoliu sùpasi...
 Klevai̇̃ kárštą kãktą paliẽčia...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-28
+
+
 Vi̇̀s ti̇́ek mán, priẽ kókio mẽdžio žai̇̃bas manè pakir̃s…
 Čià kẽlio pradžià. Ir̃ niẽkas,
 Niẽkas manę̃s nuõ žẽmės tõs
  Neatskir̃s.
-8. AŠ – TAVO
+
 Àš – ẽglė tàvo tỹlinčių miškų̃.
 Àš – gývas lãšas tàvo ùpių sraũto.
 Dainúojanti smilti̇̀s, priẽ žiẽmkenčio priglùdus,
@@ -554,7 +554,7 @@ Ir̃ daũg tù reikaláuk – tar̃si i̇̀š kãrio.
 Nuõ sàvo ãšaros pirmõs, nuõ pi̇̀rmo juõko –
 Li̇̀gi mintiẽs šešė́lio paskuti̇̀nio –
  Tàvo.
-* * *
+
 Neužpū̃sk piẽnės pū̃ko,
 Kai̇̃p ži̇̀burio neužpū̃sk –
 Tą̃ besaũlį vidùdienį.
@@ -569,10 +569,10 @@ Li̇̀ko ti̇̀k piẽnės pū̃kas
 Didelė̃j, suñkiai alsúojančioj žẽmėj...
 Neužpū̃sk piẽnės pū̃ko,
 Neužpū̃sk...
-Poezija
-29
-TRYS ŽEMĖS ŽENKLAI
-l. ASIŪKLIS
+
+
+
+
 Pasakýk, i̇̀š kur̃ tù atėjai̇̃,
 asiū̃kli, i̇̀š kókio tū́kstantmečio
 tàvo šãknys kvėpúoja põ
@@ -580,7 +580,7 @@ màno kójom?
 Kõ geidei̇̃ i̇̀š sáulės ir̃ perkū́no?
 Kókią ži̇̀nią àtnešei pérduoti –
 kókį pérspėjimą – šiám pavãsariui?
-2. PLUKĖ
+
 Plùke baltóji, vėsi̇̀ kai̇̃p rasà,
 lengvà kai̇̃p žvaigždė̃s atódūsis –
 mažýte sidãbro aũšra – plùke...
@@ -592,7 +592,7 @@ liū́čiai, išdidi̇̀ nesùteptu
 baltumù –
 plùke, kai̇̃p mùms tavę̃s
 nepraràsti?
-3. TULPĖ
+
 Šveñtiškai ugni̇̀nė –
 pur̃puro sóste –
 tùlpe raudóna –
@@ -604,9 +604,9 @@ kàd nesuri̇̀ktum i̇̀š skaũsmo?
 Kuõ pagi̇̀rdyti,
 kàd neužgèstum nepragyvẽnusi
 táu ski̇̀rto lai̇̃ko?
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-30
-LIETUVA
+
+
+
 Lietùs lauki̇̀mas láimė lelijà li̇́epų
 svaigùs kvepė́jimas –
 vi̇̀skas tel̃pa į̇̃ tàvo trum̃pą var̃dą.
@@ -621,7 +621,7 @@ tàvo dangujè.
 Laimi̇̀ngas,
 kàs išei̇̃na
 sù tàvo vardù lū́pose.
-PAPARTIS
+
 Senõlėj gi̇̀rioj, ùž rai̇̃sto,
 gyvẽna áugalas kei̇̃stas –
 žaliõm vėduõklėm lapója.
@@ -638,9 +638,9 @@ ir̃ bū́si vai̇̃kas žvaigždė̃s.
 Ir̃ bū́si vai̇̃kas žvaigždė̃s.
 Ir̃ papar̃tis táu pražydė̃s,
 ir̃ papar̃tis táu pražydė̃s.“
-Poezija
-31
-MEILEI
+
+
+
 Jéigu tù atei̇̃si,
 Tai̇̃ atei̇̃k kai̇̃p sáulė.
 Ir̃ tokià skaisti̇̀,
@@ -657,7 +657,7 @@ Ir̃ tokià skaisti̇̀,
 Ir̃ tokià šventà.
 Jéi nè sáulė tù, jéi vãrio monetà, –
 Nesiar̃tink! Mán tokiõs nerei̇̃k.
-* * *
+
 Tù sakai̇̃ – àš bè sai̇̃ko?.. Tegù.
 Jaũ vi̇̀s ti̇́ek niẽkad jõ neturė́siu.
 Jéigu ver̃ksiu – bùs ãšaros mẽtų ilgų̃,
@@ -672,13 +672,13 @@ Kàs yrà – gál išbė̃gs per̃ kraštùs,
 Kõ nėrà – ugnimi̇̀ neišdẽgins.
 ...Tvi̇̀nsta kóvo putótas vanduõ. –
 Tai̇̃p. Besai̇̃kei tẽko mán gi̇̀mti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-32
+
+
 Atmatúoto – nemóku dúot.
 Atmatúoto – nemóku im̃ti.
-Janina Degutytė. Rinktiniai raštai. T. 1–2. Vilnius, Vaga, 1988.
-JUOZAS ERLICKAS (g. 1953)
-SLIEKO GYVENIMAS
+
+
+
 Ar̃ jū̃s beñt kadà pasižiū̃rit,
 Kai̇̃p sli̇́ekas keistai̇̃ gyvẽna? –
 Kasdiẽn júodą žẽmę purẽna,
@@ -703,8 +703,8 @@ Àš nežinaũ bevéik niẽko.
 Tačiaũ ar̃ patiñka jõs jám?..
 Ir̃ tù, vandenýne laivẽliui
 Apvir̃tus, pati̇̀ktum kai̇̃ kám...
-Poezija
-33
+
+
 Kaži̇̀n ar̃ tai̇̃ bū́tų smagù,
 Jéi mil̃žinas kóks į̇̃ dėžùtę
 Tavè įsiki̇̀šęs sušùktų:
@@ -713,9 +713,9 @@ Tàd léiski ir̃ sli̇́ekui gyvénti,
 Jéigu põ lietaũs daũg randi̇̀ –
 Gál jiẽ į̇̃ Dainų̃ reñkas šveñtę,
 Ti̇̀k tù tų̃ dainų̃ – negirdi̇̀...
-Juozas Erlickas. Aš moku augti. Vilnius, Tyto alba, 2003.
-PETRAS GAULĖ (1923–1993)
-MYLĖK IR LAUK
+
+
+
 Rytój tavè àš išlydė́siu,
 Rytój išplaũks balti̇̀ laivai̇̃.
 Táu dai̇̃ną sáulėtą įdė́siu,
@@ -733,11 +733,11 @@ Rytój kranti̇̀nėj àš liūdė́siu,
 Rytój išplaũks balti̇̀ laivai̇̃.
 Àš tàvo il̃gesiu tikė́siu,
 Kurį̇̃ sugrį̇̃žęs dainavai̇̃.
-Petras Gaulė. Rodos, ir vargo nebuvo. Vilnius, Vaga, 1983.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-34
-SIGITAS GEDA (1943–2008)
-LIETUVOS ATSIRADIMAS
+
+
+
+
+
 Išti̇̀ško geltóna
 Šviesà dangujè,
 Ir̃ plaũkia giedódamos
@@ -762,12 +762,12 @@ Ir̃ sùkasi – lẽkia
 Ámžių versmė̃j –
 Geltóni pasáuliai,
 Žali̇̀ vieversiai̇̃.
-* * *
+
 Stãčios ãkys medi̇̀nių dievùkų –
 Ar̃ nè màno,
 Nè tàvo ãkys?
-Poezija
-35
+
+
 Kai̇̃p arti̇̀ jū̃s,
 Prótėviai màno!
 Ìš keliñto šim̃tmečio pė́dus
@@ -794,13 +794,13 @@ Mel̃skitės.
 Mel̃skitės.
 Gérkit –
 Į̃ manè kai̇̃p į̇̃ žẽmę suė̃ję.
-* * *
+
 Jū́rą, šviẽsią, bekrãštę, dovanų̃ táu nešù,
 báltą báltą žuvė́drą, ir̃ sakaũ, kàd gražù,
 Jū́rą, šviẽsią, bekrãštę, kuriõs nemataũ,
 báltą báltą žuvė́drą dovanóju àš táu,
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-36
+
+
 Jū́rą, šviẽsią, bekrãštę, kuriõs nèt nėrà,
 báltą báltą žuvė́drą, tai̇̃ svajõnė žydrà,
 Tai̇̃ pirmãvaizdis si̇́elų, nórs tù nematai̇̃,
@@ -811,7 +811,7 @@ Kai̇̃ tatai̇̃, kàs apliñk, sù tavim̃ susiliẽčia
 ir̃ pažãdina si̇́elą, ir̃, žẽmę praplė̃tę,
 Ìma siaũsti ir̃ šókti melòdijų pỹnės,
 tam̃siai mel̃svos, smėlė́tos, õ gál sidabri̇̀nės.
-LAIKAS IŠEITI
+
 Liẽka béržas,
 Kàd niẽkad
 Neskriaũstum.
@@ -830,8 +830,8 @@ Tą̃ ė̃jo.
 Liẽka vi̇̀skas,
 Kàs àtmena, miẽga,
 Sapnúoja. 
-Poezija
-37
+
+
 Liẽka vė́jas
 Ir̃ rãdijo
 Ū̃ksmas.
@@ -841,9 +841,9 @@ Neliekù.
 Nè dė̃l tõ
 Àš buvaũ
 Čià atė̃jęs.
-Sigitas Geda. Varnėnas po mėnuliu. Vilnius, Vaga, 1984.
-KĘSTUTIS GENYS (1928–1996)
-Į LIETUVĄ
+
+
+
 Grįžtù namõ, kõl sáulė dár nenusiléido,
 Kõl dár mataũ šešė́lį sàvo kelyjè,
 Nenusibraũksiu prãkaito sūraũs nuõ véido
@@ -856,11 +856,11 @@ Greičiaũ į̇̃ tė́viškę, į̇̃ sàvo méilės krãštą,
 Teñ màno Krỹžių kálnas, vỹturio dangùs,
 Teñ skam̃ba žõdis kai̇̃p giesmė̃, kai̇̃p Šveñtas Rãštas,
 Į̃ lai̇̃svą Li̇́etuvą šiandiẽną àš grįžtù.
-Kęstutis Genys. Lietuva – tai sąžinė. Kaunas, Varpas, 1990.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-38
-GINTARAS GRAJAUSKAS (g. 1966)
-KAS ČIA YRA
+
+
+
+
+
 kàs čià yrà, kàd vi̇̀s mažiaũ
 beliẽka manę̃s? kažkàs manè vãgia,
 nè kitai̇̃p. Vi̇̀s mažiaũ
@@ -889,10 +889,10 @@ kàs čià yrà?
 niẽko
 ãtsako
 mán
-Gintaras Grajauskas. Katalogas. Vilnius, Vaga, 1997.
-Poezija
-39
-PRATIMAS LAIMEI PRIŠAUKTI
+
+
+
+
 Nórite bū́ti laimi̇̀ngi? tai̇̃ bū́kite
 arbà mẽs padarýsime jùs laimi̇̀ngus
 įdėmiai̇̃ klausýkitės: jéi nórite
@@ -915,15 +915,15 @@ klãsės atstõvams
 šypsókitės ir̃ gyvénkite
 kai̇̃p kokiẽ debi̇̀lai
 Gintaras Grajauskas. Naujausių laikų istorija: vadovėlis pradedantiesiems.
-Vilnius, Lietuvos rašytojų sąjungos leidykla, 2004.
-ANTANAS A. JONYNAS (g. 1953)
-EILĖRAŠČIO RAŠYMAS
+
+
+
 Kóvas, lauki̇̀mo mẽdis
 aptir̃pusios šãkos
 sù sprógstančiais žvi̇̀rbliais
 Álpių blyškiuõs šlai̇̃tuose
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-40
+
+
 išpaišýtuos pavãsario grafi̇̀tti
 ir̃ žiemõs nekantrà
 délnu bilsnójanti stãlo peizãžą
@@ -942,8 +942,8 @@ àš vi̇́ena rankà pasáulio árfą laikaũ
 õ kità braukiù per̃ pušų̃ stygàs varinès
 màno šãknys danguj̇̃ sãko puši̇̀s
 ir̃ spyglių̃ nagẽliais nedrą̃siai drýksteli žẽmę.
-Antanas A. Jonynas. Kambarys. Vilnius, Tyto alba, 2011.
-GAISRAS
+
+
 Suplė́šau dróbę rė́mus į̇̃ dali̇̀s suskáldau
 skutùs ir̃ ši̇̀pulius metù į̇̃ ži̇̀dinį
 ar̃ dár pajė̃gsiu pasiruõšti táu kai̇̃p mal̃dai –
@@ -955,12 +955,12 @@ prõ tam̃sų lángą primerktõm akýtėm
 ar̃ dár pajė̃gsiu pasiruõšti táu kai̇̃p mal̃dai
 nuraũdę si̇́enos ir̃ raudóni bal̃dai
 apliñk tarýtum kraũjo lỹtys švỹti
-Poezija
-41
+
+
 kokià beprõtiška aistrà užval̃do
 viltiẽs mažýtę taũrę sudaužýti
 ti̇̀k atsivért ir̃ niẽko neprašýti.
-ŽAIBUOJANTIS RUDUO
+
 Numẽtęs sàvo krùvinus lapùs
 ruduõ dár demonstrúoja núogą kū́ną
 ir̃ srū̃va dideli̇̀ lietaũs lašai̇̃
@@ -971,9 +971,9 @@ aistrà ir̃ rỹžtas õ tuõ tárpu
 žiemà iškársto pãtalus vėdi̇̀ntis
 ir̃ kriñta i̇̀š dangaũs lengvi̇̀ pūkai̇̃
 lýg ži̇̀los pléiskanos nuõ rùdenio galvõs
-Antanas A. Jonynas. Lapkričio atkrytis. Vilnius, Tyto alba, 2003.
-AIDAS MARČĖNAS (g. 1960)
-ARS POETICA
+
+
+
 Pasáulis bai̇̃gias, todė̃l
 rei̇̃kia rašýti eilė́raščius.
 Kàs diẽną tvirtai̇̃ pasirýžus,
@@ -989,8 +989,8 @@ tai̇̃ yrà šveñtė, tai̇̃ yrà dárbas,
 prilýgstantis kùnigo dárbui.
 Nès pasáulis bai̇̃gias dienà põ dienõs,
 pasáulis bai̇̃gias nètgi sekmãdieniais.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-42
+
+
 Todė̃l rei̇̃kia rašýti eilė́raščius,
 rei̇̃kia statýti namùs, jéi juosè
 ir̃ nebùs kám gyvénti,
@@ -998,7 +998,7 @@ rei̇̃kia kañtriai pãmatą rę̃sti,
 dienà põ dienõs, nès gãlas,
 jéi Diẽvas numir̃s anksčiaũ nei̇̃ kalbà
 ir̃ kalbà anksčiaũ nei̇̃ pasáulis.
-ŽODIS
+
 tai̇̃ bùvo vi̇̀skas ir̃ niẽkas
 ki̇̀ts kitañ susiei̇̃nantys dỹdžiai
 miškai̇̃ ši̇̀taip tel̃pa į̇̃ sė́klą
@@ -1019,12 +1019,12 @@ tai̇̃ bùvo di̇̀dis jungi̇̀mas
 tvẽriantis naũją kokýbę
 kai̇̃ žõdis pažãdina tỹlą
 kal̃bantį nuõlat prarỹjančią
-Aidas Marčėnas. Dulkės. Vilnius, Lietuvos rašytojų sąjungos leidykla, 1993.
-Poezija
-43
-VYTAUTAS MAČERNIS (1921–1944)
-RUDENS SONETAI
-7
+
+
+
+
+
+
 Vidùnaktį dažnai̇̃
 Àš pabundù,
 Kadà keistai̇̃, keistai̇̃
@@ -1039,7 +1039,7 @@ Véltui àš láukiu: niẽkas mán nepasakỹs,
 Atė̃jęs i̇̀š erdvių̃ gilių̃jų,
 Kodė̃l kàs nórs yrà? Kodė̃l àš pàts esù -
 Didžiáusia paslapti̇̀s visãtos slėpinių̃?
-9
+
 Vi̇̀sa tai̇̃, kàs šiandiẽną Tavè
 Ar̃ kanki̇̀na, ar̃ džiùgina, – lai̇̃kas
 Nusinèš ir̃ prideñgs nežinià
@@ -1051,12 +1051,12 @@ Nebelei̇̃s jų̃ atgal̃ sugrąži̇̀nti.
 Lai̇̃kas bė́gdamas véidą išrãšo
 Raukšlėmi̇̀s naujomi̇̀s.
 Išgyvẽnimai lãšas põ lãšo
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-44
+
+
 Ar̃do si̇́elos trapią́sias lyti̇̀s
 Ir̃ vė̃l kùria naujàs, bèt, sakýk, priẽ kuriõs
 Tàvo àš amžinai̇̃ apsistõs?
-21
+
 Màno si̇́ela šiañdien suñkiai ser̃ga,
 Degdamà vienãtvės liū̃desio karščiù.
 Àš nemóku jái paleñgvint var̃go,
@@ -1071,7 +1071,7 @@ Kai̇̃ ištróškus atsigért paprãšė,
 Pàdaviau jái taũrę žùdančių nuodų̃,
 Bèt, išsiur̃bus paskuti̇̀nį lãšą,
 Ji̇̀ sušùko: trókštu, dúoki stipresnių̃!
-25
+
 Einù, bèt nežinaũ, į̇̃ kur̃ nuei̇̃siu,
 Ir̃ gyvenù, bèt palaidai̇̃ ir̃ bè prasmė̃s:
 Ragáudamas gyvẽnimą kai̇̃p vai̇̃sių
@@ -1083,13 +1083,13 @@ Kodė̃l pasáulis ir̃ žmogùs, ir̃ vi̇̀sa tai̇̃?
 Ir̃ tai̇̃p einù tolỹn šiõ kláusimo keliù
 Põ nežiniõs dangum̃, pavar̃gusiu žingsniù.
 Bèt jéi randù užsimirši̇̀mo smùklę pakelỹ, –
-Poezija
-45
+
+
 Tai̇̃ liñksmas per̃ dienàs nakti̇̀s puotáuju,
 Kõl núobodžio tarnai̇̃, rimtuõliai rūškani̇̀,
 Vė̃l i̇̀šmeta į̇̃ kláusimo keliùs i̇̀š naũjo.
-ŽIEMOS SONETAI
-21
+
+
 Einù, sustóju ir̃ klausaũs:
 Vidùrnakčio metù laukuõs
 Tylù tar̃p žẽmės ir̃ dangaũs,
@@ -1104,7 +1104,7 @@ Jaučiúos laimi̇̀ngas ir̃ pagúostas,
 Nórs vi̇́enas, nãktį ir̃ apléistas,
 Skausmù apsvai̇̃gęs, išėjaũ
 Paklýst ir̃ nebegrį̇̃žt daugiaũ...
-29
+
 Neatim̃ki, Diẽve, i̇̀š manę̃s klydi̇̀mo téisės,
 Nóriu pàts suràsti tàvo kẽlią.
 Li̇̀g tavę̃s gál tai̇̃p ir̃ niẽkad neatei̇̃siu,
@@ -1116,12 +1116,12 @@ Vė̃lei im̃siu sèkt patarimù tavúoju.
 Kai̇̃ sugrį̇̃šiu pàs tavè, kóks džiaũgsmas di̇̀dis
 Tė́viškame tàvo veidè suspindė̃s,
 Tù sušùksi: – Grį̇̃žo štai̇̃ sūnùs paklýdęs –
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-46
+
+
 Ir̃ ilgai̇̃, saldžiai̇̃ priglaũsi priẽ širdiẽs.
 Bèt dabar̃ mán dúoki màno dãlią – láisvės tur̃tą,
 Àš jaũ pàts, àš pàts bandýsiu sàvo láimę kùrti.
-33
+
 Ùž lángo rẽgis vãkaro dangùs ugni̇̀nis,
 Jamè iškỹla ąžuolai̇̃s apáugusi kalvà.
 Tenai̇̃ ramùs senõlių màno kapinýnas,
@@ -1136,8 +1136,8 @@ Apliñk manè plačiù ir̃ taisykli̇̀ngu ži̇́edu
 Ir̃ i̇̀ma tar̃p savę̃s įvértint dárbus màno:
 Jéigu atrañda kar̃tais ẽsantį vertù kurį̇̃,
 Àš stóviu ir̃ džiaugsmù liepsnóju ži̇́edo vidurỹ.
-37
-B
+
+
 Gyvẽnimas – tai̇̃ gei̇̃džiamas apsigavi̇̀mas!
 Õ kai̇̃p norė́čiau padarýti jį̇̃ bekrãštį
 Ir̃ juõ keliáuti kai̇̃p amžinàsis piligri̇̀mas,
@@ -1149,12 +1149,12 @@ Gyvẽnimas nakti̇̀s, bèt jõs skliautai̇̃ žvaigždė́ti.
 Galbū́t jisai̇̃ iliùzija, kuri̇̀ vaidẽnas;
 Gál niẽko čià nėrà, ti̇̀k šiai̇̃p sáu ródos,
 Bèt nebūtiẽs pirmi̇̀nis tãškas júodas,
-Poezija
-47
+
+
 Išpli̇̀tęs kẽrinčiais vaizdai̇̃s, kóks týras mẽnas!
 Àš jį̇̃ regiù añt sàvo są́monės ekrãno
 Ir̃ negaliù atsigėrė́t, õ Diẽve màno!
-AŠ PAŽINAU KARALIŲ TAVYJE
+
 Àš pažinaũ karãlių tavyjè i̇̀š žiñgsnių áido
 Ir̃ i̇̀š akių̃ blizgė́jimo aštraũs,
 Nórs kar̃tais jõs i̇̀š tàvo liū̃dno ir̃ pai̇̀lgo véido
@@ -1171,17 +1171,17 @@ Todė̃l (nórs neturė́jai tù namų̃, kai̇̃ sáulė léidos,
 Nei̇̃ sósto, nei̇̃ tarnų̃ karãliškam dvarè)
 Ìš tàvo liū̃dno ir̃ pai̇̀lgo véido
 Àš pažinaũ karãlių tavyjè.
-Vytautas Mačernis. Po ūkanotu nežinios dangum. Vilnius, Vaga, 1990.
-MAIRONIS (1862–1932)
-UŽMIGO ŽEMĖ
+
+
+
 Užmi̇̀go žẽmė. Ti̇̀k dangaũs
 Negę̃sta ãkys sidabri̇̀nės,
 Ir̃ spar̃nas miẽgo malonaũs
 Nemi̇̀gdo ti̇̀k jaunõs krūti̇̀nės.
 Neužmigdỹs nakti̇̀s žvaigždė̃s,
 Nenuramiñs širdi̇̀s troški̇̀mų;
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-48
+
+
 Dvasià kõ i̇́eško, kàs atspė̃s,
 Kai̇̃ skę̃sta ji̇̀ tar̃p atmini̇̀mų!
 Aušrà saulė́tekio nušvi̇̀s,
@@ -1213,13 +1213,13 @@ Sáulė léidos raudóna añt Vi̇̀lniaus kapų̃,
 Kai̇̃ duõbę karei̇̃viai teñ kãsė,
 Ir̃ pagul̃dė daũg brólių gretà milžinų̃,
 Õ Viẽšpats jų̃ pri̇̀glaudė dvãsią.
-Poezija
-49
+
+
 Õ never̃k, matušė̃le, kàd jáunas sūnùs
 Ei̇̃s gi̇̀nti brangiáusios tėvỹnės!
 Kàd pavir̃tęs kai̇̃p ą́žuolas gi̇̀rių puikùs
 Laũks tei̇̃smo dienõs paskuti̇̀nės!
-DAINA
+
 Ùž Raséinių, añt Dubýsos,
 Tẽka sáulė, tẽka;
 Geltonplaũkės pui̇̃kios vi̇̀sos
@@ -1246,11 +1246,11 @@ Kàd bè lai̇̃ko ti̇́ek nebū́tų
 Bè viltiẽs našlẽlių!
 Daũgel žū̃va, daũgel pū̃va,
 Kàs apver̃ks jų̃ dãlį? 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-50
+
+
 Ùž Urãlo, žẽmės gãlo:
 Nè põ sàvo šãlį!
-NUO BIRUTĖS KALNO
+
 Išsisùpus plačiai̇̃ vakarų̃ vilnimi̇̀s,
 Mán krūti̇̀nę užli̇́ek sàvo šálta bangà
 Ar̃ tą̃ gãlią sutei̇̃k, kõ tà trókšta širdi̇̀s,
@@ -1267,7 +1267,7 @@ Trókštu draũgo arčiaũ: juõ tikė́ti galiù;
 Ji̇̀s kai̇̃p aũdrą nujaũs màno si̇́elos skausmùs;
 Paslaptiẽs neišduõs sàvo véidu tamsiù
 Ir̃ per̃ ámžius pali̇̀ks, kai̇̃p ir̃ àš, neramùs.
-VILTIS
+
 Sunkù mùms bū́tų bè viltiẽs!
 Bè jõs skausmè kàs surami̇̀ntų!
 Kàs dúotų ši̇̀rdžiai ti̇́ek ugniẽs?
@@ -1278,13 +1278,13 @@ Ji̇̀ mū́s stiprýbė, mū́s drąsà!
 Pàts prãgaras mùms jõs pavýdi!
 Bè spiñdulio viltiẽs šviesõs
 Pavérgtų si̇́elos gãlią žẽmė;
-Poezija
-51
+
+
 Mẽs nepaži̇̀ntumėm giedrõs,
 Ir̃ bū́tų mū́s darbai̇̃ aptẽmę.
-Maironis. Raštai. T. 1. Vilnius, Vaga, 1987.
-JUSTINAS MARCINKEVIČIUS (1930–2011)
-TAI GRAŽIAI MANE AUGINO
+
+
+
 Tai̇̃ gražiai̇̃ manè augi̇̀no
 Laũkas, kẽlias, pi̇́eva, ùpė,
 Tai̇̃ gražiai̇̃ ùž rañkos vẽdė
@@ -1297,7 +1297,7 @@ Tai̇̃ gražiai̇̃ skambė́jo žõdžiai:
 Laũkas, pi̇́eva, kẽlias, ùpė.
 Tai̇̃ gražiai̇̃ i̇̀š jų̃ išáugo
 Vi̇́enas žõdis – LIETUVÀ!
-DAINUOJU LIETUVĄ
+
 Dainúoju Li̇́etuvą kai̇̃p džiaũgsmą,
 išáugusį i̇̀š pelenų̃,
 kai̇̃p sàvo rū̃pestį didžiáusią,
@@ -1310,8 +1310,8 @@ Atsidarýk mán, atsivérk mán
 visõm širdim̃ – kai̇̃p šaltiniù,
 léisk pažiūrė́t į̇̃ ši̇̀tą vérsmę
 gyvõs kalbõs, gyvų̃ žmonių̃! 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-52
+
+
 Dár vi̇̀skas gýva, vi̇̀skas rė̃kia
 kapai̇̃s, muziẽjais, žaizdomi̇̀s.
 Imù į̇̃ rañką dúonos riẽkę
@@ -1320,7 +1320,7 @@ Kalbúos per̃ vándenį, per̃ dúoną,
 per̃ órą, ùgnį, per̃ medžiùs.
 Girdžiù i̇̀š vi̇̀sko, kàs mán dúota,
 jùs – kai̇̃p lietùviškus žodžiùs.
-LOPŠINĖ GIMTINEI IR MOTINAI
+
 Laukai̇̃ gražiai̇̃ sugùlę,
 miškai̇̃ gražiai̇̃ sužė́lę,
 baltóji màno gul̃be,
@@ -1341,9 +1341,9 @@ Užmi̇̀k ir̃ tù, motùle,
 juodų̃ ari̇̀mų gė̃le!
 Vaikai̇̃ gražiai̇̃ sugùlę.
 Rugiai̇̃ žaliai̇̃ sužė́lę.
-Poezija
-53
-KAIP LAISVĖ I
+
+
+
 Àš jaũ nepàkeliu
 minčių̃ apiẽ tavè!
 Kai̇̃p obeli̇̀s,
@@ -1353,7 +1353,7 @@ nusvi̇̀rusias rankàs.
 Õ tù sakai̇̃:
 – Stovė́k,
 kai̇̃p stóvi láisvė.
-II
+
 Õ, nesibai̇̃gianti
 keliõnė į̇̃ tavè!
 Jaũ kai̇̃p akmuõ,
@@ -1364,7 +1364,7 @@ dengiúos.
 Õ tù sakai̇̃:
 – Ei̇̃k tai̇̃p,
 kai̇̃p ei̇̃na láisvė.
-III
+
 Tai̇̃ uždarýk manè,
 tėvỹne,
 savyjè,
@@ -1376,16 +1376,16 @@ vãkarą
 nakti̇̀s.
 Õ tù mán atsakai̇̃:
 – Àš – tàvo láisvė.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-54
-ATODŪSIS
+
+
+
 Ìš màno méilės tù manè paži̇̀nsi,
 Atski̇̀rsi tar̃tum paũkštį i̇̀š giesmė̃s.
 Táu añt krūti̇̀nės nóksta rùgio grū́das,
 Àš pamaldžiai̇̃ jį̇̃ lū́pomis liečiù.
 Tai̇̃p vienamè atódūsyje tel̃pa
 Tėvỹnės méilė ir̃ tėvỹnės dúona.
-KALBA
+
 Vẽdė, palikdamà
 peizažè ir̃ istòrijoj pė́das.
 Ìš mótinų lū́pų išdýgo
@@ -1400,14 +1400,14 @@ priẽ pùstuščio
 prū́sų kalbõs kãpo.
 Sunkù ir̃ tylė́ti,
 ir̃ ver̃kti.
-LIETUVA
+
 Tù žõdžiais, žõdžiais į̇̃ manè,
 tù į̇̃ manè vi̇̀s dúona, dúona.
 Augi̇̀nk tą̃ mẽdį, põ kuriuõ
 susė́dę žmónės mei̇̃liai šnẽka.
-Poezija
-55
-KAD GIEDOČIAU TAVE
+
+
+
 Esù jaũ, esù –
 kai̇̃p akmuõ, pamėtė́tas į̇̃ vir̃šų,
 kàd čiulbė́čiau tavè,
@@ -1431,13 +1431,13 @@ kuriõ tàvo Nẽmunas pi̇̀lnas.
 Esù jaũ, esù –
 kai̇̃p akmuõ, pamėtė́tas į̇̃ vir̃šų,
 kàd giedóčiau tavè.
-TOKIA YRA MEILĖ
+
 Vakari̇̀nio dangaũs šviesojè
 kóks gražùs tàvo véidas, gimti̇̀ne!
 Atsiklaũpk ir̃ tylė́k – tegul̃
 ši̇̀ erdvė̃ prisipi̇̀ldo tavę̃s,
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-56
+
+
 nès tokià yrà méilė. Per̃ ši̇̀rdį
 ei̇̃na šaũkdamas kraũjas:
 ----- gimti̇̀ne,
@@ -1459,7 +1459,7 @@ visadõs vir̃š manę̃s pasileñkusią.
 Ìš čià màno žõdžiai –
 õ, màno žõdžiai! kai̇̃p tvársčiai,
 prili̇̀pę priẽ tàvo žaizdų̃.
-* * *
+
 Nè vi̇́enas àš.
 Tikrai̇̃, yrà kalbà,
 kur̃ žõdis pasitiñka
@@ -1472,18 +1472,18 @@ vardai̇̃s àš mãtomas.
 Jaũ kai̇̃p žodýnas
 tiẽs L raidè
 àš àtverstas esù. 
-Poezija
-57
+
+
 Čià dẽga tàvo var̃das.
 Báltas ži̇́edas
 iškỹla ir̃ siūbúoja.
 Tamsojè
 laikýsiu kai̇̃p žibiñtą
 var̃dą tàvo.
-Justinas Marcinkevičius. Raštai. T. 1. Vilnius, Vaga, 1982.
-MARCELIJUS MARTINAITIS (1936–2013)
-INSTRUKCIJA KUKUČIUI,
-PALEISTAM IŠ DABOKLĖS
+
+
+
+
 a) negalvójant
 galvóti
 kõ nerei̇̃kia
@@ -1496,7 +1496,7 @@ c) nesuprañtant
 supràsti
 kõ nerei̇̃kia
 supràsti
-KUKUTIS NORI PAMATYTI TĖVYNĘ
+
 – Tai̇̃p ilgai̇̃ nemačiaũ tėvỹnės,
 di̇̀rbdamas jõs laukùs,
 taisýdamas jõs šiaudiniùs stógus.
@@ -1504,8 +1504,8 @@ Tai̇̃p gyvẽnimas nèdavė lai̇̃ko,
 várgindamas aki̇̀s ir̃ galvójimą:
 vi̇̀s ką̃ nórs reikė́davo di̇̀rbti,
 ei̇̃ti kur̃ nórs ar̃ važiúoti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-58
+
+
 Mataũ,
 niẽko neišei̇̃na ir̃ ti̇́ems,
 kuriẽ grei̇̃tai važiúoja,
@@ -1526,7 +1526,7 @@ kám nèdavė lai̇̃ko gyvẽnimas.
 Tai̇̃p niẽko daugiaũ neuždi̇̀rbau
 ir̃ tai̇̃p niẽko daugiaũ neturiù,
 kàd jaũ nebenóriu turė́ti.
-KUMELAITĖ KUKUČIO AUSY
+
 Per̃ nãktį
 Kukùčio ausỹ
 užáugo smagi̇̀ kumeláitė.
@@ -1540,8 +1540,8 @@ Bèt kai̇̃p àš paáiškinsiu,
 i̇̀š kur̃ ausyjè kumeláitė?
 Kai̇̃p negražù
 priẽš pažį̇́stamus,
-Poezija
-59
+
+
 priẽš vaikùs,
 priẽš tókį grãžų ir̃ týrą gyvẽnimą,
 kur̃ tókios dai̇̃lios užúolaidos
@@ -1561,7 +1561,7 @@ kuliamų̃jų maši̇̀nų.
 Nedúok diẽve –
 numir̃tų:
 ši̇̀tokią gė́dą ràstų ausỹ!
-KUKUTIS VAŽIUOJA PILNU TROLEIBUSU
+
 Suspáustas i̇̀š visų̃ pùsių,
 Kukùtis smagiai̇̃ sáu galvója:
 – Kóks tai̇̃ yrà patogùmas –
@@ -1576,8 +1576,8 @@ ki̇́ek táu mẽtų,
 kokià tàvo akių̃ spalvà,
 kàs tàvo gi̇̀minės,
 i̇̀š kur̃ ir̃ kodė̃l atvažiavai̇̃.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-60
+
+
 Ir̃ i̇̀š vi̇̀so:
 ar̃ tù gývas,
 ar̃ šiai̇̃p sáu važiúoji?
@@ -1587,7 +1587,7 @@ jéi kurią̃ diẽną visái nevažiúosi.
 Ir̃ niẽks neatlė̃ks į̇̃ namùs,
 reikaláudamas paáiškinimo:
 – Kodė̃l nevažiúoji troleibusù?
-* * *
+
 Tù numègzk mán, mãma, kẽlią
 i̇̀š vaikỹstės ir̃ i̇̀š spindulių̃.
 Ìš mirtiẽs, i̇̀š kur̃ sugrį̇̃žt negãlima,
@@ -1604,12 +1604,12 @@ Tù numègzk mán tū́kstantį malū̃nų
 añt pavãsario kalvų̃ žalių̃...
 Õ jéi kar̃tais... Jùk žinai̇̃, kai̇̃p bū̃na –
 tù užklók manè keliù.
-* * *
+
 Táu ãčiū, tėvỹne, ùž kal̃bą.
 Táu ãčiū ùž dárbą.
 Ùž núovargį ãčiū.
-Poezija
-61
+
+
 Táu ãčiū, kàd Nẽmunas tẽka,
 ùž mė́lyną bañgą rugių̃,
 táu ãčiū ùž dróbės išbãlintą tãką,
@@ -1628,9 +1628,9 @@ táu ãčiū ùž viẽškelių šviẽsą...
 Táu ãčiū ùž tai̇̃,
 kàd manè tù pamir̃ši,
 suársi manè ir̃ apsė́si...
-Marcelijus Martinaitis. Vainikas. Vilnius, Vaga, 1981.
-VINCAS MYKOLAITIS-PUTINAS (1893–1967)
-IŠTIKIMYBĖ
+
+
+
 Paláimos šviẽsią vãlandą
 Ar̃ júodu nesėkmė̃s metù
 Àš li̇̀ksiu i̇̀štikimas žmõgui
@@ -1640,8 +1640,8 @@ Tar̃p mū́s visų̃ širdžių̃,
 Ir̃ sáulėtą dienóvidį,
 Ir̃ nỹkųjį vidùrnaktį
 Àš ją̃ jaučiù, àš ją̃ girdžiù.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-62
+
+
 Põ kasdienýbės pelenai̇̃s
 Karštà rusẽna žarijà
 Kiekvi̇́eno mū́sų širdyjè.
@@ -1653,9 +1653,9 @@ Ir̃ tam̃sią nãktį,
 Ir̃ šviẽsią diẽną –
 Būtiẽs aki̇̀mirką
 Kiekvi̇́eną. – – –
-SU ŠYPSNIU ATLAIDŽIU
-Sonetai
-IX
+
+
+
 Ištiẽsk mán rañką, jéi kelỹ pai̇̀lsiu.
 Tàs kẽlias ki̇́etas, siaũras ir̃ statùs.
 Žinaũ, àš niẽkad vi̇́enas nepaki̇̀lsiu
@@ -1670,13 +1670,13 @@ Tõ vi̇́eno tàvo žvil̃gsnio mán pakañka,
 Ir̃ jaũ žinaũ – dvasià ir̃ vė̃l atgi̇̀s.
 Tegù mū́s kẽlias siaũras ir̃ statùs –
 Pasi̇́eksim aũkšty spiñdinčius krantùs.
-XIV
+
 Dėkóju táu ùž džiaũgsmo valandė̃lę –
 Ji̇̀ sáulėtom dienõm manè aplañko.
 Veidè išnỹksta liū̃desio šešė́liai,
 Kai̇̃ pajuntù delnè àš tàvo rañką.
-Poezija
-63
+
+
 Dėkóju táu ùž si̇́elvartą ir̃ gė̃lą,
 Ir̃ tãvąją sudrė́kusią blaksti̇́eną.
 Jõs ãšara vaidẽnas màno si̇́eloj
@@ -1687,7 +1687,7 @@ Dabar̃ ką̃ ti̇̀k svajóju ar̃ dainúoju,
 Džiaugsmè ir̃ gėloj màno įkvėpi̇̀mas.
 Pagúosk šypsniù ar̃ skaũdink kruvinai̇̃ –
 Táu màno gi̇́esmės, gõdos ir̃ sapnai̇̃.
-XV
+
 Širdiẽs svyrãvimai ir̃ prõto paklydi̇̀mai
 Painiam̃ buitiẽs kelỹ manę̃s nebebaugi̇̀na.
 Į̃ márgą púokštę klójas jų̃jų atmini̇̀mai –
@@ -1702,14 +1702,14 @@ Bèt ki̇́etą ãkmenį tvirtai̇̃ jaučiù põ kójų,
 Ir̃ ãkys aukštumõj žvaigždžių̃ takùs pažį̇́sta.
 Budė́jęs krỹžkeliuos, tiktai̇̃ dabar̃ žinaũ:
 Nè véltui kláidžiojau, kenčiaũ ir̃ gyvenaũ.
-* * *
+
 Jéi àš tavè suti̇̀kčiau
 Audri̇̀ngą, júodą nãktį
 Ir̃ tamsojè nepamatýčiau
 Nei̇̃ tàvo mi̇́elo véido,
 Nei̇̃ nuostabių̃ akių̃,
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-64
+
+
 Nei̇̃ i̇̀š širdiẽs gelmių̃
 Išspinduliúoto méilės žvil̃gsnio,
 Nei̇̃ i̇̀š tų̃ lū́pų sudrėki̇̀ntų
@@ -1728,8 +1728,8 @@ Ir̃ pasakýčiau,
 Kàd tą̃ audri̇̀ngą, júodą nãktį
 Ti̇̀k dė̃l tavę̃s širdi̇̀s
 Džiaugsmù pradė́jo plàkti.
-MANO MĖNESIAI
-RUGPJŪTIS
+
+
 Jaũ nužvangė́jo paskuti̇̀niai dal̃giai,
 Ir̃ pasišiáušė dir̃vose raži̇́enos.
 Laukuõs erdvù, –
@@ -1744,8 +1744,8 @@ Mán ši̇̀ nakti̇̀s – seniai̇̃ lauktóji šveñtė.
 Žvelgiù aukštỹn į̇̃ dañgų, júodą, gi̇̀lų, –
 Teñ pi̇̀rmąsyk tai̇̃p skai̇̃driai šviẽčia žvai̇̃gždės, –
 Õ jaũ širdỹ seniai̇̃ dienõs aidai̇̃ nuti̇̀lo.
-Poezija
-65
+
+
 Rugpjū́čio nãktį žvai̇̃gždės di̇̀delės ir̃ skai̇̃drios.
 Rugpjū́čio nãktį žvai̇̃gždės žẽmėn kriñta.
 Jaũ!.. Sùplieskė vienà!..
@@ -1758,7 +1758,7 @@ Vėsiõs, tyliõs.
 Õ žvai̇̃gždės dár ryškiaũ padángėj suspindė́jo.
 Gál dár vienà nukri̇̀s?
 Ir̃ àš nenóriu grį̇̃žti atgaliõs.
-GRUODIS
+
 Keliõnė bùvo neilgà.
 Jaũ žeñgiam paskuti̇̀nį žiñgsnį –
 Ir̃ pabaigà.
@@ -1781,8 +1781,8 @@ Suti̇̀kt žiemõs,
 Bèt ši̇̀tai bai̇̃gias grúodis jaũ,
 Ir̃ si̇́eloje staigà šviesiaũ.
 Tegul̃ sáu siáutėja pūgà, –
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-66
+
+
 Jaũ skélbia grúodžio pabaigà:
 Táu grį̇̃žta sáulė!
 Ir̃ àš kartóju:
@@ -1792,7 +1792,7 @@ Atkãklų rỹžtą:
 Prõ spéigą, vė́trą ir̃ pūgàs
 Į̃ grį̇̃žtančią šiandiẽną sáulę
 Ištiẽst rankàs!
-TARP DVIEJŲ AUŠRŲ
+
 Tar̃p dviejų̃ aušrų̃ pasáulis kai̇̃p pãsaka.
 Ìš žvi̇̀lgančių bókštų véizi visarẽginčios ãkys, –
 ir̃ jų̃ regė́jimais žavi̇́esi tù pàts,
@@ -1810,13 +1810,13 @@ ir̃ tù nebežinai̇̃, kókiu vardù juõs vadi̇̀nti.
 Tàvo patiẽs būti̇̀s
 nykiai̇̃s aidė́jimais skreñda atgaliõs, –
 ir̃ táu bè gãlo liū̃dna.
-MARGI SAKALAI
+
 Lydė́dami gę̃stančią žãrą, vėlai̇̃
 Paki̇̀lo į̇̃ dañgų margi̇̀ sakalai̇̃.
 Paniẽkinę žẽmės vyli̇̀ngus sapnùs,
 Padángėje i̇̀štiesė sàvo sparnùs. 
-Poezija
-67
+
+
 Ir̃ tãrė margi̇́eji: negrį̇̃šim į̇̃ žẽmę,
 Kõl jõsios kalnai̇̃ ir̃ pakal̃nės aptẽmę.
 Sapnai̇̃ ir̃ šešė́liai padángėse mùms
@@ -1833,7 +1833,7 @@ Bèt štai̇̃ rytuosè jaũ nuraũdo dangùs,
 Jaũ nùšvietė sáulė uolàs ir̃ laukùs,
 Tačiaũ i̇̀š dangaũs nei̇̃ anksti̇̀, nei̇̃ vėlai̇̃
 Negrį̇̃žo į̇̃ žẽmę margi̇̀ sakalai̇̃.
-SKRISKI, ARE
+
 ...Dangùs – màno tė́vas,
 bèt Žẽmė – mótina manóji...
 Skri̇̀ski, ãre, į̇̃ pàt dañgų ir̃ plasnóki,
@@ -1850,11 +1850,11 @@ Tàvo liẽpsnos mán krūti̇̀nėj dár žėrúoja,
 Tàvo ai̇̃stros màno lū́pomis garúoja.
 Tù pasė́jai màno gývastį, dangaũ,
 Bèt àš čià, juodõjoj žẽmėj, išdygau.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-68
+
+
 Dár pirmýkštę sàvo bū̃tį si̇́ela mi̇̀ni, –
 Ti̇̀k apglė́bt tavè, pasáuli begali̇̀ni!
-* * *
+
 Pažvel̃gęs
 Į̃ tą̃ neaprė́piamą plótą,
 Į̃ dañgų ir̃ žẽmę,
@@ -1863,10 +1863,10 @@ Nustẽbęs sakaũ:
 Õ kóks gi̇̀ tù meñkas
 Ir̃ kóks tù didi̇̀ngas,
 Žmogaũ!
-Vincas Mykolaitis-Putinas. Raštai. T. 1.
-Vilnius, Vaga, 1989; Raštai. T. 2. Vilnius, Vaga, 1990.
-NIJOLĖ MILIAUSKAITĖ (1950–2002)
-* * *
+
+
+
+
 atsargiai̇̃ pàpučiu, ir̃ dùgnas
 susidrum̃sčia, ir̃ aprasója
 skaidrùs pavir̃šius, stebukli̇̀ngas
@@ -1882,8 +1882,8 @@ nei̇̃ ramiõs slėptùvės, nei̇̃ tikrų̃ namų̃, nei̇̃ ùždrausto
 įei̇̃ti kam̃bario
 delnai̇̃ staigà sudrė́ksta, nègi bū́tų čià?
 kõ tai̇̃p bijaũsi – péržengt sleñkstį
-Poezija
-69
+
+
 prasklei̇̃sti
 užúolaidą, aksomi̇̀nę, auksi̇̀niais rãštais
 išsiū́tą, kur̃ tebesikartója
@@ -1898,7 +1898,7 @@ ar̃ kadà žinósiu
 kàs teñ slẽpiama, kokiẽ lõbiai, kókios pãslaptys
 kokià bedùgnė
 tamsùsis màno si̇́elos véidrodi
-* * *
+
 šukúojas priẽš véidrodį pláukus
 rankà neryžti̇̀ngai stàbteli, šùkos iškriñta
 pri̇̀kiša véidą arčiaũ, įsižiū̃ri, ki̇́ek atsitráukia
@@ -1910,18 +1910,18 @@ plonýčiai riešai̇̃, siaũros póilgės plãštakos
 lañkstūs pir̃štai – vi̇̀s dár paklū̃sta táu
 nórs neišvéngiamą
 li̇̀gą jauti̇̀ sąnariuõs, paveldė́tą
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-70
+
+
 vi̇̀s keičiúos ir̃ keičiúos
 nejusdamà tõ
 kartù sù mẽtų laikų̃ kaità
 kartù sù kraštóvaizdžiu véidrody mán ùž pečių̃
 tačiaũ màno si̇́ela
 vi̇̀s tokià pàt
-Nijolė Miliauskaitė. Uždraustas įeiti kambarys.
-Vilnius, Lietuvos rašytojų sąjungos leidykla, 1995.
-ANTANAS MIŠKINIS (1904–1983)
-ELEGANTIŠKAI SNINGA
+
+
+
+
 Šiañdien tai̇̃p elegántiškai sniñga,
 Sniñga žẽmėn mẽdžių žiedai̇̃s.
 Panašiai̇̃ màno méilė diñgo
@@ -1942,9 +1942,9 @@ Õ dabar̃ elegántiškai sniñga,
 Sniñga párkuos mẽdžių žiedai̇̃s, –
 Ti̇̀k tà méilė netýčia diñgo
 Sù visai̇̃s ir̃ visai̇̃s apžadai̇̃s.
-Poezija
-71
-IŠ GILUMŲ ŠAUKIAMĖS
+
+
+
 Añt sopulių̃ mùms kraũjas sukrekė́jo,
 Pašiur̃po nuõ tylė́jimo grubaũs.
 Õ Viẽšpatie, ar̃ jaũ tikrai̇̃ reikė́jo
@@ -1973,9 +1973,9 @@ Tai̇̃ kám gi̇̀, Viẽšpatie, dabar̃ apléidai
 Ir̃ palieki̇̀ mùs slibinų̃ naguõs?
 Parknium̃bame priẽš Tàvo rū́stų véidą –
 Õ! Tė́ve Mū́sų, Kur̃s Esi̇̀ Danguõs...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-72
-IMPROVIZACIJA
+
+
+
 Slibinai̇̃ į̇̃ mū́sų žẽmę atsigrį̇̃žo,
 Nenumal̃domi maldà. –
 Stókim põ lietùvį põ kiekvi̇́enu krỹžium –
@@ -2000,15 +2000,15 @@ Slibinai̇̃ į̇̃ mū́sų žẽmę atsigrį̇̃žo,
 Ver̃kia màno Lietuvà!
 Sẽsės, bróliai, stókit nèšti suñkų krỹžių –
 Svỹra Diẽvo kruvinà galvà.
-* * *
+
 Stóvi tė́vo dvarẽliai tušti̇̀,
 Vãkar bùvo visi̇̀ išvežti̇̀.
 Li̇̀ko žỹmės gyvų̃ dár pėdų̃.
 Skẽlia ši̇̀rdį – graudù, apmaudù.
 Ver̃kia Diẽvas medi̇̀nis kiemè,
 Nebėrà čià mùms viẽtos – eimè.
-Poezija
-73
+
+
 Mū́sų niẽkas daugiaũ čià nelaũks
 Ir̃ nepil̃s mùms auksi̇̀nio alaũs,
 Rañkoj sti̇̀klas daugiaũ nežibė̃s,
@@ -2021,9 +2021,9 @@ Pasili̇̀kt niẽks daugiaũ čià nelei̇̃s.
 Ei̇̃sim sàvo kelẽliais keliai̇̃s.
 Ver̃kia Diẽvas medi̇̀nis kiemè,
 Tùščia, liū̃dna, neliñksma – eimè!
-Antanas Miškinis. Rinktiniai raštai. T. 1. Vilnius, Vaga, 1991.
-SALOMĖJA NĖRIS (1904–1945)
-ALYVOS
+
+
+
 Manę̃s dár nebùvo, –
 Alỹvos žydė́jo – –
 Manę̃s nebebùs jaũ, –
@@ -2032,13 +2032,13 @@ Ir̃ kri̇̀s jų̃ lapẽliai
 Nuõ sáulės ir̃ vė́jo –
 Kai̇̃p smė̃lio saujẽlės –
 Añt màno širdiẽs – –
-DAGILĖLIS
+
 Žvar̃būs li̇́etūs rai̇̃žo tar̃tum pei̇̃liai.
 Dárgana rudẽnė – klam̃pios pélkės.
 Dagilė̃li, kõ tai̇̃p čỹpsi gai̇̃liai?
 Ar̃ netẽkęs draũgo, ar̃ išálkęs?
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-74
+
+
 Si̇̀biro taigõs jaũ vė́jai kẽlias,
 Grei̇̃t supū̃s ledi̇̀nių snai̇̃gių pùsnį.
 Bè pastógės – pérmirkę plunksnẽlės...
@@ -2047,7 +2047,7 @@ Àš pakviẽstau mãžąjį paukštẽlį
 Į̃ namẽlio ši̇̀lumą prõ lángą...
 Dagilė̃li, nebturiù namẽlių,
 Svetimà padángė manè deñgia.
-PABUČIAVIMAS
+
 Pabučiãvimas tàvo bùvo kárštas ir̃ trum̃pas,
 Ir̃ kai̇̃p žai̇̃bas staigùs, ir̃ svaigùs kai̇̃p nakti̇̀s –
 Õ, gali̇̀nga pagùnda! – Ir̃ šventi̇́eji suklum̃pa...
@@ -2060,7 +2060,7 @@ Nè gyvãtė įkándo – kárštos lū́pos bučiãvo!
 Li̇̀gi káulų nusmil̃ko šiurpuli̇̀nga šalnà –
 Negaliù àš pamir̃št... Nès žinaũ, kàd ir̃ tàvo
 Vi̇̀sos miñtys ir̃ ai̇̃stros – beñdro láužo liepsnà!
-VĖJAS
+
 Vė́jas, ói, vė́jas!
 Vė́jas ir̃ vė́jas!
 Pláukus paléido ir̃ apkabi̇̀no,
@@ -2069,13 +2069,13 @@ Rudeñs aguõną –
 Lãpą geltóną
 Į̃ màno pláukus slaptà įpýnė. –
 Rùdenio méile dẽga krūti̇̀nė.
-Poezija
-75
+
+
 Lė̃kti ir̃ lė̃kti!
 Ir̃ nepasi̇́ekti...
 Ãkys užmérktos, juõkiasi véidas, –
 Nẽša ir̃ sùpa vė́jas paláidas!
-PAVASARIO SVAIGULYS
+
 Táu pi̇̀rmą pavãsario dai̇̃ną aukóju.
 Táu ži̇́edus žibùčių sudė́siu põ kójų. –
 Ti̇̀k skri̇̀skim kartù sù pavãsario vė́ju,
@@ -2096,18 +2096,18 @@ Màno miñtys, màno svãjos – tai̇̃ vi̇̀s tù.
 Màno dai̇̃nos, màno sãpnas – tai̇̃ vi̇̀s tù.
 Plãsta žvai̇̃gždės, vi̇̀rpa sáulė priẽ tavę̃s.
 Kàs manè į̇̃ tàvo rū́mus benuvès?
-KAIP ŽYDĖJIMAS VYŠNIOS
+
 Mū́sų diẽnos – kai̇̃p šveñtė,
 Kai̇̃p žydė́jimas vỹšnios, –
 Tai̇̃ skubė́kim gyvénti,
 Nès prabė̃gs – nebegrį̇̃š jõs!
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-76
+
+
 Tai̇̃ skubė́kime džiaũgtis! –
 Vai̇̃, prabė̃gs – nebegrį̇̃š jõs!
 Mū́sų diẽnos – kai̇̃p paũkščiai,
 Kai̇̃p žydė́jimas vỹšnios.
-DIEMEDŽIU ŽYDĖSIU
+
 Ir̃ vi̇́enąkart, pavãsari,
 Tù vė̃l atjósi drą̃siai. –
 Õ mýlimas pavãsari,
@@ -2116,8 +2116,8 @@ Sulai̇̃kęs júodbėrį staigà,
 Į̃ žẽmę pažiūrė́si:
 Ir̃ žẽmė tàps žiedai̇̃s margà...
 Àš diẽmedžiu žydė́siu – –
-IŠ M. K. ČIURLIONIO PAVEIKSLŲ
-1. PAVASARIS
+
+
 Pavãsaris – –
 Dainúot im̃s alyvà. –
 Upẽlė vi̇̀rpa – vė̃l gyvà.
@@ -2135,12 +2135,12 @@ Tàs láisvės nẽrimas lakùs.
 Õ var̃pas šim̃tą kar̃tų šaũks mán –
 Vi̇̀s méilę, džiaũgsmą – méilę, džiaũgsmą:
 Laimi̇̀ngas bū́ki, žẽmės bróli!
-Poezija
-77
+
+
 Širdiẽs žirgẽlis dúoda šúolį –
 Bè kẽlio, tãko – per̃ laukùs – –
 Tai̇̃ láisvės nẽrimas lakùs!
-4. ŠAULYS
+
 Riẽda sáulė –
 Ugniẽs kamuolỹs. –
 Per̃ pasáulį
@@ -2161,13 +2161,13 @@ Sáulė kai̇̃tins
 Vė̃l jū́ras, žemès. –
 Sáulės krai̇̃tį
 Sukráusim ir̃ mẽs.
-5. DRAUGYSTĖ
+
 Tekéikia prãkeiksmu pasáulį
 Išsẽkę lū́pos pranašų̃! –
 Draugỹstę màno táu – kai̇̃p sáulę,
 Kai̇̃p šviẽsų il̃gesį nešù.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-78
+
+
 Àk, i̇̀lgos nãktys, júodos del̃čios, –
 Padángės pi̇̀lnos debesų̃.
 Õ vi̇̀s dėltõ – sakýk, kodė̃l čià,
@@ -2180,7 +2180,7 @@ Dė̃l jõs ir̃ žẽmėje gyvẽnam,
 Dainúojame dainàs dė̃l jõs. –
 Dė̃l jõs ir̃ nemunai̇̃ srovẽna,
 Ir̃ õšia gi̇̀rios žãliosios.
-MAIRONIUI
+
 Sãko, mir̃damas manè tù kéikei,
 Õ numi̇̀ręs surūstė́jai dár labiaũ.
 Li̇̀gi šiõl àš negaliù vi̇̀s atsipéikėt:
@@ -2197,11 +2197,11 @@ Ir̃ nenóriu sáu gerèsnio niẽko,
 Ti̇̀k priẽ žẽmės prisiglaũst brangiõs,
 Bū́ti tė́viškės ari̇̀mų sli̇́eku,
 Mė́lyna rugiãgėle rugiuõs.
-Salomėja Nėris. Raštai. T. 1-2. Vilnius, Vaga, 1984. 
-Poezija
-79
-GYTIS NORVILAS (g. 1976)
-JEI
+
+
+
+
+
 jéi bū́tų áugę
 Álpių šlai̇̃tuos
 bambùkų giráitės –
@@ -2224,7 +2224,7 @@ káulo žebérklais
 dùrų laužtùvais žnýplėm
 bi̇̀čių geluonim̃
 vorãtinklių nýtim - - -
-- - - - - - - - - - - - - -
+
 ir̃ vi̇̀s ti̇́ek
 tai̇̃ niẽko nekei̇̃stų
 rašýtume kai̇̃p dabar̃ –
@@ -2234,14 +2234,14 @@ neviltiẽs
 mir̃čiai skaidrė́jant
 lýg rýtui
 laũmžirgio akiẽs lėliùkėj
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-80
+
+
 lydimi̇̀ kárvių baubi̇̀mo
 tar̃p edelvei̇̃sų šókant baleri̇̀noms
-Gytis Norvilas. Akmen-skeltės.
-Vilnius, Lietuvos rašytojų sąjungos leidykla, 2002.
-HENRIKAS RADAUSKAS (1910–1970)
-BEGALINIS LIŪDESYS
+
+
+
+
 Añt mel̃svo fòno – žvai̇̃gždės blỹškios.
 Nakti̇̀s kai̇̃p ãšara šviesi̇̀.
 Õ žẽmėj žýdi báltos vỹšnios
@@ -2254,7 +2254,7 @@ Danguj̇̃ apal̃pę žvai̇̃gždės gùli.
 Nakti̇̀s beti̇̀kslė ir̃ šviesi̇̀.
 Õ, sẽnas, vi̇̀rpantis mėnùli,
 Õ, begali̇̀nis liūdesỹ!
-PAPRASTOS DAINOS
+
 Kai̇̃ àš prisi̇̀menu anàs dienàs,
 Rašaũ bè gãlo pàprastas dainàs:
 Apiẽ auksi̇̀nį tė́vo grỹčios stógą
@@ -2265,13 +2265,13 @@ Õ žmónės gi̇̀mė, sė́jo, pjóvė, mi̇̀rė,
 Juõs kir̃to lai̇̃kas, õ jiẽ kir̃to gi̇̀rią.
 Bèt jiẽ žaliãvo, kai̇̃p ir̃ tà girià,
 Ir̃ jiẽ dainàs dainãvo vakarè,
-Poezija
-81
+
+
 Pareidami̇̀ i̇̀š laũko į̇̃ namùs,
 Ir̃ šviẽtė ji̇́ems saulė́lydis ramùs,
 Ir̃ sùko gi̇̀rnas ji̇́ems gali̇̀ngas vė́jas,
 Vyrèsnis brólis, ji̇́ems padė́t atė̃jęs.
-STEBUKLAS
+
 Praláužę pasẽnusią tvõrą,
 Alỹvos išskri̇̀do i̇̀š sõdo
 Ir̃ skreñda per̃ čiùlbantį órą
@@ -2284,7 +2284,7 @@ Tarnáitė, stebùklo suláukus,
 Suri̇̀kusi šóka į̇̃ dañgų.
 Jái kreñta alỹvos prõ pláukus
 Ir̃ tir̃psta tar̃p drẽbančių rañkų.
-ŽIEMOS PASAKA
+
 Įspė́k, kàs kvẽpia? Neįspė́jai.
 Leli̇̀jos? Li̇́epos? Vė́jai? Nè.
 Tai̇̃p kvẽpia pri̇̀ncai ir̃ kirpė́jai,
@@ -2297,14 +2297,14 @@ Rami̇̀ šviesà prõ švel̃nią mi̇̀glą
 Žiūrė́ki: báltas sõdas miñga.
 Nugrim̃zdo žẽmė praeitỹ.
 Įspė́k, kàs ei̇̃na? Neįspė́jai:
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-82
+
+
 Atei̇̃na pri̇̀ncai ir̃ kirpė́jai,
 Balti̇̀ karãliai ir̃ kepė́jai,
 Ir̃ šlãma mẽdžiai apsnigti̇̀.
-Henrikas Radauskas. Eilėraščiai. Vilnius, Baltos lankos, 1999.
-JONAS STRIELKŪNAS (1939–2010)
-LIETUVA
+
+
+
 Lietuvà – akmuõ priẽ sleñksčio sẽno
 Ir̃ lietaũs lašẽlis debesỹ.
 Lietuvà – ugni̇̀s, kurią̃ kūrẽnam
@@ -2329,11 +2329,11 @@ Ir̃ tenai̇̃, kur̃ põ visų̃ klajõnių
 Žẽmėn atsigul̃s manà galvà,
 Nerašýkit màno var̃do, žmónės,
 Parašýkit, žmónės: L i e t u v à.
-Jonas Strielkūnas. Rinktinė. Vilnius, Vaga, 1986. 
-Poezija
-83
-PAULIUS ŠIRVYS (1922–1979)
-NEŽIŪRĖK, NEŽIBĖK
+
+
+
+
+
 Nežiūrė́k,
 Nežibė́k,
 Tai̇̃p liūdnai̇̃
@@ -2366,8 +2366,8 @@ Kai̇̃p ir̃ àš,
 Kai̇̃p ir̃ tù –
 Niekadà,
 Niekadà.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-84
+
+
 Tai̇̃ stipriaũ
 Ir̃ karščiaũ
 Tù manè
@@ -2376,7 +2376,7 @@ Ir̃ pilniaũ
 Ir̃ svaigiaũ
 Màno taũrę
 Pripi̇̀lk.
-PRIE PASAKŲ MIESTO
+
 Àš láuksiu
 Priẽ Vi̇̀lniaus,
 Priẽ pãsakų miẽsto,
@@ -2401,8 +2401,8 @@ Plukdýki
 Tù ją̃ atgaliõs.
 Àš láuksiu
 Priẽ Vi̇̀lniaus,
-Poezija
-85
+
+
 Priẽ pãsakų miẽsto,
 Kur̃ tẽka Neri̇̀s
 Sù žarà.
@@ -2428,15 +2428,15 @@ Priẽ pãsakų miẽsto,
 Tavę̃s,
 Màno méile
 Tikrà.
-NEMUNAS
+
 Sù Nẽmunu
 Pàteka sáulė.
 Sù Nẽmunu
 Léidžias toli̇̀.
 Priẽ Nẽmuno
 Màno pasáulis, 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-86
+
+
 Priẽ Nẽmuno
 Màno šali̇̀s.
 Sù Nẽmunu
@@ -2463,11 +2463,11 @@ Priẽ Nẽmuno
 Màno pasáulis –
 Gimtóji šali̇̀s –
 Lietuvà.
-Paulius Širvys. Ir nusinešė saulę miškai. Vilnius, Vaga, 1984.
-Poezija
-87
-JUDITA VAIČIŪNAITĖ (1937–2001)
-PRIE VILNELĖS
+
+
+
+
+
 Àš pràveriu lángą. Čiurlẽna
 čià pàt skardžiabal̃sė Vilnẽlė.
 Suràsiu kur̃ lai̇̃kraštį sẽną,
@@ -2480,7 +2480,7 @@ Paléisiu čià sàvo laivẽlį,
 teplaũkia põ ti̇̀ltais į̇̃ Nẽrį,
 teródo žuvė́dros jám kẽlią,
 tè sáulė jõ bùrėse žė̃ri...
-VYTIS
+
 Lẽkia heráldinis rai̇̃telis,
 báltas šarvúotas rai̇̃telis,
 añtkapių rai̇̃telis,
@@ -2499,16 +2499,16 @@ pãsagos i̇̀šskelia ži̇́ežirbas,
 žýbteli sáulėj sužvi̇̀lgęs
 jõ kalavi̇̀jas,
 jõ skỹdas sù krỹžium –
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-88
+
+
 ùž láisvę kariáuja
 tàs sidabri̇̀nis karỹs,
 tàs prósenių vi̇̀ltį pager̃bęs
 rai̇̃telis –
 sẽnas Traidẽnio, Al̃girdo, Výtauto
 hèrbas.
-SENOS FOTOGRAFIJOS
-1. ŽEMAITĖ
+
+
 Žiūrė́k, ir̃ põ rudeñs žvaigždė̃m
 suži̇̀bs lýg ni̇̀mbas žibali̇̀nė lémpa,
 kaimýnų vai̇̃ko atneštà –
@@ -2528,15 +2528,15 @@ pabučiuõs táu rañką
 sū́nūs, dùkros ir̃ anū̃kai,
 ir̃ próanūkių mi̇̀nios –
 tàvo trobojè sutil̃pus Lietuvà...
-4. ŠATRIJOS RAGANA
+
 Kokià graži̇̀ tù pareini̇̀
 i̇̀š jaũ sudžiū́vusių pagel̃tusių rožýnų,
 pali̇̀kus báltą sáulės skė̃tį
 añt žolė̃s priẽ begali̇̀nių tvenkinių̃,
 kur̃ ti̇̀k laibų̃ iri̇̀sų áuksas
 ir̃ arklỹs tuščiõj ganỹkloj...
-Poezija
-89
+
+
 Negrįži̇̀mų
 alė́jomis sutẽmusiame senamè dvarè
 àš pàs tavè einù.
@@ -2550,8 +2550,8 @@ Tavimi̇̀, pašnibždomi̇̀s mán šnẽkančia,
 tikiù, nès tà kalbà –
 lýg var̃po gar̃sas i̇̀š vaikỹstės tõlių –
 įsakmi̇̀...
-KANONAS BARBORAI RADVILAITEI
-6. ŽYGIMANTAS AUGUSTAS
+
+
 Kai̇̃p šuõ priẽ mi̇̀rštančios tavę̃s ištikimai̇̃ budė́jau
 tai̇̃s mė́nesiais, kadà nei̇̃ žãvesio, nei̇̃ bū́to grõžio
 neli̇̀ko – ti̇̀k dvasià, ti̇̀k graudulỹs, kadà bodė́jos
@@ -2564,13 +2564,13 @@ Ar̃gi tavę̃s netèksiu? Ar̃gi diñgsi? Kàs karãlių val̃dos,
 jéi ẽsame lýg dỹkvietėj – visam̃ pasáuly dvi̇́ese?
 Mán niẽkas nesvarbù – dár mùša šveñtos tàvo vãlandos,
 dár tàvo švel̃nūs pir̃štai màno rañkoj neatvė́sę...
-7. BARBORA RADVILAITĖ
+
 Àš bū́siu nè pagel̃tęs pergameñtas. Àš nesénsiu.
 Mán méilė bùs galià išli̇̀kti, kai̇̃p poètui ei̇̃lės.
 Àš čià gimiaũ. Àš pavirtaũ čià Vi̇̀lniaus renesánsu.
 Ìš čià ir̃ màno žavesỹs, per̃ ámžius neapléidęs...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-90
+
+
 Grįžaũ čià mi̇̀rusi. Tamsùs ir̃ añkštas bùvo kar̃stas.
 Ùž jõ – kanópų ri̇̀tmas tar̃si lai̇̃krodžio tiksė́jimas.
 Ùž jõ – Žygi̇̀manto alsãvimas, duslùs ir̃ kárštas.
@@ -2579,7 +2579,7 @@ Grįžaũ čià mi̇̀rusi, į̇̃ sàvo dañgų įtikė́jus.
 jõ bókštų spiñdesį, į̇̃ šil̃tą išgani̇̀ngą li̇́etų grįžaũ.
 Nè karūnãvimui išvẽžę, bèt ištrė̃mę vė̃l par̃vežė.
 Ir̃ prisikė́liau, žẽmės prisiliẽtus.
-PARKAS
+
 Takáms sù šešė́liais, seni̇́ems polonèzams
 àš plóju Ogi̇̀nskių párke. Vorãtinkliai
 suỹra añt pùsnuogių rañkų – prarẽtink
@@ -2590,7 +2590,7 @@ vandeñs teliūškãvimas.
 tą̃ šviẽsą, tuõs vi̇̀rpančius ą́žuolus. Tàpsi
 kai̇̃p óras skaidri̇̀. Bèt vi̇̀s ti̇́ek nenustýgsta
 šešė́lių kaità añt žirgýno griuvė̃sių...
-KONCERTAS
+
 Viváldis ir̃ vė́jas, ir̃ vė́jas, ir̃ vė́jas,
 ti̇̀k vãkaro vė́jas, tolỹdžio rausvė́jąs,
 ti̇̀k témstančiam párke, priẽš i̇̀škrentant rãsai,
@@ -2601,13 +2601,13 @@ ti̇̀k skrai̇̃dantys ki̇̀rai ir̃ krẽgždės, lýg žỹmę
 paliẽkantys lãkų šešė́lį rožýne,
 paliẽkantys čiul̃besį ti̇̀lstančiam lárgo,
 ti̇̀k ū̃žiančios bañgos, ti̇̀k žvãkės ùž lángo,
-Poezija
-91
+
+
 ti̇̀k, ži̇́edlapiams bỹrant, li̇̀g skaũsmo apė̃męs
 rugpjū́čio jaũ výstančių rõžių kvepė́jimas...
-Judita Vaičiūnaitė. Raštai. T. 1–2. Vilnius, Gimtasis žodis, 2005, 2007.
-RAMUTĖ SKUČAITĖ (g. 1931)
-MAMA IR SAULELĖ
+
+
+
 Kadà nórs
 Atei̇̃s tóks lai̇̃kas:
 Bùs vaikẽlis
@@ -2637,11 +2637,11 @@ Kil̃s ir̃ léisis,
 Vi̇̀s gražiai̇̃
 Mùms šviesdamà,
 Ir̃ mamà
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-92
+
+
 Mùms li̇̀ks
 Mamà.
-ŽIEMA
+
 Báltos rõgės, báltas ži̇̀rgas,
 Báltos pãsagos sužvi̇̀lgo...
 Rõgėse - baltà viešnià.
@@ -2666,12 +2666,12 @@ Kur̃ keliaũs ji̇̀ - nežinià!
 Lediniù kvapù papū̃siu,
 Kai̇̃ vanduõ pavir̃s į̇̃ sti̇̀klą,
 Jùs pakviẽsiu į̇̃ čiuožỹklą!
-Ramutė Skučaitė. Takelis iš naujo.
-Vilnius, Lietuvos rašytojų sąjungos leidykla, 2001.
-93
-PROZA
-JUOZAS APUTIS (1936-2010)
-ŽUVYS NETURI ATMINTIES
+
+
+
+
+
+
 Ji̇̀s atsi̇̀rėmė nùgara į̇̃ si̇́eną. Kaminai̇̃ vãkaro dangaũs fonè bùvo nejaũkūs.
 Jókiu ãkmeniu nesudaužýsi nebylaũs kaminų̃ abejingùmo.
 Ji̇̀s žinójo, kàd Jūrãtės nebėrà ir̃ nebebùs. Kai̇̃ ji̇̀s nubė́go, vi̇̀skas jaũ bùvo
@@ -2699,8 +2699,8 @@ pririšti̇̀ žvéngė nerãmūs žirgai̇̃.
 „Tòmai, pérskėlei plokštẽlę, ir̃ dabar̃ melòdija vi̇̀są lai̇̃ką šlubúoja.“
 Nãmo si̇́enos tebebùvo. Ir̃ Jūrãtė gulė́jo añt ùpės krañto, õ lū́pų kampùtyje
 virpė́jo šáltas vandeñs lãšas, ir̃ pérmirkusi suknẽlė nèdengė jõs sušãlusių kẽlių...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-94
+
+
 – Nuostabù! Bū́kite gẽras, pagrókite dár kar̃tą. Tà mùzika šią̃ gatvẽlę dãro
 di̇̀delę.
 „Ìš tikrų̃jų, Tòmai, uždė́k plokštẽlę dár kar̃tą, nórs ir̃ pérskelta ji̇̀, nórs ir̃
@@ -2734,8 +2734,8 @@ Ji̇̀s džiaũgėsi paslapčià, kàd jõs dár niẽkas tókiu vardù n
 Paskui̇̃ jiẽ sėdė́jo stadionè, ir̃ Tòmas mãtė, kai̇̃p ji̇̀ tróško gyvénti. Ji̇̀ mylė́jo
 ir̃ jùto vi̇̀ską. Ji̇̀ norė́jo paliẽsti sàvo kū́nu kiekvi̇́eną dáiktą ir̃ sužinóti, kai̇̃p ji̇̀s
 vadi̇̀nasi i̇̀š tikrų̃jų.
-95
-Proza
+
+
 Vakarai̇̃s Tòmas uždė́davo plokštẽlę, Jūrãtės ãkys bū́davo visosè keturiosè
 si̇́enose, žvéngdavo rai̇̃telių nesulaukdami̇̀ žirgai̇̃, ir̃ Emà vi̇̀s prašýdavo uždė́ti
 plokštẽlę i̇̀š naũjo.
@@ -2773,8 +2773,8 @@ Káime melòdija nuti̇̀lo, ir̃ teñ tai̇̃p pàt bùvo atidarýtos vi�
 õ žmónės klaũsėsi ir̃ norė́jo supràsti, ką̃ kal̃ba kiti̇̀.
 Ji̇̀s surãdo smė̃lyje akmenùką ir̃ svi̇́edė į̇̃ žuvų̃ bū̃rį. Jõs išsisklai̇̃dė į̇̃ visàs pusès,
 bèt grei̇̃tai sugrį̇̃žo vė̃l. Ji̇̀s svi̇́edė ki̇̀tą, ir̃ jõs vė̃l sprùko į̇̃ šali̇̀s ir̃ vė̃l grei̇̃t pasiródė.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-96
+
+
 „Žùvys, matýt, netùri atmintiẽs. Jõs ti̇̀k i̇̀š insti̇̀nkto bi̇̀josi. Jéi jõs supràstų
 ir̃ atsimiñtų, kàd àš galiù kókią vi̇́eną netýčia užmùšti, jõs daugiaũ nebegrį̇̃žtų.
 Õ gál jõs labai̇̃ álkanos?..“
@@ -2810,8 +2810,8 @@ gárlaivis, paė̃męs paskuti̇̀nį kelei̇̃vį, paskélbė, kàd lai̇̃k
 Ji̇̀s ė̃jo kažkai̇̃p nedrą̃siai, jùto, kàd gretà yrà jõs pečiai̇̃, plaukai̇̃ sù bli̇̀zgančia
 sagè. Ji̇̀s žinójo, kàd bè jõs miestè bū́tų baisù, ir̃, niẽko ti̇̀kro negalė́damas
 supràsti, sùėmė ją̃ ùž pečių̃ ir̃ tãrė:
-97
-Proza
+
+
 – Èma, tù ei̇̃k. Àš pastovė́siu ir̃ paskui̇̃ ei̇̃siu i̇̀š paskõs.
 Ji̇̀ žiūrė́jo nustẽbusi.
 – Èma, àš nóriu tavè iš tólo matýti. Tù ei̇̃k, õ àš pastovė́siu. Àš žiūrė́siu į̇̃
@@ -2844,12 +2844,12 @@ stovė́jo kẽturios si̇́enos, kuriosè nebùvo nei̇̃ dobilų̃, nei̇̃ 
 – Jaũ ruduõ, Èma, – atsãkė Tòmas.
 – Žùvys netùri atmintiẽs, Tòmai, – tãrė ji̇̀ põ valandė̃lės.
 – Žùvys netùri atmintiẽs, Èma.
-Juozas Aputis. Rugsėjo paukščiai. Novelės. Vilnius, Vaga, 1967.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-98
-JONAS BILIŪNAS (1879-1907)
-LAIMĖS ŽIBURYS
-Pasaka
+
+
+
+
+
+
 Añt áukšto stataũs kálno pasiródė stebukli̇̀ngas žiburỹs. Žibė́jo ji̇̀s kai̇̃p
 žvaigždė̃, àpsiaustas šviesiù ratù i̇̀š áukso rai̇̃džių. Pamãtę tàt žmónės ė̃jo priẽ
 kálno, stebė́jos į̇̃ ži̇̀burį, bèt, negalė́dami añt tõ kálno užli̇̀pti, negalė́jo išskaitýti
@@ -2881,8 +2881,8 @@ akiẽs mi̇̀rksniu pavir̃s į̇̃ ãkmenį ir̃ ti̇̀k sàvo mirtimi̇̀ a
 kadà tai̇̃p atsiti̇̀ks, pàliestas žiburỹs subyrė̃s į̇̃ nesuskai̇̃tomą daugýbę žiburė̃lių,
 kuriẽ nusilei̇̃s nuõ kálno žemỹn, išsisklaidỹs põ jū́sų namùs ir̃ pirkiàs, įei̇̃s į̇̃ jū́sų
 prõtą ir̃ ši̇̀rdis, – ir̃ tadà bū́site laimi̇̀ngi...
-99
-Proza
+
+
 Tai̇̃p pasãkęs, senẽlis pranỹko.
 Nuliū̃do minià, tuõs jõ žodžiùs užgir̃dusi: atsidùso kai̇̃p vi̇́enas žmogùs
 ir̃ žemai̇̃ žemai̇̃ pàlenkė sàvo gálvas. Jų̃ akysè bùvo jaũ nebè džiaũgsmas, bèt
@@ -2920,8 +2920,8 @@ pasišventi̇̀mo praė̃jo, õ dár nė̃ vi̇́enas i̇̀š li̇̀pančiųj�
 nepalytė́jo stebukli̇̀ngojo ži̇̀burio. Šaliẽs gyvéntojai tai̇̃ svajótojais ir̃ beprõčiais
 juõs vadi̇̀no, tai̇̃ gailė́dami jų̃ ver̃kė; nemãža ir̃ tokių̃ bùvo, kuriẽ i̇̀š jų̃ ti̇̀k juõkės
 ir̃ týčiojosi ir̃ džiaũgės, kàd jiẽ žū́sta.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-100
+
+
 Bèt ši̇̀tai vi̇́eną grãžią pavãsario diẽną nesuskai̇̃toma drąsuõlių minià –
 jaunikáičių ir̃ mergi̇̀nų, vaikų̃ ir̃ suáugusių výrų, išblỹškusių ir̃ nuvar̃gusių, –
 vė̃l priė̃jo priẽ kálno. Visų̃ jų̃ akysè šviẽtė vilti̇̀s ir̃ drąsà, méilė ir̃ pasišventi̇̀mas.
@@ -2959,8 +2959,8 @@ rū̃bais. Sù žaliai̇̃s añt galvų̃ vaini̇̀kais ė̃jo jáunos mergi�
 nẽšėsi rañkose ger̃biamos móterys; aukštai̇̃ iškéltos vė̃liavos plevėsãvo tvirtuosè
 jaunikáičių ir̃ výrų delnuosè, õ pirmà visų̃ puikiáusiais veži̇̀mais baltai̇̃ apsitai̇̃sę
 važiãvo nekalti̇̀ vaikai̇̃... Visi̇̀ bùvo linksmi̇̀ ir̃ laimi̇̀ngi...
-101
-Proza
+
+
 Prisiar̃tinę priẽ kálno ir̃ apsiaũtę jį̇̃ apliñkui, dainãvo jiẽ láisvės ir̃ láimės
 dainàs, bar̃stė añt kálno žolýnus, dė́jo vainikùs, gárbindami žùvusiuosius išvadúotojus.
 Vi̇̀są tą̃ diẽną linksmai̇̃ gri̇́ežė mùzika.
@@ -2968,7 +2968,7 @@ Ir̃ tą̃ šveñtę kė́lė kàs mẽtai; kàs mẽtai gárbino sàvo la�
 Pražùvusiųjų drąsuõlių vardai̇̃ bùvo įrašýti istòrijos knỹgon áukso rai̇̃dėmis, õ jų̃
 gyvẽnimo ir̃ darbų̃ paskesnių̃jų žmonių̃ ei̇̃lės mókės kai̇̃p põterių ir̃ kateki̇̀zmo...
 Ir̃ visi̇̀ bùvo laimi̇̀ngi...
-BRISIAUS GALAS
+
 Šalỹ diẽndaržio dùrų, añt didžiùlės spãlių krūvõs, gùli sẽnas Bri̇̀sius –
 ži̇̀las, apžabãlęs. Matýti jisai̇̃ dár mãto, bèt ti̇̀k kai̇̃p per̃ dū́mus, ir̃ sàvo žmogaũs
 labai̇̃ dažnai̇̃ nebepažį̇́sta. Sunki̇̀ senãtvė ir̃ jám: visų̃ ùžmirštas, apléistas. Patsai̇̃
@@ -2995,8 +2995,8 @@ Dabar̃ jisai̇̃ bi̇̀jo trobõn ir̃ beei̇̃ti. Verčiaũ jaũ añt spa�
 kiti̇́ems põ kójom maišýtis. Teisýbė, trobõj labai̇̃ gẽra, pastalė̃j gulė́ti šil̃ta. Bèt
 káulų gráužti vi̇̀s ti̇́ek jaũ nebegãli, õ nuõ mùsių ir̃ tenai̇̃ sunkù senám apsigi̇̀nti.
 Ir̃ čionai̇̃, jõ senãtvės pasigailė́ję, àtneša jám kar̃tais kruõpų geldẽlėj palàkti, 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-102
+
+
 õ nè – tai̇̃ išálkęs ei̇̃na pašalėmi̇̀s tókio mai̇̃sto ieškóti, į̇̃ kurį̇̃ seniaũ ir̃ žiūrė́t
 nežiūrė́jo. Tai̇̃p ir̃ skur̃sta senãtvėj...
 Õ jùk bùvo jáunas ir̃ jisai̇̃, stiprùs ir̃ visų̃ brangi̇̀namas. Tadà apsigi̇̀nt nuõ
@@ -3032,8 +3032,8 @@ jáunas ir̃ liñksmas, bèt paspáudęs úodegą ir̃ nuliū̃dęs, kai̇�
 Pamiškė̃j sustója. Bri̇̀sius iñkščia bai̇̃liai ir̃ žiū̃ri į̇̃ žmõgų, tar̃tum kláusdamas,
 kám čionai̇̃ jį̇̃ àtvedė. Mãto, kai̇̃p tasai̇̃ nusi̇̀ima nuõ pečių̃ šaudỹklę, atsitólina
 nuõ jõ kẽletą žiñgsnių ir̃ pràdeda į̇̃ jį̇̃ táikinti...
-103
-Proza
+
+
 Negãli bū́ti?! Bri̇̀sius nètiki. Tai̇̃ ti̇̀k pasijuõkti i̇̀š jõ nóri. Bèt kám tai̇̃p bai̇̃siai
 i̇̀š sẽno juõktis? Kám? Jùk jisai̇̃ nekal̃tas... Bri̇̀sius nóri pasigẽrinti, sumojúoti
 úodega, bèt i̇̀š báimės tùpiasi añt paskuti̇̀nių kójų, ir̃ per̃ jõ snùkį riẽda gai̇̃lios,
@@ -3044,7 +3044,7 @@ rañkoj šaudỹklę...
 Gál ir̃ suprãto Bri̇̀sius, kodė̃l tasai̇̃ žmogùs jį̇̃ ùžmušė; ti̇̀k nebegalė́jo supràsti,
 kodė̃l tekinõm nuõ jõ pabė́go: jùk jisai̇̃ mir̃damas ti̇̀k kójas norė́jo jám paskuti̇̀nį
 kar̃tą palaižýti...
-KLIUDŽIAU
+
 Tàt bùvo nedi̇̀delė baltà katýtė. Jõs meñkas suliesė́jęs kūnẽlis vi̇̀sas drebė́jo
 nuõ šal̃čio ir̃ báimės; jõs plaukai̇̃, lietaũs sušlãpinti ir̃ purvai̇̃s apskrẽtę, visi̇̀
 kabė́jo susti̇̀rę ir̃ pasišiáušę. Radaũ àš ją̃ laukè, patvoryjè pritū̃pusią, susiriẽtusią,
@@ -3069,8 +3069,8 @@ skaũdžiai sùmiaukė ir̃ pradė́jo stirénti kojýtėmis...
 Kliudžiaũ. Kai̇̃p ti̇̀kras medė́jas, pri̇̀lėkiau artỹn, bèt ūmai̇̃ pajutaũ širdyjè šal̃tį
 ir̃ apsistójau nustẽbęs: katýtės véidas bùvo pérvertas neapsãkomo skaũsmo, ãkys
 primérktos; ji̇̀ i̇̀š visõs dár li̇̀kusios gãlios pasisténgė atsistóti añt pirmuti̇̀nių kójų 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-104
+
+
 ir̃ pradė́jo šliaũžti, vilkdamà žemè sàvo kūnẽlį: kartù vil̃kosi įliñdusi jõs krūti̇̀nėn
 strėlà, õ i̇̀š žaizdõs dideliai̇̃s juosvai̇̃s lašai̇̃s lašė́jo añt smė̃lio sukrekė́jęs kraũjas.
 Nusimi̇̀nęs, nebežinódamas, ką̃ darýti, ãtžagaria rankà nùmečiau lañką ir̃
@@ -3082,11 +3082,11 @@ strėlàs suláužiau į̇̃ ši̇̀pulius ir̃ toli̇̀ išmė́čiau põ la
 kuri̇̀ bùvo įsisiur̃busi katýtės krūti̇̀nėn ir̃ dabar̃ stypsójo atsiki̇̀šusi.
 Tai̇̃ bùvo vienãtinis màno gyvẽnime šū̃vis. Bèt laimi̇̀ngas: àš jį̇̃ ir̃ li̇̀gi šiõlei
 dár tebenešióju sàvo krūti̇̀nėje...
-Jonas Biliūnas. Raštai. T. 1. Vilnius, Vaga, 1980.
-KAZYS BORUTA (1905-1965)
-BALTARAGIO MALŪNAS ARBA KAS DĖJOSI ANUO METU
-PAUDRUVĖS KRAŠTE (ištraukos)
-I
+
+
+
+
+
 Añt Udruvė̃s ẽžero stataũs skar̃džio stovė́jo Baltarãgio vė́jinis malū̃nas. Nuõ
 neatmenamų̃ laikų̃ mosãvo ji̇̀s sàvo dideliai̇̃s sparnai̇̃s, tarýtum bū́tų norė́jęs
 pasikélti ir̃ nuskri̇̀sti nuõ pakriū́tės.
@@ -3104,8 +3104,8 @@ Ar̃ nè ji̇̀s bùvo užkerė́jęs ir̃ paskuti̇̀nį Paudruvė̃s malū̃
 kuri̇̀s vi̇́enišas gyvẽno tamè malūnè sù sàvo vienturtè dukrà Jùrga. Sẽnas našlỹs
 tai̇̃p mylė́jo sàvo vientur̃tę, kàd diẽną nãktį akių̃ nuõ jõs nenuléisdavo, kar̃tais
 vi̇̀sas nušvi̇̀sdamas tar̃si nepaprastõs láimės àpšviestas, õ kar̃tais tai̇̃p nuliū̃sdamas 
-105
-Proza
+
+
 ir̃ susirū́pindamas, kàd nèt žilų̃ plaukų̃ vaini̇̀kas apiẽ nupli̇̀kusią jõ gálvą dár labiaũ
 išbáldavo. Ką̃ galvódavo ir̃ ką̃ jaũsdavo sẽnas malū̃nininkas, niẽkas nežinójo,
 nebeñt nùjautė, kàd gražuõlė dukrà – vi̇̀sas jõ džiaũgsmas, rū̃pestis ir̃ gyvẽnimas.
@@ -3143,8 +3143,8 @@ nèt ir̃ drąsiáusieji, važiúoti sù piršliai̇̃s pàs Baltarãgio d
 Kàs čià bùvo, niẽkas tikrai̇̃ nežinójo. Skli̇̀do gandai̇̃, kàd Baltarãgio gražuõlė
 dukrà susidė́jusi sù Udruvė̃s ẽžero laũmėmis ir̃ pàts vélnias ją̃ pasidabójęs. Kiti̇̀
 nèt spėliódavo, kóks vélnias: nè kuri̇̀s nórs ki̇̀tas, tiktai̇̃ pačių̃ Paudruvė̃s pélkių 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-106
+
+
 vélnias – Pinčùkas, visi̇́ems gerai̇̃ ži̇̀nomas ir̃ artimiáusias Baltarãgio kaimýnas.
 Dár kiti̇̀, nenorė́dami tikė́ti tokiomi̇̀s paskalomi̇̀s, tvi̇̀rtino, kàd čià pàts tė́vas
 Baltarãgis kal̃tas, nès, beprõtiškai mylė́damas vientur̃tę sàvo dùkterį ir̃ bū́damas
@@ -3171,7 +3171,7 @@ Tadà visà bùrna prakalbė́jo Švendùbrės ubagýno sénmergė davatka
 Purvináitė, kuri̇̀ i̇̀lgus metùs gyvẽno Baltarãgio malūnè ir̃ sù jà tenai̇̃ keisti̇̀
 dalỹkai atsiti̇̀ko, kuriai̇̃s anksčiaũ niẽkas nenorė́jo tikė́ti. Bèt dabar̃, kai̇̃ dė́josi
 tokiẽ nesuprantami̇̀ reiškiniai̇̃, daũg kàs bùvo liñkęs patikė́ti nèt senà davatkà.
-II
+
 Tà davatkà Uršùlė, tokià supinti̇̀jusi ir̃ prarū́gusi moterė̃lė, amžinai̇̃
 nepaténkinta ir̃ piktà kai̇̃p ši̇̀ršė, vi̇́eną rýtą aũštant sugrį̇̃žusi visà dumblinà i̇̀š
 Paudruvė̃s pélkių, pabė́go plū́sdamasi i̇̀š Baltarãgio namų̃, kuriuosè nuõ senų̃
@@ -3180,8 +3180,8 @@ tokių̃ baisių̃ dalỹkų.
 Apkáltino ji̇̀ Baltarãgį, kàd ji̇̀s, sẽnas ragãnius, norė́jęs ją̃, skaistýbės ãpžadus
 padãriusią mergẽlę, išléisti nè ùž kõ ki̇̀to, tiktai̇̃ ùž patiẽs vélnio, kuri̇̀s i̇̀š sẽno
 Paudruvė̃s pélkėse gyvẽno ir̃ Pinčùko vardù vadi̇̀nosi.
-107
-Proza
+
+
 Kai̇̃p teñ bùvo – nesupràsi, õ ir̃ pati̇̀ Uršùlė nè vi̇̀są teisýbę sãkė, nès ir̃ pati̇̀
 nè vi̇̀ską suprãto, õ jéigu suprãto, tai̇̃ sénmergės drovùmas pasakýti neléido. Tiktai̇̃
 vi̇́eną diẽną, kai̇̃ jái pritrū́ko kantrýbės bélstis põ sẽno malū̃nininko namùs
@@ -3217,8 +3217,8 @@ prašmatnià skrybėláite. Nusi̇̀lenkė abùdu Uršùlei, ir̃ kláusia 
 – Ar̃ nè čià bùs põno Baltarãgio garsùsis dvãras?
 – Nè põno, – sãko apmirdamà Uršùlė, – tiktai̇̃ Baltarãgio, ir̃ nè dvãras, bèt
 malū̃nas.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-108
+
+
 – Tai̇̃ mùms jõ kai̇̃p ti̇̀k ir̃ rei̇̃kia, – sãko tàs žilabar̃zdis ir̃ dár žemiaũ leñkiasi.
 – Ar̃ priim̃site pakeleivi̇̀ngus svečiùs?
 – Labai̇̃ prãšome, – atsãkė i̇̀š malū̃no atsirãdęs Baltarãgis. – Seniai̇̃ mielų̃
@@ -3255,8 +3255,8 @@ Turbū́t tadà ir̃ par̃davė jõs skaistýbę, õ ji̇̀, var̃gšė, nie
 Tai̇̃p apstul̃busią Uršùlę pasodi̇̀no į̇̃ auksi̇̀nę kariẽtą, šalià jõs i̇̀š dešinė̃s pùsės
 atsisė́do piršlỹs žilabar̃zdis, õ i̇̀š kairė̃s – jauni̇̀kis kai̇̃p diemedė̃lis. Nenustóvi priẽ
 verándos júodbėriai žirgai̇̃, ausimi̇̀s kar̃po ir̃ akimi̇̀s žaibùs sváido. Piršlỹs ir̃ sãko:
-109
-Proza
+
+
 – Važiúosime ùžsakų!
 – Laimi̇̀ngai! – palinkė́jo Baltarãgis.
 Júodbėriai žirgai̇̃ kai̇̃p slibinai̇̃ pašóko i̇̀š viẽtos, sudundė́jo žẽmė, ir̃ karietà
@@ -3292,8 +3292,8 @@ Uršùlė bū́tų visái užniùrkiusi Pinčùką, bèt tàs, neturė́da
 sijõno klostès ir̃ smùko į̇̃ liū́no dùgną, tráukdamas pãskui ir̃ Uršùlę.
 Pagaliaũ Uršùlė, grimzdamà į̇̃ li̇́ekną, kairè rankà nusitvė́rė ùž kãdagio
 krū́mo, õ dẽšine ištráukė i̇̀š maurų̃ vi̇̀są dum̃bliną Pinčùką. Norė́jo dár kar̃tą jį̇̃ 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-110
+
+
 pričiùpti, bèt tàs ištrū́ko ir̃ lãkstė apliñkui, cỹpdamas ir̃ uñkšdamas, bèt vi̇̀s dár
 neatstódamas. Tadà Uršùlė paskuti̇̀nėmis jėgomi̇̀s išsikãpstė i̇̀š li̇́ekno, nusi̇̀ėmė
 nuõ kãklo rožañčių sù škãplieriais ir̃ pradė́jo jai̇̃s švei̇̃sti Pinčùką kur̃ pakliū̃va:
@@ -3325,12 +3325,12 @@ kairiõsios rañkos supinti̇̀jusiu kùmščiu grasi̇̀ndama malū̃no pù
 dešiniúoju – žegnójo ir̃ plū́dosi visų̃ keiksmų̃ keiksmai̇̃s.
 – Visái pasiùto davatkà, – galvójo Baltarãgis, žiūrė́damas prõ malū̃no
 viršuti̇̀nį langẽlį į̇̃ tõlstančią Uršùlę. – Matýt, nė̃ vélnias neįsténgia jõs pagriẽbti.
-Kazys Boruta. Baltaragio malūnas arba kas dėjosi anuo metu Paudruvės krašte.
-Vilnius, Valstybinė grožinės literatūros leidykla, 1962. 
-111
-Proza
-MIKALOJUS DAUKŠA (apie 1527–1538 –1613)
-PRAKALBA Į MALONŲJĮ SKAITYTOJĄ (ištrauka)
+
+
+
+
+
+
 Kur̃gi, sakaũ, pasáulyje yrà tautà, tokià prastà ir̃ nieki̇̀nga, kàd neturė́tų
 šių̃ trijų̃ savų̃ ir̃ tar̃si įgimtų̃ dalỹkų: tėvų̃ žẽmės, papročių̃ ir̃ kalbõs? Visai̇̃s
 ámžiais žmónės kalbė́jo sàvo gimtą́ja kalbà ir̃ visadõs rū́pinosi ją̃ išlaikýti,
@@ -3365,14 +3365,14 @@ Jùk i̇̀š prigimtiẽs kiekvi̇́enas labiáusiai liñksta ir̃ stipriai̇
 sàvo tautõs ir̃ kraũjo, ti̇́ek ir̃ priẽ sàvo kalbõs. Añtra ver̃tus, kuõ gi̇̀ išsilai̇̃kė iki̇̀ šiõl
 tà didžióji Pèrsijos karalỹstė, senóvinė monárchija? Tiktai̇̃ sàvo kalbõs sántaika.
 Kuõ gi̇̀ kitosè tautosè garsė́jo anà Ròmos valstýbė? Dė̃l kõ jų̃ žỹgdarbiai nèt 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-112
+
+
 tolimiáusius žẽmės kraštùs pasi̇́ekė? Vi̇́en ti̇̀k išlai̇̃kymu gimtõsios kalbõs, kuriái
 pratur̃tinti ir̃ sklei̇̃sti nè tiktai̇̃ įstãtymus léido, bèt ir̃ įvairiùs filosòfijos mókslus
 dė́stė ir̃ sàvo dievų̃ gar̃bę aprãšė.
-Mikalojus Daukša. Postilės prakalbos. Vilnius, Mintis, 1990.
-JUOZAS GRUŠAS (1901-1986)
-UŽ SAULĘ GRAŽESNIS
+
+
+
 Ẽglė skam̃ba kai̇̃p var̃pas.
 Mãžas žmogẽlis storomi̇̀s i̇̀t kalãdės rañkomis kẽlia kir̃vį aukščiaũ sàvo galvõs,
 õ nuléisdamas pàts pašóksta į̇̃ vir̃šų. Įklim̃pęs sniegè, ji̇̀s lañkstosi vienmarški̇̀nis
@@ -3397,8 +3397,8 @@ Adõmas nuléidžia kir̃vį, nusišlúosto prãkaitą ir̃ šỹpsosi lýg
 – Var̃gas sù kurčiù kélmu, seniai̇̃ sakaũ...
 Abù suklaũpia añt sniẽgo, pjáuna tylė́dami, susikaũpę lýg smui̇̃kininkai,
 įsigi̇̀linę į̇̃ paslapti̇̀ngą melòdiją.
-113
-Proza
+
+
 Ẽglė susiūbúoja ir̃ i̇̀ma palengvà liñkti. Bèt tą̃ pãčią aki̇̀mirką jõs grei̇̃tis didė́ja,
 šãkos sušniõkščia, susiūbúoja, tar̃si norė́damos į̇̃ ką̃ įsiki̇̀bti. Mẽdis dusliai̇̃ žnèkteli
 į̇̃ žẽmę, kami̇́enas dár pašóksta kai̇̃p pritrenktà gyvãtė, õ abù kirtė́jai nèt nusišỹpso.
@@ -3434,8 +3434,8 @@ Kirtė́jas padė́jo jám rañką añt petiẽs ir̃ tãrė, kiekvi̇́eną
 – Adomė̃l, sė́skis priẽ ugnẽlės, pailsė́k, vyrẽli, kám táu ti̇́ek daũg di̇̀rbti...
 Adõmas kai̇̃p ùjamas vai̇̃kas nuõ vi̇́eno švelnaũs žõdžio sušvi̇̀to pasitikė́jimu
 ir̃ méile. Ji̇̀s atsisė́do añt kélmo ir̃ žiūrė́jo šypsódamasis į̇̃ kirtė́jus.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-114
+
+
 – Kàs i̇̀š tavę̃s gẽro, Adomė̃l, maitini̇̀ svẽtimus vaikùs!.. – rė̃kė ki̇̀tas į̇̃ aũsį.
 Rauplė́tas Adõmo véidas apsiniáukė.
 – Našláičiai... mažýčiai... – prašnẽko užki̇̀musiu balsù. – Vãsarą tai̇̃ sunkù
@@ -3469,8 +3469,8 @@ mi̇̀ško tañkmę ir̃ galvóju...
 – Žmogùs jùk nè mẽdis.
 – Ir̃ žmogùs nóri priẽ žmogaũs prisiglaũsti...
 – Žiẽmą nè tai̇̃p šálta, ar̃ nè? – võs sulai̇̃kė juõką kirtė́jai.
-115
-Proza
+
+
 – Nè tai̇̃p šálta... – atsãkė Adõmas.
 – Junti̇̀ kū́no ši̇̀lumą ir̃ širdiẽs plaki̇̀mą.
 – Ir̃ širdiẽs plaki̇̀mą...
@@ -3503,11 +3503,11 @@ per̃ didžiulès pusni̇̀s ir̃ mė́lyną skliaũtą kai̇̃p sunkùs ir̃
 Adõmas susigū̃žia priẽ ugniẽs, jõ véidas išbãlęs, pašiur̃pęs, õ lū́pos kietai̇̃
 sučiáuptos. Susti̇̀ngusiu žvilgsniù ji̇̀s žiū̃ri į̇̃ plãzdantį láužą ir̃ gir̃di kažkienõ
 tỹlią tylutė̃lę raũdą, kuri̇̀ plaũkia kartù sù vė́ju, siūbúoja sù mẽdžių šakẽlėmis.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-116
+
+
 Ji̇̀s pakỹla nuõ láužo ir̃ nuei̇̃na svyrúodamas per̃ gi̇̀lų sniẽgą. Ir̃ dabar̃ jám
 ãšaros vienà põ kitõs ri̇̀tasi per̃ véidą.
-* * *
+
 Vė̃l suskambė́jo mi̇̀škas. Kir̃vių kir̃čiai triñksi kai̇̃p kálvėj, kri̇̀sdamos ẽglės
 šniõkščia ir̃ drẽbina žẽmę. Jų̃ áidas skardẽna mi̇̀šką, plaũkia žaliomi̇̀s eglýno
 vilnimi̇̀s.
@@ -3539,8 +3539,8 @@ sušãlusios žẽmės.
 Ẽglė bùmbtelėjo, kami̇́enas pašóko kai̇̃p spyruõklė, õ viršū́nė nukri̇̀to añt
 sniẽgo tar̃si kárdu nukirstà galvà. Ir̃ abù mẽdžiai, kryžmai̇̃s sudėti̇̀, pasili̇̀ko
 kýboti tar̃p dangaũs ir̃ žẽmės.
-117
-Proza
+
+
 Reikalai̇̃ blogė́jo. Kirtė́jai murmė́jo ir̃ kéikėsi. Jiẽ išsiriñko ki̇̀tą, dár storèsnę,
 ir̃ pradė́jo kir̃sti. Ši̇̀ bùvo per̃ arti̇̀, dár neįsibėgė́jusi atsi̇̀trenkė į̇̃ kýbančius
 medžiùs, pérsisvėrė, viršū́nė susmẽgo į̇̃ sniẽgą, õ paki̇̀lęs kami̇́enas pradė́jo
@@ -3574,8 +3574,8 @@ Staigà vi̇́enas jáunas kirtė́jas sušùko, lýg išgãnymą rãdęs:
 – Adomė̃lis nukir̃s!
 Visi̇̀ sužiùro į̇̃ tą̃ pùsę, kur̃ vi̇́enas li̇̀kęs Adõmas ramiai̇̃ sáu skùto põpiermalkes.
 Visų̃ veidai̇̃ nušvi̇̀to. Nukir̃s nenukir̃s, beñt bùs dabar̃ añt kõ pỹktis išli̇́eti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-118
+
+
 – Stuobrỹs žvi̇̀rbliams tū̃pti! Mẽs čià vi̇̀są vãlandą triū̃siam, õ ji̇̀s...
 – Kitám tai̇̃ nė̃ pū̃ko ji̇̀s nepakel̃s.
 – Dienàs ir̃ nakti̇̀s di̇̀rba, ir̃ vi̇̀s tiktai̇̃ sáu.
@@ -3608,8 +3608,8 @@ Adõmas dár lū̃kuriavo.
 – Bùs ir̃ drabùžiai, ir̃ skrybėlė̃, ir̃ baltà apýkaklė.
 Adõmas pàėmė kir̃vį, apė̃jo apliñk béržą, apmýnė sniẽgą, nùmetė šakàs,
 kàd bė́gant põ kójų nepasipáiniotų.
-119
-Proza
+
+
 Výrai nusišypsójo, vi̇́enas kitám mi̇̀rktelėjo.
 – Žiūrė́kit, štai̇̃ Adõmas!.. Sù kvailiù rei̇̃kia mokė́ti...
 Mãžas žmogùs nusivil̃ko káilinius, pasispjáudė délnus, bùvo bekelią̃s kir̃vį,
@@ -3644,8 +3644,8 @@ Ji̇̀s staigà atšóko kẽletą žiñgsnių į̇̃ šãlį. Bèt mẽdis
 grį̇̃žo priẽ sàvo kir̃vio.
 Výrai dabar̃ norė́jo jám tar̃ti ką̃ nórs kai̇̃p tikrám bróliui, kai̇̃p draũgui, kàd
 bū́t jám kir̃vis lengvèsnis. Išlýgintų ir̃ nutiẽstų jám kẽlią, añt rañkų išnèštų jį̇̃, 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-120
+
+
 béržui susvyrãvus. Bèt tar̃p kirtė́jo ir̃ jų̃ bùvo núotolis, kuriõ nepraei̇̃si per̃ vi̇̀są
 gyvẽnimą. Ji̇̀s teñ, tolýbėje, kai̇̃p kū̃dikis mū̃šio laukè žai̇̃dė dár nesprógusiomis
 granãtomis.
@@ -3672,15 +3672,15 @@ iški̇̀lo jaunų̃ egláičių pulkai̇̃. Sáulės spindulių̃ nùšviest
 stovė́jo vienà ùž kitõs, žiedų̃ žiedai̇̃s nuklódamos žẽmę. Pašvai̇̃stėmis ir̃ vilnimi̇̀s
 spindė́damos, jõs ki̇̀lo vi̇̀s aukščiaũ ir̃ aukščiaũ – iki̇̀ pàt mel̃svojo dangaũs tę̃sėsi
 neregė́to skaistùmo pasáuliai.
-Juozas Grušas. Raštai. T. 4. Vilnius, Vaga, 1981.
-JURGA IVANAUSKAITĖ (1961-2007)
-ŠVĘSKIME GYVENIMĄ
+
+
+
 Pérnai, grúodžio 12-ąją, jaũ iškri̇̀tus pirmájam sniẽgui, lemti̇̀s manè apdovanójo
 dviẽm ypati̇̀ngais trofė̃jais: rytè sužinójau, kàd sergù vėlývos stãdijos
 i̇̀tin piktýbiška sarkomà, õ vakaróp mán prànešė, kàd gavaũ Nacionãlinę prèmiją.
 Tą̃syk priėjaũ priẽ lángo, prõ ãšarų mi̇̀glą pàžvelgiau į̇̃ júodą, pasibaisė́tinai abeji̇̀ngą 
-121
-Proza
+
+
 dañgų ir̃ pagrūmójau teñ aukštýbėse sė́dintiems Neži̇̀nomiesiems, kuriẽ mùs,
 lýg marionetès, tam̃po ùž atsitiktinùmų, sutapi̇̀mų ir̃ neišvengiamýbės virvùčių.
 Pašnabždomi̇̀s išrė́žiau, nórs mieliaũ bū́čiau išrė̃kusi: „Ši̇̀taip nežai̇̃džiama!“
@@ -3719,8 +3719,8 @@ tãpę váistai. Glotnùs i̇̀t kri̇̀štolo rutulỹs pakáušis parỹš
 aptri̇̀ntus véido brúožus ir̃ nutráukia ruti̇̀nos šỹdą nuõ akių̃ – si̇́elos véidrodžių.
 Nesuprantù, kodė̃l kai̇̃ kuriõs móterys drõvisi tókio ãtviro, tar̃si deimanti̇̀nis
 pei̇̃lis aštraũs grõžio. Esù įsiti̇̀kinusi, kàd garbi̇̀ngo Mẽtų móters ti̇̀tulo nusipel̃nė 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-122
+
+
 bèt kuri̇̀ vė́žiu ser̃ganti màno pakelei̇̃vė, sutiktà Sántariškių kli̇̀nikų orbi̇̀toje. Jõs
 vi̇̀sos sù šventù Žãnos d’Árk ryžtù grū́mėsi ùž bū̃tį. Tikiù, kàd Reginà, i̇̀t kóks
 maištáujantis ángelas, mẽtusi i̇̀ššūkį siaubi̇̀ngai, võs keliàs saváites gyvẽnimo
@@ -3759,8 +3759,8 @@ gýdytojo ir̃ ligónio pãstangos. Svarbiáusias yrà trečiàsis veiksny
 gãli jõ neįvar̃dyti, abejójantieji jám sutei̇̃kia Absoliùto var̃dą, nà, õ ti̇̀kintieji tą̃
 lẽmiamą jė̃gą vadi̇̀na Dievù. Visi̇́ems gerai̇̃ ži̇̀noma pasakė̃lė, kàd onkològinės
 ligõs pri̇́ežastys – nevà kárminės, kàd jõs nusipel̃no ti̇̀k tiẽ, kuriẽ neteisi̇̀ngai 
-123
-Proza
+
+
 gyvẽna. Jéigu i̇̀š tikrų̃jų tai̇̃p bū́tų, nereikė́tų kalė́jimų, nès visi̇̀ žmogžudžiai̇̃,
 kanki̇̀ntojai, vãgys išmir̃tų nuõ leukèmijos ar̃ sarkòmos. Naujãjame Testamentè
 nė̃ kar̃to neužsi̇̀minta, kàd Diẽvas sunkiomi̇̀s negãliomis žmónes baũdžia
@@ -3799,8 +3799,8 @@ kaitalióti į̇́vaizdžius, kei̇̃sti šukúosenas (tai̇̃ labai̇̃ leñ
 kelióms valandóms pasipuõšti aukštõsios madõs drabùžiais. Ši̇̀taip sténgiuosi
 atsidėkóti sàvo kantriájam, darbščiájam ir̃ vi̇̀s dár mán labai̇̃ ištikimám kū́nui.
 Jaũ girdžiù, kai̇̃p dvasi̇̀ngieji teisuõliai šaũkia, kàd mi̇̀rštant rei̇̃kia rū́pintis sàvo 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-124
+
+
 si̇́ela. Tačiaũ ir̃ kū́nas mán yrà dúotas Diẽvo. Bū́tent dabar̃ išmókau savè mylė́ti
 ir̃ patikė́jau, kàd galiù bū́ti mylimà. Mylimà tokià, kokià esù: silpnà, neįgali̇̀,
 neretai̇̃ – bejė̃gė, sù daugýbe randų̃, žaizdų̃ ir̃ nètgi sù vė́žiu. Ùž tai̇̃, kàd išdrįsaũ
@@ -3808,9 +3808,9 @@ neretai̇̃ – bejė̃gė, sù daugýbe randų̃, žaizdų̃ ir̃ nètgi su�
 kuriẽ nebijójo sù manimi̇̀, ser̃gančia, bū́ti, mán padė́jo, manè palai̇̃kė, gélbėjo,
 globójo, gúodė, sti̇̀prino, li̇̀nksmino, džiùgino, juõkino, kuriẽ màno gyvẽnimą
 dãrė ir̃ tebedãro nuostãbų. Ãčiū, ãčiū, ãčiū!
-Jurga Ivanauskaitė. Viršvalandžiai. Vilnius, Tyto alba, 2007.
-VINCAS KRĖVĖ (1882-1954)
-ANTANUKO RYTAS
+
+
+
 Antanùkas labiáusiai mýli sàvo senẽlę. Nei̇̃ sàvo motùtės, nei̇̃ tėvẽlio, nei̇̃
 kõ ki̇̀to jisai̇̃ ti̇́ek nemýli, ki̇́ek sàvo sẽną sẽną senẽlę. Ir̃ kur̃ nemylė́si! Motùtė
 dažnai̇̃ Antanùką sùbara, kai̇̃ kadà nèt kùmštelėja supỹkusi, õ senẽlė niekuomèt
@@ -3834,8 +3834,8 @@ kuždomi̇̀s įkalbinė́ja senẽlė ir̃ dár labiaũ jį̇̃ klósto añ
 Antanùkas i̇̀štiesė rankutès ir̃, sugriẽbęs nusileñkusios priẽ jõ senẽlės kãklą,
 apkabi̇̀no ją̃ ir̃ pabučiãvo. Paskui̇̃ pasi̇̀vertė añt ki̇̀to šóno ir̃ apsi̇̀metė, kàd jaũ
 miẽgąs.
-125
-Proza
+
+
 Senẽlė nuli̇̀po nuõ lóvos, patai̇̃sė suknẽlę, ištráukta i̇̀š pagálvio skarelè
 susiri̇̀šo gálvą ir̃ nuė̃jo į̇̃ krósnį. Antanùkas gir̃di, kai̇̃p senẽlė pàs krósnį gróbsto
 skãlą, kàd uždègtų ùgnį.
@@ -3872,8 +3872,8 @@ Gaidỹs pakrósnėje rė̃kia visà gérkle, nežinià, kurį̇̃ jaũ sy�
 Antanùką ir̃ pažãdino...
 Antanùkui nesinorė́tų dár kéltis: tai̇̃p šil̃ta ir̃ jaukù gulė́ti lóvoje, i̇̀š visų̃ pùsių
 apklóstytam añtklode, kailiniai̇̃s, ir̃ snáudžiant klausýti, kai̇̃p trẽška dẽganti skalà 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-126
+
+
 ir̃ dur̃zgia ratẽliai. Bèt pažiū̃ri Antanùkas į̇̃ vi̇́eną lángą, kuri̇̀s gretà lóvos, į̇̃ ki̇̀tą,
 kuri̇̀s tiesióg lóvos galè, ir̃ baisù jám: langai̇̃ tokiẽ tam̃sūs, õ ùž tų̃ langų̃ kažkàs
 baisùs baisùs vaidẽnasi. Nórs Antanùkas neži̇̀no, kàs teñ gãli bū́ti, bèt jaũčia,
@@ -3908,8 +3908,8 @@ tri̇̀na rañkšluosčiu jám véidus.
 – Niẽko, anūkė̃li, pakę̃sk. Baltèsnis bū́si, Dievùlis geriaũ mylė̃s.
 Ir̃ anūkė̃lis keñčia. Nè dė̃l tõ keñčia, kàd jį̇̃ Dievùlis labiaũ mylė́tų, bèt kàd
 tõ nóri senẽlė.
-127
-Proza
+
+
 Nušlúosčiusi rankutès, senẽlė vė̃l apklóstė rañkšluosčiu dúoną ir̃ nuė̃jo į̇̃
 krósnį. Paė̃mus i̇̀š kam̃po skuji̇̀nę, nùšlavė pri̇́ekrosnį, pàruošė teñ priẽ stulpẽlio,
 põ pačià krósnies kaktà, Antanùkui sėdė́ti viẽtą, są́šlavas sùšlavė krósnin ir̃
@@ -3945,8 +3945,8 @@ Antanùkas di̇̀rstelėjo į̇̃ lángus ir̃ nusirami̇̀no.
 – Nebijaũ, nepamatỹs! – atrė́žė jisai̇̃ senẽlei.
 – Vai̇̃, ką̃ dabar̃ tù kalbi̇̀? – lýg nusigañdo senẽlė. – Dievùlis vi̇̀ską mãto,
 anūkė̃li, ir̃ vi̇̀ską gir̃di. 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-128
+
+
 –Tai̇̃p sakýti nerei̇̃kia, – ištraũks táu Dievùlis liežùvį per̃ viršùgalvį, –
 pagą̃sdino jį̇̃ Alenà, dvidešimtiẽs mẽtų mergà samdiniñkė.
 Antanùkas trupùtį nusigañdo. Kàs bùs, jéi Dievùlis tikrai̇̃ supỹks ir̃ panorė̃s
@@ -3981,8 +3981,8 @@ duonẽlės vi̇̀są lùstą. Kai̇̃ ti̇̀k kàs grį̇̃žta i̇̀š kur̃
 kiškùčio dovanų̃...
 Antanùkas labai̇̃ norė́tų tą̃ gẽrą kiškùtį pamatýti, bèt neži̇̀no, kur̃ ji̇̀s gyvẽna.
 – Bobùle, õ kur̃ dabar̃ kiškùtis gyvẽna?
-129
-Proza
+
+
 – Miškè, anūkė̃li, laukuosè.
 – Kai̇̃p ji̇̀s nesušą̃la? – stẽbisi Antanùkas. Ji̇̀s ži̇̀no, kàd dabar̃ orè labai̇̃ šálta.
 – Jám Dievùlis dovanójo šiltùs kailinėliùs. Ji̇̀s, anūkė̃li, didžiáusio šal̃čio
@@ -4016,8 +4016,8 @@ ti̇̀k kažkóks ki̇̀tas. Ir̃gi Dievùlis, bèt nè tasai̇̃, kuri̇̀s
 kuriõ visi̇̀ bi̇̀jo...
 Tasai̇̃ gyvẽna aukštai̇̃ aukštai̇̃, teñ – dangujè...
 Antanùkas užsimérkė ir̃ įsivaizdãvo, kai̇̃p ji̇̀s žiūrė̃s į̇̃ Dievùlį...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-130
+
+
 Čià Antanùkui miñtys nutrū́ko. Priẽ krósnies priė̃jo Alenà, àpgręžė púodus,
 pastūmė́jo juõs arčiaũ ugniẽs.
 Betū́pčiodama apliñk krósnį, netikė́tai paspýrė kója pakrósnės durelès, ir̃
@@ -4051,8 +4051,8 @@ lýg ki̇̀rkindama ką̃.
 Õ Dievùlis tai̇̃p rū́sčiai jái sãko:
 – Neplū́sk vištùkių, varlėmi̇̀s nesipravardžiúok!..
 Alenà tai̇̃p ver̃kia, tai̇̃p ver̃kia. Jái tai̇̃p skaũda, tai̇̃p sópa, õ visi̇̀ tỹli nusigañdę...
-131
-Proza
+
+
 Nusigañdo ir̃ Antanùkas. Ji̇̀s iški̇̀šo sàvo liežùvį, pačiupinė́jo pirštù, ar̃ dár
 svei̇̃kas, ir̃ trupùtį i̇̀š pãčio kraštùko įgnýbo.
 Skaũda!
@@ -4087,8 +4087,8 @@ duonýtės.
 – Bobùle, õ kur̃ kiškẽlis duonẽlę kẽpa, kàd ji̇̀s pir̃kios netùri?
 Senẽlė kurį̇̃ lai̇̃ką niẽko nesãko, tỹli, nès anūkė̃lis sàvo kláusimu ją̃ tai̇̃p
 staigà užklùpo, jóg nežinójo nèt, kàs jám atsakýti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-132
+
+
 – Ji̇̀s, anūkė̃li, tùri põ krūmeliù sáu krósnį išsikãsęs.
 Antanùkas paténkintas. Ji̇̀s sáu vaizdúojasi krósnį põ di̇̀deliu krū́mu. Apliñkui
 sniẽgas, šálta, õ põ krū́mu kūrẽnasi krósnis, teñ tùpi kiškùtis ir̃ kẽpa
@@ -4124,8 +4124,8 @@ pėdeliùs nešiójo“. Tai̇̃ jiẽ, matýti, tadà ir̃ duonẽlei pėde
 jaũ vi̇̀ską, vi̇̀ską suprañta.
 Atsi̇̀minė Antanùkas, kàd ir̃ apiẽ mẽšką senẽlė daũgel daũgel jám pãsakojo
 gražių̃ pãsakų.
-133
-Proza
+
+
 – Bobùle, pasèk mán pãsaką! – prãšo jisai̇̃ senẽlę.
 – Sekù sekù pãsaką, krem̃ta vil̃kas ãšaką, krem̃ta rỹja, neprarỹja ir̃
 užspriñgsta, – érzina jį̇̃ Alenà.
@@ -4159,8 +4159,8 @@ tri̇̀na, marškinių̃ sterblè ašarėlès šlúosto: gai̇̃la jám, lab
 Jonùlio, ir̃ jaunų̃ jõ sesùčių.
 Vai̇̃, primiñs jisai̇̃ visóms pãmotėms ir̃ tái, kuri̇̀ tai̇̃p Jonùlį kanki̇̀na! Teužáuga
 ti̇̀k ji̇̀s di̇̀delis.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-134
+
+
 Kadà senẽlė ė̃mė pãsakoti, kai̇̃p rãgana pãmotė įkalbė́jo tėvùliui papjáuti
 júodą ėriùką Jonùlį, kai̇̃p Jonùlis vi̇̀ską girdė́jo, tėvùlį pei̇̃lį galándantį mãtė,
 bèt į̇̃ jį̇̃ prakalbė́ti negalė́jo, ti̇̀k gai̇̃liai ver̃kė, ašarė̃lės i̇̀š akẽlių jám byrė́jo –
@@ -4195,8 +4195,8 @@ vãsaros metù ir̃ tvorà li̇̀pant, ir̃ lapùs ė́dant.
 Senẽlė vė̃l jį̇̃ glósto, rami̇̀na.
 – Mẽs jõs neléisim, mẽs ją̃ pamùšim. Nunù jái, begė́dei! – grãso senẽlė
 nemãtomai kir̃mėlei. – Pamėgi̇̀ntų ji̇̀ nuskriaũsti màno mãžą anūkė̃lį.
-135
-Proza
+
+
 Senẽlė nurami̇̀no anūkė̃lį, nušlúostė jám vė̃l nosýtę ir̃ ė̃mėsi ver̃pti.
 Nusirami̇̀nęs visái Antanùkas patráukė vi̇́eną ki̇̀tą kar̃tą nósim, lýžtelėjo
 liežuviù viršuti̇̀nę lū́pą, apžiūrė́jo i̇̀š visų̃ pùsių pirštùką, kuriám grãsė pavõjus,
@@ -4231,8 +4231,8 @@ ir̃ žarijàs žar̃stant.
 Senẽlė ar̃ negir̃di, ar̃ neži̇̀no, kai̇̃p suprañtamai jái ir̃ jám paáiškinti, kodė̃l
 dū́mai raudóni. Ji̇̀ niẽko Antanùkui neatsãko, ti̇̀k ver̃pia sáu, ti̇̀k ver̃pia, õ ratẽlis
 nèt bur̃zgia.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-136
+
+
 – Bobùle, kodė̃l dū́mai dabar̃ raudóni i̇̀š krósnies ei̇̃na? – kláusia vė̃l
 Antanùkas, trùktelėjęs senẽlę ùž rankóvės.
 Senẽlė kurį̇̃ lai̇̃ką tỹli ir̃ niẽko neatsãko. Antanùkas žiū̃ri į̇̃ senẽlę ir̃ láukia.
@@ -4267,8 +4267,8 @@ kapõs, kai̇̃p ir̃ seniaũ kapódavo – kõ jõs tókios pi̇̀ktos ir
 Ir̃ bi̇̀tės negẽros, jõs ir̃gi kram̃tosi. Vienà pérnai skaũdžiai įgė́lė kójos
 pirštùkan, ir̃ Antanùkas graũdžiai graũdžiai ver̃kė.
 Negẽros bitùkės, nórs jõs gárdų medùlį móka darýti.
-137
-Proza
+
+
 Antanùkui bai̇̃siai pasinogė́jo medaũs.
 – Bobùle, àš nóriu medaũs! – staigà paprãšė Antanùkas senẽlės.
 – Kàs dabar̃ táu, vaikẽli, kàd tù medaũs užsimanei̇̃? – nusistebė́jo senẽlė,
@@ -4302,9 +4302,9 @@ pečiùs teñ, põ kuodeliù.
 Atsisė́do susirañgęs kojýtes.
 Girdė́ti, kai̇̃p vyrúoja i̇̀š kiẽmo dùrys ir̃ kažkàs smar̃kiai trèpsi priemenėjè:
 tai̇̃ grį̇̃žta i̇̀š klúono kūlė́jai...
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-138
-DAINA APIE ARĄ
+
+
+
 Toli̇̀ toli̇̀, teñ, kur̃ sáulė tẽka, yrà kalnúota šali̇̀s, tokià graži̇̀, kokià ir̃ sapnè
 nesivaidẽna mū́sų krãšto žmonė́ms. Tojè šalỹ aukšti̇̀ kalnai̇̃. Añt tų̃ aukštumýnų,
 añt jų̃ kalnų̃ žilų̃jų viršū́nių nei̇̃ žmogùs neùžlipa, nei̇̃ žvė́rys neužbė́ga, nei̇̃
@@ -4334,11 +4334,11 @@ paródyčiau...
 Ir̃ tai̇̃p svajójo Ãras ir̃ besvajódamas džiugiai̇̃ kleketãvo ir̃ jaũtė, kàd galýbė
 áuga jõ krūti̇̀nėje, kàd širdi̇̀s vérda narsumù.
 Ei̇̃, nėrà tõ pasáuly, kõ neišdrį̇̃stų Ãras, visų̃ arų̃ ãras.
-* * *
+
 Tárpu tų̃ kalnų̃, kur̃ gyvẽno Ãras, bùvo vi̇́enas kálnas, visų̃ kalnų̃
 aukščiáusias. Jisai̇̃ bùvo tárpu tõs šaliẽs visų̃ kalnų̃ kai̇̃p Ãras tárpu visų̃ arų̃.
-139
-Proza
+
+
 Kai̇̃ šviẽsiai žver̃blė sniegai̇̃s jõ viršū́nė, skęsdamà sáulės spinduliuosè, visi̇̀
 kalnai̇̃ bùvo gryni̇̀, giedri̇̀. Niẽkur nesiródė nei̇̃ vi̇́enas debesė̃lis, nei̇̃ vienà miglẽlė,
 õ tõs, kuriõs nakvójo giliuosè klóniuose, slė̃pėsi tárpu uolų̃ ir̃ tarpùkalnių
@@ -4371,11 +4371,11 @@ Ilgai̇̃ siùto audrà... Plaũkė per̃ laukùs, per̃ jū́ras, per̃ gir
 Ãrą nẽšė... Vai̇̃, toli̇̀ nuklýdo nuõ aukštų̃ kalnų̃ Ãras, nuklýdo teñ, kur̃ žmónės
 klóniuose gyvẽna. Apal̃po, nuil̃so Ãras, õ nuil̃sęs nusiléido añt žẽmės atsilsė́ti.
 Žmónės jį̇̃ tinkluosè pagãvo ir̃ patùpdė didžiañ gražiañ auksúotan narvañ.
-* * *
+
 Ir̃ patùpdė žmónės Ãrą narvañ, ir̃ patalpi̇̀no nar̃vą teñ, kur̃ bùvo daũgel
 paũkščių – ir̃ lauki̇̀nių, ir̃ nami̇̀nių.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-140
+
+
 Bùvo teñ strazdų̃, vi̇̀štų, žąsų̃ ir̃ kalakùtų.
 Ir̃ pastãtė nar̃vą, kur̃ bùvo įtupdýtas Ãras, gražių̃ gražiáusioje viẽtoje.
 Džiaũgėsi žmónės, kàd tùri pasigãvę Ãrą, visų̃ arų̃ ãrą, ir̃ ė́dino jį̇̃ geriáusiais
@@ -4410,8 +4410,8 @@ negaliù pasipui̇̃kinti sàvo skiaũtere. Niẽkas tokiõs netùri... Kak
 – Skiauterė̃! Kaži̇̀n kàs tóji tàvo skiauterė̃... Ir̃ dainúoji, tai̇̃ ti̇̀k rėki̇̀... Õ
 gál tù tai̇̃ móki švỹkšti kai̇̃p àš, ar̃ gál tàvo kãklas tóks liẽknas ir̃ lankstùs kai̇̃p
 màno? – supỹkęs tãrė žą̃sinas.
-141
-Proza
+
+
 – Tiẽsą, tiẽsą, tiẽsą kalbi̇̀, – pri̇̀tarė jám žą̃sys.
 – Kalbė́kite! Kàd jū̃s bū́tute geresni̇̀, tai̇̃ žmogùs jùs penė́tų geriaũ. Manè
 žmogùs mýli labiáusiai ir̃ grýnu pi̇́enu pẽni, – pasigýrė ir̃ paléido kalakùtas sàvo
@@ -4436,15 +4436,15 @@ apiẽ jį̇̃ kalbė́jo: vi̇̀štų, žąsų̃ – Ãras nei̇̃ mãtė, ne
 – Nórs penė́tute užpenė́tute, nórs ir̃ grýno áukso bū́tų tasai̇̃ jū́sų nar̃vas –
 žmonių̃ vérgas nebùs Ãras: aukštai̇̃ minti̇̀s jõ skrai̇̃do...
 – Vai̇̃, jū̃s, žmónės, pikti̇̀ žmónės, kám jū̃s nukanki̇̀not Ãrą, visų̃ arų̃ Ãrą?!
-Vincas Krėvė. Rinktiniai raštai. T. 1, 3. Vilnius, Vaga, 1982.
-LAZDYNŲ PELĖDA
-(Sofija Pšibiliauskienė, 1867-1926;
-Marija Lastauskienė, 1872-1957)
-MOTULĖ PAVILIOJO
+
+
+
+
+
 Brė́ško. Kàs valandà tamsiaũ dãrėsi. Dvẽjetas mažùčių vaikų̃, prisiki̇̀šusių
 priẽ apšãlusio langẽlio, žiū̃ri į̇̃ tãką, ar̃ neužjuoduõs motùlė grįždamà.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-142
+
+
 Véltui mažùčiai, pamėlynãvusias nuõ šal̃čio lū́pas priẽ stiklų̃ prirė̃mę,
 pùčia, apšaluonès tirpi̇̀na, kaskar̃t labiaũ témstančią tólumą pérmatyti sténgiasi.
 Takẽlis tùščias, nesimãto motùlės! Vi̇́en sniẽgo vil̃nys, vė́jo sukéltos, slánkioja
@@ -4479,8 +4479,8 @@ bùs pókylis!... Petriùk! õ i̇̀š kur̃ im̃siva málkų? – rūpesti
 – Nesirū́pink! Málkų pàs mùs kai̇̃p dvarè. Vãkar, subrė́škus, apsisukaũ apiẽ
 Ber̃noto skiedrýną: visi̇̀, màt, bùvo išvažiãvę, – pàšlemžiau balži̇́eną, kai̇̃p mẽšką,
 užsinė́riau vir̃vę, ir̃ tai̇̃ bevéik trū̃kio negavaũ, kõl atvilkaũ...
-143
-Proza
+
+
 – Kamè jį̇̃ turi̇̀?
 – Ži̇̀noma, ãsloj pamẽtęs nelaikýsiu, kàd kiekvi̇́enas žioplỹs įė̃jęs pamatýtų,
 õ paskui̇̃ liežùvį láidytų. Kamãroj, kampè, kankórėžiais àpkasiau... Kám gi̇̀ bū́tų
@@ -4498,7 +4498,7 @@ užgẽso. Vérdamos bùlvės katilė̃lyje nustójo pliupė́ti. Vė́jas, p
 įsisùkęs, gáinioja pẽlenus i̇̀š ugniãvietės; kaminè vė̃l stáugia, dejúoja, ver̃kia...
 Šė̃lsta, ū̃žia žiemõs audrà; vaikai̇̃ niẽko nebegir̃di: meilùs sãpnas, vargdiẽnių
 rami̇̀ntojas, ir̃ juõs mažučiùs nuti̇̀ldė.
-* * *
+
 Jaũ bùvo pusiáunaktis, kadà, gai̇̃džiui pragýdus, vaikai̇̃ pabùdo.
 Laukè tylù, ramù, niẽkas nebesibáldo põ pastóge, nebesibéldžia ir̃ dùrų
 nebeklebẽna. Prõ nulẽdintus langų̃ stiklùs sleñka i̇̀š dangaũs aukštýbių balzganà
@@ -4515,8 +4515,8 @@ Mergẽlė nuõ ãšarų drẽbančiu balsù susi̇̀juokė, atsimi̇̀nusi t
 – Tai̇̃gi ir̃ dabar̃ nėrà kõ bliáuti, – kalbinė́jo Petriùkas. – Kur̃gi diñgs
 neparė̃jusi? Praaũš ir̃ parei̇̃s, ràsit, ir̃ vė̃l nè tuščiomi̇̀s rañkomis. Žmonėsè dabar̃
 papjovõs netrū́ksta, mėsgaliai̇̃s apsikróvę, – pridė́jo, séiles rýdamas, vaiki̇̀nas.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-144
+
+
 Per̃ diẽną praálkęs, primi̇̀nus gardumýnus, pajùto, kàd jám viduriai̇̃ sil̃psta.
 – Katriùke, jùk mùdu bùlves vi̇̀rėva; suválgykiva kẽletą, kõl motùlė susivõks!
 – Nenóriu niẽko, mán šálta; miẽgo nóriu, – tráukydama nósim ir̃ kasýdama
@@ -4547,12 +4547,12 @@ puodẽlio.
 – Nè per̃ daũg, – tãrė, gálvą kraipýdamas.
 Išsitráukė šáukštą, aplai̇̃žė ir̃ padė́jo añt stãlo; puodẽlį mediniù dangteliù
 ùždengė ir̃ atsidùsęs ùžpūtė ži̇̀burį. Paskui̇̃ apgraibõm nuė̃jo gul̃ti añt krósnies.
-* * *
+
 Aukštai̇̃ jaũ bùvo saulùtė paki̇̀lusi, kai̇̃ įmi̇̀gusius vaikùs pabùdino várstomų
 dùrų gi̇̀rgžtelėjimas.
 – Motùlė parė̃jo! – sušùko Katriùkė, ri̇̀sdamasi i̇̀š lóvos.
-145
-Proza
+
+
 Petriùkas galvótrūkčiais nukri̇̀to nuõ krósnies; bèt vaikų̃ džiaũgsmas neilgai̇̃
 tetvė́rė, nès juõdu pamãtė kaimýnę Rimki̇́enę viẽtoj laukiamõs motùlės.
 Nusi̇̀minė abùdu, vi̇́en žiūrė́jo į̇̃ seni̇̀kės aki̇̀s, tar̃tum kokiõs žiniõs i̇̀š jõs laukdami̇̀.
@@ -4588,8 +4588,8 @@ nèt giminỹstę išrãdo.
 Nà, ir̃ paki̇̀lo giñčai. Augi̇̀ntinis tai̇̃ nè samdiniñkas, – tai̇̃ kiekvi̇́enas ži̇̀no:
 subraũkus niẽkur neišbė̃gs, niẽkam nepasiguõs; nei̇̃ algà rū̃pi mokė́ti, nei̇̃ val̃gio
 rū́pinti, nei̇̃ drãpanų. Õ vaikai̇̃ prakùtę! Pãtys tikri̇́eji stumtùvai priẽ ū́kio!
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-146
+
+
 Nenuostabù tàt, kàd tar̃p výrų paki̇̀lo giñčai. Strypeiki̇́enė nė̃ sù kuõ
 nesigiñčijo; jõs ãkys ir̃ prõtas darbãvosi tylomi̇̀s: galvójo sáu vienà, stovė́dama
 tar̃pduryje.
@@ -4603,7 +4603,7 @@ Neilgai̇̃ trùkus, dvẽjetas šlãjų pàšliaužė põ trobẽlės dùr
 pùsbernis, antràs – pati̇̀ Strypeiki̇́enė.
 Sù pùsbernio pagálba ė̃mė ji̇̀ vi̇̀ską „glaũsti“, ir̃ apýbrėkšmiais vaikai̇̃ bùvo
 jaũ põ gerašir̃dės globė́jos pastóge.
-* * *
+
 Ir̃ prasidė́jo mažùčiams var̃go dienẽlės; prasidė́jo gyvẽnimas, kai̇̃p visų̃ tų̃,
 kuriẽ netùri kám pasigúosti, ùž kuriuõs niẽkas neužstõs!...
 Globė́ja i̇̀š pirmõs dienõs pasirū́pino, kàd vaikai̇̃ neišdỹktų, ir̃ katrám
@@ -4624,8 +4624,8 @@ pláuti skaràs, ãslą šlúoti, skal̃binius skal̃bti ir̃ bùlves skù
 Akysè ė̃mė nỹkti vaikai̇̃. Mergẽlė išblỹško; di̇̀delės mė́lynos jõs ãkys tar̃tum
 gestè užgẽso; liūdnai̇̃ žiūrė́jo į̇̃ žmónes. Jõs lū́pos niẽkad nepragarsė́jo smagiù,
 nevar̃žomu vai̇̃ko juokù, nei̇̃ linksmõs dainẽlės gaidà nesuskambė́jo; pasidãrė 
-147
-Proza
+
+
 baugi̇̀ kai̇̃p lauki̇̀nis žvėriùkas: bė́go, žmõgų pamãčiusi, kiekvienamè sàvo
 žudýtoją matýdama.
 Petriùką, pri̇́ešingai, var̃gas susti̇̀prino ir̃ užgrū́dino. Plū́stamas ji̇̀s jaũ
@@ -4661,8 +4661,8 @@ Petriùkas gãvo uodegõn, bèt vi̇̀s dėlto Stãpiui, ką̃ įdė́jo, t
 Stãpis nuõ tõ lai̇̃ko nebeužkabi̇̀no Petriùko, nustójo pravardžiúotis ir̃ šiai̇̃p
 rimtèsnis pasidãrė. Užtàt Strypeiki̇́enė nuõ šiõs dienõs tar̃tum pasiùto; nei̇̃
 Petriùkas, nei̇̃ Katriùkė įti̇̀kti jái nebegalė́jo.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-148
+
+
 – Išmanýsite, velniū́kščiai, svogū̃no skõnį, – murmė́jo, – dõvis priẽš dõvį;
 kai̇̃p jū̃s mán, tai̇̃p ir̃ àš jùms! Ar̃ neprivarýsiu priẽ paklusnùmo!
 Kiekvi̇́enas ži̇̀no, kàd pàts vélnias tõ nepadarỹs, ką̃ padãro pasiùtusi bóba... Nà,
@@ -4698,8 +4698,8 @@ tiẽ, kuriẽ màno vaikučiùs žùdo!“ – Tai̇̃ pasãkiusi, pranỹk
 išsidrai̇̃kė põ meldýnus.
 – Meldžiamóji, kàs gi̇̀ tuõs vaikùs žùdo? – rū́sčiai mùrmtelėjo Strypeiki̇́enė.
 – Nepasãkė, õ àš nesusiprataũ pakláusti.
-149
-Proza
+
+
 Strypeiki̇́enė sėdė́jo vãlandą užsimą̃sčiusi, rū́sčiai susiraũkusi.
 Kaimýnė žvitriai̇̃ žiūrė́jo į̇̃ ją̃, paskui̇̃ toliaũ sàvo kal̃bą tę̃sė.
 – Nè àš vienà ją̃ mačiaũ, bèt ir̃ àš netikė́jau nemãčiusi...
@@ -4733,8 +4733,8 @@ pri̇̀dera svẽčią palydė́ti; pasili̇̀ko, rūpesti̇̀ngai berýmojanti
 Kaimýnė išė̃jusi pasisùko takeliù per̃ kadagýnus. Čià, matýt, jõs láukė dár
 dvi̇̀ sodiẽtės.
 – Nà, ką̃? – pakláusė abi̇̀dvi, – pasi̇̀sekė?
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-150
+
+
 – Pasi̇̀sekė kuõ puikiáusiai, – atsãkė Strypeiki̇́enės viešnià. – Tokiẽ, kuriẽ
 Diẽvo nebi̇̀jo, tùri bijóti velnių̃ ir̃ šmė́klų. Ùždaviau bóbai pipi̇̀rų.
 – Ilgai̇̃ ráugės, – juõkėsi vi̇̀sos.
@@ -4753,7 +4753,7 @@ pirmàsis žõdis: „Ei̇̃k põ velniai̇̃s!“ Õ kur̃ ei̇̃si? Kàs 
 bliáuna. Màt į̇̃ gyvẽnimą ir̃ ji̇̀s parė̃jęs; žẽmė jõs.
 – Bèt vi̇̀s di̇̀rba! Kamè teisýbė?
 – Kàs dabar̃ žiū̃ri teisýbės!
-* * *
+
 Tuõ tárpu pàs Strypeiki̇́enę di̇̀delės pérmainos įvỹko. Bùvo šeštãdienio
 vãkaras. Kai̇̃p visadà, Petriùkas sù Katriukè išsitráukė bùlvių krẽžį ir̃ sė́dos skùsti.
 – Nerei̇̃kia šį̇̃ vãkarą skùsti! Juozapi̇́ene, paim̃k vandeñs, ištri̇̀nk vaikáms
@@ -4768,8 +4768,8 @@ sudrebė́jo raukýdamasis, ir̃ kẽletas ãšarų i̇̀š apgẽsusių akių
 gerà!
 – Tylė́k, velniū́kšti! Kàs tavè kláusia! – suri̇̀ko Strypeiki̇́enė, bèt tuõj
 nuščiùvo, kaži̇̀n ką̃ atsimi̇̀nus.
-151
-Proza
+
+
 – Tóks tókį paži̇̀no ir̃ alaũs gérti pasivadi̇̀no, – murmė́jo rū́sčiai Strypeiki̇́enė.
 – Susirãdo bičiùliai!
 Tačiaũ vaikai̇̃ gãvo báltus márškinius, ir̃ tai̇̃p aptaisýtiems padė́jo añt mū́ro
@@ -4791,7 +4791,7 @@ Kàs ką̃ padãro, vi̇̀s mán nepakélti: àš kaltà, kàd vaikai̇̃
 kàd norė́jau pagalvė̃lį tą̃ sẽnąjį dúoti, ar̃ nepasakei̇̃, bróliene: – „dỹgulį į̇̃ kẽpenis!
 Pamèsk šiaudų̃ glė̃bį“? Ir̃ tą̃ drýžąją gū̃nią, nuobrauki̇̀nę, liepei̇̃ dúoti. Ką̃ gi̇̀ àš
 padarýsiu? Ir̃ àš nè geriaũ guliù, nórs šešiàs pagálves parsi̇̀nešiau.
-* * *
+
 Vėlùs jaũ bùvo lai̇̃kas, kadà pàs Strypeikùs nuri̇̀mo. Ùžkrosnyje ti̇̀k nebùvo
 ramù: mergẽlė blãškėsi, i̇̀š miẽgo šókosi, tai̇̃ rankàs tiẽsė, verksmi̇̀ngai gúosdamasi:
 – Kám mumi̇̀s palikai̇̃, mamýte, var̃gui var̃gti? Vèskis sù savim̃, motùle,
@@ -4804,8 +4804,8 @@ Pasii̇̀lgo motùlė... Ei̇̃siu, ei̇̃siu...
 Staigà pabùdo Katriùkė, atsisė́do añt gùlto.
 – Nebėrà jaũ!... Nuė̃jo! – sudejãvo ir̃ ė̃mė ver̃kti.
 – Kàs? – pašnibždomi̇̀s kláusė broliùkas.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-152
+
+
 – Motùlė bùvo, motùlė. Pabučiãvo manè, nuglóstė... Tokià linksmà, baltà,
 graži̇̀... Angeliùkas tai̇̃p pàt bùvo... áukso sparnẽliais plasnójo... kai̇̃p ti̇̀k tàs, apiẽ
 kurį̇̃ pãsaką sãkė tetùtė... Ir̃ nuė̃jo; nuė̃jo, õ manè pali̇̀ko!...
@@ -4818,7 +4818,7 @@ Petriùkas, išei̇̃damas galvi̇̀jų giñti, pali̇̀ko ją̃ stipriai̇̃ 
 Bùvo sekmãdienio rýtas. Šeiminiñkai į̇̃ bažnýčią išvažiãvo; Juozapi̇́enė
 kiaulès i̇̀šginė: Katriùkei susir̃gus, nebeli̇̀ko kám ganýti. Pačių̃ vaikai̇̃ iki̇̀ pùsdienio
 miegójo; mãžąjį šeiminiñkė sù savim̃ pasi̇̀ėmė.
-* * *
+
 Tylù bùvo trobojè. Mergẽlė pabùdo, suñkiai atsidùso; slopi̇̀no ją̃. Pasikė́lė
 vandeñs ieškóti. Gė́rė, gė́rė ir̃ vė̃l i̇̀š gelmė̃s atsidùso.
 Bùvo graži̇̀ saulė́ta dienà. Langè linksmai̇̃ zirzė́jo mùsės, orè girdė́josi
@@ -4839,8 +4839,8 @@ sùkasi... sùkasi...
 siūbúoja, šniõkščia. Tikrai̇̃ valandomi̇̀s ródosi, kàd kàs juosè ver̃kia.
 Mergẽlės širdẽlė suplasnójo greičiaũ:
 – Tai̇̃ bėdinà motùlė!...
-153
-Proza
+
+
 Atsistójo añt krañto, bèt... motùlės nėrà! Tỹliai, rimtai̇̃ bangúoja ùpė. Añt
 vandeñs lingúoja báltos leli̇̀jos. Kar̃tais pliùmptelės žuvẽlė vandenỹ; mergẽlė
 nuõ kiekvi̇́eno bal̃so sùdreba, stóvi, láukia...
@@ -4873,8 +4873,8 @@ Petriùkas ė̃mė bė́gti į̇̃ bal̃są. Pabėgė́jęs ir̃ vė̃l klaũs
 – Katriùke!... kamè esi̇̀? – sušùko Petriùkas meldýne.
 Niẽkas neatsiliẽpia. Klaũsos Petriùkas; ti̇̀k meldai̇̃ šniõkščia, vė́jo lingúojami,
 ir̃ lazdýno šakosè liūdnai̇̃ lakštiñgalos čirvė́ja.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-154
+
+
 Pasili̇̀po Petriùkas į̇̃ paliñkusį añt vandeñs glúosnį ir̃ dūmója... Prõ šakų̃
 tárpą žiū̃ri Petriùkas į̇̃ gel̃mę, mãto žvaigždès, mėnùlį.
 – Vi̇̀skas ir̃ tenai̇̃, vandenỹ, kai̇̃p čià, – mą̃sto...
@@ -4889,7 +4889,7 @@ savi̇̀škių...
 Valandė̃lę lingãvo báltosios leli̇̀jos; vė̃l kẽletas ribulių̃ per̃ ùpę pérbėgo; ir̃
 vė̃l ramù, tylù. Priẽ ùpės rasõs ãšaromis ver̃kia paliñkęs glúosnis ir̃ laibi̇̀ meldai̇̃
 ámžiną ãtilsį šnãbžda...
-* * *
+
 Mẽtų nesukãko nuõ tų̃ atsitiki̇̀mų, kai̇̃p staigà audrà paki̇̀lo ir̃ perkū́nas
 treñkė į̇̃ Strypeikų̃ tróbą. Kei̇̃stas dalỹkas: niẽkas neišdrį̇̃so gesýti tõs ugniẽs;
 žmónės šnibždė́josi tylomi̇̀s, bèt niẽkas nèt daiktų̃ nèšti i̇̀š vidaũs neįsišóko.
@@ -4907,13 +4907,13 @@ Prakilnùsis Stãpis i̇̀š i̇̀šgąsčio nebylỹs pasidãrė ir̃ sù t
 Dù mažúoju vaikù liepsnosè sùdegė.
 Senẽlė Juozapi̇́enė tų̃ baisenýbių nesuláukė: dvẽjetą saváičių priẽš gai̇̃srą
 užė̃jo jái kaži̇̀n kàs ir̃ užgẽso ramiai̇̃.
-Lazdynų Pelėda. Stebuklingoji tošelė. Vilnius, Vaga, 1982.
-155
-Proza
-VINCAS MYKOLAITIS-PUTINAS (1893-1967)
-ALTORIŲ ŠEŠĖLY (ištraukos)
-Bandymų dienos. XIII.
-.....
+
+
+
+
+
+
+
 Sàvo tė́viškės laukuosè ji̇̀s labai̇̃ mė́go vi̇́eną kalnẽlį, kurį̇̃ visi̇̀ vadi̇̀no
 Aušrãkalniu ir̃ kuri̇̀s bùvo aukščiáusia visõj apýlinkėj vietà, toli̇̀ nuõ bèt
 kokiõs trobõs ir̃ bèt kókio kẽlio ar̃ tãko. Añt ši̇̀to kalnẽlio Liùdas ir̃ praléisdavo
@@ -4945,8 +4945,8 @@ saulė́tas vai̇̃zdas atródė jám kai̇̃p ir̃ ki̇̀tas pasáulis. Ji̇
 báltus rū́mus, kokių̃ šiõj pùsėj nebùvo, medžiùs, kuriẽ nebùvo panãšūs nei̇̃ į̇̃
 tė́viškės glúosnius, nei̇̃ į̇̃ kaimýnų béržus, ir̃ bažnýčios bókštus, kuriẽ, sáulei
 léidžiantis, blizgė́jo ir̃ šviẽtė.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-156
+
+
 Tą̃ vai̇̃zdą ir̃ dabar̃ mė́go kliẽrikas Vasãris, tačiaũ jõ ãkys vi̇̀s labiaũ krỹpdavo
 į̇̃ vakarų̃ pùsę, kur̃ tę̃sėsi plati̇̀ lygumà ir̃ nei̇̃ jóks mi̇̀škas, nei̇̃ pakilùmas netrùkdė
 matýti tolimiáusių horizònto viẽtų. Čià ji̇̀s žiūrė́davo, kai̇̃p léisdavosi sáulė –
@@ -4984,8 +4984,8 @@ ji̇̀s àpima rẽginį nuõ sàvo tė́viškės kalnẽlio ir̃ kuõ labia
 vidaũs gyvẽnimo momentùs, tuõ labiaũ siaurė́ja jõ kūrýbos plótas. Įsižiūrė́jęs į̇̃ tõly
 mėlynúojančius miškùs, kasdiẽn tuõs pačiùs, į̇̃ žėrúojančius saulė́lydžius, kasdiẽn
 tókius didi̇̀ngus ir̃ melanchòliškus, jisai̇̃ nemãtė, kàd čià pàt priẽ jõ kójų gyvẽna 
-157
-Proza
+
+
 ir̃ kni̇̀bžda stebukli̇̀ngai gražùs tõ pãčio kalnẽlio pasáulis, kur̃ spalvų̃ gausùmas ir̃
 fòrmų įvairùmas tóks subtilùs, õ jų̃ kẽliamos emòcijos tókios pàprastos, bèt naũjos
 ir̃ įdõmios. Bèt ar̃ ji̇̀s kal̃tas, kàd gyvẽnimas, į̇̃ kurį̇̃ ji̇̀s tai̇̃p anksti̇̀ patẽko, áuklėjo
@@ -5017,13 +5017,13 @@ Liùcės atsimini̇̀mai jám gerókai išblùko, õ Varnė́no išvãryma
 saváitėmis ir̃ visái ją̃ išstū́mė i̇̀š jõ minčių̃. Tačiaũ, praė̃jus vienám atóstogų
 mė́nesiui, kliẽrikas Vasãris vi̇̀s dažniaũ ė̃mė galvóti, kàd jaũ bū́tų lai̇̃kas atlankýti
 sàvo kaimýną ir̃ draũgą Petrỹlą. Õ rūpė́davo jám nè Petrylà, bèt Liùcė.
-.....
-Bandymų dienos. XXII.
-......
+
+
+
 Kai̇̃ jaũ bai̇̃giantis kalbóm ir̃ enèrgijai pakri̇̀kę svečiai̇̃ stovinė́jo seklỹčioj
 pasi̇́eniais, kliẽrikas Liùdas ir̃ Liùcė netýčiomis pasijùto vi̇́enu dù tar̃pdury į̇̃ sõdą.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-158
+
+
 – Palydė́k manè, Pavasarė̃li, – prãšė ji̇̀, – àš, ródos, pakal̃nėj añt suolẽlio
 užmiršaũ sàvo skãrą.
 Jiẽdu grei̇̃t sprùko prõ durelès ir̃ staigà sustójo, sužavė́ti naktiẽs gražùmo.
@@ -5059,8 +5059,8 @@ paskui̇̃ atmesdamà papùrtė gálvą, tar̃si nusikratýdama kókį įky
 tar̃si atsisvéikindama tãrė:
 – Bū́k támsta kùnigu, Pavasarė̃li. Támsta bū́si gẽras kùnigas.
 Ir̃, pali̇̀kusi jį̇̃ bestóvintį viẽtoje, grei̇̃tai įbė́go į̇̃ tróbą.
-159
-Proza
+
+
 Svečiai̇̃ išsiski̇̀rstė jaũ põ vidùrnakčio, kiti̇̀ pasili̇̀ko nakvóti. Kai̇̃ užvažiãvo
 Klevi̇̀škio klebõno bričkà ir̃ kliẽrikas Vasãris atsisvéikindamas paspáudė Liùcės
 rañką ir̃ susiti̇̀ko sù jõs liūdnù, bevéik rūpesti̇̀ngu žvilgsniù, jõ ši̇̀rdį suspáudė
@@ -5086,17 +5086,17 @@ méilės.
 Bèt niẽko tõ nebùvo. Ji̇̀s ir̃ toliaũ pasili̇̀ko šiàpus slapti̇̀ngos ùždangos, ùž
 kuriõs jaũtė sūkuriúojantį gyvẽnimą, di̇̀delius jausmùs ir̃ nórus, ùž kuriõs
 slãpstėsi jõ patiẽs ateiti̇̀s ir̃ tikràsis, nepažintàsis ji̇̀s pàts.
-Vincas Mykolaitis-Putinas. Raštai. T. 4. Vilnius, Vaga, 1992.
-BRONIUS RADZEVIČIUS (1940-1980)
-ŠIĄNAKT BUS ŠALNA
+
+
+
 Jéigu pilki̇̀ pérdebesiai vir̃š miẽsto, pùčia vė́jas, õ sáulė blýkstelėjusi pasi̇̀slepia
 ir̃ júodas kai̇̃p gùmulas debesė̃lis praplium̃pa lietum̃, õ ùž keliólikos žiñgsnių
 šviẽčia sáulė ir̃ vaivórykštės lañkas – kai̇̃p árka į̇̃ šiltų̃ sáulės spindulių̃ rúožą, – ar̃
 nè ruduõ? Čià, miestè, jõ nejauti̇̀. Tačiaũ tiẽ, kuriẽ dabar̃ laukuosè, kuriẽ mãto
 pašiur̃pusias kárvių nùgaras, kurių̃ bãtai mi̇̀na mólį, kuriẽ ei̇̃na prõ bùlvių laukùs,
 prõ raži̇́eną, tiẽ ži̇̀no, kàd jaũ ruduõ, ir̃ gúodžia savè mintim̃, kàd dár bùs bóbų 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-160
+
+
 vãsara, kàd dár išdžiùs pil̃kšvas bulvi̇́enų smė̃lis, pagel̃s lãpai, tolumojè áuksu
 dègs mẽdžiai, išsirikiuõs visõm pakelė̃m, papléntėm ir̃ pavieškelė̃m li̇́epos.
 Tõs skai̇̃drios aki̇̀mirkos, kai̇̃ óras pérmatomas ir̃ jaũ drai̇̃kosi vorãtinkliai!
@@ -5133,8 +5133,8 @@ bãsas ir̃ jaũčia, kàd žẽmė šaltà. Ji̇̀s atsãko:
 – Tikrai̇̃ žẽmė šaltà.
 Bolúoja dvi̇̀ nuártos, bèt nenùkastos bùlvių vãgos. Visi̇̀ ži̇̀no, kàd negerai̇̃
 pali̇̀kti nãkčiai nenùkastas bùlves, nès bùs šalnà. Kai̇̃p susitãrę pàsuka tylė́dami 
-161
-Proza
+
+
 priẽ išartų̃ vagų̃, nùrenka bùlves nuõ dir̃vos pavir̃šiaus. Kai̇̃ dárbas bai̇̃gtas,
 mótina pakartója:
 – Bùs di̇̀delė šalnà.
@@ -5156,7 +5156,7 @@ blyškùmas ir̃ nelauktai̇̃ atvė́sęs óras ródo, kàd ruduõ.
 Gál todė̃l jõ vaizduõtėje – tà trapi̇̀ tolimõs vaikỹstės aki̇̀mirka, kai̇̃ bùvo nè
 tai̇̃p, kai̇̃p dabar̃, kai̇̃ visi̇̀ (nèt arklỹs) sáugojo jį̇̃ nuõ pavõjų, kai̇̃ visi̇̀ žinójo, kàd
 šią̃nakt bùs šalnà, ir̃ žinójo, ką̃ tadà rei̇̃kia darýti.
-SPINDULYS
+
 Kietai̇̃ suspaustomi̇̀s lū́pomis, užmérkusi aki̇̀s, senóji Daũkintienė gulė́jo
 lóvoje, šalti̇̀ žiemių̃ sáulės spinduliai̇̃ čiupinė́jo sẽną raukšlė́tą véidą. Kar̃tais
 ji̇̀ pasitaisýdavo baltõs taškúotos skarẽlės mãzgą, senù į̇́pročiu paki̇̀šdavo põ
@@ -5170,8 +5170,8 @@ nesigráužk, – pragýdo marti̇̀. – Nenùskriaustas ši̇̀tas našlait
 nósies, kur̃ táu nerei̇̃kia.“ – „Ei̇̃k tù, ei̇̃k“, – šnekė́jo senóji gę̃stančiu balsù, modamà
 jái i̇̀š sàvo pãtalo. Tačiaũ marti̇̀ nesilióvė jái prikáišiojusi. Tadà ji̇̀ nusùko véidą į̇̃
 lángą. Tesiži̇̀no. Tačiaũ anūkė̃lio, kõl ji̇̀ gyvà, niẽkas tenedrį̇̃sta paliẽsti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-162
+
+
 Jái vaidẽnosi, kàd tàs vai̇̃kas tebėrà mažùtis, kai̇̃p priẽš peñketą ar̃ septýnetą
 mẽtų, kai̇̃, įsiki̇̀bęs sijõno, ei̇̃davo gretà jõs, bai̇̃kščiai dairýdamasis į̇̃ šali̇̀s. Sė́di
 ji̇̀s añt šaltų̃ grindų̃, neválgęs, pur̃vinas, ir̃ knibinė́ja kókį niekùtį, rãstą põ súolu
@@ -5210,8 +5210,8 @@ lýgino raukšlès, ir̃ ji̇̀ võs võs šypsójosi kažkám tolimám, 
 nemãtomam, užklýdusiam į̇̃ jõs šáltą bū́stą.
 Užgriebdamà žẽmą dangaũs kraštẽlį, sáulė keliãvo sàvo keliù. Ištikimóji jõs
 žiemõs darbų̃ palydõvė, jõs rūpintojė̃lė, maiti̇̀ntoja. Kitadõs sáulė apžiūrė́davo
-163
-Proza
+
+
 tuštė́jančius arúodus, pirmà jõs nubė́gdavo į̇̃ kloji̇̀mą; kai̇̃ ji̇̀ ei̇̃davo kim̃šti į̇̃ mai̇̃šą
 pelų̃, sáulė ši̇̀ldydavo jái nùgarą, kai̇̃ šukúodavo ar̃ braũkdavo linùs, jõs šviesà
 tekė́davo tar̃p pir̃štų, kai̇̃ ji̇̀ ver̃pdavo, šviesà virpė́davo añt miltúotų lentų̃, kai̇̃
@@ -5250,8 +5250,8 @@ pagãvo tóks są́myšis, jóg nebežinójo, kur̃ lė̃kti, kõ stvérti
 siaũbo, kuri̇̀s pagãvo ją̃ pačiamè vidùrdieny nãkčiai užė̃jus. Geriaũ tegù kẽpina,
 tegù svi̇̀lina véidą, rankàs ir̃ pečiùs, galvójo, vi̇̀s vi̇́en geriaũ negù tóks siaũbas.
 Tekinà pasiléido laukai̇̃s, kur̃ kójos nẽša... Tokià bùvo sáulė jaunỹstės mẽtais.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-164
+
+
 Ši̇̀t ir̃ dabar̃ jái ródosi, kàd sáulė slýstelės žemỹn – kodė̃l gi̇̀ tokià baikšti̇̀ jõs
 glamõnė? – ir̃ stõs amžinóji nakti̇̀s. Nakti̇̀s ir̃ spéigas, užgniáužiantis vi̇̀sa, kàs
 gýva. Ji̇̀ vi̇̀s dár grę̃žia véidą į̇̃ šviẽsą, nórs jaũčia, kàd juõ jaũ sleñka šešė́liai.
@@ -5289,14 +5289,14 @@ Jų̃ teñ milijárdų milijárdai, ir̃ šviesà ei̇̃na priẽ mū́sų t
 Jõs vi̇̀sos bẽgalę kar̃tų didèsnės ùž Žẽmę. Per̃ di̇̀delė prabangà žmõgui, mažám
 padarė̃liui, turė́ti tókį šviẽsulį. Jéigu jõs bū́tų tókios, kai̇̃p mùms atródo, dár
 supràsčiau, – pagalvõs Juzùkas, čiupinė́damas kišẽnėje gùlintį lę̃šį.
-165
-Proza
+
+
 Kitókią sáulę, mãžą, ar̃timą, sãvą kai̇̃p šil̃tas anūkė̃lio delnẽlis, regė́jo močiùtė:
 jõs darbų̃ palydõvė sáulė varguõlė šitám vai̇̃kui, kurį̇̃ ji̇̀ užaugi̇̀no, tebùs
 ti̇̀k òptinė iliùzija...
-Bronius Radzevičius. Link debesijos. Vilnius, Vaga, 1984.
-ALDONA RUSECKAITĖ (g. 1950)
-ŠEŠĖLIS JMM (ištrauka)
+
+
+
 Sekmãdienio pópietę pasiuntinùkas àtnešė dalininkės Sòfijos Ròmerienės
 viztinę kortẽlę sù prerašu, ar̃ j galė́tų užeti trumpám põ porõs valandų̃ pàs
 Prelãtą, nès ktą diẽną jaũ išvỹkstanti  Týtuvėnų dvãrą. Pavasarė́ja, rekia tar̃tis
@@ -5323,8 +5323,8 @@ pasitáikė lasvas vãkaras, nėrà jokių̃ kviestų̃jų svečių̃, nie
 Poètas pasirýžęs šią̃ vãsarą vė̃l pozúoti melajai mẽnininkei.
 J atbė́ga paskuboms, kažką̃ pasikšusi põ pažasti – žnoma, pavéikslą.
 Šeiminiñkas kviẽčia priẽ stãlo  raudonúosius fòtelius. Sesuõ pàruošė kukliàs 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-166
+
+
 váišes, išė̃jo  vakarinès Mišiàs. Kõl kàs jiẽdu sė́di preblandoje, js klausinė́ja
 naujenų, ką̃ tãpanti, kap péržiemojo Týtuvėnų dvãras? Kal̃basi ramia, neskubė́dami.
 Staigà dalininkė Sòfija prismena sàvo nẽšulį, kur palko preškambaryje,
@@ -5360,8 +5360,8 @@ Sòfiją, padėkóti.
 dalininkę, amžinýbę ir̃ mir̃tį.
 Põ mė́nesio gãvo laiškẽlį, kàd portrètas jaũ yrà visái ùžbaigtas, dalininkė
 Sòfija kviẽčia biržẽlio dvdešimt ketvir̃tąją  Týtuvėnus švę̃sti Jonnių, nórinti 
-167
-Proza
+
+
 pasvéikinti sàvo melą Bičiùlį. Nórs j žno, kàd Poètas pripažsta sàvo vardinès
 rùdenį per̃ Šveñtąjį Jõną Kantiẽtį, bèt gãlima pasidžiaũgti ir̃ per̃ biržẽlinį Jõną –
 jùk gražùs vãsaros lakas! Ìš vãkaro Prelãtas nuvỹko  dvãrą, dalininkė Sòfija
@@ -5389,15 +5389,15 @@ Ilga griáudėjo plojmai, vis norė́jo paspáusti rañką Vardùvi
 susižavė́jimą portretù. Dalininkės dárbas bùvo àtliktas – j stovė́jo tuõ tárpu kek
 nuošaliaũ priẽ lángo, šypsójosi, bùvo laimnga. Jaũtė – jų̃, dviejų̃ mẽnininkų,
 likmai ir̃ varda susipýnė šim̃tmečiams...
-Aldona Ruseckaitė. Šešėlis JMM.
-Vilnius, Lietuvos rašytojų sąjungos leidykla, 2012.
-JURGIS SAVICKIS (1890-1952)
-VAGIS
+
+
+
+
 Kai̇̃p gerai̇̃ turė́ti sàvo nãmas. Sàvo nãmas, šilumà. Pilnà trobà žmonių̃,
 pánčius vẽjančių. U tà tà, šil̃ta, gerai̇̃! Tai̇̃p gãli manýti žmogùs, kuri̇̀s kai̇̃p šuvà
 išgùitas põ pasáulį bãstos.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-168
+
+
 Užrūkýtoj ir̃ dū́mų prileistõj grỹčioj seni̇̀ žmónės pãsakojo apiẽ senų̃ laikų̃
 plėšikùs, kai̇̃p jų̃ pavogti̇̀ arkliai̇̃ bùvo rišami̇̀ priẽ mẽdžių, kai̇̃p arkliai̇̃ i̇̀š bãdo
 žievès gráužė, kai̇̃p kunigáms įkai̇̃tintais virbalai̇̃s padùs svi̇̀lino.
@@ -5432,8 +5432,8 @@ Bū́damas ti̇̀kras ū́kininkas, žinódamas, kàd sù plėšikù rei̇̃
 Vagi̇̀s nubùdo. Pajùto, kàd bėdà ar̃tinas. Pasirýžęs bùvo stóti ùž sàvo „razbáinišką“
 gar̃bę ir̃ atsakinė́jo tyliù, pỹktį sùkuriančiu balsù.
 – Tylė́k, vagiẽ. Tuõj tavè čià pribai̇̃gsiu.
-169
-Proza
+
+
 – Pamatýsime, kuri̇̀s pi̇̀rmą.
 Vagiẽs galvà atšokinė́jo į̇̃ pasi̇́enį, õ blaũzdos bùvo mùšamos bãtų sù pasagáitėmis.
 – Šti̇̀l! – nusidi̇̀rbusio ir̃ pavar̃gusio žmogaũs balsù šaũkė šeiminiñkas, išbė́gdamas
@@ -5465,13 +5465,13 @@ vãkaras niekuomèt nesiliáutų. Nemãtęs didesnių̃ mistèrijų, pajù
 brangaũs.
 Vakarè vai̇̃kas išgir̃do, kàd vãgį sugãvo, priri̇̀šo priẽ geltónų mažų̃ šlajùkių
 ir̃ vil̃ko per̃ sniẽgą, bèt šiõ fãkto ji̇̀s neanalizãvo. Jaũtė ti̇́ek tvirtõs vãlios ãteičiai.
-Jurgis Savickis. Raštai. T. 1. Vilnius, Vaga, 1990. 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-170
-IEVA SIMONAITYTĖ (1897-1978)
-AUKŠTUJŲ ŠIMONIŲ LIKIMAS (ištrauka)
-MATAS ŠIMONIS
-SENASIS BOKŠTAS ĮSROS PAKRANTĖJE
+
+
+
+
+
+
+
 Rýto rasõj atsipraũsusi, užtekė́dama skai̇̃sčiai prašvi̇̀to pavãsario saulùtė.
 Lýg mergáitė, jaunà, daili̇̀, pasipuõšusi, ji̇̀ nóri pamatýti sàvo véidą Įsrõs ùpės
 vandenỹ. Bèt krantùs sérgstą krūmẽliai, ródosi, týčia lañkstosi vi̇́enas priẽ ki̇̀to
@@ -5502,8 +5502,8 @@ mãtęs, daũg kãro šauksmų̃ girdė́jęs ir̃ tõ ji̇̀s neužmir̃š�
 pasireñgęs atmùšti kažkókį pri̇́ešą, nórintį užpùlti Li̇́etuvą.
 Juoki̇̀ngas tàs sẽnis bókštas. Ji̇̀s nė̃ pàts nebeži̇̀no, kàd tiẽ plyšiai̇̃, kur̃ kitadõs
 lietùvių šaudỹklės kýšojo, šiañdien nèt labai̇̃ padidė́ję. Todė̃l ji̇̀s kar̃tais atródo 
-171
-Proza
+
+
 lýg bedañtis senẽlis. Vė́jai švil̃pia ir̃ ū́bauja prõ anuõs plyšiùs, gáudydami vi̇́enas
 ki̇̀tą. Õ tai̇̃ gir̃disi, lýg kàd sẽnis švepliótų.
 Bèt bókštas, áukštas, platùs ir̃ dantúotas, sténgiasi atródyti garbi̇̀ngas. Sáulės
@@ -5540,8 +5540,8 @@ apšlãkstė Lietuvõs žemẽlę, gi̇̀ndamas ją̃ nuõ pri̇́ešų. Seni
 todė̃l jái nebemalonù tai̇̃ prisimiñti.
 Ir̃ ji̇̀ nėmàž nesisi̇́eloja, kàd jõs tėvų̃ senóji pili̇̀s svetimų̃jų „Burg Siegesmund“
 pavadi̇̀nta ir̃ kàd atei̇̃viai jojè viešpatáuja.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-172
+
+
 Ti̇̀k vi̇́eną rū̃pestį tepažį̇́sta Šimónienė: sàvo vaikùs užaugi̇̀nti diẽvo báimėje
 ir̃ ištikimai̇̃s karãliaus valdiniai̇̃s. Bèt Šimónių vaikai̇̃ i̇̀š tė́vo geriáusiai ži̇̀no, kàs
 jiẽ, kõ jiẽ verti̇̀. Ir̃, gálvą aukštai̇̃ iškė́lę, jiẽ žeñgia sàvo keliù.
@@ -5578,8 +5578,8 @@ tė́vo tė́vas – kar̃tų kartùs atgal̃ yrà ši̇̀tą kartóję sàv
 mẽtų li̇̀ko ùžmirštas anõ kunigáikščio var̃das.
 Tė́vui ši̇̀tą pasãkius, kaskar̃t tỹliai ir̃ ilgai̇̃ susimą̃sto Šimóniai. Kiekvi̇́enas jų̃
 sàvo vaizduõtės akimi̇̀s mãto savótišką Lietuvõs kunigáikštį.
-173
-Proza
+
+
 Ètmonas, vyresnỹsis Šimónio sūnùs, mãto aną̃ kunigáikštį šúoliais jójant
 per̃ laukùs vi̇̀s tolỹn ir̃ tolỹn pãskui pri̇́ešus, iki̇̀ i̇̀šveja juõs i̇̀š sàvo krãšto. Ji̇̀s
 mãto, ki̇́ek žū̃va pri̇́ešų, kuriuõs išti̇̀ko Lietuvõs gynė́jų kárdas. Ji̇̀s gir̃di lietùvių
@@ -5616,18 +5616,18 @@ tylė́jęs, pasakýdavo sẽnis kaskar̃t i̇̀š naũjo.
 – Bèt jùk tai̇̃ nesvarbù, – neiškentė́dama ir̃ niẽko nenusimanýdama, pradė́jo
 čiauškė́ti Jõnė. – Bókštas vi̇̀s vi̇́ena jaũ griū̃va. Svarbù ti̇̀k, kàd ràsis dár vi̇́enas
 Lietuvõs valdõvas, kuri̇̀s mū́sų šãlį atim̃s i̇̀š vókiečių.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-174
+
+
 Niẽkas niẽko plepùtei neatsãkė, ti̇̀k Mãtas sùraukė kãktą dė̃l tõ, kàd
 pértraukta tylà. Širdiẽs gilumojè ji̇̀s pri̇̀tarė Jonùtei. Õ sugrį̇̃žus Šimóniui sù
 vaikai̇̃s pàs mótiną, šitóji suñkiai atsidùso:
 – Tai̇̃ tù jaũ vė̃l...
 Bèt daugiaũ sakýti nedrąsù.
-........
-Ieva Simonaitytė. Raštai. T. 1. Vilnius, Vaga, 1987.
-BALYS SRUOGA (1896-1947)
-DIEVŲ MIŠKAS (ištraukos)
-I. DIEVŲ MIŠKAS
+
+
+
+
+
 Liū́nai, kemsýnai, kalnẽliai. Añt kalnẽlių, kažkienõ gãlios supiltų̃ i̇̀š
 bálto smėlẽlio, – pušáitės, áukštos ir̃ liẽknos i̇̀t senóviško ješibòto áuklėtinės.
 Pakalnė̃lėse – beržẽliai, tokiẽ pali̇́egę, tokiẽ nuskur̃dę, tarýtum sauláitės malónės
@@ -5651,8 +5651,8 @@ pabam̃binti.
 péreiti tą̃ susti̇̀ngusią jū́rą, tą̃ jū́ros dùgną, pušáitėmis, beržẽliais ir̃ kemsýnais
 apsivė́lusį. Nórs tų̃ piliẽčių dvasià kàd ir̃ kažkai̇̃p bū́tų bùvusi supoli̇̀cinta, vi̇̀s
 dėltõ jiẽ, įbri̇̀dę į̇̃ kemsi̇̀ngąjį plótą, pasijùsdavo kažkai̇̃p šventãdieniškai. Jaũ 
-175
-Proza
+
+
 vi̇́enas viẽtos pavadi̇̀nimas primiñdavo ji̇́ems, kàd yrà dár ši̇̀s tàs pasáulyje ir̃ bè
 poli̇̀cininko, ir̃ bè alaũs.
 Dievų̃ mi̇̀škas! – tai̇̃p ši̇̀ vietẽlė žmonėsè i̇̀š senų̃ senóvės vadi̇̀nosi. Kadáise,
@@ -5690,8 +5690,8 @@ pùsės – garsióji jū́ros į̇́lanka, i̇̀š trečiõs – didžiùl�
 ir̃ kanaliùkų sistemà, i̇̀š ketvirtõsios – siaurùtis pùsiasalis, skirią̃s jū́rą ir̃ į̇́lanką.
 Bėglỹs, ištrū́kęs i̇̀š Dievų̃ mi̇̀ško, kurliñk jisai̇̃ nukrỹptų, vi̇̀s ti̇́ek patèktų į̇̃
 vándenį ar̃ į̇̃ poli̇̀cijos glė̃bį.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-176
+
+
 1939 mẽtų rùdenį atsibãstė čionai̇̃ pirmi̇́eji naujakuriai̇̃: būrỹs vókiškų SS
 výrų ir̃ keli̇̀ šimtai̇̃ nuskãrusių dryžúotų el̃getų, didžióji daugumà Gdánsko
 sritiẽs lénkų, pasmerktų̃ mir̃ti. Miškè, kokiõj pùsės mètro aukštumõj tiẽs jū́ros
@@ -5702,7 +5702,7 @@ pélkių užkimši̇̀mas, žvỹro ir̃ akmenų̃ veži̇̀mas, barãkų sud�
 mū́ro – komendantū̃ros ir̃ administrãcijos namų̃ – statýba. Lãgeris bùvo
 suplanúotas mil̃žiniškas, galį̇̃s sutalpi̇̀nti daugiaũ kai̇̃p šim̃tą tū́kstančių kalinių̃,
 tačiaũ jõ statýba ir̃ 1945 mẽtais dár toli̇̀ gražù nebùvo baigtà.
-XIV. KLIPATŲ KLIPATOS
+
 Ìš rýto kãtorgininkai, põ pati̇̀krinimo, rikiúojasi būriai̇̃s ir̃ tráukia į̇̃ dárbą.
 Išėji̇̀mą prižiū̃ri pàts lãgerio vir̃šininkas sù sàvo padėjė́jais. Prõ juõs praei̇̃nant,
 rei̇̃kia nusiim̃ti kepùrę, rankàs priẽ šlaunų̃ priglaũsti, kàd nesimatarúotų, ir̃
@@ -5727,8 +5727,8 @@ Yrà čià ir̃ tvirtų̃ výrų, matýti, dár neseniai̇̃ į̇̃ lãger
 tvi̇̀rtu žingsniù, išdidžiai̇̃ gálvas aukštỹn iškė́lę. Bèt didžióji daugumà – vargani̇̀
 el̃getos. Nuõ bãdo ištį̇̃sę ar̃ jaũ papur̃tę veidai̇̃, suti̇̀nusios kójos. Ki̇̀tas dár sù
 klùmpėm, ki̇̀tas – ir̃ visái bè niẽko, – kóvo pabaigõj! Susikū̃prinę, susileñkę... 
-177
-Proza
+
+
 Nè vi̇́enas i̇̀š jų̃ i̇̀š dárbo áiškiai nebegrį̇̃š... Tikrai̇̃, vakarè, kai̇̃ ši̇̀ kolonà grį̇̃žta i̇̀š
 dárbo, parsi̇̀neša ji̇̀ põ kẽletą numi̇̀rėlių – tri̇̀s, penki̇̀s, aštúonis, dẽšimtį...
 Rýtmetį, visóms kolònoms išė̃jus į̇̃ dárbą, lãgerio kiemè „i̇̀š kažkur̃“ i̇̀šlenda
@@ -5765,8 +5765,8 @@ Naujõkui arčiaũ priẽ jų̃ ir̃ priei̇̃ti sunkù, – pū̃vančių la
 žaizdótos, kójos – žaizdótos. Põ žaizdàs páiniojasi įvai̇̃rūs parazi̇̀tai, į̇̃ kuriuõs tiẽ
 bùvę žmónės nebekrei̇̃pia jókio dė̃mesio.
 Sleñka, sleñka... Tai̇̃p pamažù!
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-178
+
+
 Kar̃tais vi̇́enas, kar̃tais ki̇̀tas išsi̇̀skiria i̇̀š miniõs. Pasverdukuliúoja, lýg
 galvódamas ir̃ negalė́damas nusprę́sti, kàs jám dabar̃ darýti. Žeñgia žiñgsnį
 į̇̃ šãlį. Ki̇̀tą. Paliñksta añt kẽlių. Atsi̇̀remia rañkomis į̇̃ žẽmę. Paropója kẽletą
@@ -5803,8 +5803,8 @@ bãdo pū̃vančiose žaizdosè sukniùbti?!
 Seniaũ, beñt kituosè kraštuosè, kariamájam beñt paskuti̇̀nį nórą paténkindavo
 – dúodavo paválgyti, dū́mą nurýti, láišką parašýti, kókią maũškę
 išmèsti... Õ čià – pàspiria kója – ir̃ vi̇̀skas.
-179
-Proza
+
+
 Bai̇̃sūs bùvo kiti̇̀ naiki̇̀nimo lãgeriai, kur̃, bū́davo, àtveža kãlinį ir̃ tuojaũ
 nužùdo. Bèt tàs pàts žùdymas fãktiškai vỹko ir̃ Dievų̃ mi̇̀ško padángėj. Ski̇̀rtumas
 bùvo tiktai̇̃ tasai̇̃, kàd čià žmõgų nukanki̇̀ndavo, čiulptè iščiul̃pdavo jõ sveikãtą,
@@ -5821,10 +5821,10 @@ nustója. Nè mirtiẽs jám baisù, – baisù ši̇̀to išniẽkinto žm
 Naujõkas pàts nepajuñta, kai̇̃p ji̇̀s i̇̀ma vi̇̀sas virpė́ti, õ jõ pabãlusios lū́pos,
 keistai̇̃ trū́kčiodamos, tỹliai kartója:
 – Õ, viẽšpatie, viẽšpatie!
-Balys Sruoga. Raštai. T. 4.
-Vilnius, Lietuvių literatūros ir tautosakos institutas, 1997.
-SAULIUS ŠALTENIS (g. 1945)
-AMŽINAI ŽALIUOJANTIS KLEVAS
+
+
+
+
 Àš norė́čiau gi̇̀mti Kòrsikoj, nès turė́čiau tadà i̇̀lgus i̇̀lgus iki̇̀ juosmeñs
 pláukus. Bèt mẽs netùrim nèt véidrodžio... Õ fi̇̀lmuose vi̇̀skas gražù, nèt bãlos
 kitókios negù i̇̀š tikrų̃jų.
@@ -5838,8 +5838,8 @@ būtinai̇̃ kitùs sudraũdžia: nejaũgi, sãko, lietùvių kalbà tai̇
 tarpùsavy vi̇́en keiksmãžodžiais? Màno tėvẽlis gẽria nè kai̇̃p kiti̇̀ – nè todė̃l, kàd
 jám bū́tų skanù – váistai jùk ir̃gi neskãnūs, – õ todė̃l, kàd išli̇́etų sàvo si̇́eloje
 susikaũpusius pū́lius... Màno tėvẽlis tùri si̇́elą. Bèt mẽs nẽsam var̃gšai, mẽs 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-180
+
+
 šeiminiñkai, sãko tėvẽlis, ir̃ čià mū́sų namai̇̃, mū́sų málkinė, mū́sų dar̃žas, mū́sų
 i̇̀švietė. Ir̃ džiū́stantis klẽvas yrà mū́sų. Ti̇̀k Núomininkas mū́sų klẽvo nekeñčia. Ìš
 pradžių̃ ji̇̀s, ži̇̀noma, mokė́jo núomos mókestį, bèt paskui̇̃ nustójo – pasi̇̀ėmė tadà
@@ -5878,8 +5878,8 @@ spalvótą fi̇̀lmą, bèt tėvẽliui rùblio nei̇̀šskiriu, nès iki̇�
 sù jõ pažįstamai̇̃s, kuriẽ visadõs nesiskùtę ir̃ bè kaklãraiščių.
 Àš išėjaũ i̇̀š sãlės vi̇̀s dár tebemylė́dama iki̇̀ ãšarų gẽrą ir̃ nuostãbų šeri̇̀fą.
 – Apiẽ Kòrsiką? – pakláusė tėvẽlis.
-181
-Proza
+
+
 – Nè, – pasakiaũ, – bèt ir̃ táu bū́tų labai̇̃ pati̇̀kęs šeri̇̀fas...
 – Ã, – pasãkė tėvẽlis, – õ kokià jõ pavardė̃?
 Àš i̇̀š tikrų̃jų negalė́jau prisimiñt nei̇̃ var̃do, nei̇̃ pavardė̃s, gál tai̇̃ bùvo šeri̇̀fas
@@ -5913,8 +5913,8 @@ trinksė́jimą, mamõs ver̃ksmą ir̃ smūgiùs lýg sù kūlè į̇̃ si
 – Sẽnas prakéiktas girtuõklis!
 Õ àš stovė́jau priẽ lángo ilgai̇̃s nakti̇̀niais marškiniai̇̃s, tėvẽlis sù švarkù añt
 pečių̃, ir̃ abù žiūrė́jom nušvi̇̀tę ir̃ keistai̇̃ laimi̇̀ngi į̇̃ mū́sų klẽvą.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-182
+
+
 – Tai̇̃p, àš sẽnas prakéiktas girtuõklis, – suri̇̀ko tėvẽlis, – tai̇̃p tai̇̃p, sutinkù,
 pragė́riau vi̇̀ską, nèt kū́ną, ir̃ tą̃ sugebė́jau... Bèt àš nè Núomininkas!.. Mẽs šį̇̃ bei̇̃
 tą̃ dár tùrim! Dár šiókią tókią si̇́elą tùrim!.. Kàd ir̃ apibri̇̀zgusią ir̃ karščiúojančią...
@@ -5937,10 +5937,10 @@ vė̃l įšóka į̇̃ odiniùs dėklùs. Ir̃ tadà ji̇̀s sukryžiúoja 
 prisimérkęs i̇̀š põ sàvo nepakartójamos skrybėlė̃s į̇̃ šlykštaũs prãkaito išpi̇̀ltą
 vi̇̀rpantį žmogeliū́kštį, nusispjáuna jám tar̃p kójų ir̃ prõ suką́stus danti̇̀s iškóšia:
 – Núomininke...
-Saulius Šaltenis. Riešutų duona. Kaunas, Šviesa, 2003.
-ŠATRIJOS RAGANA
-(Marija Pečkauskaitė) (1877-1930)
-SENAME DVARE (ištrauka)
+
+
+
+
 Raudóniems saulė́lydžiams begę̃stant, baltų̃ rõžių sidabri̇̀nės ãkys žiū̃ri į̇̃
 manè prõ lángą...
 Ir̃ nuskýniau vi̇́eną báltą rõžę, ir̃ glaudžiù priẽ ži̇́edo kárštą kãktą... Mótin
@@ -5948,11 +5948,11 @@ màno! ar̃ nè tàvo rañkos – báltos, mei̇̃lios, kvãpios ir̃ šve
 meili̇̀ngai glamonė́ja?
 Ar̃ nè tàvo tai̇̃ rankẽlės brángios?
 Ãšaromis apsirasójo ži̇́edas...
-183
-Proza
+
+
 Õ prõ lángą sidabri̇̀nės ãkys žiū̃ri vi̇̀s. Ir̃ jų̃jų kvãpo bañgos áudžia sẽną sẽną
 áukso sãpną.
-* * *
+
 Ùž miškų̃, ùž ùpių, tar̃p daubų̃ ir̃ kalvų̃, stóvi sẽno dvãro medi̇̀nis rū́mas.
 Nè áukštas, bèt i̇̀lgas ir̃ platùs, sù di̇̀deliu pri̇́eangiu, añt baltų̃ stiebų̃ rýmančiu,
 pi̇̀lnas meilių̃ kampẽlių, jaukùs ir̃ šil̃tas, i̇̀štikimas visų̃ mū́sų džiaugsmų̃ ir̃
@@ -5986,8 +5986,8 @@ Ir̃ didžiúodamasi žiūriù į̇̃ sàvo vei̇̃kalą – i̇̀š tikrų̃
 akysè labai̇̃ grãžų. Õ paskui̇̃ atsi̇̀menu mamãtės nórą, kàd, mán čià sė́dint, ti̇̀k
 gẽros miñtys teatei̇̃tų į̇̃ gálvą, ir̃ mąstaũ, kàd jùk negãli bū́ti minčių̃, geresnių̃ ùž
 tą̃, kai̇̃p patiẽkti džiaũgsmo sàvo mamãtei.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-184
+
+
 – Irùsia!
 Krū́ptelėjau, išgir̃dusi mamãtės bal̃są. Grei̇̃t sudė́jus dárbą, pàslėpiau jį̇̃ ùž
 krū́mų ir̃ nubė́gau.
@@ -6023,8 +6023,8 @@ tókius balsùs, kokių̃ niekadõs nėrà girdė́jusios žmonių̃ aũsys
 láimę, kokiõs niekadõs nėrà patýrusios žmonių̃ ši̇̀rdys.
 Õ àš pamąsčiaũ, kàd vi̇̀s dėltõ žmónės daũg láimės pàtiria. Štai̇̃ pui̇̃kios,
 kvãpios rõžės, štai̇̃ brangióji mamãtė ir̃ mylimàsis brolẽlis, teñ, anàpus tveñkinio, 
-185
-Proza
+
+
 graži̇̀ staltiesė̃lė, ir̃ netrùkus bùs mamãtės vardi̇̀nės, ir̃ bùs daũg svečių̃, ir̃ krèmas,
 ir̃ tai̇̃p gražù visur̃, ir̃ sáulė tai̇̃p pui̇̃kiai šviẽčia ir̃ ši̇̀ldo.
 – Mamãte, – tariaũ, – õ màno širdi̇̀s yrà labai̇̃ laimi̇̀nga. Tai̇̃p visur̃ gražù,
@@ -6044,10 +6044,10 @@ Ir̃ tariaũ:
 – Mamãte, rõžės į̇̃ tavè panė̃ši.
 – Kuõ, Irùte?
 – Tókios jõs mei̇̃lios mei̇̃lios ir̃ tai̇̃p liūdnai̇̃ žiū̃ri, kai̇̃p ir̃ tù.
-Šatrijos Ragana. Sename dvare. Vilnius, Vaga, 1997.
-IGNAS ŠEINIUS (1889-1959)
-KUPRELIS (ištraukos)
-III
+
+
+
+
 Ei̇̃damas gė́riau pavãsarį visù kvapù. Jaučiaũ, kàd jõ eteri̇̀nga, orè vi̇̀rpanti
 enèrgija pérsunkia ir̃ gaivi̇̀na manè.
 Platùs sõdžiaus dangùs áukštu, ti̇̀k įžiū̃rimu skliautù viliója gálvą aukščiaũ
@@ -6055,8 +6055,8 @@ pakélti. Pàts paki̇̀ltum, jéi įmanýtum. Nórs i̇̀ma plačiai̇̃ i
 Tai̇̃ šeñ, tai̇̃ teñ rai̇̃žo dangaũs mėlỹnę dideliai̇̃s vi̇̀ngiais gandrai̇̃. Plaũko,
 ródos. Sparnai̇̃s nemosúoja. Aukščiaũ jų̃ matýt tar̃p baltų̃, išdri̇̀kusių debesė̃lių
 kẽletas juodų̃ taškų̃. Stóvi tiẽ taškai̇̃ kai̇̃p įsegti̇̀. Nei̇̃ nesùkruta.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-186
+
+
 Žemiaũ, tiẽs sõdžium, nárstos, žaibù skrai̇̃do krẽgždės. Gáudo, vai̇̃ko
 nemãtomas musès. Jaũ, rẽgis, žẽmėn kai̇̃p akmeniùkas nupul̃s, tai̇̃, žiūrė́k, jaũ
 nèt kur̃ padángėn nušóvė.
@@ -6092,8 +6092,8 @@ láukiu. Sẽnis pastãtė ausi̇̀s, atsitū̃pęs añt paskutinių̃jų, pa
 Atsargiai̇̃ žval̃gosi į̇̃ visàs pusès. Ir̃ vaikai̇̃ tė́vą sẽka, tai̇̃p pàt dãro – gyvẽnimo
 taisỹklių moki̇̀nasi. Ti̇̀k štai̇̃ pamãtė manè, pri̇́ešą, žmõgų. Sẽnis sùmykė
 nustẽbusiu, sérgstančiu balsù ir̃ įsmùko atgaliõn į̇̃ rugiùs. Kiškẽliai dár lùkterėjo, 
-187
-Proza
+
+
 į̇̃ manè pažiūrė́jo. Ausýtėmis pakrai̇̃pė. Norė́jo pãtys įsiti̇̀kinti, ar̃ tikrai̇̃ baisù.
 Paskum̃ lýg akmeniùkai nuriedė́jo pãskui sàvo tė́vą.
 Malū̃nas ei̇̃na palengvà. Pridùsęs, užki̇̀męs bùrba. Manaũ, didelė̃s skubõs
@@ -6103,8 +6103,8 @@ kreñta añt jõ, lýg privýti norė́damas, bèt tàs pabė́ga, õ an
 táiko jaũ ki̇̀tas.
 Bildesỹs, rãtų teleskãvimas vi̇̀s didė́ja. Girdė́tis jaũ ir̃ pi̇̀kliaus sunkùs
 dū́savimas, lýg i̇̀š põ malū̃no ji̇̀s ver̃žias.
-XXXVII
-.....
+
+
 Vi̇́eną šil̃tą vãkarą, nusė́dus sáulei, ė̃mė ki̇̀lti i̇̀š pi̇́evų balti̇̀ rūkai̇̃, kai̇̃p
 vidùrvasaryje. Àš sustójau ir̃ įsižiūrė́jau į̇̃ juõs. Jiẽ ki̇̀lo, sklai̇̃stėsi, nė́rės prõ
 krū́mus, pàslėpė upẽlį. Mán ki̇̀lo galvojè vãsaros vaizdai̇̃, ráiškūs, varsi̇̀ngi, – jiẽ
@@ -6129,8 +6129,8 @@ Miškè vi̇̀s daugiaũ tẽmo, bèt àš mačiaũ ją̃ vi̇̀s vi̇́ena
 ir̃ kẽlią ródė.
 Nakti̇̀s nubãlo, išaũšo ir̃ Guñdė visái nuõ manę̃s pasi̇̀slėpė. Lýg vi̇̀są
 pasaki̇̀ngą rẽginį šviesà sugė́rė.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-188
+
+
 – Guñde, Guñde, atei̇̃k, sugrį̇̃žk, sugrį̇̃žk! Žiūrė́k, kai̇̃p čià raudóna sáulė
 tẽka, pur̃puru ùždega gi̇̀rių viršū́nes ir̃ áuksu tirpi̇̀na dẽbesis. Klausýk, kai̇̃p
 paũkščiai buñda, tolimõn keliõnėn reñgias, rokúojas. Jiẽ skri̇̀s visi̇̀ susitãrę. Tù
@@ -6150,11 +6150,11 @@ Bèt pamažù vi̇́enas vai̇̃zdas põ ki̇̀to primiñdavo mán Guñdę
 bal̃są, jaučiaũ jõs kvãpą.
 Ir̃ mán vė̃l darýdavos svaigù. Vė̃l kei̇̃tės màno akysè dienõs šviesà ir̃ visi̇̀
 daiktai̇̃ apliñkui.
-.......
-Ignas Šeinius. Rinktiniai raštai. T. 1. Vilnius, Vaga, 1989.
-ANTANAS VIENUOLIS (1882-1957)
-UŽKEIKTIEJI VIENUOLIAI
-Gruzinų liaudies motyvais
+
+
+
+
+
 Niekadõs dár Grùzijos nebùvo išti̇̀kusi tokià di̇̀delė neláimė, õ gruzi̇̀nai tai̇̃p
 nusil̃pę, kai̇̃p tai̇̃s sunkiai̇̃siais laikai̇̃s. Bùvo tai̇̃ visų̃ baisiáusioji gadýnė i̇̀š visõs
 gañ nelinksmõs Grùzijos istòrijos. Ir̃ jéi Grùzija nežùvo tadà, tai̇̃, pasàk senẽlių
@@ -6162,8 +6162,8 @@ ir̃ žmonių̃ dainų̃, ti̇̀k bùvusi tokià Diẽvo valià.
 Nesuskùbo dár gruzi̇̀nai išvýti i̇̀š sàvo šaliẽs tur̃kų ir̃ šiáurės kalnė́nų, kai̇̃
 i̇̀š pietų̃ įsibróvė sù di̇̀dele kariúomene pàts Pèrsijos padišãchas ir̃, keliosè
 kautỹnėse nuvei̇̃kęs gruzinùs, ar̃tinos į̇̃ Grùzijos sóstines Mcchètą ir̃ Tbili̇̀sį. 
-189
-Proza
+
+
 Tur̃kai ir̃ šiáurės kalnė́nai, išgir̃dę apiẽ gruzi̇̀nų kariúomenės žlugi̇̀mą, grį̇̃žo
 atgal̃ ir̃ vė̃l ė̃mė plė́šti ir̃ dẽginti šãlį.
 Tikė́tis i̇̀š kur̃ nórs pagálbos gruzi̇̀nai negalė́jo. Visi̇̀ jų̃ kaimýnai bùvo
@@ -6202,8 +6202,8 @@ Priẽš sáulei nusiléidžiant, vyriáusiasis pèrsų kariúomenės vãd
 bókšto nepaim̃siąs, šóko nuõ Metècho si̇́enų į̇̃ putójančias Kurõs bangàs ir̃
 nusiskandi̇̀no; õ bókštas ti̇̀k rýto mẽtą bùvo pàimtas, kai̇̃ pàts padišãchas ė̃mė
 kariúomenei vadováuti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-190
+
+
 Nugalė́jęs gruzinùs ir̃ užė̃męs abi̇̀ jų̃ sóstines – Mcchètą ir̃ Tbili̇̀sį, –
 padišãchas i̇̀š pradžių̃ iškilmi̇̀ngai padėkójo Alãchui ùž krikščiónių nugalė́jimą,
 õ paskui̇̃ pasiskélbė visõs Grùzijos valdovù ir̃, apsigyvẽnęs Metechè, vi̇́enas
@@ -6218,7 +6218,7 @@ visàs skaisčiàs, bèt ir̃ beñt ki̇́ek gražesnès mergáites bùvo
 lezgi̇̀nai ir̃ kiti̇̀ šiáurės kalnė́nai; õ áuksą vieni̇̀ gruzi̇̀nai per̃ i̇̀lgą kovõs mẽtą visái
 bùvo išléidę, kiti̇̀ slė̃pė jį̇̃ kalnuosè ir̃ miškuosè ir̃ tókiu trumpù laikù niẽkas jõ
 pristatýti negalė́jo.
-* * *
+
 Grùzijos kalnúotojoj šiáurėj, kur̃ devýnis mė́nesius per̃ metùs žẽmė ẽsti
 sniegù apklotà, añt suñkiai prieinamõs kálno viršū́nės, Kazbèko papė́dėje,
 stovė́jo sẽnas turti̇̀ngas šventõsios Ni̇̀nos vienuolýnas. Nè vi̇́eną kar̃tą bùvo
@@ -6240,8 +6240,8 @@ vartùs.
 Nevéikiai įsiléido juõs į̇̃ vi̇̀dų nusigañdę vienuõliai, nès niekadõs dár šiuõ
 metù nebùvo jų̃ aplañkęs nė̃ vi̇́enas žmogùs; dárgi ar̃šūs ingùšai ir̃ láipiotojai
 chevsùrai niekadõs šiuõ metù vienuolýno nepùldavo.
-191
-Proza
+
+
 Ìštisus devýnis mė́nesius vienuõliai bū́davo atskirti̇̀ nuõ vi̇̀so pasáulio. Užtàt
 vidùvasarį, kadà aptir̃pdavo žemesnių̃jų kalnų̃ sniẽgas ir̃ nuslū́gdavo ledýnų
 upẽliai, vienuolýną aplankýdavo daugýbė žmonių̃ ir̃ sunèšdavo daũg pinigų̃
@@ -6279,8 +6279,8 @@ iškil̃niojo Kaukãzo kūrė́ją.
 Rẽtkarčiais išei̇̃davo brolijà põ kálnus pasiváikščioti. Išei̇̃davo dvẽjetais,
 giedódami šventą́sias gi̇́esmes, bèt, paėjė́ję ki̇́ek tolėliaũ nuõ vienuolýno ir̃ rãdę
 tiñkamą viẽtą, susikùrdavo ùgnį, kèpdavo šašlýkus, išsitráukdavo i̇̀š põ skvernų̃ 
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-192
+
+
 odiniùs vỹno maišiukùs ir̃ im̃davo li̇̀nksmintis. Nežinià i̇̀š kur̃ atsiràsdavo ir̃
 sudundė́davo sãzas, vi̇́enu metù pritar̃davo jám zurnà, graudi̇̀ čanurà ir̃ skardùs
 diplipi̇̀tas...
@@ -6317,8 +6317,8 @@ apliñkui, jõs nórinčios nuver̃sti vienuolýną nuõ kálno į̇̃ bed
 užnèšti. Dienomi̇̀s ir̃ naktimi̇̀s dejúodavo tadà brolijà, mel̃sdavos ir̃ láukdavo,
 kadà liaũsis siaũtusi pūgà. Nebežinódavo tadà jiẽ, kuomèt dienà, kuomèt nakti̇̀s.
 Daũg stebùklų ir̃ neišáiškinamų atsitiki̇̀mų tadà pati̇̀rdavo atskirti̇́eji: tai̇̃ varpai̇̃ 
-193
-Proza
+
+
 pãtys saváime im̃davo skambė́ti, tai̇̃ añt aukurų̃ žvãkės, niẽkieno nèdegamos,
 užsižiẽbdavo, tai̇̃ ùž langų̃ vė̃lės žmogaũs balsù im̃davo prašýti vienuoliùs
 maldų̃ ir̃ plė́štis į̇̃ vi̇̀dų... Mel̃sdavosi tadà brolijà, pãsninkaudavo ir̃ i̇̀lgas vãlandas
@@ -6330,7 +6330,7 @@ mylė́tas mergelès... Nè vi̇́enas tadà pasigailė́davo pasižadė́ję
 Bèt pūgà praei̇̃davo, õ atkùtę vienuõliai turė́davo daũg dárbo, kõl atkàsdavo
 nuõ vienuolýno si̇́enų sniẽgą, kõl pasitaisýdavo sudraskýtus stógus, išvartýtus
 kryžiùs...
-* * *
+
 Jaũ bùvo gẽras vidùnaktis, kai̇̃ vienuõliai, įvairiai̇̃s kláusimais ir̃ mėgi̇̀nimais
 paži̇̀nę tikrúosius gruzi̇̀nų pãsiuntinius, įsiléido juõs į̇̃ vi̇̀dų. Pasiuntiniai̇̃, gãvę
 i̇̀š vyriáusiojo vienuõlio paláiminimą, tuõj, nepáisydami di̇̀delio núovargio ir̃
@@ -6355,8 +6355,8 @@ põ ti̇́ek áukso, põ ki̇́ek galė́jo kiekvi̇́enas panèšti. Netru�
 supi̇̀lstytas į̇̃ ti̇́ek maišiùkų, ki̇́ek bùvo vienuõlių. Padė́ję vi̇́enas kitám užsiri̇̀sti
 maišeliùs añt pečių̃ ir̃ užsigesi̇̀nę švỹturius, tỹliai išė̃jo jiẽ ùž var̃tų, pamir̃šę priẽš
 tókį pavoji̇̀ngą žỹgį nè ti̇̀k pasimel̃sti, bèt ir̃ pérsižegnoti.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-194
+
+
 Pi̇̀rmas ė̃jo vyriáusiasis vienuõlis ir̃ pàts sàvo rankà atrakinė́jo ir̃ užrakinė́jo
 slaptų̃jų vienuolýno landỹnių varteliùs. Išė̃ję ùž var̃tų ir̃ apsižval̃gę naktiẽs
 tamsojè, bùvo jaũ besiléidžią nuõ kálno žemỹn, ti̇̀k staigà priẽš juõs išáugo
@@ -6392,8 +6392,8 @@ Pàžvelgė atgal̃ atsikė́lęs vyriáusiasis vienuõlis ir̃ nustẽbo: to
 keliosè viẽtose žėrãvo dideli̇̀ gaisrai̇̃ ir̃ plati̇̀ raudóna pašvai̇̃stė bùvo užė̃musi
 vi̇̀są aki̇̀ratį. Tai̇̃ padišãchas, nesuláukęs i̇̀š gruzi̇̀nų atsãkymo, pradė́jo niókoti ir̃
 dẽginti šãlį.
-195
-Proza
+
+
 – Viẽšpatie, pasigailė́k! – nusimi̇̀nusiu balsù suri̇̀ko vyriáusiasis, ti̇̀k dabar̃
 suprãtęs, ką̃ padãręs.
 Balsù šaũkdamas, pasivi̇̀jo ji̇̀s sàvo draugùs ir̃, rañką ištiẽsęs, paródė į̇̃
@@ -6418,7 +6418,7 @@ pamatỹs žmogaũs aki̇̀s. Var̃gas tadà, sakaũ jùms, prakeikti̇́eji
 Tai̇̃p tãręs Kri̇̀stus išnỹko, õ Kazbèko viršū́nė dár labiaũ paraũdo nuõ naujai̇̃
 ugniẽs apimtų̃ Grùzijos aū́lų ir̃ àpžėrė raudónais sàvo sniegų̃ atspindžiai̇̃s jaũ
 suakmenė́jusių vienuõlių stãtulas.
-* * *
+
 Daũg daũg nuõ tų̃ laikų̃ jaũ ámžių praė̃jo, daũg daũg Kaukãzo ùpėmis ir̃
 vandeñs nubė́go. Daũg kar̃tų per̃ tą̃ lai̇̃ką pèrsai Grùziją dẽgino ir̃ siaũbė, daũg
 kar̃tų ir̃ Pèrsija, gruzi̇̀nų padegtà, liepsnójo. Ìš šventõsios Ni̇̀nos vienuolýno, i̇̀š
@@ -6430,8 +6430,8 @@ artimų̃jų aū́lų gyvéntojai naktimi̇̀s gir̃di, kai̇̃p užkeikti̇́e
 põ sniegúotus laukùs, slidinė́ja ledýnuose, láipioja plikomi̇̀s uolomi̇̀s.
 Gir̃di, kai̇̃p skam̃ba vienuõlių maišẽliuose prakeiktàsis áuksas ir̃ kai̇̃p kriñta i̇̀š põ
 jų̃ kójų ãkmenys, sniẽgas ir̃ lẽdas, kuriẽ padãro kalnė́nams daũg pragaištiẽs.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-196
+
+
 Kai̇̃ kadà užkeikti̇́eji, besikárstydami põ kálnus, nuver̃čia netýčia tókią di̇̀delę
 uõlą arbà lẽdo gãbalą, jóg nuõ jų̃ kriti̇̀mo nèt visõs apýlinkės kalnai̇̃ sùdreba. Visų̃
 pavojingiáusia tuosè kalnuosè anksti̇̀ rýtą, priẽš pàt diẽną, kadà vienuõliai, nepasi̇́ekę
@@ -6453,9 +6453,9 @@ nepravi̇̀rkę ir̃ nė̃ žõdžio nepratãrę, šalti̇̀, paniùrę trá
 Õ žiaũrūs kalnų̃ vė́jai, týčiodamiesi vienuõlių kančiomi̇̀s, kaũkia, stáugia
 apliñkui, bar̃sto ji̇́ems į̇̃ aki̇̀s sniẽgo smilti̇̀s ir̃ per̃ ámžius niūniúoja vienatònę
 nusimini̇̀mo dai̇̃ną.
-Antanas Vienuolis. Raštai. T. 1. Vilnius, Vaga, 1985.
-BITĖ VILIMAITĖ (g. 1943)
-KNYGOS
+
+
+
 Tai̇̃s mẽtais àš gerai̇̃ apsiskaičiavaũ sàvo pãjamas bei̇̃ i̇̀šlaidas ir̃ nùtariau
 atsiski̇̀rti nuõ kaimýnų – įsigijaũ ãtskirą šiùkšlių kontei̇̃nerį. Tadà gyvenaũ
 tokiamè miẽsto ùžkampyje. Nãmą mán testamentù užrãšė tolimà gimináitė.
@@ -6466,8 +6466,8 @@ bū́tų kvai̇̃la mokė́ti ir̃ ùž viẽšbučio šiùkšlių išveži̇�
 bevéik neturė́jo pajamų̃. Kar̃tą užėjaũ teñ išsikei̇̃sti šimti̇̀nės ir̃ ką̃ gi̇̀, kasojè
 neatsirãdo pinigų̃. Dár ki̇̀tą diẽną nuėjaũ nusipir̃kti cigarèčių ir̃ vė̃l véltui –
 bãras neturė́jo rūkalų̃.
-197
-Proza
+
+
 Tai̇̃gi siaurojè gatvẽlėje priẽ màno var̃tų atsirãdo graži̇̀ švèdiška dėžė̃ añt
 rãtų sù kažkokiai̇̃s nùmeriais ir̃ tvi̇̀rta spynà, kuriõs rãktą labai̇̃ sáugojau. Visi̇̀
 ži̇̀nome, kai̇̃p leñgva bèt kókį rãktą išmèsti sù šiùkšlėmis… Kar̃tą visái netikė́tai
@@ -6504,8 +6504,8 @@ Jaučiaũsi sutri̇̀kęs. Tylė́damas žvalgiaũsi, paskui̇̃ pakláusiau:
 – Àš nežinaũ. Niẽko. Sténgiuosi nuõ namų̃ bè ypati̇̀ngo rei̇̃kalo nenutõlti.
 Sáugau namùs. Kiekvi̇́enas plėši̇̀kas susigùndytų, jéi žinótų, kokiẽ lõbiai čià
 slẽpiasi.
-KIRČIUOTŲ TEKSTŲ CHRESTOMATIJA
-198
+
+
 – Ir̃ teisi̇̀ngai dãrote. Vadi̇̀nasi, jumi̇̀s gãlima pasitikė́ti. Rytój šiùkšlių
 išveži̇̀mas. Gál padarýsite mán pãslaugą?
 – Õ jū̃s pàts? Drįstù pakláusti…
@@ -6528,17 +6528,17 @@ bùvo màno nustebi̇̀mas, kai̇̃ priẽ draũgo namų̃ staigà pamačiau
 i̇̀šlipantį i̇̀š taksi̇̀. Ji̇̀s ė̃jo žvalgýdamasis į̇̃ šali̇̀s, jõ ilgà plonà nósis úodė órą, ar̃
 nepajùs knỹgų kvãpo. Ir̃ ji̇̀s vilkė́jo tai̇̃s pačiai̇̃s marškiniai̇̃s, vi̇̀siškai bè sagų̃, ir̃
 añt įkri̇̀tusios plikõs krūti̇̀nės kadarãvo škãplieriai ir̃ kryžẽlis.
-Lietuvos rašytojų sąjungos mėnraštis „Metai“, 2008 m. Nr. 3.
-IŠ LIETUVOS METRAŠČIŲ
-APIE GEDIMINO SAPNĄ, VILNIAUS IR
-TRAKŲ ĮKŪRIMĄ
+
+
+
+
 Vi̇́eną kar̃tą didỹsis kunigáikštis Gedimi̇̀nas išvỹko i̇̀š sàvo sóstinės Kernavė̃s
 medžióti ùž penkių̃ mỹlių, ùž Neriẽs, ir̃ rãdo gi̇̀rioje grãžų kálną, àpsuptą
 ąžuolýnų ir̃ lygumų̃; jám didžiai̇̃ pati̇̀ko, ji̇̀s apsigyvẽno tenai̇̃, įkū́rė miẽstą ir̃
 dãvė jám Trãkų var̃dą – tenai̇̃, kur̃ bùvo Seni̇́eji Trãkai; ir̃ i̇̀š Kernavė̃s pérkėlė
 sàvo sóstinę į̇̃ Trakùs. 
-199
-Proza
+
+
 Neilgai̇̃ trùkus, išvỹko didỹsis kunigáikštis Gedimi̇̀nas medžióti ùž keturių̃
 mỹlių nuõ Trãkų; ir̃ rañda tiẽs Vi̇̀lnios upè grãžų kálną, añt kuriõ užtiñka didžiùlį
 žvė́rį, taũrą, ùžmuša jį̇̃ añt tõ kálno, kuri̇̀s ir̃ dabar̃ tebevadi̇̀namas Taurãkalniu.
