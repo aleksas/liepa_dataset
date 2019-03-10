@@ -1506,7 +1506,7 @@ Apskaito~s du^omenys pagrindžiami` tur~to ir įsipareigo^jimų inventoriza~vimo
 
 Ataskaiti`nių fina^nsinių me~tų pradžio~s fina^nsinių ata~skaitų stra^ipsnių su`mos tu`ri suta`pti su praė~jusių fina^nsinių me~tų pabaigo~s fina^nsinių ata~skaitų atitinkamų~ stra^ipsnių sumomi`s.
 
-1Ata~skaitos pasira~šomos šio~ įsta~tymo 31 stra^ipsnyje nustaty^ta tvarka`. 
+1. Ata~skaitos pasira~šomos šio~ įsta~tymo 31 stra^ipsnyje nustaty^ta tvarka`. 
 
  
 
@@ -1794,54 +1794,54 @@ Maži^eji krašto^vaizdžio architektū~ros statiniai~ - nesudėti`ngi statiniai
 
 Me~dis - sumedė^jęs a^ugalas, dažnia^usiai su vi^enu pagrindiniu` sti^ebu ir laja`.
 
-1Me~džių ir krū^mų naiki`nimas - nete^isėtas me~džių ar krū^mų pjovi`mas, kirti`mas, rovi`mas, la^užymas, de~ginimas, nuo~dijimas che`minėmis me~džiagomis ar kitai~s bū~dais, že~mės pavir~šiaus ir (ar) jo~ ly~gio aplin~k me~dį ar krū^mą keiti`mas (že~minimas, užpyli`mas ar sanda~rinimas), da~rantys po^veikį me~džių ar krū^mų bū^klei.
+1. Me~džių ir krū^mų naiki`nimas - nete^isėtas me~džių ar krū^mų pjovi`mas, kirti`mas, rovi`mas, la^užymas, de~ginimas, nuo~dijimas che`minėmis me~džiagomis ar kitai~s bū~dais, že~mės pavir~šiaus ir (ar) jo~ ly~gio aplin~k me~dį ar krū^mą keiti`mas (že~minimas, užpyli`mas ar sanda~rinimas), da~rantys po^veikį me~džių ar krū^mų bū^klei.
 
-1Mie~sto ar mieste~lio so~das - ramia^m po^ilsiui ir renginia^ms ski`rtas ne maže`snis kai~p 0,5 hekta~ro atskira`sis želdy^nas, kurio~ la~jų glaudu`mas - ne maže`snis kai~p 70 pro`centų.
+1. Mie~sto ar mieste~lio so~das - ramia^m po^ilsiui ir renginia^ms ski`rtas ne maže`snis kai~p 0,5 hekta~ro atskira`sis želdy^nas, kurio~ la~jų glaudu`mas - ne maže`snis kai~p 70 pro`centų.
 
-1Pa^rkas - ne maže`snis kai~p 1 hekta~ro žmogau~s suku`rtas ar jo~ pe^rtvarkytas želdy^nas, kuriame` yra` me~niškai sukomponu^otų želdinių~, mažų~jų krašto^vaizdžio architektū~ros ir (ar) inžine`rinių statinių~, ski`rtas po^ilsio, mo^kslo, kultū~ros reikmė^ms arba pramogo^ms ir aplinko~s koky^bei ge~rinti.
+1. Pa^rkas - ne maže`snis kai~p 1 hekta~ro žmogau~s suku`rtas ar jo~ pe^rtvarkytas želdy^nas, kuriame` yra` me~niškai sukomponu^otų želdinių~, mažų~jų krašto^vaizdžio architektū~ros ir (ar) inžine`rinių statinių~, ski`rtas po^ilsio, mo^kslo, kultū~ros reikmė^ms arba pramogo^ms ir aplinko~s koky^bei ge~rinti.
 
-1Priklau~somasis želdy^nas - želdy^nas, e~santis ki`to obje`kto že~mės sklype`.
+1. Priklau~somasis želdy^nas - želdy^nas, e~santis ki`to obje`kto že~mės sklype`.
 
-1Pu`skrūmis - a^ugalas, kurio~ tik apati`nė ū~glių dali`s yra` daugiame~tė ir sumedė^jusi, o viršuti`nė dali`s yra` žoli`nė.
+1. Pu`skrūmis - a^ugalas, kurio~ tik apati`nė ū~glių dali`s yra` daugiame~tė ir sumedė^jusi, o viršuti`nė dali`s yra` žoli`nė.
 
-1Skve`ras - ne maže`snis kai~p 0,05 hekta~ro trumpalai~kiam po^ilsiui skir~tas želdy^nas su vy^raujančiomis atviromi`s erdvėmi`s, ge~rinantis mie~sto, mieste~lio ir ka^imo este`tinę ir ekolo`ginę bū^klę.
+1. Skve`ras - ne maže`snis kai~p 0,05 hekta~ro trumpalai~kiam po^ilsiui skir~tas želdy^nas su vy^raujančiomis atviromi`s erdvėmi`s, ge~rinantis mie~sto, mieste~lio ir ka^imo este`tinę ir ekolo`ginę bū^klę.
 
-1Suinteresu^ota visu^omenė - visu^omenė, kuria^i da~ro arba ga~li dary^ti po^veikį rengiami` želdy^nų kūri`mo ir (arba) tvar~kymo dokumen~tų sprendiniai~ ar kuria^i yra` svarbu`s tų~ sprendinių~ įgyve^ndinimas.
+1. Suinteresu^ota visu^omenė - visu^omenė, kuria^i da~ro arba ga~li dary^ti po^veikį rengiami` želdy^nų kūri`mo ir (arba) tvar~kymo dokumen~tų sprendiniai~ ar kuria^i yra` svarbu`s tų~ sprendinių~ įgyve^ndinimas.
 
-1Valsty^binės reikšmė~s automobi`lių kelių~ želdiniai~ - želdiniai~, a^ugantys valsty^binės reikšmė~s automobi`lių ke~lio juostoje` - že~mės ju^ostoje, kurioje` nu`tiestas ar tie~siamas ke~lias.
+1. Valsty^binės reikšmė~s automobi`lių kelių~ želdiniai~ - želdiniai~, a^ugantys valsty^binės reikšmė~s automobi`lių ke~lio juostoje` - že~mės ju^ostoje, kurioje` nu`tiestas ar tie~siamas ke~lias.
 
-1Valsty^binės reikšmė~s pa^rkas - pa^rkas, tu`rintis ypati`ngą isto`rinę, architektū~rinę, kultū~rinę, mo^kslinę, este`tinę, ekolo`ginę ir dendrolo`ginę ver~tę.
+1. Valsty^binės reikšmė~s pa^rkas - pa^rkas, tu`rintis ypati`ngą isto`rinę, architektū~rinę, kultū~rinę, mo^kslinę, este`tinę, ekolo`ginę ir dendrolo`ginę ver~tę.
 
 20. Veja` - lygau~s (horizontalau~s ar nuolaidau~s) pavir~šiaus vi^ena žole` ar kelių~ žolių~ mi`šiniu apsė^tas prižiū~rimas žoly^nas.
 
-2Žalio^ji jungti`s - ne siaure`snis kai~p 20 me`trų plo~čio atskira`sis želdy^nas, ju`ngiantis mie~sto ir (ar) mieste~lio želdy^nus ir mišku`s mieste` ir už jo~ ribų~ į želdy^nų siste`mą, ski`rtas rekrea~cijai, da~rantis po^veikį o^ro ma~sių judė^jimui ir atlie~kantis migra~cijos kori`doriaus fu`nkciją.
+2. Žalio^ji jungti`s - ne siaure`snis kai~p 20 me`trų plo~čio atskira`sis želdy^nas, ju`ngiantis mie~sto ir (ar) mieste~lio želdy^nus ir mišku`s mieste` ir už jo~ ribų~ į želdy^nų siste`mą, ski`rtas rekrea~cijai, da~rantis po^veikį o^ro ma~sių judė^jimui ir atlie~kantis migra~cijos kori`doriaus fu`nkciją.
 
-2Želdy^nas - ne maže`snis kai~p 0,05 hekta~ro želdinių~ že~mės skly~pas, kuriame` ga~li bū^ti mažų~jų krašto^vaizdžio architektū~ros, inžine`rinių ir laikinų~ statinių~.
+2. Želdy^nas - ne maže`snis kai~p 0,05 hekta~ro želdinių~ že~mės skly~pas, kuriame` ga~li bū^ti mažų~jų krašto^vaizdžio architektū~ros, inžine`rinių ir laikinų~ statinių~.
 
-2Želdiniai~ - žmogau~s pasėti` ar pasodi`nti me~džiai (tarp jų~ ir pasodi`nti pavie~niai ar natūraliai~ iša^ugę), krū^mai, krūmo^kšniai, pu`skrūmiai, lia~nos ir žoli`niai augalai~.
+2. Želdiniai~ - žmogau~s pasėti` ar pasodi`nti me~džiai (tarp jų~ ir pasodi`nti pavie~niai ar natūraliai~ iša^ugę), krū^mai, krūmo^kšniai, pu`skrūmiai, lia~nos ir žoli`niai augalai~.
 
-2Želdinių~ bū^klės eksperti`zė - želdinių~ ekolo`ginės ir este`tinės bū^klės tyri`mas ir ve^rtinimas.
+2. Želdinių~ bū^klės eksperti`zė - želdinių~ ekolo`ginės ir este`tinės bū^klės tyri`mas ir ve^rtinimas.
 
-2Želdy^no kūri`mas - želdy^no proje`kto rengi`mas ir įgyve^ndinimas.
+2. Želdy^no kūri`mas - želdy^no proje`kto rengi`mas ir įgyve^ndinimas.
 
-2Želdy^no kūri`mo ir (arba) tvar~kymo proje`ktas - dokumen~tas, kuriame` smu`lkiai apra~šomi želdy^no kūri`mo ir (arba) tvar~kymo darbai~, jų~ atliki`mo eilė~s tvarka`, nuro^doma tų~ darbų~ są^matinė vertė~, technolo`gijos, vei~siamos me~džių, krū^mų, žoli`nių augalų~ (vejo^ms ir gėly^nams) rū^šys, išvar~dijami numa~tomi darbai~ įkū^rus želdy^ną.
+2. Želdy^no kūri`mo ir (arba) tvar~kymo proje`ktas - dokumen~tas, kuriame` smu`lkiai apra~šomi želdy^no kūri`mo ir (arba) tvar~kymo darbai~, jų~ atliki`mo eilė~s tvarka`, nuro^doma tų~ darbų~ są^matinė vertė~, technolo`gijos, vei~siamos me~džių, krū^mų, žoli`nių augalų~ (vejo^ms ir gėly^nams) rū^šys, išvar~dijami numa~tomi darbai~ įkū^rus želdy^ną.
 
-2Želdy^no naiki`nimas - veiki`mas arba neveiki`mas, dėl kurių~ blogė^ja želdy^no bū^klė, mažė^ja jo~ tei~giamas po^veikis a~plinkai ir visu^omenės galimy^bės naudo^tis juo~ viešų~jų intere`sų reikmė^ms.
+2. Želdy^no naiki`nimas - veiki`mas arba neveiki`mas, dėl kurių~ blogė^ja želdy^no bū^klė, mažė^ja jo~ tei~giamas po^veikis a~plinkai ir visu^omenės galimy^bės naudo^tis juo~ viešų~jų intere`sų reikmė^ms.
 
-2Želdy^no pe^rtvarkymas - želdy^no plani`nės erdvi`nės struktū~ros keiti`mas ša~linant ne mažiau~ kai~p 20 pro`centų me~džių, krū^mų ar žoli`nių augalų~ ir sodi`nant nauju`s.
+2. Želdy^no pe^rtvarkymas - želdy^no plani`nės erdvi`nės struktū~ros keiti`mas ša~linant ne mažiau~ kai~p 20 pro`centų me~džių, krū^mų ar žoli`nių augalų~ ir sodi`nant nauju`s.
 
-2Želdy^no tvar~kymas - želdy^no augali`jos, mažo~sios krašto^vaizdžio architektū~ros ir inžine`rinių statinių~ reikiamo~s bū^klės palai~kymas ar atkūri`mas vadova^ujantis želdy^no tvar~kymo projektu`.
+2. Želdy^no tvar~kymas - želdy^no augali`jos, mažo~sios krašto^vaizdžio architektū~ros ir inžine`rinių statinių~ reikiamo~s bū^klės palai~kymas ar atkūri`mas vadova^ujantis želdy^no tvar~kymo projektu`.
 
 30. Želdy^nų apsauga` - veiksmų~ ir pri^emonių visuma`, užti`krinanti želdy^nų kompozi`cijos, me~džių ir krū^mų įvairo^vės ir sveiku`mo išsa^ugojimą ir palai~kymą.
 
-3Želdy^nų ir želdinių~ savinin~kas - valsty^bė, savivaldy^bė, fi`zinis ar juri`dinis asmuo~, Lietuvo~s Respu`blikoje į~steigtas Euro`pos Są^jungos valsty^bėje narėje` ar kitoje` Euro`pos ekono`minės erdvė~s valsty^bėje įsistei~gusios į^monės filia~las, tai~p pa`t u`žsienio valsty^bėje įsteigta` organiza~cija, netu`rinti juri`dinio asmen~s sta~tuso, tačiau tu`rinti civi`linį teisnu`mą pagal to~s valsty^bės įsta~tymus (toliau~ - Fi`zinis ir juri`dinis asmuo~), įsta~tymų nustaty^ta tvarka` įgi`ję nuosavy^bės te^isę arba į že~mę, kurioje` yra` želdy^nų, želdinių~, arba tik į že^ldinius.
+3. Želdy^nų ir želdinių~ savinin~kas - valsty^bė, savivaldy^bė, fi`zinis ar juri`dinis asmuo~, Lietuvo~s Respu`blikoje į~steigtas Euro`pos Są^jungos valsty^bėje narėje` ar kitoje` Euro`pos ekono`minės erdvė~s valsty^bėje įsistei~gusios į^monės filia~las, tai~p pa`t u`žsienio valsty^bėje įsteigta` organiza~cija, netu`rinti juri`dinio asmen~s sta~tuso, tačiau tu`rinti civi`linį teisnu`mą pagal to~s valsty^bės įsta~tymus (toliau~ - Fi`zinis ir juri`dinis asmuo~), įsta~tymų nustaty^ta tvarka` įgi`ję nuosavy^bės te^isę arba į že~mę, kurioje` yra` želdy^nų, želdinių~, arba tik į že^ldinius.
 
-3Želdy^nų ir želdinių~ valdy^tojas - želdy^nų ir želdinių~ savinin~kas ar savivaldy^bė, valsty^bės į^monė ar organiza~cija, patikė^jimo te^ise val~dantys įsta~tymų nustaty^ta tvarka` ji^ems Lietuvo~s Respu`blikos Vyriausy^bės nutari`mais pe^rduotą valsty^binėms fu`nkcijoms įgyve^ndinti valsty^binę že~mę, kurioje` yra` želdy^nų ir želdinių~, ar ki`tas fi`zinis ar juri`dinis asmuo~, te^isėtai įgi`jęs privačio~s že~mės val~dymo te^isę ar že~mę naudo^jantis įsta~tymų, administra~cinių a~ktų, tei~smo sprendi`mo, sa^ndorių ar kitu` pa~grindu, arba tu`rintis tik želdy^nų ir želdinių~ val~dymo te^isę.
-3Želdy^nų norma~vimas - atskirų~jų želdy^nų plo^to (kvadra~tiniais me`trais), tu`rinčio te`kti viena^m mie~sto gyve^ntojui, ar priklau~somojo želdy^no plo^to (pro`centais) že~mės sklype`, kuriame` ta`s želdy^nas yra`, no`rmos nusta~tymas. 
+3. Želdy^nų ir želdinių~ valdy^tojas - želdy^nų ir želdinių~ savinin~kas ar savivaldy^bė, valsty^bės į^monė ar organiza~cija, patikė^jimo te^ise val~dantys įsta~tymų nustaty^ta tvarka` ji^ems Lietuvo~s Respu`blikos Vyriausy^bės nutari`mais pe^rduotą valsty^binėms fu`nkcijoms įgyve^ndinti valsty^binę že~mę, kurioje` yra` želdy^nų ir želdinių~, ar ki`tas fi`zinis ar juri`dinis asmuo~, te^isėtai įgi`jęs privačio~s že~mės val~dymo te^isę ar že~mę naudo^jantis įsta~tymų, administra~cinių a~ktų, tei~smo sprendi`mo, sa^ndorių ar kitu` pa~grindu, arba tu`rintis tik želdy^nų ir želdinių~ val~dymo te^isę.
+3. Želdy^nų norma~vimas - atskirų~jų želdy^nų plo^to (kvadra~tiniais me`trais), tu`rinčio te`kti viena^m mie~sto gyve^ntojui, ar priklau~somojo želdy^no plo^to (pro`centais) že~mės sklype`, kuriame` ta`s želdy^nas yra`, no`rmos nusta~tymas. 
 
-3Želdy^nų sistema` - fu`nkciškai tiksli`nga ir kompozi`ciškai vientisa` želdy^nų visuma` - gamti`nio karka~so dali`s, - palai~kanti ekolo`ginį stabilu`mą ir ge~rinanti žmonių~ gyve~namosios ir da^rbo aplinko~s są^lygas.
+3. Želdy^nų sistema` - fu`nkciškai tiksli`nga ir kompozi`ciškai vientisa` želdy^nų visuma` - gamti`nio karka~so dali`s, - palai~kanti ekolo`ginį stabilu`mą ir ge~rinanti žmonių~ gyve~namosios ir da^rbo aplinko~s są^lygas.
 
-3Žoli`nis a^ugalas - a^ugalas, kurio~ antžemi`nės da~lys nesumedė^jusios ir žie~mą paprastai~ nuny~ksta.
+3. Žoli`nis a^ugalas - a^ugalas, kurio~ antžemi`nės da~lys nesumedė^jusios ir žie~mą paprastai~ nuny~ksta.
  
 
  
