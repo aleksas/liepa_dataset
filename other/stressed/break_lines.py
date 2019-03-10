@@ -43,8 +43,8 @@ def split_lines(fname_in):
         content = p14.sub(r'\n', content)
         content = p15.sub(r'\n\g<1> ', content)
         content = p16.sub(r'"', content)
-        content = p17.sub(r'\g<1> \g<2>', content)
-        content = p18.sub(r'\g<1> \g<3>', content)
+        content = p17.sub(r'\g<1> \g<5>', content)
+        content = p18.sub(r'\g<1> \g<4>', content)
         for l in content.splitlines():
             l = l.strip()
             if l:
