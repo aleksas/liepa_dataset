@@ -17,10 +17,12 @@ p13 = compile(r' +')
 p14 = compile(r'\n+')
 p15 = compile(r'\n\s*(\d+\.)\s*\n')
 p16 = compile(r'(\n[“”])|(„\n)')
-p17 = compile(r'(((mln)|(mlrd))\.)\n+((JAV\s)|(Lit)|([Ll]t\.?))')
-p18 = compile(r'(\s*((str)|g)\.\s*)\n(\s*\d+)')
+p17 = compile(r'(((mln)|(mlrd)|(tūkst))\.)\n+((JAV\s)|(Lit)|([Ll]t\.?))')
+p18 = compile(r'(\s*((str)|g|-|([Žž]r))\.\s*)\n(\s*\d+)')
 
 ps = compile(r'[`~^]+')
+
+np = compile(r'(\d+)|([IVXMD](\s|\.))')
 
 def split_lines(fname_in):    
     with open(fname_in, 'r', encoding="utf8") as f_in:
@@ -43,15 +45,22 @@ def split_lines(fname_in):
         content = p14.sub(r'\n', content)
         content = p15.sub(r'\n\g<1> ', content)
         content = p16.sub(r'"', content)
-        content = p17.sub(r'\g<1> \g<5>', content)
-        content = p18.sub(r'\g<1> \g<4>', content)
+        content = p17.sub(r'\g<1> \g<6>', content)
+        content = p18.sub(r'\g<1> \g<5>', content)
         for l in content.splitlines():
             l = l.strip()
             if l:
                 yield l
 
+def has_numeric(text):
+    return np.match(text) != None
+
 if __name__ == '__main__':
     with open('__final_1.split.txt', 'w', encoding="utf8") as f_out:
-        for line in split_lines('__final_1.txt'):
-            line = ps.sub('', line)
-            f_out.write(line + '\n')
+        with open('__final_1.split.num.txt', 'w', encoding="utf8") as nf_out:
+            for line in split_lines('__final_1.txt'):
+                line = ps.sub('', line)
+                f_out.write(line + '\n')
+
+                if has_numeric(line):
+                    nf_out.write(line + '\n')
