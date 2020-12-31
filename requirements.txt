@@ -1,3 +1,4 @@
 soundfile==0.10.2
 matplotlib
 resampy==0.2.0
+requests
