@@ -4897,12 +4897,12 @@ líepa, rugpjū́tis, rugsė́jis
 líepos aštuntà
 rugpjū́čio devinta
 rugsė́jo dešimtà
-spalis, lapkritis, gruodis
-spalio vienuolikta, lapkričio dvylikta
-gruodžio trisdešimt pirmoji
-pirmadienis, antradienis
-trečedienis, ketvirtadienis
-penktadienis, šeštadienis
+spãlis, lãpkritis, grúodis
+spãlio vienúolikta, lãpkričio dvýlikta
+grúodžio trìsdešimt pirmóji
+pirmãdienis, antrãdienis
+trečiãdienis, ketvirtãdienis
+penktãdienis, šeštãdienis
 sekmadienis ir visas savaidgalis
 pirmadienio rytas išaušo
 antradienio pavakarė ir vakaras
