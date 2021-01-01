@@ -5028,43 +5028,43 @@ ceñtas
 jèna
 valiutà 
 paragrãfas
-autorių teisės
-dvigubos laužtinės atsidaro
-dvigubos laužtinės užsidaro
-registruota
-laipsnis
-plius minus
-pastraipa
-viena ketvirtoji
-viena antroji
-trys ketvirtosios
-laužtinės atsidaro
-laužtinės užsidaro
-nulis
-vienas
-du
-trys
-keturi
-penki
-šeši
-septyni
-aštuoni
-devyni
+áutorių téisės
+dvìgubos laužtìnės atsidãro
+dvìgubos laužtìnės užsidãro
+registrúota
+láipsnis
+pliùs mìnus
+pastráipa
+vienà ketvirtóji
+vienà antróji
+trỹs ketvir̃tosios
+laužtìnės atsidãro
+laužtìnės užsidãro
+nùlis
+víenas
+dù
+trỹs
+keturì
+penkì
+šešì
+septynì
+aštuonì
+devynì
 a
-a nosinė
+a nósinė
 bė
 cė
 čė
 dė
 e
-ę nosinė
+ę nósinė
 ė
 ef
 gė
 ha
 i
-į nosinė
-y ilgoji
+į nósinė
+y ilgóji
 jot
 ka
 el
@@ -5078,10 +5078,10 @@ es
 eš
 tė
 u
-ų nosinė
-ū ilgoji
+ų nósinė
+ū ilgóji
 vė
-dviguba vė
+dvìguba vė
 iks
 zė
 žė
