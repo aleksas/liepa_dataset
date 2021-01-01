@@ -4903,12 +4903,12 @@ grúodžio trìsdešimt pirmóji
 pirmãdienis, antrãdienis
 trečiãdienis, ketvirtãdienis
 penktãdienis, šeštãdienis
-sekmadienis ir visas savaidgalis
-pirmadienio rytas išaušo
-antradienio pavakarė ir vakaras
-trečedienio pietų metu
-ketvirtadienio ir penktadienio naktis
-šeštadienio pirmą pusę
+sekmãdienis ir visàs saváitgalis
+pirmãdienio rýtas išaũšo
+antrãdienio pavakatė̃ ir vãkaras
+trečiãdienio pietų̃ metù
+ketvirtãdienio ir penktãdienio naktìs
+šeštãdienio pìrmą pùsę
 sekmadienio popietė šilta
 šeši aštuoni devyni dešimt
 vienuolika dvylika trylika
