@@ -5085,26 +5085,26 @@ dvìguba vė
 iks
 zė
 žė
-grįžti
+grį̃žti
 tab
-didžiosios raidės
-antrojo lygio klavišas
-valdymo klavišas
+dìdžiosios raĩdės
+añtrojo lỹgio klavìšas
+val̃dymo klavìšas
 alt
-trečiojo lygio klavišas
-naikinimas iš kairės
-įvesti
-funkcinis klavišas ef vienas
-funkcinis klavišas ef du
-funkcinis klavišas ef trys
-ef vienas
+trẽčiojo lỹgio klavìšas
+naikìnimas ìš kairė̃s
+įvèstì
+fùnkcinis klavìšas ef víenas
+fùnkcinis klavìšas ef dù 
+fùnkcinis klavìšas ef trỹs
+ef víenas
 ef du
-ef trys
+ef trỹs
 ef keturi
 ef šeši
 ef septyni
 ef aštuoni
-ef devyni
+ef devynì 
 skaitmenys
 spausdinti ekraną
 įterpti
