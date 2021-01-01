@@ -5007,18 +5007,18 @@ laužtìniai atsidãro
 laužtìniai užsidãro
 riestìniai atsidãro
 riestìniai užsidãro
-kabliataškis
-dvitaškis
-apostrofa
-kabutės
-kabutės atsidaro
-kabutės užsidaro
-kablelis
-taškas
-mažiau
-daugiau
-klaustukas
-įžambus
+kabliãtaškis
+dvìtaškis
+apostrofà
+kabùtės
+kabùtės atsidãro
+kabùtės užsidãro
+kablèlis
+tãškas
+mažiaũ
+daugiaũ
+klaustùkas
+įžambùs
 atvirkščias įžambus
 vertikalė
 vertikalė su tarpeliu
