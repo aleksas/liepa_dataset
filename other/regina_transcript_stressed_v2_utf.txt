@@ -4995,18 +4995,18 @@ amperseñdas
 žvaigždùtė
 skliaũstai atsidãro
 skliaũstai užsidãro
-ilgas brūkšnys
-brūkšnys
-minus
-pabraukimas
-lygu
-plius
-dauginti
-dalinti
-laužtiniai atsidaro
-laužtiniai užsidaro
-riestiniai atsidaro
-riestiniai užsidaro
+ìlgas brūkšnỹs
+brūkšnỹs
+mìnus
+pabraukìmas
+lýgu
+pliùs
+dáuginti
+dalìnti
+laužtìniai atsidãro
+laužtìniai užsidãro
+riestìniai atsidãro
+riestìniai užsidãro
 kabliataškis
 dvitaškis
 apostrofa
