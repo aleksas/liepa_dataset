@@ -5105,17 +5105,17 @@ ef šeši
 ef septyni
 ef aštuoni
 ef devynì 
-skaitmenys
-spausdinti ekraną
-įterpti
-šalinti
-slinkti
-pradžia
-pabaiga
-pauzė
-ankstesnis puslapis
-kitas puslapis
-tarpas
+skaĩtmenys
+spáusdinti ekrãną
+įter̃pti
+šãlinti
+sliñkti
+pradžià
+pabaigà
+páuzė
+ankstèsnis pùslapis
+kìtas pùslapis
+tárpas
 tuščia
 džos
 vienas euras
