@@ -4983,18 +4983,18 @@ septiñtas aštuñtas deviñtas
 dešim̃tas vienúoliktas dvýliktas
 trýliktas keturióliktas penkióliktas šešióliktas
 septynióliktas aštuonióliktas devýnióliktas dvidešim̃tas
-kirtis
-tildė
-šauktukas
+kirtìs
+til̃dė
+šauktùkas
 eta
-numeris
-doleris
-procentas
-stogelis
-ampersendas
-žvaigždutė
-skliaustai atsidaro
-skliaustai užsidaro
+nùmeris
+dóleris
+pròcentas
+stogẽlis
+amperseñdas
+žvaigždùtė
+skliaũstai atsidãro
+skliaũstai užsidãro
 ilgas brūkšnys
 brūkšnys
 minus
