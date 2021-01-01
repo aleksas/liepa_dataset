@@ -5019,15 +5019,15 @@ mažiaũ
 daugiaũ
 klaustùkas
 įžambùs
-atvirkščias įžambus
-vertikalė
-vertikalė su tarpeliu
-euras
-svaras
-centas
-jena
-valiuta
-paragrafas
+ãtvirkščias į́žambus
+vertikãlė
+vertikãlė sù tarpeliù 
+eũras
+svãras
+ceñtas
+jèna
+valiutà 
+paragrãfas
 autorių teisės
 dvigubos laužtinės atsidaro
 dvigubos laužtinės užsidaro
