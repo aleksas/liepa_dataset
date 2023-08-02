@@ -8,6 +8,7 @@ from argparse import ArgumentParser
 import codecs
 import chardet
 import operator
+from utils.denoise import denoise
 
 from liepa import default_rec_dir, default_wav_samplerate, default_wav_subtype, rec_filname_pattern
 from liepa import valid_lt_symbols, valid_lt2ascii_symbols, valid_ascii_symbols, valid_symbols, valid_mapped_symbols
@@ -184,6 +185,7 @@ def validate_static_value(static_name, voice, static, test):
     return test
 
 def collect_problems(dataset_path, args):
+    noise_problems = []
     encoding_problems = []
     mistype_problems = []
     samplerate_problems = []
@@ -191,7 +193,7 @@ def collect_problems(dataset_path, args):
     file_naming_problems = []
     layering_problems = []
 
-    for root, subdirs, files in walk(dataset_path):
+    for root, subdirs, files in walk(dataset_path, topdown=True):
         age_group = None
         gender = None
 
@@ -248,8 +250,11 @@ def collect_problems(dataset_path, args):
                         problem = 'File "%s" is missing group "%s" folder.' % (file_path, group)
                         layering_problems.append((file_path, fixed_dir, fixed_file_path, problem))
 
-                if _extension in wav_extensions and args.run_samplerate_test:
-                    samplerate_problems += collect_samplerate_problems(file_path, args.audio_subtype)
+                if _extension in wav_extensions:
+                    if args.run_samplerate_test:
+                        samplerate_problems += collect_samplerate_problems(file_path, args.audio_subtype) 
+                    if args.denoise:
+                        noise_problems += [file_path]
 
                 tag = match.group('tag') # _T or _P
 
@@ -297,6 +302,7 @@ def collect_problems(dataset_path, args):
                             raise Exception(problem)
 
     return (
+        noise_problems,
         encoding_problems,
         mistype_problems,
         samplerate_problems,
@@ -315,6 +321,7 @@ if __name__ == '__main__':
     parser.add_argument('-s','--audio-subtype', choices=['PCM_16','PCM_24','PCM_32'], help='Set audio subtype. Requires -r flag.')
     parser.add_argument('-a','--run-all-tests', help='Run all tsts on LIEPA dataset.', action='store_true')
     parser.add_argument('-x','--fix-problems', help='Fix LIEPA dataset problems. Overwrite existing files.', action='store_true')
+    parser.add_argument('-e','--denoise', help='Denoise audio.', action='store_true')
 
     args = parser.parse_args()
 
@@ -326,7 +333,7 @@ if __name__ == '__main__':
         args.audio_subtype = 'PCM_16'
 
     result = collect_problems(args.liepa_dir, args)
-    encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
+    noise_problems, encoding_problems, mistype_problems, samplerate_problems, layering_problems, file_naming_problems, directory_naming_problems = result
 
     # DO ENCODING CORRECTIONS BEFORE FILE RENAMING OR MOVING
     for path, src_enc, dst_enc, comment in encoding_problems:
@@ -369,3 +376,8 @@ if __name__ == '__main__':
             fix_naming_problem(src, dst)
         else:
             print ('Rename directory "%s" to "%s". %s' % (src, dst, comment))
+
+    # Rename directories
+    for path in noise_problems:
+        if args.denoise:
+            denoise(path)
