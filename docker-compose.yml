@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  liepa-dataset:
+    build:
+      context: .
+    volumes:
+      - .:/liepa-dataset/
+    command: /bin/sh -c "while sleep 1000; do :; done"
