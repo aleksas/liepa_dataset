@@ -3,3 +3,7 @@ MII_LIEPA_REC_V1
 MII_LIEPA_SYN_V1
 
 *.tar.bz2
+
+*.wav
+*.m4a
+*.mp3
