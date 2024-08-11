@@ -10,7 +10,7 @@ To install run:
 > pip install -r requirements.txt
 
 ## LIEPA synthesis dataset
-Dataset contains audio utterances and phoneme transcriptions for 4 speakers.
+Dataset ([read details](./liepa-synth.md)) contains audio utterances and phoneme transcriptions for 4 speakers.
 
 ### Getting dataset
 
