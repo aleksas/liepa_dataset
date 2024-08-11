@@ -108,18 +108,18 @@ if __name__ == '__main__':
 
     def download_google_file(local_archive_path, google_drive_file_id):
         if not exists(local_archive_path) or args.force:
-            print(f'Downloading {local_archive_path}...')
+            print('Downloading {}...'.format(local_archive_path))
             local_archive_tmp_path = local_archive_path + ".downloading"
             download_file_from_google_drive(google_drive_file_id, local_archive_tmp_path)
-            print(f'Downloaded {local_archive_path}')
+            print('Downloaded {}'.format(local_archive_path))
             rename(local_archive_tmp_path, local_archive_path)
 
     def download_file(local_archive_path, url):
         if not exists(local_archive_path) or args.force:
-            print(f'Downloading {local_archive_path}...')
+            print('Downloading {}...'.format(local_archive_path))
             local_archive_tmp_path = local_archive_path + ".downloading"
             download(url, local_archive_tmp_path)
-            print(f'Downloaded {local_archive_path}')
+            print('Downloaded {}'.format(local_archive_path))
             rename(local_archive_tmp_path, local_archive_path)
 
     if args.get_annotations:
