@@ -103,3 +103,7 @@ atveju reikiami segmentai bus labai išbarstyti, todėl nebus išnaudojamas tas 
 naudojamos bazės, apimančios 5 valandas ir daugiau. Taigi SINT.AS garsų bazių apimtis
 tik truputį viršija rekomenduojamą minimumą, o projekto LIEPA garsų bazių apimtis yra
 artima vidutinei.
+
+
+# References
+- [Evaluation of Lithuanian Text-to-Speech Synthesizers](./doc/15130-Article%20Text-45592-1-10-20160622.pdf)
